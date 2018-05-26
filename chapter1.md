@@ -25,4 +25,5 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - **Interactive** presentation: mouse zoom-in & out, panning, sliding. 
 - Easy to **share**: 
     - Cloud based, docker based, block chain(for server), URL share, QR code.
-    - Records for eaxct parameters 
+    - Records for eaxct parameters that enable collaborators and public to repeat the trials.
+- Easy for comparison
