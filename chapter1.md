@@ -19,5 +19,5 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - ChIA-PET
 - ... 
 
-## 3.Needs for Hi-C Vis:
-- 
+## 3.Desired feaures of Hi-C Vis tools:
+- Options for multi
