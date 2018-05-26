@@ -20,4 +20,9 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - ... 
 
 ## 3.Desired feaures of Hi-C Vis tools:
-- Options for multi
+- **Multi-omics** data, multi-techs data. Optional for users 
+- **Vivid presentation**: Circos, Heatmaps, Birdview.
+- **Interactive** presentation: mouse zoom-in & out, panning, sliding. 
+- Easy to **share**: 
+    - Cloud based, docker based, block chain(for server), URL share, QR code.
+    - Records for eaxct parameters 
