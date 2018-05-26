@@ -23,7 +23,10 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - **Multi-omics** data, multi-techs data. Optional for users 
 - **Vivid presentation**: Circos, Heatmaps, Birdview.
 - **Interactive** presentation: mouse zoom-in & out, panning, sliding. 
-- Easy to **share**: 
+- Easy to **share** the data: 
     - Cloud based, docker based, block chain(for server), URL share, QR code.
     - Records for eaxct parameters that enable collaborators and public to repeat the trials.
-- Easy for comparison
+- Easy for **comparison**: 
+ - Compare own data with published papaer —— preloaded dataset. 
+ - Compare data from different analysis pipeline. 
+ - Compare 2 dataset in one screen, with exact same scalability，same region, need fast and intelligent localization.
