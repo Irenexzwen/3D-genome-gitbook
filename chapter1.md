@@ -1,7 +1,7 @@
 # Chapter1    Tools for Hi-C data visualization
 
 Let's first discuss the **framework** of this chapter before more details will be added. 
-We'll first walk through the **motivation** for visualizing complex dataset and then discuss the **object, needs and plights** in Hi-C data visualization. Then we'll provide a roadmap with some comparison of some of the most popular softwares available, based on some criteria that people may refer to. Finally a case study will be illustrated to prepare people for practical need. 
+We'll first walk through the **motivation** for visualizing complex dataset and then discuss the **object, needs and plights** in Hi-C data visualization. Then we'll provide a roadmap with some comparison of some of the most popular softwares available, based on some criteria that people may refer to. Finally we'll choose XXX as a showcase to prepare people for practical usage. 
 
 ## 1.Motivation for Vis:
 - Explore data feature, find patterns
@@ -28,8 +28,22 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
     - Records for eaxct parameters that enable collaborators and public to repeat the trials.
 - Easy for **comparison**: 
  - Compare own data with published papaer —— preloaded dataset. 
- - Compare data from different analysis pipeline. 
- - Compare 2 datasets in one screen, with exact same scalability，same region which needs fast and intelligent localization.
+ - Compare data from different analysis pipelines. 
+ - Compare 2 datasets in one screen, with exact same scalability and same region, which needs fast and intelligent localization.
 - **Desktop** applicaton, **off-line** usage.
-- **3D** even **4D** vis.
+- **3D** ,even **4D** vis.
 - **One stop** service, the only desidered input is the raw reads data :D 
+
+## 4.Current plights
+- **Size**: trillions of pixels of one high resolution heatmap.
+- **Storage** of the data, need a standard format ".hic"
+- **Smart computation** with the need of in time zoom-in & out 
+- **Input format** not uniform. A contact matrix, compressed TAD data or others.
+- **Normalization** methods for comparing different datasets. 
+- ...
+
+## 5.Overview of tools
+
+## 6.
+
+
