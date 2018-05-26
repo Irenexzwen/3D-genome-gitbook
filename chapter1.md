@@ -29,4 +29,7 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - Easy for **comparison**: 
  - Compare own data with published papaer —— preloaded dataset. 
  - Compare data from different analysis pipeline. 
- - Compare 2 dataset in one screen, with exact same scalability，same region, need fast and intelligent localization.
+ - Compare 2 datasets in one screen, with exact same scalability，same region which needs fast and intelligent localization.
+- **Desktop** applicaton, **off-line** usage.
+- **3D** even **4D** vis.
+- **One stop** service, the only desidered input is the raw reads data :D 
