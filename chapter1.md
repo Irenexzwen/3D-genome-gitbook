@@ -12,4 +12,12 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 ### i) Hi-C data:
 - What is hi-c data, brief intro. may refer to other chapter 
 
-###ii)   
+###ii) Other useful info:
+- genome, epigenome
+- SNP
+- CTCF, ChiP-seq 
+- ChIA-PET
+- ... 
+
+## 3.Needs for Hi-C Vis:
+- 
