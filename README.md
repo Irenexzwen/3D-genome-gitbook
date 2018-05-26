@@ -1,3 +1,6 @@
-# My Awesome Book
+# All about Hi-C 
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+### Say "Hi" to one of the most important techniques that capture spatial relationship of our Chromosome.
+
+
+
