@@ -43,7 +43,7 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - ...
 
 ## 5.Overview of tools
-![](/assets/1.png)
+![](/assets/2.png)
 
 ## 6.HiGlass & Juicebox.js 
 
