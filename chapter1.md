@@ -75,10 +75,15 @@ Show the features by real examples
 ## Referrence 
 
 [1]	R. Calandrelli, Q. Wu, J. Guan, and S. Zhong, “GITAR : An open source tool for analysis and visualization of Hi-C data,” 2018.
+
 [2]	B. Informatics, “HiGlass :   Web-based   Visual   Exploration   and   Analysis of   Genome   Interaction   Maps,” pp. 1–31, 2017.
+
 [3]	D. Yang et al., “3DIV: A 3D-genome Interaction Viewer and database,” Nucleic Acids Res., vol. 46, no. D1, pp. D52–D57, 2018.
+
 [4]	J. T. Robinson, D. Turner, N. C. Durand, H. Thorvaldsdóttir, J. P. Mesirov, and E. L. Aiden, “Juicebox.js Provides a Cloud-Based Visualization System for Hi-C Data,” Cell Syst., vol. 6, no. 2, p. 256–258.e1, 2018.
+
 [5]	M. N. Djekidel, M. Wang, M. Q. Zhang, and J. Gao, “HiC-3DViewer: a new tool to visualize Hi-C data in 3D space,” Quant. Biol., vol. 5, no. 2, pp. 183–190, 2017.
+
 [6]	G. G. Yardimci and W. S. Noble, “Software tools for visualizing Hi-C data,” Genome Biol., vol. 18, no. 1, 2017.
 
 
