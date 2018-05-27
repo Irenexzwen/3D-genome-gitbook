@@ -20,6 +20,8 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - ... 
 
 ## 3.Desired feaures of Hi-C Vis tools:
+***(analogue, we could start from talking about features of some geographic apps like Google Map)***
+***
 - **Multi-omics** data, multi-techs data. Optional for users 
 - **Vivid presentation**: Circos, Heatmaps, Birdview.
 - **Interactive** presentation: mouse zoom-in & out, panning, sliding. 
@@ -45,6 +47,6 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 ## 5.Overview of tools
 ![](/assets/2.png)
 
-## 6.HiGlass & Juicebox.js 
+## 6.HiGlass 
 
 
