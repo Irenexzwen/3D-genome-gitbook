@@ -47,7 +47,10 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 ## 5.Overview of tools
 ![](/assets/2.png)
 
-## 6.HiGlass 
+## 6.HiGlass (exemplar for 2D)
+***
+should we also include some 3D structure viewer?
+***
 #### i) Distinguished features:
  - smooth navigation, continous interface
  - multiple datasets, map link, auto sync, optional sync(by loc or zoom) 
@@ -60,6 +63,10 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 
 #### ii) Example 
 Show the features by real examples
+
+## 7.How to interpretate the data 
+
+
 
 
 
