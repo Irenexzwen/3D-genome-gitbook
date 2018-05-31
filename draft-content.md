@@ -65,7 +65,18 @@ inferred from pairwise contact frequencies, proximity ligation.
 - Single-cell/In situ/DNase/Micro-HiC
 
 # 3 Computational Data analysis
+## 3.1 C-techs data analysis pipeline
+- alignment
+- filtering
+- binning
+- normalization
+- identifyling interactions
+- visualization 
 
+### 3.1.1 alignment 
+### etc 
+
+# 
 # 4D project
 - Goals & strategies
 - research plans
