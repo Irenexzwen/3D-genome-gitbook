@@ -38,14 +38,16 @@ inferred from pairwise contact frequencies, proximity ligation.
 - Single-cell/In situ/DNase/Micro-HiC
 
 
-# general features of 3D genome organization 
-multi-scale 
+#2 General features of 3D genome organization 
+##2.1 multi-scale folding 
 - nucleosome-nucleosome interactions
 - chromosome territories
 - sub TAD and insulation neighborhoods
 - chromatin loops
 - TAD(Topologically Associating Domains)
 - Compartments
-
 - chromatin loops
+
+## 2.2 architectural proteins
+
 
