@@ -1,7 +1,7 @@
 #0 Why people cares about 3D genome 
-- linear to 3D
+- linear to 3D (BB)
 - static to dynamic
-- 3D organization to gene expression 
+- 3D organization to gene expression [anuual review]
 
 
 #1 General features of 3D genome organization 
@@ -64,7 +64,7 @@ inferred from pairwise contact frequencies, proximity ligation.
 - TCC
 - Single-cell/In situ/DNase/Micro-HiC
 
-
+# 3 Computational Data analysis
 
 # 4D project
 - Goals & strategies
