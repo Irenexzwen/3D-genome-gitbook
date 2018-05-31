@@ -1,3 +1,6 @@
+#0 Why people cares about 3D genome 
+
+
 # 1.Tools for explore 3D genome
 ##1.1 microscopy based image 
     - FISH etc
@@ -6,7 +9,8 @@
 ##1.2- C-Techs (chromosome conformation capture)-coupled 
 inferred from pairwise contact frequencies, proximity ligation. 
 (expalin what one and many mean, pros and cons. )
-(draw a illustration try to cover the main experimental difference between diff methods) 
+(draw a illustration try to cover the main experimental difference between diff methods)
+[1][2] 
 ### 1.2.1 One-to-one:
 - 3C
 
@@ -34,11 +38,14 @@ inferred from pairwise contact frequencies, proximity ligation.
 - Single-cell/In situ/DNase/Micro-HiC
 
 
-
-# general features of 3D genome organization
+# general features of 3D genome organization 
+multi-scale 
+- nucleosome-nucleosome interactions
 - chromosome territories
-- Compartments
-- TAD(Topologically Associating Domains)
 - sub TAD and insulation neighborhoods
+- chromatin loops
+- TAD(Topologically Associating Domains)
+- Compartments
+
 - chromatin loops
 
