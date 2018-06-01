@@ -1,7 +1,4 @@
-#0 Why people cares about 3D genome 
-- linear to 3D (BB)
-- static to dynamic
-- 3D organization to gene expression [anuual review]
+
 
 
 #1 General features of 3D genome organization 
