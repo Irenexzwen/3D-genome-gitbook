@@ -35,8 +35,19 @@ inferred from pairwise contact frequencies, proximity ligation.
 - Single-cell
 - In situ/DNase/Micro-HiC
 
+## Another methods for classification:
+### Locus-landmark: 
+Measure interactions of genomic loci with relatively fixed nuclear ‘landmarks’
+- Techniques: ChIP, DamID, TSA-seq
+
+### Locus-locus: 
+Measure interactions between genomic loci
+- Techniques: 3C, Hi-C, ChIA-PET etc.
+
+
 
 **Referrence **
 https://doi.org/10.1016/j.csbj.2018.02.003
+https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx 
 
 
