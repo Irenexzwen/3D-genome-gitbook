@@ -12,7 +12,7 @@
 * [Chap3 Computational analysis](chap2/chap3.md)
   * [3.1 Primal order data analysis ](chap2/chap3/31-primal-order-data-analysis-pipeline.md)
   * [3.2 Higher-order data analysis ](chap2/chap3/32-high-order-data-analysis-pipeline.md)
-  * 3.3 3D structure imputation
+  * [3.3 3D structure imputation](chap2/chap3/33-3d-structure-imputation.md)
 * [Chap4 Integrative Data visualization tools](chap4-data-visualization.md)
 * [Chap5 4DN project](4dn-project.md)
 
