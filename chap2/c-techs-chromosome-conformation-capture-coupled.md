@@ -30,7 +30,10 @@ inferred from pairwise contact frequencies, proximity ligation.
 - Hi-C
 - ELP
 - TCC
-- Single-cell/In situ/DNase/Micro-HiC
+
+### Hi-C enrichment
+- Single-cell
+- In situ/DNase/Micro-HiC
 
 
 **Referrence **
