@@ -4,3 +4,4 @@
 - DNase-seq
 - FAIRE-seq 
 - ATAC-seq
+
