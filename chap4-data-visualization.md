@@ -40,9 +40,9 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 ## 4.Current plights
 - **Size**: trillions of pixels of one high resolution heatmap.
  - **Resolution** at different scale:
- - Compartments:1-10Mb 100-500 Kb bins
- - TADs: 0.1-1Mb 40-100Kb bins
- - Loops: 0.01-0.1Mb 10-40Kb bins
+   - Compartments:1-10Mb 100-500 Kb bins
+   - TADs: 0.1-1Mb 40-100Kb bins
+   - Loops: 0.01-0.1Mb 10-40Kb bins
 - **Storage** of the data, need a standard format ".hic"
 - **Smart computation** with the need of in time zoom-in & out 
 - **Input format** not uniform. A contact matrix, compressed TAD data or others.
