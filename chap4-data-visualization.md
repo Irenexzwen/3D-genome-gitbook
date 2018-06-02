@@ -1,4 +1,4 @@
-# Chapter1    Tools for Hi-C data visualization
+# Tools for Hi-C data visualization
 
 We'll first walk through the **motivation** for visualizing complex dataset and then discuss the **object, needs and plights** in Hi-C data visualization. Then we'll provide a roadmap with some comparison of some of the most popular softwares available, based on some criteria that people may refer to. Finally we'll choose XXX as a showcase to prepare people for practical analysis. 
 4
