@@ -9,4 +9,9 @@ Gene expression and biological functions intimately rely on the interactions bet
 The higher-order genome structure is most clearly visible during the interphase and mitosis when chromatin fibers extensively fold into chromosomes. An interphase chromosome is formed by a tightly coiled 250 nm chromatid. Microscopic imaging has demonstrated that each chromosome may be confined to genomic compartments. Within these compartments, intra-chromosomal interactions are most frequent within regions known as megabase-sized topologically associ- ating domains (TADs). 
 
 #### Primal order
+The primary-order chromatin refers to the unpacked chromatin fiber where 11-nm coils of nucleosomes are exposed.
 
+<br><br>
+
+**Referrence **
+https://doi.org/10.1016/j.csbj.2018.02.003

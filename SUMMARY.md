@@ -11,6 +11,6 @@
   * [2.2 C-Techs \(chromosome conformation capture\)-coupled ](chap2/c-techs-chromosome-conformation-capture-coupled.md)
 * [Chap3 Computational analysis](chap2/chap3.md)
   * [3.1 Primal order data analysis pipeline](chap2/chap3/31-primal-order-data-analysis-pipeline.md)
-  * [3.2 high-order data analysis pipeline](chap2/chap3/32-high-order-data-analysis-pipeline.md)
+  * [3.2 Higher-order data analysis pipeline](chap2/chap3/32-high-order-data-analysis-pipeline.md)
 * [Chap4 4DN project](4dn-project.md)
 
