@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [First Chapter](chapter1.md)
 * [Chap1 Intro- why should people care about 3D genome](chapter-1-intro-why-should-people-care-about-3d-genome.md)
   * [1.1    From 2D to 3D neuclear structure](chapter-1-intro-why-should-people-care-about-3d-genome/01-3d-neuclear-structure.md)
   * [1.2 From static to dynamic](chapter-1-intro-why-should-people-care-about-3d-genome/from-static-to-dynamic.md)
@@ -13,5 +12,7 @@
 * [Chap3 Computational analysis](chap2/chap3.md)
   * [3.1 Primal order data analysis ](chap2/chap3/31-primal-order-data-analysis-pipeline.md)
   * [3.2 Higher-order data analysis ](chap2/chap3/32-high-order-data-analysis-pipeline.md)
-* [Chap4 4DN project](4dn-project.md)
+  * 3.3 3D structure imputation
+* [Chap4 Integrative Data visualization tools](chap4-data-visualization.md)
+* [Chap5 4DN project](4dn-project.md)
 
