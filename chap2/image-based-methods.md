@@ -7,7 +7,7 @@ Before the advent of C-technologies, the predominant method to study 3D genome o
  - etc... 
  
 - Ultra structure and 3D organization
- - EM based 
+ - EM based (ChromEM)
  - X-ray based 
 - Spatial and dynamic 3D nuclear organization
  - Wide-field / confocal / multiphoton 

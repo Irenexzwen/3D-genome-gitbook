@@ -12,8 +12,5 @@ However, the mystery of life can never be simply understood in the view of a lin
 "two sequence whisper, multiple sequences shout" - Arthur M. Lesk
 
 
-- linear to 3D (BB)
-- static to dynamic
-- 3D organization to gene expression [anuual review]
 
 
