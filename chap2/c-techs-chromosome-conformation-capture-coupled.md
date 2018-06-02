@@ -32,3 +32,8 @@ inferred from pairwise contact frequencies, proximity ligation.
 - TCC
 - Single-cell/In situ/DNase/Micro-HiC
 
+
+**Referrence **
+https://doi.org/10.1016/j.csbj.2018.02.003
+
+
