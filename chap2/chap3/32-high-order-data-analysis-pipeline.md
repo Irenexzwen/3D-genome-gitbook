@@ -35,9 +35,16 @@
 - See Chapter4 
 - integration analysis 
 
+
+## 3.2.1 Analytical Tools:
+- Brief view of different tools 
+- Give suggestions on how to choose proper tools 
+
 <br><br>
 **Referrence **
 https://doi.org/10.1016/j.csbj.2018.02.003 *
+https://doi.org/10.1007/s40484-017-0113-6 *
+
 
 
 
