@@ -19,18 +19,27 @@
 - how to choose bin size 
 
 ### 3.2.1.3 Normalization
-- where bias comes from
-- explicit normalization
-- implicit normalization
+- Where bias comes from
+- Explicit normalization
+- Implicit normalization
 
 ### 3.2.1.4 Detection
 - TAD calling
  - callers 
  - algorithms and principle 
  - GPU accelerating 
+- Separating active/repressive compartments A/B 
+- Identifying chromatin loops
  
 ### 3.2.1.5 Visualization
 - See Chapter4 
+- integration analysis 
+
+<br><br>
+**Referrence **
+https://doi.org/10.1016/j.csbj.2018.02.003 *
+
+
 
 
 
