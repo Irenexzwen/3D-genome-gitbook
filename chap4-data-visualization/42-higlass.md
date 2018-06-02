@@ -21,3 +21,12 @@ Show the features by real examples
 - how to choose the *best* result out of multi peak callers  
 - ...
 
+# Lock zoom and location
+
+* Let's make sure the top two rows and the bottom two rows always show the same locations as each other
+
+<p style="text-align: center">
+    <video width="500" loop="loop" autoplay="autoplay">
+        <source src="https://s3.amazonaws.com/pkerp/public/img/hic-bootcamp-presentation/take-and-lock-zoom-and-location.mp4" type="video/mp4">
+    </video>
+</p>
