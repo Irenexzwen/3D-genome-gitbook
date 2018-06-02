@@ -3,11 +3,11 @@ Genomic regions with dense nucleo- somes are more tightly packed (i.e., “close
 
 ## 3.2.1 Analytical pipeline:
 - Raw reads 
-- Pre-processing 
-- Alignment (Full read or chimeric alignment)
-- Binning & contact matrixing
-- Normalization
-- Detection (Intra/Inter-chr interactions)
+- Pre-processing & Alignment 
+- Peak calling 
+ - For MNase-seq
+ - For DNase-seq and FAIRE-seq
+ - For ATAC-seq
 - Visualization
 - Analysis and Interpretation
 
