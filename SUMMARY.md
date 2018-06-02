@@ -9,7 +9,8 @@
 * [Chap2 Tools for explore 3D genome](chap2.md)
   * [2.1 Image based methods](chap2/image-based-methods.md)
   * [2.2 C-Techs \(chromosome conformation capture\)-coupled ](chap2/c-techs-chromosome-conformation-capture-coupled.md)
-* [Chap3 Computational Data analysis](chap2/chap3.md)
-  * [3.1 C-techs data analysis pipeline](chap2/chap3/31-c-techs-data-analysis-pipeline.md)
+* [Chap3 Computational analysis](chap2/chap3.md)
+  * [3.1 Primal order data analysis pipeline](chap2/chap3/31-primal-order-data-analysis-pipeline.md)
+  * [3.2 high-order data analysis pipeline](chap2/chap3/32-high-order-data-analysis-pipeline.md)
 * [Chap4 4DN project](4dn-project.md)
 
