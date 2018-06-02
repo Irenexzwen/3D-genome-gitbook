@@ -14,7 +14,7 @@
   * [3.2 Higher-order data analysis ](chap2/chap3/32-high-order-data-analysis-pipeline.md)
   * [3.3 3D structure imputation](chap2/chap3/33-3d-structure-imputation.md)
 * [Chap4 Integrative Data visualization tools](chap4-data-visualization.md)
-  * 4.1 GIVE 
+  * [4.1 GIVE ](chap4-data-visualization/41-give.md)
   * [4.2 HiGlass](chap4-data-visualization/42-higlass.md)
 * [Chap5 4DN project](4dn-project.md)
 
