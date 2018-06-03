@@ -60,15 +60,17 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 </p>
 
 ##### e) Project viewport**
+
 <p style="text-align: center">
     <video width="500" loop="loop" autoplay="autoplay">
-        <source src="https://s3.amazonaws.com/pkerp/public/img/hic-bootcamp-presentation/zoom-top-and-bottom-to.mp4" type="video/mp4">
+        <source src="https://s3.amazonaws.com/pkerp/public/img/hic-bootcamp-presentation/project-viewport-on.mp4" type="video/mp4">
     </video>
-</p>    
+</p>   
 
 ##### f) **Unclock** and **close**
 
 
+### Concept2: Anatomy of HiGlass view board
 
 
 
