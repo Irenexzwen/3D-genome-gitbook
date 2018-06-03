@@ -53,7 +53,7 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 ![](/assets/2.png)
 
 
-## 8.Summary
+## 6.Summary
 
 ## Referrence 
 
