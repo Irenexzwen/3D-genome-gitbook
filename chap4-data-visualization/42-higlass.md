@@ -75,13 +75,13 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 - Color mmap:from matplotlib or custom defined(https://github.com/hms-dbmi/higlass/wiki/Rectangular-heatmap). **Configure Series --> Color map**
 ![](/assets/colormap.jpg)
 - zoom limit
-#### Different tracks:
+#### Different tracks( Icon | Higlass-wiki | Special-features):
 <table>
 <tbody>
 <tr>
 <td><a href="Rectangular-heatmap"><img src="https://cloud.githubusercontent.com/assets/2143629/24176191/e66e26e0-0e70-11e7-84fd-e945b95048b7.png" height="50px"></a></td>
 <td><a href="Rectangular-heatmap">Rectangular heatmap</a></td>
-<td><a href="Rectangular-heatmap">Rectangular heatmap</a></td>
+<td><ul><li>Transforms(ICE,KR,etc)-see Chap3.2</li><li>hello</li></ul></td>
 </tr>
 <tr>
 <td><a href="Horizontal-and-vertical-heatmaps"><img src="https://cloud.githubusercontent.com/assets/2143629/24176286/67e87978-0e71-11e7-9441-cdabbf2fc804.png" height="50px"></a></td>
