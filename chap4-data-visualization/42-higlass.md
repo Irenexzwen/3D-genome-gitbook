@@ -24,10 +24,10 @@ Just a reminder, all the information illustrated here can be learned from:
 [2] https://hms-dbmi.github.io/hic-data-analysis-bootcamp 
 We're trying our best to walk you through the gist of this software within the least of your time by our understanding and reorganized materials :D 
 
-### Step1: Anatomy of HiGlass view board
+### Concept1: Anatomy of HiGlass view board
 "Tracks" and "Views" are the two most basic ingredients of a Higlass view. Each view is composed of a set of tracks which share common axes. All view operations can be found [here](https://github.com/hms-dbmi/higlass/wiki/View-Operations). 
 ![](/assets/ana_view.jpg)
-- A **view** is simply the area with a gray bar at the top. A view can be understood as a canvas, and **tracks** are 
+- A **view** is simply the area with a gray bar at the top. A view can be understood as a canvas, and **tracks** are figures on this canvas. There is nothing elese. **Tracks** are of various types and will be elaborated later. 
 
 
 
