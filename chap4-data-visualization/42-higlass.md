@@ -29,6 +29,22 @@ We're trying our best to walk you through the gist of this software within the l
 ![](/assets/ana_view.jpg)
 - A **view** is simply the area with a gray bar at the top. A view can be understood as a canvas, and **tracks** are figures on this canvas. There is nothing elese. **Tracks** are of various types and will be elaborated later. 
 
+#### 1.1 Operations for **Views** includes:
+    - **Resize** views before **adding(copying)** new views.
+* We want to create four views in total showing two different datasets
+* To start, we'll resize the current view and replicate it twice
+
+<p style="text-align: center">
+    <video width="500" loop="loop" autoplay="autoplay">
+        <source src="https://s3.amazonaws.com/pkerp/public/img/hic-bootcamp-presentation/resize-and-clone-twice.mp4" type="video/mp4">
+    </video>
+</p>
+    - **Cross-view operations** (transferring or linking parameters (such as **scaling factor** and **location**) between two separate views)
+    - View **synchronization**: location or zoom or both(just for two views at a time, if you want to sync many views, you have to do it pair by pair)
+    - **Go** to interesting location.
+    - **Unclock** and **close**.
+
+
 
 
 
