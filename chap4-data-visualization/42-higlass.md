@@ -104,12 +104,12 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 <td><ul><li>Diff scale for zoom in&out</li><li>User can define the scale</li></ul></td>
 </tr>
 <tr>
-<td><a href="Viewport-projection"><img src="https://cloud.githubusercontent.com/assets/2143629/24176502/afeb5f46-0e72-11e7-8c1d-0c3d12d75eff.png" height="50px"></a></td>
+<td><a href="Viewport-projection"><img src="https://github.com/Irenexzwen/3D-genome-gitbook/blob/master/img/icon-TAD.png" height="50px"></a></td>
 <td><a href="Viewport-projection">Viewport projection</a></td>
 <td><ul><li>show one dataset with two different resolutions</li><li>Open from view</li></ul></td>
 </tr>
 <tr>
-<td><a href="Gene-annotations"><img src="https://cloud.githubusercontent.com/assets/2143629/24176594/48af7d98-0e73-11e7-8a10-81c5e64b41be.png" height="50px"></a></td>
+<td><a href="Gene-annotations"><img src="https://github.com/Irenexzwen/3D-genome-gitbook/blob/master/img/icon-genesym.png" height="50px"></a></td>
 <td><a href="Gene-annotations">Gene annotations</a></td>
 <td><a href="https://github.com/hms-dbmi/clodius/wiki/Gene-annotations">Developer docs</a></td>
 </tr>
