@@ -71,6 +71,10 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 
 ### Concept2: Track types
 #### Common feeatures for every track:
+- Label (Positions, color, opacity, background color)
+- Color mmap:from matplotlib or custom defined(https://github.com/hms-dbmi/higlass/wiki/Rectangular-heatmap). **Configure Series --> Color map**
+![](/assets/colormap.jpg)
+- zoom limit
 #### Different tracks:
 
 
