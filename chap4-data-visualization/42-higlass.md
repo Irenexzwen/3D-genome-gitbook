@@ -26,6 +26,7 @@ We're trying our best to walk you through the gist of this software within the l
 
 ### Step1: Anatomy of HiGlass view board
 "Tracks" and "Views" are the two most basic ingredients of a Higlass view. Each view is composed of a set of tracks which share common axes.
+![](/assets/ana_view.jpg)
 
 
 
