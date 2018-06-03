@@ -3,6 +3,6 @@
 ### Say "Hi" to one of the most important techniques that capture spatial relationship of our Chromosome.
 
 
-*Editor: Irene(xzwen)  irene_xzwen@foxmail.com*
+
 
 
