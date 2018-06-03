@@ -1,12 +1,12 @@
 # HiGlass 
-HiGlass is a web-based tool for exploring genomic contact matrices and tracks.HiGlass is a viewer for HiC and other genomic data. It can be used online (http://higlass.io), or run locally with private data(docker). It uses a client-server achitecture to allow users to view large contact matrices in a web browser (https://www.biorxiv.org/content/early/2017/10/30/121889). 
+HiGlass is a web-based tool for exploring genomic contact matrices and tracks.HiGlass is a viewer for HiC and other genomic data. It can be used online (http://higlass.io), or run locally with private data(docker). It uses a client-server architecture to allow users to view large contact matrices in a web browser (https://www.biorxiv.org/content/early/2017/10/30/121889). 
 
 
 ## Distinguished features
- - smooth navigation, continous interface
+ - smooth navigation, continuous interface
  - multiple datasets, map link, auto sync, optional sync(by loc or zoom) 
- - various representations (horizontal trianular, vertical triangular, 2D heatmap, 1D track)
- - higly configurable 
+ - various representations (horizontal triangular, vertical triangular, 2D heatmap, 1D track)
+ - highly configurable 
  - diff scale of data (linear, log)
  - export (SVG, JSON config) with metadata rather than lengthy url records everything
  - share data local net or publicly
@@ -14,7 +14,15 @@ HiGlass is a web-based tool for exploring genomic contact matrices and tracks.Hi
 
 ## Get Started
 We will unfold the main features of Higlass as follows:
-1. 
+1. Show anatomy of HiGlass **view** board.
+2. Show the category of **tracks** which represents multi-omics data.
+3. Show how to **interactively** explore **different datasets** at the same time. 
+4. Show how to upload your **own** datasets, which is the most important part.
+
+Just a reminder, all the information illustrated here can be learned from:
+[1] https://github.com/hms-dbmi/higlass/wiki
+[2] https://hms-dbmi.github.io/hic-data-analysis-bootcamp 
+We're trying our best to walk you through the gist of this software within least of your time by our understanding and reorganised materials. 
 
 
 
