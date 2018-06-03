@@ -40,8 +40,27 @@ We're trying our best to walk you through the gist of this software within the l
     </video>
 </p>
     - **Cross-view operations** (transferring or linking parameters (such as **scaling factor** and **location**) between two separate views)
+* Let's make sure the top two rows and the bottom two rows always show the same locations as each other
+
+<p style="text-align: center">
+    <video width="500" loop="loop" autoplay="autoplay">
+        <source src="https://s3.amazonaws.com/pkerp/public/img/hic-bootcamp-presentation/take-and-lock-zoom-and-location.mp4" type="video/mp4">
+    </video>
+</p>
     - View **synchronization**: location or zoom or both(just for two views at a time, if you want to sync many views, you have to do it pair by pair)
     - **Go** to interesting location.
+<p style="text-align: center">
+    <video width="500" loop="loop" autoplay="autoplay">
+        <source src="https://s3.amazonaws.com/pkerp/public/img/hic-bootcamp-presentation/zoom-top-and-bottom-to.mp4" type="video/mp4">
+    </video>
+</p>
+    - **Project viewport**
+<p style="text-align: center">
+    <video width="500" loop="loop" autoplay="autoplay">
+        <source src="https://s3.amazonaws.com/pkerp/public/img/hic-bootcamp-presentation/zoom-top-and-bottom-to.mp4" type="video/mp4">
+    </video>
+</p>    
+
     - **Unclock** and **close**.
 
 
