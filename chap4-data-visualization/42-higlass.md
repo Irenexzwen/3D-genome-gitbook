@@ -29,7 +29,7 @@ We're trying our best to walk you through the gist of this software within the l
 ![](/assets/ana_view.jpg)
 - A **view** is simply the area with a gray bar at the top. A view can be understood as a canvas, and **tracks** are figures on this canvas. There is nothing elese. **Tracks** are of various types and will be elaborated later. 
 
-#### 1.1 Operations for **Views** includes:
+#### Operations for **Views** includes:
 ##### a) **Resize** views before **adding(copying)** new views.<br>
 We want to create four views in total showing two different datasets.To start, we'll resize the current view and replicate it twice
 
@@ -70,7 +70,9 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 ##### f) **Unclock** and **close**
 
 
-### Concept2: Anatomy of HiGlass view board
+### Concept2: Track types
+#### Common feeatures for every track:
+#### Different tracks:
 
 
 
@@ -79,7 +81,7 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 ## 7.How to interpretate the data 
 - how to interpretate multi-omics data 
 - how to choose the *best* result out of multi peak callers  
-- ...
+- **comming soon** 
 
 
 
