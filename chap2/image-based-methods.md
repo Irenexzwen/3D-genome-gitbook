@@ -16,5 +16,5 @@ Before the advent of C-technologies, the predominant method to study 3D genome o
     
     
 **Referrence**:
-https://doi.org/10.1146/annurev-cellbio-100616-060531 * 
+https://doi.org/10.1146/annurev-cellbio-100616-060531 \* 
 http://dx.doi.org/10.1038/nature23884 4DN project 
