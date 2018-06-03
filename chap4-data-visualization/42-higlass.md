@@ -1,7 +1,7 @@
-## 6.HiGlass (exemplar for 2D)
-***
-should we also include some 3D structure viewer?
-***
+## 6.HiGlass 
+HiGlass is a web-based tool for exploring genomic contact matrices and tracks.HiGlass is a viewer for HiC and other genomic data. It can be used online (http://higlass.io), or run locally with private data(docker). It uses a client-server achitecture to allow users to view large contact matrices in a web browser (https://www.biorxiv.org/content/early/2017/10/30/121889). 
+
+
 #### i) Distinguished features:
  - smooth navigation, continous interface
  - multiple datasets, map link, auto sync, optional sync(by loc or zoom) 
