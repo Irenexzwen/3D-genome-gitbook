@@ -91,7 +91,7 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 <tr>
 <td><a href="Line-tracks"><img src="https://cloud.githubusercontent.com/assets/2143629/24176389/0acb6b8c-0e72-11e7-9396-5e0e7a242d82.png" height="50px"></a></td>
 <td><a href="Line-tracks">Line</a></td>
-<td><a href="Rectangular-heatmap">Rectangular heatmap</a></td>
+<td><ul><li>Scaling(linear,log)</li><li>Label position</li><li>Axis position</li><li>Stroke color</li></ul></td>
 </tr>
 <tr>
 <td><a href="Chromosome-grid"><img src="https://cloud.githubusercontent.com/assets/2143629/24176445/677221f0-0e72-11e7-81f3-ae29c71c1f6d.png" height="50px"></a></td>
