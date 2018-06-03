@@ -76,6 +76,38 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 ![](/assets/colormap.jpg)
 - zoom limit
 #### Different tracks:
+<table>
+<tbody>
+<tr>
+<td><a href="Rectangular-heatmap"><img src="https://cloud.githubusercontent.com/assets/2143629/24176191/e66e26e0-0e70-11e7-84fd-e945b95048b7.png" height="50px"></a></td>
+<td><a href="Rectangular-heatmap">Rectangular heatmap</a></td>
+</tr>
+<tr>
+<td><a href="Horizontal-and-vertical-heatmaps"><img src="https://cloud.githubusercontent.com/assets/2143629/24176286/67e87978-0e71-11e7-9441-cdabbf2fc804.png" height="50px"></a></td>
+<td><a href="Horizontal-and-vertical-heatmaps">Horizontal and vertical heatmaps</a></td>
+</tr>
+<tr>
+<td><a href="Line-tracks"><img src="https://cloud.githubusercontent.com/assets/2143629/24176389/0acb6b8c-0e72-11e7-9396-5e0e7a242d82.png" height="50px"></a></td>
+<td><a href="Line-tracks">Line</a></td>
+</tr>
+<tr>
+<td><a href="Chromosome-grid"><img src="https://cloud.githubusercontent.com/assets/2143629/24176445/677221f0-0e72-11e7-81f3-ae29c71c1f6d.png" height="50px"></a></td>
+<td><a href="Chromosome-grid">Chromosome grid</a></td>
+</tr>
+<tr>
+<td><a href="Chromosome-axis"><img src="https://cloud.githubusercontent.com/assets/2143629/24176330/b38cb0c4-0e71-11e7-9ed7-60e8bee1f726.png" height="50px"></a></td>
+<td><a href="Chromosome-axis">Chromosome axis</a></td>
+</tr>
+<tr>
+<td><a href="Viewport-projection"><img src="https://cloud.githubusercontent.com/assets/2143629/24176502/afeb5f46-0e72-11e7-8c1d-0c3d12d75eff.png" height="50px"></a></td>
+<td><a href="Viewport-projection">Viewport projection</a></td>
+</tr>
+<tr>
+<td><a href="Gene-annotations"><img src="https://cloud.githubusercontent.com/assets/2143629/24176594/48af7d98-0e73-11e7-8a10-81c5e64b41be.png" height="50px"></a></td>
+<td><a href="Gene-annotations">Gene annotations</a></td>
+</tr>
+</tbody>
+</table>
 
 
 
