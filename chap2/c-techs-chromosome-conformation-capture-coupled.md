@@ -47,7 +47,7 @@ Measure interactions between genomic loci
 
 
 **Referrence **
-https://doi.org/10.1016/j.csbj.2018.02.003
+https://doi.org/10.1016/j.csbj.2018.02.003<br>
 https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx 
 
 
