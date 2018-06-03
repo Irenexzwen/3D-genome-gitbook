@@ -117,6 +117,9 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 </table>
 
 
+### Upload your own data 
+coming soon.
+
 
 
 
