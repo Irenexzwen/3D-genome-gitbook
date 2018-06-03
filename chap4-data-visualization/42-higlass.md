@@ -30,23 +30,24 @@ We're trying our best to walk you through the gist of this software within the l
 - A **view** is simply the area with a gray bar at the top. A view can be understood as a canvas, and **tracks** are figures on this canvas. There is nothing elese. **Tracks** are of various types and will be elaborated later. 
 
 #### 1.1 Operations for **Views** includes:
-    - **Resize** views before **adding(copying)** new views.
-* We want to create four views in total showing two different datasets
-* To start, we'll resize the current view and replicate it twice
+##### a) **Resize** views before **adding(copying)** new views.<br>
+We want to create four views in total showing two different datasets.To start, we'll resize the current view and replicate it twice
 
 <p style="text-align: center">
     <video width="500" loop="loop" autoplay="autoplay">
         <source src="https://s3.amazonaws.com/pkerp/public/img/hic-bootcamp-presentation/resize-and-clone-twice.mp4" type="video/mp4">
     </video>
 </p>
-    - **Cross-view operations** (transferring or linking parameters (such as **scaling factor** and **location**) between two separate views)
-* Let's make sure the top two rows and the bottom two rows always show the same locations as each other
+
+##### b) **Cross-view operations** 
+transferring or linking parameters (such as **scaling factor** and **location**) between two separate views. Examples:Let's make sure the top two rows and the bottom two rows always show the same locations as each other.
 
 <p style="text-align: center">
     <video width="500" loop="loop" autoplay="autoplay">
         <source src="https://s3.amazonaws.com/pkerp/public/img/hic-bootcamp-presentation/take-and-lock-zoom-and-location.mp4" type="video/mp4">
     </video>
 </p>
+
     - View **synchronization**: location or zoom or both(just for two views at a time, if you want to sync many views, you have to do it pair by pair)
     - **Go** to interesting location.
 <p style="text-align: center">
