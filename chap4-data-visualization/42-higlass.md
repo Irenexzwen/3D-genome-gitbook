@@ -84,7 +84,7 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 <td><ul><li>Transforms(ICE,KR,etc)-see Chap3.2</li><li>Value scaling(linear,log)</li><li>Zoom limit(5k-20M)</li></ul></td>
 </tr>
 <tr>
-<td><a href="Horizontal-and-vertical-heatmaps"><img src="https://cloud.githubusercontent.com/assets/2143629/24176286/67e87978-0e71-11e7-9441-cdabbf2fc804.png" height="50px"></a></td>
+<td><a href="https://github.com/hms-dbmi/higlass/wiki/Horizontal-and-vertical-heatmaps"><img src="https://cloud.githubusercontent.com/assets/2143629/24176286/67e87978-0e71-11e7-9441-cdabbf2fc804.png" height="50px"></a></td>
 <td><a href="Horizontal-and-vertical-heatmaps">Horizontal and vertical heatmaps</a></td>
 <td><ul><li>45° roatate of 2D heatmap</li><li>Can be added lef,right,top,bottom</li><li>Default faces: down & right(can be fpliiped)</li></ul></td>
 </tr>
