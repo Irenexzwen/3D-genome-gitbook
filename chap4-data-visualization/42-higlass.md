@@ -89,7 +89,7 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 <td><ul><li>45° roatate of 2D heatmap</li><li>Can be added lef,right,top,bottom</li><li>Default faces: down & right(can be fpliiped)</li></ul></td>
 </tr>
 <tr>
-<td><a href="Line-tracks"><img src="https://cloud.githubusercontent.com/assets/2143629/24176389/0acb6b8c-0e72-11e7-9396-5e0e7a242d82.png" height="50px"></a></td>
+<td><a href="https://github.com/hms-dbmi/higlass/wiki/Line-tracks"><img src="https://cloud.githubusercontent.com/assets/2143629/24176389/0acb6b8c-0e72-11e7-9396-5e0e7a242d82.png" height="50px"></a></td>
 <td><a href="Line-tracks">Line</a></td>
 <td><ul><li>Scaling(linear,log)</li><li>Label position</li><li>Axis position</li><li>Stroke color</li></ul></td>
 </tr>
