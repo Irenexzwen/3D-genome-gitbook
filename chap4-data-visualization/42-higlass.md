@@ -99,7 +99,7 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 <td><ul><li>Grid on chromosome scale</li><li>User can define the scale</li></ul></td>
 </tr>
 <tr>
-<td><a href="Chromosome-axis"><img src="https://cloud.githubusercontent.com/assets/2143629/24176330/b38cb0c4-0e71-11e7-9ed7-60e8bee1f726.png" height="50px"></a></td>
+<td><a href="https://github.com/hms-dbmi/higlass/wiki/Chromosome-axis"><img src="https://cloud.githubusercontent.com/assets/2143629/24176330/b38cb0c4-0e71-11e7-9ed7-60e8bee1f726.png" height="50px"></a></td>
 <td><a href="Chromosome-axis">Chromosome axis</a></td>
 <td><ul><li>Diff scale for zoom in&out</li><li>User can define the scale</li></ul></td>
 </tr>
