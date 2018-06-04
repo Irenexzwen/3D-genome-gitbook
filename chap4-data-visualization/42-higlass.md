@@ -79,7 +79,7 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 <table>
 <tbody>
 <tr>
-<td><a href="Rectangular-heatmap"><img src="https://cloud.githubusercontent.com/assets/2143629/24176191/e66e26e0-0e70-11e7-84fd-e945b95048b7.png" height="50px"></a></td>
+<td><a href="https://github.com/hms-dbmi/higlass/wiki/Rectangular-heatmap"><img src="https://cloud.githubusercontent.com/assets/2143629/24176191/e66e26e0-0e70-11e7-84fd-e945b95048b7.png" height="50px"></a></td>
 <td><a href="Rectangular-heatmap">Rectangular heatmap</a></td>
 <td><ul><li>Transforms(ICE,KR,etc)-see Chap3.2</li><li>Value scaling(linear,log)</li><li>Zoom limit(5k-20M)</li></ul></td>
 </tr>
