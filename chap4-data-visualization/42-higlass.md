@@ -109,7 +109,7 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 <td><ul><li>show one dataset with two different resolutions</li><li>Open from view</li></ul></td>
 </tr>
 <tr>
-<td><a href="Gene-annotations"><img src="https://cloud.githubusercontent.com/assets/2143629/24176594/48af7d98-0e73-11e7-8a10-81c5e64b41be.png" height="50px"></a></td>
+<td><a href="https://github.com/hms-dbmi/higlass/wiki/Gene-annotations"><img src="https://cloud.githubusercontent.com/assets/2143629/24176594/48af7d98-0e73-11e7-8a10-81c5e64b41be.png" height="50px"></a></td>
 <td><a href="Gene-annotations">Gene annotations</a></td>
 <td><a href="https://github.com/hms-dbmi/clodius/wiki/Gene-annotations">Developer docs</a></td>
 </tr>
