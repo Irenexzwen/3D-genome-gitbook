@@ -2,6 +2,8 @@
 coming soom...
 
 
+<script src="https://www.givengine.org/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+<link rel="import" href="https://www.givengine.org/components/chart-controller/chart-controller.html">
 
 ```
 <!-- Polyfill Web Components for browsers without native support -->
