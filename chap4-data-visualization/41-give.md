@@ -8,7 +8,7 @@
 <div style="position: relative; width: 100%; height: 600px">
 <chart-controller title-text="A 2-minute starter of building a genome browser with GIVE" ref="hg19" num-of-subs="2" coordinates='["chr18:19140000-19450000", "chr18:19140000-19450000"]' group-id-list='["genes", "CHi-C_promoter"]'></chart-controller>
 </div>
-**A quick example by embedding code generated from GIVE, What a fantasia!**
+**A quick example by embedding code generated from GIVE into gitbook, What a fantasia!**
 
 Publication (https://www.biorxiv.org/content/early/2018/03/15/177832)
 
