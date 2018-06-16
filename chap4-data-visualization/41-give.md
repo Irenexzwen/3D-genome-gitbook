@@ -61,7 +61,18 @@ c) if you want to integrate the code on your personal website, you can add the c
 </div>
 ```
 
-### Example2: Generate personalized browser code with 
+### Example2: Generate personalized browser code with GIVE data hub
+
+
+
+
+
+
+
+
+
+
+
 
 
 
