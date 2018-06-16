@@ -169,12 +169,7 @@ You can use your own data to substitute tracks with specific format and datatype
   <tr>
     <td>Line</td>
     <td>clodius</td>
-    <td>BigWig</td>
-  </tr>
-  <tr>
-    <td>Line</td>
-    <td>clodius</td>
-    <td>bedGraphs</td>
+    <td>BigWig\bedGraphs</td>
   </td>
   </tr>
   <tr>
