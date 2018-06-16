@@ -177,6 +177,12 @@ You can use your own data to substitute tracks with specific format and datatype
     <td>bedGraphs</td>
   </td>
   </tr>
+  <tr>
+    <td>Line</td>
+    <td>clodius</td>
+    <td>bedGraphs</td>
+</td>
+</tr>
 </table>
 
 
