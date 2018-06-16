@@ -20,13 +20,13 @@ Besides, **[GIVE Data Hub](https://www.givengine.org/give-data-hub.html)** holds
 - double layer display
 - interactive presentation
 
-a) GIVE includes genome-interaction data (Hi-C, ChIA-PET), transcriptome-genome interaction data (MARGI [8], GRID-seq [9]) and transcriptome interaction data (PARIS [10], MARIO [11], LIGR-seq [12], SPLASH [13])
-
 ###2) Portable genome browser generator
 - automatic webpage generation with GIVE-HUG
 - embed the code on your own webpage 
 
 ###3) Managing your own data
+- upload your dataset to Data hub
+- 
 
 
  
