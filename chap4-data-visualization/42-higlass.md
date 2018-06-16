@@ -153,7 +153,7 @@ docker run --detach \ # start the containner background,it will last until you r
 ```
 Here you go, if you intsall docker on your own computer then you can visit your higlass by <code>localhost:8888.com</code>. If you install docker on a server with IP:AA:BBB:CC:DD, then with url <code>AA:BBB:CC:DD:8888</code> you can see your own viewer on your browser. 
 
-##### Create your own tracks data
+#### Create your own tracks data
 You can use your own data to substitute tracks with specific format and datatype. Refer to [here](https://github.com/hms-dbmi/higlass/wiki#processing-and-importing-data) for more details.
 <table>
   <tr>
@@ -164,7 +164,7 @@ You can use your own data to substitute tracks with specific format and datatype
   <tr>
     <td>Contact matrix</td>
     <td>cooler</td>
-    <td>HDF</td>
+    <td>cool</td>
   </tr>
   <tr>
     <td>Line</td>
@@ -185,6 +185,10 @@ You can use your own data to substitute tracks with specific format and datatype
   </td>
   </tr>
 </table>
+
+##### Tools: Cooler
+[Cooler](https://pypi.org/project/cooler/) is a support library for a sparse, compressed, binary persistent storage format, called cool, used to store genomic interaction data, such as Hi-C contact matrices. To get started you can try this [walkthrough](https://github.com/mirnylab/cooler-binder/blob/master/cooler_cli.ipynb). Basically this tool include some useful functions (not all included).
+
 
 
 
