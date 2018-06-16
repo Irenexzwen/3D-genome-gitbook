@@ -139,16 +139,16 @@ Next, **pull down** the higlass-container from higlass-docker repository [(tutor
 docker pull gehlenborglab/higlass 
 # If no version tag is specified,docker will download the latest.
 ```
-One important thing is that you can not change parameters of an already setup container, you have to stop it first, remove that and create a new one. This also suggest that, we'd better not put your data into a container, instead, we store the data locally and map it to different container by <code>docker --run -volume<\code> 
+One important thing is that you can not change parameters of an already setup container, you have to stop it first, remove that and create a new one. This also suggest that, we'd better not put your data into a container, instead, we store the data locally and map it to different container by <code>docker --run -volume<\code>. 
 ```
 docker stop higlass-container
 docker rm higlass-container
 
 docker run --detach \ # start the containner background,it will last until you rm your container
            --publish 8888:80 \  # map a container’s port(80) to the host(8880) so that you can visit it with localhost:8888
-           --volume ~/hg-data:/data \   #
+           --volume ~/hg-data:/data \   # map local data dir ~/hg-data to container dir /data
            --volume ~/hg-tmp:/tmp \
-           --name higlass-container \
+           --name higlass-container \  # name of your container
            gehlenborglab/higlass
 ```
 
