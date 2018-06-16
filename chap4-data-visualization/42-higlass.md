@@ -132,7 +132,21 @@ service docker start
 ```
 
 #### Install & use higlass container
-Next, **pull down** the higlass-container from higlass-docker repository [(tutorial)](https://github.com/hms-dbmi/higlass-docker). After that, you can try to create an instance on that containner and open your own higlass website in your own browser [tutorial](https://github.com/hms-dbmi/higlass/wiki#processing-and-importing-data). However, you may get confused about some commands if you're new to docker. To solve this, you can refer to [docker's docs](https://docs.docker.com/engine/reference/commandline/docker/) or [Docker cheat sheet](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf) 
+Next, **pull down** the higlass-container from higlass-docker repository [(tutorial)](https://github.com/hms-dbmi/higlass-docker). After that, you can try to create an instance on that containner and open your own higlass website in your own browser [(tutorial)](https://github.com/hms-dbmi/higlass/wiki#processing-and-importing-data). However, you may get confused about some commands if you're new to Docker. To solve this, you can refer to [docker's docs](https://docs.docker.com/engine/reference/commandline/docker/) or to make life eaiser: [Docker cheat sheet](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf). 
+
+
+```
+docker pull gehlenborglab/higlass 
+# If no version tag is specified,docker will download the latest.
+docker run --detach \
+           --publish 8888:80 \
+           --volume ~/hg-data:/data \
+           --volume ~/hg-tmp:/tmp \
+           --name higlass-container \
+           gehlenborglab/higlass
+```
+
+
 
 
 
