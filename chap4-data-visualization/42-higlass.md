@@ -1,7 +1,7 @@
 # HiGlass 
 [HiGlass](http://higlass.io) is a web-based tool for exploring genomic contact matrices and tracks.HiGlass is a viewer for HiC and other genomic data. It can be used online or run locally with private data(docker). It uses a client-server architecture to allow users to view large contact matrices in a web browser.
 
-Paper (https://www.biorxiv.org/content/early/2017/10/30/121889). 
+Publication (https://www.biorxiv.org/content/early/2017/10/30/121889). 
 
 
 ## Distinguished features
