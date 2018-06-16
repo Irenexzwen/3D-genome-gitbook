@@ -42,6 +42,9 @@ Here, we'll show few examples to get you prepared before you dive into details a
 ### example1: Create a GIVE viewer based on html code
 With GIVE generator, you can get a short piece of code without much effort. Due to the specialized HTML library, personal preferences can be easily defined by changing parameters of <code>chart-controller </code> or <code>chart-area</code> library.
 
-S
+Once you have the code, there are few ways to view your browser!
+- Online HTML testing website like [jsfiddle](https://jsfiddle.net/)
+- Local <code>.html</code> file (just copy paste the code into it). 
+- 
 
  
