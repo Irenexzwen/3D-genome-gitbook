@@ -50,7 +50,7 @@ Once you have the code, there are few ways to view your browser!
 a) with online test environment, you can refer to [GIVE Tutorial 0](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/0-shortexample.md):
 ![](/assets/2-minutes-show.gif)
 
-c) if you want to integrate the code on your personal website, you can add the code in your html file. Please pay attention that **all features in  
+c) if you want to integrate the code on your personal website, you can add the code in your html file. Please pay attention that **all features in <code>char-controller<\code> should not be seperated by newline. To best fit your browser, you could wrap the controller with div tag.**
 ```
 <!-- header source -->
 <script src="https://www.givengine.org/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script> 
