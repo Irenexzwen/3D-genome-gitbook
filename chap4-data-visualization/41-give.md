@@ -26,10 +26,9 @@ Besides, **[GIVE Data Hub](https://www.givengine.org/give-data-hub.html)** holds
 
 ###3) Managing your own data
 - upload your dataset to Data hub
-- create new tracks, interactions, annotations
 
 ##Get started
-
+Here, we'll show few examples to get you prepared before you dive into details and comprehensive 
 
 
  
