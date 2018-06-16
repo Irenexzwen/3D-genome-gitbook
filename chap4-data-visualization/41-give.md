@@ -44,7 +44,7 @@ With GIVE generator, you can get a short piece of code without much effort. Due 
 
 Once you have the code, there are few ways to view your browser!
 - Online HTML testing website like [jsfiddle](https://jsfiddle.net/)
-- Local <code>.html</code> file (just copy paste the code into it). 
-- 
+- Local <code>.html</code> file (just copy paste the code into it), and then open it.
+- Personal webpage, or 
 
  
