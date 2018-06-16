@@ -60,7 +60,8 @@ c) if you want to integrate the code on your personal website, you can add the c
 <chart-controller title-text="A 2-minute starter of building a genome browser with GIVE" ref="hg19" num-of-subs="2" coordinates='["chr18:19140000-19450000", "chr18:19140000-19450000"]' group-id-list='["genes", "CHi-C_promoter"]'></chart-controller>
 </div>
 ```
-### Example2: Create a GIVE viewer based on html code
+
+### Example2: Generate personalized browser code with 
 
 
 
