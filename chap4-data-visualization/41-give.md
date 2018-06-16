@@ -10,7 +10,7 @@ In generally, **GIVE** is composed of two parts:
 - GIVE-Toolbox
 
 **HTML tag library** is used to specify what types of data should be included in the browser by indicating specific tags in the code. 
-**GIVE-Toolbox** is a set of command line commands, which automates all necessary database operations
+**GIVE-Toolbox** is a set of command line commands to add and manage custom data, which automates all necessary database operations relieving the user from working with a database language. 
 
 ## Distinguished Features
 ###1) Multiple types of genome interactions viewer
