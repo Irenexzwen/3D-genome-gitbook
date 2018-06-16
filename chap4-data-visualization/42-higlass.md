@@ -19,7 +19,7 @@ We will unfold the main features of Higlass as follows:
 3. Show how to upload your **own** datasets, which is the most important part.
 
 Just a reminder, all the information illustrated here can be learned from:
-[1] https://github.com/hms-dbmi/higlass/wiki
+[1] https://github.com/hms-dbmi/higlass/wiki &nbsp
 [2] https://hms-dbmi.github.io/hic-data-analysis-bootcamp 
 We're trying our best to walk you through the gist of this software within the least of your time by our understanding and reorganized materials :D 
 
@@ -139,7 +139,7 @@ Next, **pull down** the higlass-container from higlass-docker repository [(tutor
 docker pull gehlenborglab/higlass 
 # If no version tag is specified,docker will download the latest.
 ```
-One important thing is that you can not change parameters of an already setup container, you have to stop it first, remove that and create a new one. This also suggest that, we'd better not put your data into a container, instead, we store the data locally and map it to different container by <code>docker --run -volume<\code>. 
+One important thing is that you can not change parameters of an already setup container, you have to stop it first, remove that and create a new one. This also suggest that, we'd better not put your data into a container, instead, we store the data locally and map it to different container by <code>docker --run -volume</code>. 
 ```
 docker stop higlass-container
 docker rm higlass-container
@@ -151,10 +151,33 @@ docker run --detach \ # start the containner background,it will last until you r
            --name higlass-container \  # name of your container
            gehlenborglab/higlass
 ```
-Here you go, if you intsall docker on your own computer then you can visit your higlass by <code>localhost:8888.com<\code>. If you install docker on a server with IP:AA:BBB:CC:DD, then with url <code>AA:BBB:CC:DD:8888<\code> you can see your own viewer on your browser. 
+Here you go, if you intsall docker on your own computer then you can visit your higlass by <code>localhost:8888.com</code>. If you install docker on a server with IP:AA:BBB:CC:DD, then with url <code>AA:BBB:CC:DD:8888</code> you can see your own viewer on your browser. 
 
 ##### Create your own tracks data
-
+You can use your own data to substitute tracks with specific format and datatype.
+<table>
+  <tr>
+    <th>Tracks</th>
+    <th>Tools</th>
+    <th>Filetype</th>
+  </tr>
+  <tr>
+    <td>Contact matrix</td>
+    <td>cooler</td>
+    <td>HDF</td>
+  </tr>
+  <tr>
+    <td>Line</td>
+    <td>clodius</td>
+    <td>BigWig</td>
+  </tr>
+  <tr>
+    <td>Line</td>
+    <td>clodius</td>
+    <td>bedGraphs</td>
+  </td>
+  </tr>
+</table>
 
 
 
