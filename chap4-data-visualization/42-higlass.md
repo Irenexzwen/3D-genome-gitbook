@@ -189,8 +189,11 @@ You can use your own data to substitute tracks with specific format and datatype
 ##### Tools: Cooler
 [Cooler](https://pypi.org/project/cooler/) is a support library for a sparse, compressed, binary persistent storage format, called cool, used to store genomic interaction data, such as Hi-C contact matrices. To get started you can try this [walkthrough](https://github.com/mirnylab/cooler-binder/blob/master/cooler_cli.ipynb). Basically this tool include some useful functions listed below (not all included). 
 
-
-
+- Do contact matrix balancing
+- Create and load contact matrix
+- generate zoom levels for Higlass viewer
+- Display a contact matrix 
+- ...
 
 
 
