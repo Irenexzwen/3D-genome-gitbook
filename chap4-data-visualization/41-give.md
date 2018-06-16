@@ -12,19 +12,21 @@ In generally, **GIVE** is composed of two parts:
 **HTML tag library** is used to specify what types of data should be included in the browser by indicating specific tags in the code. <\br>
 **GIVE-Toolbox** is a set of command line commands to add and manage custom data, which automates all necessary database operations relieving the user from working with a database language. 
 
+Besides, **[GIVE Data Hub](https://www.givengine.org/give-data-hub.html)** holds large number of datasets, users can select some of them to view and compare and generate the HTML code to share or embed. User can also upload their own datasets to it with conformation from GIVE team.
+
 ## Distinguished Features
 ###1) Oneline multiple types of genome interactions viewer
-- a) multitypes of interaction
-- b) double layer display
-- c) interactive presentation
+- multitypes of interaction
+- double layer display
+- interactive presentation
 
-GIVE has includes genome-interaction data (Hi-C [6], ChIA-PET [7]), transcriptome-genome interaction data (MARGI [8], GRID-seq [9]) and transcriptome interaction data (PARIS [10], MARIO [11], LIGR-seq [12], SPLASH [13])
+a) GIVE includes genome-interaction data (Hi-C, ChIA-PET), transcriptome-genome interaction data (MARGI [8], GRID-seq [9]) and transcriptome interaction data (PARIS [10], MARIO [11], LIGR-seq [12], SPLASH [13])
 
 ###2) Portable genome browser generator
-- a) Automatic webpage generation with GIVE-HUG
-- b) embed the code on your own webpage 
+- automatic webpage generation with GIVE-HUG
+- embed the code on your own webpage 
 
-###3) Managing own data
+###3) Managing your own data
 
 
  
