@@ -40,6 +40,8 @@ Besides, **[GIVE Data Hub](https://www.givengine.org/give-data-hub.html)** holds
 Here, we'll show few examples to get you prepared before you dive into details and personalized adjustment. Part of the showcases are come from [GIVE homepage Examples]() and [Tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials).
 
 ### example1: Create a GIVE viewer based on html code
-With GIVE generator, you can get a short piece of code without much effort. Due to the specialized HTML library, personal need and preference can be 
+With GIVE generator, you can get a short piece of code without much effort. Due to the specialized HTML library, personal preferences can be easily defined by changing parameters of <code>chart-controller </code> or <code>chart-area</code> library.
+
+S
 
  
