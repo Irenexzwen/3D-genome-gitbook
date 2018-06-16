@@ -126,12 +126,12 @@ In most cases, people would like to upload their own data for different tracks. 
 #### Install docker:
 [Docker](https://www.docker.com) is a computer program that performs operating-system-level virtualization also known as containerization. It resembles VM in some ways but much thinner. Instead of virtualizing hardware, containers rest on top of a single Linux instance. This means you can leave behind the useless elements, leaving you with a small, neat capsule containing your application. Higlass also embrace docker. 
 
-To install docker, you can first download and install it on your local machine or server [docker CE](https://www.docker.com/community-edition)(community edition). Win and Mac users can directly use it by open it. Linux users need to start the service by running the following command with root privileges.
-
-
+To **install** docker, you can first download and install it on your local machine or server [docker CE](https://www.docker.com/community-edition)(community edition). Win and Mac users can directly use it by open it. Linux users need to start the service by running the following command with root privileges.
 ```
 service docker start
 ```
+
+Next, pull down the higlass-container by pulling down from higlass-docker repository [(tutorial)](https://github.com/hms-dbmi/higlass-docker).
 
 
 
