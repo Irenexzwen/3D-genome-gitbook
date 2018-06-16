@@ -48,7 +48,7 @@ Once you have the code, there are few ways to view your browser!
 - Personal webpage, or html based apps like gitbook. 
 
 With online test environment, you can refer to [GIVE Tutorial 0](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/0-shortexample.md):
-
+![](/assets/2-minutes-show.gif)
 
 
 
