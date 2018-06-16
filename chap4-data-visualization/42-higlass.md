@@ -151,7 +151,7 @@ docker run --detach \ # start the containner background,it will last until you r
            --name higlass-container \  # name of your container
            gehlenborglab/higlass
 ```
-
+Here you go, if you intsall docker on your own computer then you can visit your higlass by <code>localhost:8888.com<\code>. If you install docker on a server with IP:AA:BBB:CC:DD, then with url <code>AA:BBB:CC:DD:8888<\code> you can see your own viewer on your browser. 
 
 
 
