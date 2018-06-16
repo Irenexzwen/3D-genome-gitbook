@@ -45,12 +45,21 @@ With GIVE generator, you can get a short piece of code without much effort. Than
 Once you have the code, there are few ways to view your browser!
 - Online HTML testing website like [jsfiddle](https://jsfiddle.net/)
 - Local <code>.html</code> file (just copy paste the code into it), and then open it.
-- Personal webpage, or html based apps like gitbook. 
+- Personal webpage, or html based apps like gitbook (a kind of markdown editor). 
 
 a) with online test environment, you can refer to [GIVE Tutorial 0](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/0-shortexample.md):
 ![](/assets/2-minutes-show.gif)
 
-c) if you want to 
+c) if you want to integrate the code on your personal website, you can add the code in your html file. Please pay attention that **all features in  
+```
+<!-- header source -->
+<script src="https://www.givengine.org/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script> 
+<link rel="import" href="https://www.givengine.org/components/chart-controller/chart-controller.html">
+
+<div style="position: relative; width: 100%; height: 600px">
+<chart-controller title-text="A 2-minute starter of building a genome browser with GIVE" ref="hg19" num-of-subs="2" coordinates='["chr18:19140000-19450000", "chr18:19140000-19450000"]' group-id-list='["genes", "CHi-C_promoter"]'></chart-controller>
+</div>
+```
 
 
 
