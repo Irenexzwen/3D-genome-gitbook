@@ -131,16 +131,22 @@ To **install** docker, you can first download and install it on your local machi
 service docker start
 ```
 
-#### Install & use higlass container
+#### Install & Run higlass container
 Next, **pull down** the higlass-container from higlass-docker repository [(tutorial)](https://github.com/hms-dbmi/higlass-docker). After that, you can try to create an instance on that containner and open your own higlass website in your own browser [(tutorial)](https://github.com/hms-dbmi/higlass/wiki#processing-and-importing-data). However, you may get confused about some commands if you're new to Docker. To solve this, you can refer to [docker's docs](https://docs.docker.com/engine/reference/commandline/docker/) or to make life eaiser: [Docker cheat sheet](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf). 
 
 
 ```
 docker pull gehlenborglab/higlass 
 # If no version tag is specified,docker will download the latest.
-docker run --detach \
-           --publish 8888:80 \
-           --volume ~/hg-data:/data \
+```
+One important thing is that you can not change parameters of an already setup container, you have to stop it first, remove that and create a new one. This also suggest that, we'd better not put your data into a container, instead, we store the data locally and map it to different container by <code>docker --run -volume<\code> 
+```
+docker stop higlass-container
+docker rm higlass-container
+
+docker run --detach \ # start the containner background,it will last until you rm your container
+           --publish 8888:80 \  # map a container’s port(80) to the host(8880) so that you can visit it with localhost:8888
+           --volume ~/hg-data:/data \   #
            --volume ~/hg-tmp:/tmp \
            --name higlass-container \
            gehlenborglab/higlass
