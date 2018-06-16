@@ -14,5 +14,5 @@ In generally, **GIVE** is composed of two parts:
 
 ## Distinguished Features
 ###1) Multiple types of genome interactions viewer
-
+GIVE has includes genome-interaction data (Hi-C [6], ChIA-PET [7]), transcriptome-genome interaction data (MARGI [8], GRID-seq [9]) and transcriptome interaction data (PARIS [10], MARIO [11], LIGR-seq [12], SPLASH [13])
  
