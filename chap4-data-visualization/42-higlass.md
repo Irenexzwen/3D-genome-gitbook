@@ -154,7 +154,7 @@ docker run --detach \ # start the containner background,it will last until you r
 Here you go, if you intsall docker on your own computer then you can visit your higlass by <code>localhost:8888.com</code>. If you install docker on a server with IP:AA:BBB:CC:DD, then with url <code>AA:BBB:CC:DD:8888</code> you can see your own viewer on your browser. 
 
 ##### Create your own tracks data
-You can use your own data to substitute tracks with specific format and datatype.
+You can use your own data to substitute tracks with specific format and datatype. Refer to [here](https://github.com/hms-dbmi/higlass/wiki#processing-and-importing-data) for more details.
 <table>
   <tr>
     <th>Tracks</th>
@@ -178,11 +178,17 @@ You can use your own data to substitute tracks with specific format and datatype
   </td>
   </tr>
   <tr>
-    <td>Line</td>
+    <td>TAD annotation</td>
     <td>clodius</td>
-    <td>bedGraphs</td>
-</td>
-</tr>
+    <td>bed-like</td>
+  </td>
+  </tr>
+  <tr>
+    <td>Gene annotation</td>
+    <td>clodius</td>
+    <td>bed-like</td>
+  </td>
+  </tr>
 </table>
 
 
