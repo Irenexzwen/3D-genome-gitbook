@@ -89,24 +89,6 @@ service docker start
 Next, **pull down** the GIVE-docker from repository [(tutorial)](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/2.1-GIVE-Docker.md#essential-tips-for-adding-data-to-give-container). After that, you can run GIVE-docker container in your own browser by visiting the <code>localhost:port.com</code>
 
 
-```
-docker pull gehlenborglab/higlass 
-# If no version tag is specified, docker will download the latest.
-```
-One important thing is that you can not change parameters of an already setup container, you have to stop it first, remove that and create a new one. This also suggests that we'd better not put your data into a container, instead, we store the data locally and map it to a different container by <code>docker --run -volume</code>. 
-```
-docker stop higlass-container
-docker rm higlass-container
-
-docker run --detach \ # start the container background, it will last until you rm your container
-           --publish 8888:80 \  # map a container’s port(80) to the host(8880) so that you can visit it with localhost:8888
-           --volume ~/hg-data:/data \   # map local data dir ~/hg-data to container dir /data
-           --volume ~/hg-tmp:/tmp \
-           --name higlass-container \  # name of your container
-           gehlenborglab/higlass
-```
-Here you go, if you intsall docker on your own computer then you can visit your higlass by <code>localhost:8888.com</code>. If you install docker on a server with IP:AA:BBB:CC:DD, then with url <code>AA:BBB:CC:DD:8888</code> you can see your own viewer on your browser. 
-
 #### Create your own tracks data
 You can use your own data to substitute tracks with specific format and datatype. Refer to [here](https://github.com/hms-dbmi/higlass/wiki#processing-and-importing-data) for more details.
 <table>
