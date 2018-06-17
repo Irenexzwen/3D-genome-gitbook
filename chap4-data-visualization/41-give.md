@@ -72,10 +72,10 @@ GIVE data hub has included a lot of public datasets.There are UCSC genome annota
 
 
 ###Upload your own data 
-Now that we've already got an idea how GIVE works, now we can explore our own data with the power of GIVE. 
-- Download docker
-- Install python package: cooler and clodius 
-- Capsule your data into docker container
+Now that we've already got an idea how GIVE works, now we can explore our own data with the power of GIVE. Let's do it steps by steps.
+- Download docker CE (for local deployment)
+- Tranform datatypes 
+- Add tracks
 
 #### Install docker:
 [Docker](https://www.docker.com) is a computer program that performs operating-system-level virtualization also known as containerization. It resembles VM in some ways but much thinner. Instead of virtualizing hardware, containers rest on top of a single Linux instance. This means you can leave behind the useless elements, leaving you with a small, neat capsule containing your application. Higlass also embrace docker. 
