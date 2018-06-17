@@ -112,13 +112,13 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
   <tr>
     <td>Interaction</td>
     <td>[add_track_interaction.sh](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#6-add_track_interactionsh)</td>
-    <td>Paired interacting regions(like Hic and ChIA-PET)</td>
+    <td>[Paired interacting regions](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.3-interaction.md)</td>
   </td>
   </tr>
   <tr>
     <td>Gene annotation</td>
     <td>(https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.4-geneAnnotation.md)</td>
-    <td>bed-like</td>
+    <td>[gene table](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.4-geneAnnotation.md)</td>
   </td>
   </tr>
 </table>
