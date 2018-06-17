@@ -99,14 +99,14 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
     <th>Datatype</th>
   </tr>
   <tr>
-    <td>Contact matrix</td>
-    <td>cooler</td>
-    <td>cool</td>
+    <td>Bed</td>
+    <td>[add_track_bed.sh](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#4-add_track_bedsh)</td>
+    <td>[BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)</td>
   </tr>
   <tr>
-    <td>Line</td>
-    <td>clodius</td>
-    <td>BigWig\bedGraphs</td>
+    <td>BigWig</td>
+    <td>[add_track_bigWig.sh](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#5-add_track_bigwigsh)</td>
+    <td>[BigWig](https://genome.ucsc.edu/goldenpath/help/bigWig.html)</td>
   </td>
   </tr>
   <tr>
@@ -122,6 +122,7 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
   </td>
   </tr>
 </table>
+
 
 ##### Tools: Cooler
 [Cooler](https://pypi.org/project/cooler/) is a support library for a sparse, compressed, binary persistent storage format, called cool, used to store genomic interaction data, such as Hi-C contact matrices. To get started you can try this [walkthrough](https://github.com/mirnylab/cooler-binder/blob/master/cooler_cli.ipynb). Basically, this tool includes some useful functions listed below (not all included). 
