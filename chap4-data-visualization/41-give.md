@@ -11,9 +11,8 @@
 
 
 **A quick example by embedding code generated from GIVE into gitbook, What a fantasia!**
-This is an interactive pannel, where you can change the chromosome location(leftup corner), interaction datasets(left columns), even zoom-in-and-out by placing your mouse on the chromosome ruler and scroll the mouse wheel!
+<br>This is an interactive pannel, where you can change the chromosome location(leftup corner), interaction datasets(left columns), even zoom-in-and-out by placing your mouse on the chromosome ruler and scroll the mouse wheel!
 
-Publication (https://www.biorxiv.org/content/early/2018/03/15/177832)
 
 ## Architecture of GIVE
 The architecture of **GIVE** is important for users to understand how it works and how to use it. 
@@ -123,7 +122,7 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
   </tr>
 </table>
 
-##### [Steps to embody your own data](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/3-GIVE-Toolbox.md)
+##### [Steps to embody your own data (tutorial)](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/3-GIVE-Toolbox.md)
 - Step 1: Deployment of GIVE
 - Step 2: Initialization and Create Reference Genome
 - Step 3: Create Track Groups
@@ -133,6 +132,10 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
 - Step 7: Create Data Track from interaction File
 - List and Remove Data Tracks
 - Using The Customized GIVE Genome Browser
+
+Publication (https://www.biorxiv.org/content/early/2018/03/15/177832)
+
+
 
 
 
