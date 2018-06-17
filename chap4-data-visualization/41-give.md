@@ -66,7 +66,10 @@ c) if you want to integrate the code on your personal website, you can add the c
 You can [tweak](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/1.2-html-tweak.md) the browser with different reference genomes, number of subview interactions, the data and the coordinates. 
 
 ### Example2: Generate personalized browser code with GIVE data hub
-GIVE data hub has 
+GIVE data hub has included a lot of public datasets.There are UCSC genome annotation, ChIP-seq data, RNA-seq data, Hi-C data, DNase data, Cage data, RipSeq data, interaction data so on and so forth. Users can select them from data hub and generate their own code to explore something interesting. 
+
+![](/assets/datahub1.gif)
+
 
 
 
