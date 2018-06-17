@@ -80,7 +80,7 @@ Now that we've already got an idea how GIVE works, now we can explore our own da
 #### Install docker:
 [Docker](https://www.docker.com) is a computer program that performs operating-system-level virtualization also known as containerization. It resembles VM in some ways but much thinner. Instead of virtualizing hardware, containers rest on top of a single Linux instance. This means you can leave behind the useless elements, leaving you with a small, neat capsule containing your application.
 
-To **install** docker, you can first download and install it on your local machine or server [docker CE](https://www.docker.com/community-edition)(community edition). Win and Mac users can directly use it by openning it. Linux users need to start the service by running the following command with root privileges.
+To **install** docker, you can first download and install it on your local machine or server [docker CE](https://www.docker.com/community-edition)(community edition). Win and Mac users can directly use it by opening it. Linux users need to start the service by running the following command with root privileges.
 ```
 service docker start
 ```
@@ -90,7 +90,7 @@ Next, **pull down** the GIVE-docker from repository [(tutorial)](https://github.
 
 
 #### Transform and add your own data tracks 
-GIVE engine supports different kinds of data. Before GIVE can present your data, you can first transform them into special data structure that GIVE can handle (these are usually more efficient for zooming and storing). GIVE toolbox provides the tools to transform the data and it is capsuled in the docker. 
+GIVE engine supports different kinds of data. Before GIVE can present your data, you can first transform them into special data structures that GIVE can handle (these are usually more efficient for zooming and storing). GIVE toolbox provides the tools to transform the data and it is capsuled in the docker. 
 
 <table>
   <tr>
