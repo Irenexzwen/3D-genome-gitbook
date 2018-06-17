@@ -89,7 +89,7 @@ service docker start
 Next, **pull down** the GIVE-docker from repository [(tutorial)](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/2.1-GIVE-Docker.md#essential-tips-for-adding-data-to-give-container). After that, you can run GIVE-docker container in your own browser by visiting the <code>localhost:port.com</code>
 
 
-#### Create your own tracks data
+#### Transform and add your own data tracks 
 You can use your own data to substitute tracks with specific format and datatype. Refer to [here](https://github.com/hms-dbmi/higlass/wiki#processing-and-importing-data) for more details.
 <table>
   <tr>
