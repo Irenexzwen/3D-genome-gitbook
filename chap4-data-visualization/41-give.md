@@ -101,23 +101,23 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
   <tr>
     <td>Bed</td>
     <td>[add_track_bed.sh](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#4-add_track_bedsh)</td>
-    <td>[BED](https://genome.ucsc.edu/FAQ/FAQformat.html#format1)</td>
+    <td>[BED](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.1-bed.md)</td>
   </tr>
   <tr>
     <td>BigWig</td>
     <td>[add_track_bigWig.sh](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#5-add_track_bigwigsh)</td>
-    <td>[BigWig](https://genome.ucsc.edu/goldenpath/help/bigWig.html)</td>
+    <td>[BigWig](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.2-bigwig.md)</td>
   </td>
   </tr>
   <tr>
-    <td>TAD annotation</td>
-    <td>clodius</td>
-    <td>bed-like</td>
+    <td>Interaction</td>
+    <td>[add_track_interaction.sh](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#6-add_track_interactionsh)</td>
+    <td>Paired interacting regions(like Hic and ChIA-PET)</td>
   </td>
   </tr>
   <tr>
     <td>Gene annotation</td>
-    <td>clodius</td>
+    <td>(https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.4-geneAnnotation.md)</td>
     <td>bed-like</td>
   </td>
   </tr>
