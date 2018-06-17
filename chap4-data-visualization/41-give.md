@@ -90,7 +90,8 @@ Next, **pull down** the GIVE-docker from repository [(tutorial)](https://github.
 
 
 #### Transform and add your own data tracks 
-GIVE engine supports different kinds of data, to make 
+GIVE engine supports different kinds of data. Before GIVE can present your data, you can first transform them into special data structure that GIVE can handle (these are usually more efficient for zooming and storing). GIVE toolbox provides the tools to transform the data and it is capsuled in the docker. 
+
 <table>
   <tr>
     <th>Tracks</th>
