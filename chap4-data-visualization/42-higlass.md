@@ -21,7 +21,7 @@ We will unfold the main features of Higlass as follows:
 3. Show how to upload your **own** datasets, which is the most important part.
 
 Just a reminder, all the information illustrated here can be learned from:
-[1] https://github.com/hms-dbmi/higlass/wiki &nbsp
+[1] https://github.com/hms-dbmi/higlass/wiki<br>
 [2] https://hms-dbmi.github.io/hic-data-analysis-bootcamp 
 We're trying our best to walk you through the gist of this software within the least of your time by our understanding and reorganized materials :D 
 
