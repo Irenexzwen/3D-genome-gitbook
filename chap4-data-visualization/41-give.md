@@ -100,8 +100,8 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
   </tr>
   <tr>
     <td>Bed</td>
-    <td>[add_track_bed.sh](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#4-add_track_bedsh)</td>
-    <td>[BED](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.1-bed.md)</td>
+    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#4-add_track_bedsh)</td>
+    <td>[BED](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.1-bed.md>add_track_bed.sh</a></td>
   </tr>
   <tr>
     <td>BigWig</td>
