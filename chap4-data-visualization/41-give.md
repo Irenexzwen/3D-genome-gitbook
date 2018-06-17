@@ -85,8 +85,8 @@ To **install** docker, you can first download and install it on your local machi
 service docker start
 ```
 
-#### Install & Run higlass container
-Next, **pull down** the higlass-container from higlass-docker repository [(tutorial)](https://github.com/hms-dbmi/higlass-docker). After that, you can try to create an instance on that container and open your own higlass website in your own browser [(tutorial)](https://github.com/hms-dbmi/higlass/wiki#processing-and-importing-data). However, you may get confused about some commands if you're new to Docker. To solve this, you can refer to [docker's docs](https://docs.docker.com/engine/reference/commandline/docker/) or to make life easier: [Docker cheat sheet](https://www.docker.com/sites/default/files/Docker_CheatSheet_08.09.2016_0.pdf). 
+#### Install & Run GIVE-docker container
+Next, **pull down** the GIVE-docker from repository [(tutorial)](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/2.1-GIVE-Docker.md#essential-tips-for-adding-data-to-give-container). After that, you can run GIVE-docker container in your own browser by visiting the <code>localhost:port.com</code>
 
 
 ```
