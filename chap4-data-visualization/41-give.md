@@ -123,17 +123,16 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
   </tr>
 </table>
 
-
-##### Tools: Cooler
-[Cooler](https://pypi.org/project/cooler/) is a support library for a sparse, compressed, binary persistent storage format, called cool, used to store genomic interaction data, such as Hi-C contact matrices. To get started you can try this [walkthrough](https://github.com/mirnylab/cooler-binder/blob/master/cooler_cli.ipynb). Basically, this tool includes some useful functions listed below (not all included). 
-
-- Do contact matrix balancing
-- Create and load contact matrix
-- generate zoom levels for Higlass viewer
-- Display a contact matrix 
-- ...
-
-
+##### [Steps to embody your own data](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/3-GIVE-Toolbox.md)
+Step 1: Deployment of GIVE
+Step 2: Initialization and Create Reference Genome
+Step 3: Create Track Groups
+Step 4: Create Gene Annotation Track
+Step 5: Create Data Track from bed File
+Step 6: Create Data Track from bigWig File
+Step 7: Create Data Track from interaction File
+List and Remove Data Tracks
+Using The Customized GIVE Genome Browser
 
 
 
