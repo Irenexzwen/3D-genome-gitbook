@@ -63,6 +63,7 @@ c) if you want to integrate the code on your personal website, you can add the c
 <chart-controller title-text="A 2-minute starter of building a genome browser with GIVE" ref="hg19" num-of-subs="2" coordinates='["chr18:19140000-19450000", "chr18:19140000-19450000"]' group-id-list='["genes", "CHi-C_promoter"]'></chart-controller>
 </div>
 ```
+You can [tweak](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/1.2-html-tweak.md) the browser with different reference genomes, number of subview interactions, the data and the coordinates. 
 
 ### Example2: Generate personalized browser code with GIVE data hub
 
