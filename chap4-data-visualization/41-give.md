@@ -100,25 +100,25 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
   </tr>
   <tr>
     <td>Bed</td>
-    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#4-add_track_bedsh)</td>
-    <td>[BED](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.1-bed.md>add_track_bed.sh</a></td>
+    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#4-add_track_bedsh>add_track_bed.sh</a></td>
+    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.1-bed.md>add_track_bed.sh>BED</a></td>
   </tr>
   <tr>
     <td>BigWig</td>
-    <td>[add_track_bigWig.sh](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#5-add_track_bigwigsh)</td>
-    <td>[BigWig](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.2-bigwig.md)</td>
+    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#5-add_track_bigwigsh>add_track_bigWig.sh</a></td>
+    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.2-bigwig.md>BigWig</a></td>
   </td>
   </tr>
   <tr>
     <td>Interaction</td>
-    <td>[add_track_interaction.sh](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#6-add_track_interactionsh)</td>
-    <td>[Paired interacting regions](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.3-interaction.md)</td>
+    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#6-add_track_interactionsh>add_track_interaction.sh</a></td>
+    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.3-interaction.md>Paired interacting regions</a></td>
   </td>
   </tr>
   <tr>
     <td>Gene annotation</td>
-    <td>add_geneAnnot.sh(https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#3-add_geneannotsh)</td>
-    <td>[gene table](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.4-geneAnnotation.md)</td>
+    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#3-add_geneannotsh>add_geneAnnot.sh</a></td>
+    <td><a href=https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.4-geneAnnotation.md>gene table</a></td>
   </td>
   </tr>
 </table>
