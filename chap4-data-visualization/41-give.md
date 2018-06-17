@@ -117,7 +117,7 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
   </tr>
   <tr>
     <td>Gene annotation</td>
-    <td>(https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.4-geneAnnotation.md)</td>
+    <td>add_geneAnnot.sh(https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/3.1-GIVE-Toolbox-usages.md#3-add_geneannotsh)</td>
     <td>[gene table](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/manuals/4.4-geneAnnotation.md)</td>
   </td>
   </tr>
