@@ -66,6 +66,7 @@ c) if you want to integrate the code on your personal website, you can add the c
 You can [tweak](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/1.2-html-tweak.md) the browser with different reference genomes, number of subview interactions, the data and the coordinates. 
 
 ### Example2: Generate personalized browser code with GIVE data hub
+GIVE data hub has 
 
 
 
@@ -85,5 +86,5 @@ You can [tweak](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualizat
 
 
 
-
+ 
  
