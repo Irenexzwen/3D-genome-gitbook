@@ -119,7 +119,7 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 </table>
 
 
-### Chapter3 Upload your own data 
+###Upload your own data 
 In most cases, people would like to upload their own data for different tracks. To embed your own data and present them on your own browser, you should follow these steps.
 - Download docker
 - Install python package: cooler and clodius 
