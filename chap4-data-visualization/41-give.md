@@ -124,15 +124,15 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
 </table>
 
 ##### [Steps to embody your own data](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/3-GIVE-Toolbox.md)
-Step 1: Deployment of GIVE
-Step 2: Initialization and Create Reference Genome
-Step 3: Create Track Groups
-Step 4: Create Gene Annotation Track
-Step 5: Create Data Track from bed File
-Step 6: Create Data Track from bigWig File
-Step 7: Create Data Track from interaction File
-List and Remove Data Tracks
-Using The Customized GIVE Genome Browser
+- Step 1: Deployment of GIVE
+- Step 2: Initialization and Create Reference Genome
+- Step 3: Create Track Groups
+- Step 4: Create Gene Annotation Track
+- Step 5: Create Data Track from bed File
+- Step 6: Create Data Track from bigWig File
+- Step 7: Create Data Track from interaction File
+- List and Remove Data Tracks
+- Using The Customized GIVE Genome Browser
 
 
 
