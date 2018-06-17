@@ -1,5 +1,5 @@
 # GIVE - Genomic Interaction Visualization Engine
-[Give](https://zhong-lab-ucsd.github.io/GIVE_homepage/) is a highly adaptive and interactive open source programming library. It provides the easiest way to  a portable genome browser to examine geneome interactions with different kinds of data, which can be embedded in your own websites. 
+[GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/) is a highly adaptive and interactive open source programming library. It provides the easiest way to a portable genome browser to examine genome interactions with different kinds of data, which can be embedded in your own websites. 
 
 <!-- header source -->
 <script src="https://www.givengine.org/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script> 
@@ -11,7 +11,7 @@
 
 
 **A quick example by embedding code generated from GIVE into gitbook, What a fantasia!**
-This is an interactive pannel, where you can change the chromosome location(leftup corner), interaction datasets(left columns), even zoom-in-and-out by placing your mouse on the chromosome ruler and scoll the mouse wheel!
+This is an interactive pannel, where you can change the chromosome location(leftup corner), interaction datasets(left columns), even zoom-in-and-out by placing your mouse on the chromosome ruler and scroll the mouse wheel!
 
 Publication (https://www.biorxiv.org/content/early/2018/03/15/177832)
 
@@ -24,33 +24,33 @@ In generally, **GIVE** is composed of two parts:
 **HTML tag library** is used to specify what types of data should be included in the browser by indicating specific tags in the code. <\br>
 **GIVE-Toolbox** is a set of command line commands to add and manage custom data, which automates all necessary database operations relieving the user from working with a database language. 
 
-Besides, **[GIVE Data Hub](https://www.givengine.org/give-data-hub.html)** holds large number of datasets, users can select some of them to view and compare and generate the HTML code to share or embed. User can also upload their own datasets to it with conformation from GIVE team.
+Besides, **[GIVE Data Hub](https://www.givengine.org/give-data-hub.html)** holds a large number of datasets, users can select some of them to view and compare and generate the HTML code to share or embed. User can also upload their own datasets to it with conformation from GIVE team.
 
 ## Distinguished Features
-###1) Oneline multiple types of genome interactions viewer
-- multitypes of interaction
+###1) Online multiple types of genome interactions viewer
+- multi types of interaction
 - double layer display
 - interactive presentation
 
 ###2) Portable genome browser generator
-- automatic webpage generation with GIVE-HUG
+- automatic webpage generation with GIVE-HUG((HTML Universal Generator)
 - embed the code on your own webpage 
 
 ###3) Managing your own data
-- upload your dataset to Data hub
+- upload your dataset to GIVE Data hub
 
 ##Get started
-Here, we'll show few examples to get you prepared before you dive into details and personalized adjustment. Part of the showcases are come from [GIVE homepage Examples]() and [Tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials).
+Here, we'll show few examples to get you prepared before you dive into details and personalized adjustment. Part of the showcases come from [GIVE homepage Examples]() and [Tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials).
 
-### Example1: Create a GIVE viewer based on html code
+### Example1: Create a GIVE viewer based on HTML code
 With GIVE generator, you can get a short piece of code without much effort. Thanks to the specialized HTML library, personal preferences can be easily defined by changing parameters of <code>chart-controller </code> or <code>chart-area</code> libraries.
 
 Once you have the code, there are few ways to view your browser!
 - Online HTML testing website like [jsfiddle](https://jsfiddle.net/)
 - Local <code>.html</code> file (just copy paste the code into it), and then open it.
-- Personal webpage, or html based apps like gitbook (a kind of markdown editor). 
+- Personal webpage, or HTML based apps like gitbook (a kind of markdown editor). 
 
-a) with online test environment, you can refer to [GIVE Tutorial 0](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/0-shortexample.md):
+a) with the online test environment, you can refer to [GIVE Tutorial 0](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/0-shortexample.md):
 ![](/assets/2-minutes-show.gif)
 
 c) if you want to integrate the code on your personal website, you can add the code in your html file. Please pay attention that **all features in <code>char-controller<\code> should not be seperated by newline. To best fit your browser, you could wrap the controller with div tag.**
@@ -66,7 +66,7 @@ c) if you want to integrate the code on your personal website, you can add the c
 You can [tweak](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/blob/master/tutorials/1.2-html-tweak.md) the browser with different reference genomes, number of subview interactions, the data and the coordinates. 
 
 ### Example2: Generate personalized browser code with GIVE data hub
-GIVE data hub has included a lot of public datasets.There are UCSC genome annotation, ChIP-seq data, RNA-seq data, Hi-C data, DNase data, Cage data, RipSeq data, interaction data so on and so forth. Users can select them from data hub and generate their own code to explore something interesting. 
+GIVE data hub has included a lot of public datasets. There are UCSC genome annotation, ChIP-seq data, RNA-seq data, Hi-C data, DNase data, Cage data, RipSeq data, interaction data so on and so forth. Users can select them from data hub and generate their own code to explore something interesting. 
 
 ![](/assets/datahub1.gif)
 
@@ -74,11 +74,11 @@ GIVE data hub has included a lot of public datasets.There are UCSC genome annota
 ###Upload your own data 
 Now that we've already got an idea how GIVE works, now we can explore our own data with the power of GIVE. Let's do it steps by steps.
 - Download docker CE (for local deployment)
-- Tranform datatypes 
+- Transform datatypes 
 - Add tracks
 
 #### Install docker:
-[Docker](https://www.docker.com) is a computer program that performs operating-system-level virtualization also known as containerization. It resembles VM in some ways but much thinner. Instead of virtualizing hardware, containers rest on top of a single Linux instance. This means you can leave behind the useless elements, leaving you with a small, neat capsule containing your application. Higlass also embrace docker. 
+[Docker](https://www.docker.com) is a computer program that performs operating-system-level virtualization also known as containerization. It resembles VM in some ways but much thinner. Instead of virtualizing hardware, containers rest on top of a single Linux instance. This means you can leave behind the useless elements, leaving you with a small, neat capsule containing your application.
 
 To **install** docker, you can first download and install it on your local machine or server [docker CE](https://www.docker.com/community-edition)(community edition). Win and Mac users can directly use it by openning it. Linux users need to start the service by running the following command with root privileges.
 ```
