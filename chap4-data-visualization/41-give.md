@@ -90,7 +90,7 @@ Next, **pull down** the GIVE-docker from repository [(tutorial)](https://github.
 
 
 #### Transform and add your own data tracks 
-You can use your own data to substitute tracks with specific format and datatype. Refer to [here](https://github.com/hms-dbmi/higlass/wiki#processing-and-importing-data) for more details.
+GIVE engine supports different kinds of data, to make 
 <table>
   <tr>
     <th>Tracks</th>
