@@ -95,8 +95,8 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
 <table>
   <tr>
     <th>Tracks</th>
-    <th>Tools</th>
-    <th>Filetype</th>
+    <th>Trans_command</th>
+    <th>Datatype</th>
   </tr>
   <tr>
     <td>Contact matrix</td>
