@@ -1,4 +1,17 @@
 ##2.2- C-Techs (chromosome conformation capture)-coupled 
+
+<table>
+<tbody>
+<tr>
+<td><a href="https://github.com/hms-dbmi/higlass/wiki/Rectangular-heatmap"><img src="https://cloud.githubusercontent.com/assets/2143629/24176191/e66e26e0-0e70-11e7-84fd-e945b95048b7.png" height="50px"></a></td>
+<td><a href="https://github.com/hms-dbmi/higlass/wiki/Rectangular-heatmap">Rectangular heatmap</a></td>
+<td><ul><li>Transforms(ICE,KR,etc)-see Chap3.2</li><li>Value scaling(linear,log)</li><li>Zoom limit(5k-20M)</li></ul></td>
+</tr>
+</tbody>
+</table>
+
+
+
 inferred from pairwise contact frequencies, proximity ligation. 
 (expalin what one and many mean, pros and cons. )
 (draw a illustration try to cover the main experimental difference between diff methods)
