@@ -8,7 +8,7 @@ To capture the interaction (crosslink between strings), there are few steps to f
 - Analyze the components come from the same chromatin - **Reverse crosslink** and **sequence**
 - Finish the jigsaw puzzle and get the results - **Align** the reads and **summarize** the contacts
 
-
+Based on these general ideas, then we'll dive deeper 
 
 
 
