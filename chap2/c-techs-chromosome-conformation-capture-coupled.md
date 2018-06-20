@@ -3,7 +3,7 @@
 2. [Overivew of 3C methods](#231)<br>
     2.1. [Specificity](#2311)<br>
     2.2. [Through-put and resolution](#2312)
-3. [Hi-C](#paragraph2)
+3. [Hi-C](#233)
 
 ### 2.3.1 Introduction<a name="introduction"></a>
 
