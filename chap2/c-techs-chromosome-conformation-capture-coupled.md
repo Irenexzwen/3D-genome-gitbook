@@ -1,6 +1,6 @@
 ##2.2- C-Techs (chromosome conformation capture)-coupled 
 
-The foundamental object of 3C(Chromosome Conformation Capture) techniques and its derivation is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
+The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
 
 To capture the interaction ( crosslink between strings), there are few steps to follow in general:
 - Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
