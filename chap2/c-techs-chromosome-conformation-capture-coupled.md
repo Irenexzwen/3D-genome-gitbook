@@ -2,10 +2,11 @@
 
 The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
 
-To capture the interaction ( crosslink between strings), there are few steps to follow in general:
+To capture the interaction (crosslink between strings), there are few steps to follow in general:
 - Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
 - Zoom in on crosslinked part and exclude untangled parts - **Digested** with a restriction enzyme
 - Analyze the components come from the same chromatin - **Reverse crosslink** and **sequence**
+- Finish the jigsaw puzzle and get the results - **Align** the reads and **summarize** the contacts
 
 
 
