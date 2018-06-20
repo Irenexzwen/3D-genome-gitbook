@@ -1,23 +1,24 @@
-##2.3- C-Techs (chromosome conformation capture)-coupled 
+##2.3 C-Techs (chromosome conformation capture)-coupled 
 
 The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
 
-To capture the interaction (crosslink between strings), there are few steps to follow in general:
+To capture the interaction (crosslink between strings), there are few steps in general:
 - Take a snapshot of the flowing cells - **Crosslink** with fixative agent (formaldehyde)
 - Zoom in on crosslinked part and exclude untangled parts - **Digested** with a restriction enzyme
 - Analyze the components come from the same chromatin - **Reverse crosslink** and **sequence**
 - Finish the jigsaw puzzle and get the results - **Align** the reads and **summarize** the contacts
 
-Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
+> Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
 
 ### 2.3.1 Overivew of 3C methods
 
 ![](/assets/3creview.png)
-Figure I. Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme.
+*Figure I. Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme.*
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
-#### 1) Specificity: one, all, many 
+#### 1) Specificity - What is *one, all, many* 
+‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
 
 
 ### 2.2.1 One-to-one:
@@ -63,7 +64,9 @@ Measure interactions between genomic loci
 
 
 
-**Referrence **
+#Referrence
+[1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.
+
 https://doi.org/10.1016/j.csbj.2018.02.003<br>
 https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx 
 
