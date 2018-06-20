@@ -5,7 +5,7 @@
     2.2. [Through-put and resolution](#2312)
 3. [Another paragraph](#paragraph2)
 
-### 2.3.0 Introduction<a name="introduction"></a>
+### 2.3.1 Introduction<a name="introduction"></a>
 
 The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
 
@@ -17,7 +17,7 @@ To capture the interaction (crosslink between strings), there are few steps in g
 
 > Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
 
-### 2.3.1 Overivew of 3C methods<a name="231"></a>
+### 2.3.2 Overivew of 3C methods<a name="231"></a>
 
 ![](/assets/3creview.png)
 *Figure I. Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme.*
@@ -32,7 +32,12 @@ These kind of specificity is determined by the primer when people use **specific
 #### 2) Through-put and resolution<a name="2312"></a>
 Hi-C techniques has the highest through-put (billion reads per sample) but suffering of a relative low resolution of 0.1-1Mb. However, the other methods usually have a higher resolution  around 1kb. For more details one can refer to table2 in [2].
 
-### 2.2.2 
+### 2.3.3 Hi-C
+Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used at this time. 
+
+The principle of Hi-C can be illustrated as:
+![](/assets/hic.gif)
+
 
 ### 2.2.1 One-to-one:
 - 3C
