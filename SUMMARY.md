@@ -9,7 +9,6 @@
   * [2.1 Image based methods](chap2/image-based-methods.md)
   * [2.2 Primary-order  ](chap2/21-primal-order.md)
   * [2.3 Higher-order: C-Techs  ](chap2/c-techs-chromosome-conformation-capture-coupled.md)
-    * [2.3.1 Hi-C protocols ](chap2/c-techs-chromosome-conformation-capture-coupled/231-hi-c-protocols.md)
 * [Chap3 Computational analysis](chap2/chap3.md)
   * [3.1 Primary order data analysis ](chap2/chap3/31-primal-order-data-analysis-pipeline.md)
   * [3.2 Higher-order data analysis ](chap2/chap3/32-high-order-data-analysis-pipeline.md)
