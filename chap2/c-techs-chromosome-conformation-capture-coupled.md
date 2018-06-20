@@ -12,10 +12,14 @@ Based on these general ideas, then we'll dive deeper by walking through two of t
 
 ### 2.3.1 Overivew of 3C methods
 
+![](/assets/3creview.png)
+Figure I. Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme.
 
-(expalin what one and many mean, pros and cons. )
-(draw a illustration try to cover the main experimental difference between diff methods)
-[1][2] 
+To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
+
+#### 1) Specificity: one, all, many 
+
+
 ### 2.2.1 One-to-one:
 - 3C
 
