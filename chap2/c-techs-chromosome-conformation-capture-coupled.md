@@ -3,7 +3,7 @@
 2. [Overivew of 3C methods](#231)<br>
     2.1. [Specificity](#2311)<br>
     2.2. [Through-put and resolution](#2312)
-3. [Another paragraph](#paragraph2)
+3. [Hi-C](#paragraph2)
 
 ### 2.3.1 Introduction<a name="introduction"></a>
 
@@ -32,11 +32,15 @@ These kind of specificity is determined by the primer when people use **specific
 #### 2) Through-put and resolution<a name="2312"></a>
 Hi-C techniques has the highest through-put (billion reads per sample) but suffering of a relative low resolution of 0.1-1Mb. However, the other methods usually have a higher resolution  around 1kb. For more details one can refer to table2 in [2].
 
-### 2.3.3 Hi-C
-Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used at this time. 
+### 2.3.3 Hi-C<a name="233"></a>
+Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
 
 The principle of Hi-C can be illustrated as:
 ![](/assets/hic.gif)
+
+
+
+
 
 
 ### 2.2.1 One-to-one:
