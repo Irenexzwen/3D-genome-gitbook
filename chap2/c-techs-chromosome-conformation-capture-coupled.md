@@ -20,6 +20,11 @@ To better understand the difference between these methods, I'd like to distingus
 #### 1) Specificity - What does _one, all, many_ mean
 ‘1’, ‘Many’ and ‘All’ indicate how many loci are interrogated in a given experiment. For example, ‘1 versus All’ indicates that the experiment probes the interaction profile between 1 locus and all other potential loci in the genome. ‘All versus All’ means that one can detect the interaction profiles of all loci, genome-wide, and their interactions with all other genomic loci [1].
 
+These kind of specificity is determined by the primer when people use **specific primers** before PCR. 
+
+#### 2) Through-put and resolution
+Hi-C techniques has the highest through-put (billion reads per sample) but suffering of a relative low resolution of 0.1-1Mb. However, the other methods usually have a higher resolution  around 1kb. For more details one can refer to table2 in [2].
+
 
 ### 2.2.1 One-to-one:
 - 3C
@@ -66,6 +71,7 @@ Measure interactions between genomic loci
 
 #Referrence
 [1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.
+[2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.
 
 https://doi.org/10.1016/j.csbj.2018.02.003<br>
 https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx 
