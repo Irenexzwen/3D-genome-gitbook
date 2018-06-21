@@ -54,7 +54,7 @@ The principle of Hi-C can be illustrated as:
 - Adapter ligation: paired-end and indexing
 - PCR: create enough material for flow cell
 
-##### Hi-C derived techniques
+##### Hi-C derived techniques 引用注意添加
 - Hi-C original: Lieberman-Aiden et al., Science 2010
 - Hi-C 1.0: Belton-JM et al., Methods 2012
 - In situ Hi-C: Rao et al., Cell 2014
@@ -65,7 +65,7 @@ The principle of Hi-C can be illustrated as:
 - Hi-C quality: Oddes et al., BioRxiv 2018
 - Arima 1-day Hi-C: Ghurye et al., BioRxiv 2018
 
-### 2.3.4 ChIA-PET<a name="234"></a>
+### 2.3.4 ChIA-PET<a name="234"></a> 
 ChIA-PET is another method that combines ChIP and pair-end sequencing to analysis the chromtin interaction. It allows for targeted binding factors such as: estrogen receptor alpha, CTCF-mediated loops, RNA polymerase II, and a combination of key architectural factors. on the one hand, it has the benefit of achieving a higher resolution compared to Hi-C, as only ligation products involving the immunoprecipitated molecule are sequenced, on the other hand, ChIA-PET has systematic biases due to ChIP process:
 - Only one type of binding factor selected
 - Different antibodies
@@ -73,7 +73,7 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 
 The principle of ChIA-PET can be illustrated as:
 
-###2.3.5 Selected methods comparison<a name="235"></a>
+###2.3.5 Selected methods comparison<a name="235"></a> **add year of invention 
 <table>
 <tbody>
 <tr>
