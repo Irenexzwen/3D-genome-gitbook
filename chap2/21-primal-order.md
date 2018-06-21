@@ -18,6 +18,28 @@
 ### MNase-seq<a name="d"></a>
 ### FAIRE-seq<a name="e"></a>
 
+##2.2.3 Selected methods comparison<a name="235"></a> **add year of invention 
+<table>
+<tbody>
+<tr>
+<td>Method</td>
+<td>Descriptions</td>
+<td>Resolutions</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
