@@ -5,7 +5,8 @@
     2.2. [Through-put and resolution](#2312)
 3. [Hi-C](#233)
 4. [ChIA-PET](#234)
-5.
+5. [Selected methods comparison](#235)
+
 
 
 
@@ -72,52 +73,25 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 
 The principle of ChIA-PET can be illustrated as:
 
-###2.3.5 Selected methods comparison
+###2.3.5 Selected methods comparison<a name="235"></a>
+<table>
+<tbody>
+<tr>
+<td>Method</td>
+<td>Descriptions</td>
+<td>Resolutions</td>
+</tr>
+</tbody>
+</table>
 
 
 
 
 
-### 2.2.1 One-to-one:
-- 3C
 
-### 2.2.2 One-to-all:
-- Multiplexed 3C-seq
-- Open-ended 3C
-- 3C-DSL
-- 4C
-- 4C-seq
-- TLA
-- e4C
-- ACT
 
-### 2.2.3 Many-to-many:
-- 5C
-- ChIA-PET 
 
-### 2.2.4 Many-to-all
-- Capture-3C
-- Capture-HiC
-- PLAC-seq/HiChIP
 
-### 2.2.5 All to all 
-- GCC
-- Hi-C
-- ELP
-- TCC
-
-### Hi-C enrichment
-- Single-cell
-- In situ/DNase/Micro-HiC
-
-## Another methods for classification:
-### Locus-landmark: 
-Measure interactions of genomic loci with relatively fixed nuclear ‘landmarks’
-- Techniques: ChIP, DamID, TSA-seq
-
-### Locus-locus: 
-Measure interactions between genomic loci
-- Techniques: 3C, Hi-C, ChIA-PET etc.
 
 
 
