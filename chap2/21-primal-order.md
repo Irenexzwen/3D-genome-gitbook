@@ -1,5 +1,6 @@
 # Experimental techniques for accessing primary-order Chromatin
-(expand on features, illustration for comparison)
+![](/assets/primary.png)
+
 - MNase-seq
 - DNase-seq
 - FAIRE-seq 
