@@ -74,15 +74,19 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 The principle of ChIA-PET can be illustrated as:
 
 ###2.3.5 Selected methods comparison<a name="235"></a> **add year of invention 
-<table>
-<tbody>
+<!-- Table goes in the document BODY -->
+<table class="gridtable">
 <tr>
-<td>Method</td>
-<td>Descriptions</td>
-<td>Resolutions</td>
+	<th>Info Header 1</th><th>Info Header 2</th><th>Info Header 3</th>
 </tr>
-</tbody>
+<tr>
+	<td>Text 1A</td><td>Text 1B</td><td>Text 1C</td>
+</tr>
+<tr>
+	<td>Text 2A</td><td>Text 2B</td><td>Text 2C</td>
+</tr>
 </table>
+
 
 
 
