@@ -1,4 +1,4 @@
-##2.3 C-Techs (chromosome conformation capture)-coupled 
+#2.3 C-Techs (chromosome conformation capture)-coupled 
 1. [Introduction](#231)
 2. [Overivew of 3C methods](#232)<br>
     2.1. [Specificity](#2321)<br>
@@ -10,7 +10,7 @@
 
 
 
-### 2.3.1 Introduction<a name="231"></a>
+## 2.3.1 Introduction<a name="231"></a>
 
 The foundamental object of 3C(Chromosome Conformation Capture) techniques and 3C-derived methods is to understand the physical wiring diagram of the genome by identifying the physical interaction between chromosomes. 
 
@@ -22,7 +22,7 @@ To capture the interaction (crosslink between strings), there are few steps in g
 
 > Based on these general ideas, then we'll dive deeper by walking through two of the most popular  techniques and then briefly introduce some other methods. 
 
-### 2.3.2 Overivew of 3C methods<a name="232"></a>
+## 2.3.2 Overivew of 3C methods<a name="232"></a>
 
 ![](/assets/3creview.png)
 *Figure I. Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme.*
@@ -37,7 +37,7 @@ These kind of specificity is determined by the primer when people use **specific
 #### 2) Through-put and resolution<a name="2322"></a>
 Hi-C techniques has the highest through-put (billion reads per sample) but suffering of a relative low resolution of 0.1-1Mb. However, the other methods usually have a higher resolution  around 1kb. For more details one can refer to table2 in [2].
 
-### 2.3.3 Hi-C<a name="233"></a>
+## 2.3.3 Hi-C<a name="233"></a>
 Hi-C is the highest through-put version of 3C-derived technologies. Due to the decreasing cost of 2nd generation sequencing, hi-c is widely used.
 
 The principle of Hi-C can be illustrated as:
@@ -65,7 +65,7 @@ The principle of Hi-C can be illustrated as:
 - Hi-C quality: Oddes et al., BioRxiv 2018
 - Arima 1-day Hi-C: Ghurye et al., BioRxiv 2018
 
-### 2.3.4 ChIA-PET<a name="234"></a> 
+## 2.3.4 ChIA-PET<a name="234"></a> 
 ChIA-PET is another method that combines ChIP and pair-end sequencing to analysis the chromtin interaction. It allows for targeted binding factors such as: estrogen receptor alpha, CTCF-mediated loops, RNA polymerase II, and a combination of key architectural factors. on the one hand, it has the benefit of achieving a higher resolution compared to Hi-C, as only ligation products involving the immunoprecipitated molecule are sequenced, on the other hand, ChIA-PET has systematic biases due to ChIP process:
 - Only one type of binding factor selected
 - Different antibodies
@@ -73,7 +73,7 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 
 The principle of ChIA-PET can be illustrated as:
 
-###2.3.5 Selected methods comparison<a name="235"></a> **add year of invention 
+##2.3.5 Selected methods comparison<a name="235"></a> **add year of invention 
 <table>
   <tr>
     <th>Tracks</th>
