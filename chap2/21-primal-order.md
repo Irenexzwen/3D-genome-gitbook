@@ -9,7 +9,7 @@
 3. [Selected methods comparison](#223)
 
 ## 2.2.1 Introduction<a name="introduction"></a>
-These methods are mainly aimed for open chromotin area. 
+The primary-order chromatin usually refers to the unpacked chromatin fiber where 11-nm coils of nucleosomes are exposed [[1]](https://doi.org/10.1016/j.csbj.2018.02.003).Primary structure encompasses DNA methylation (pink) and sequence features, DNA-bound factors (blue), nucleosome position and modifications (multicolored), and DNA accessibility. Secondary
 ## 2.2.2 Selected methods for primary structure<a name="222"></a>
 ![](/assets/primary.png)
 ### ChIP-seq<a name="a"></a>
@@ -55,7 +55,7 @@ FAIRE-seq [[6]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formaldeh
 
 
 **Referrence **
-https://doi.org/10.1016/j.csbj.2018.02.003
+[1] Chang, Pearl, et al. "Computational Methods for Assessing Chromatin Hierarchy." Computational & Structural Biotechnology Journal (2018).
 
 [5] Barski, Artem, et al. "High-resolution profiling of histone methylations in the human genome." Cell 129.4 (2007): 823-837. **This paper reports the first use of MNase digestion followed by ChIP–seq**
 [6] Schones, Dustin E., et al. "Dynamic regulation of nucleosome positioning in the human genome." Cell 132.5 (2008): 887-898.
