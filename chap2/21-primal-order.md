@@ -25,13 +25,13 @@ FAIRE-seq [[6]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formaldeh
 
 ##2.2.3 Selected methods comparison<a name="223"></a> **add year of invention 
 <table>
-<tbody>
-<tr>
-<td>Method</td>
-<td>Descriptions</td>
-<td>Resolutions</td>
-</tr>
-</tbody>
+ <tbody>
+    <tr>
+        <td>Method</td>
+        <td>Descriptions</td>
+        <td>Resolutions</td>
+    </tr>
+ </tbody>
 </table>
 
 
