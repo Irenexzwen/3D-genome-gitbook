@@ -49,13 +49,6 @@ FAIRE-seq [[6]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formaldeh
 
 
 
-
-
-
-
-
-
-
 **Referrence **
 [1] Chang, Pearl, et al. "Computational Methods for Assessing Chromatin Hierarchy." Computational & Structural Biotechnology Journal (2018).
 [2] Risca, Viviana I,, and W. J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7(2015):357-372.
