@@ -13,8 +13,9 @@ The primary-order chromatin usually refers to the unpacked chromatin fiber where
 ## 2.2.2 Selected methods for primary structure<a name="222"></a>
 ![](/assets/primary.png)
 ### ChIP-seq<a name="a"></a>
-ChIP-seq [[3]](http://www.genome.org/cgi/doi/10.1101/gr.136184.111.) (Chromatin immunoprecipitation followed by next-generation DNA sequencing). A method to identify DNA-associated protein-binding sites. Chromatin is fixed in cells then fragmented by sonication or MNase digestion before enrichment for the protein epitope of interest using a specific antibody. Crosslinks are reversed using proteinase K and heat and the DNA is then prepared for analysis by sequencing, array hybridization, or PCR[[2]].
+ChIP-seq [[3]](http://www.genome.org/cgi/doi/10.1101/gr.136184.111.) (Chromatin immunoprecipitation followed by next-generation DNA sequencing). A method to identify DNA-associated protein-binding sites. Chromatin is fixed in cells then fragmented by sonication or MNase digestion before enrichment for the protein epitope of interest using a specific antibody. Crosslinks are reversed using proteinase K and heat and the DNA is then prepared for analysis by sequencing, array hybridization, or PCR [[2]](http://dx.doi.org/10.1016/j.tig.2015.03.010).
 ### DNase-seq<a name="b"></a>
+A method in which DNase I digestion of chromatin is combined with next-generation sequencing to identify regulatory regions of the genome, including enhancers and promoters.
 ### ATAC-seq<a name="c"></a>
 
 ### MNase-seq<a name="d"></a>
