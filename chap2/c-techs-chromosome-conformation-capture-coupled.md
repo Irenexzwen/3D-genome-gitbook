@@ -62,7 +62,6 @@ The principle of Hi-C can be illustrated as:
 - Hi-C 2.0: [Belaghzal et al., Methods 2017](doi: 10.1016/j.ymeth.2017.04.004)
 - DLO-Hi-C: [Lin et al., Nature Genetics 2018](https://doi.org/10.1038/s41588-018-0111-2)
 - Hi-C improving: [Golloshi et al., Methods 2018](https://www.biorxiv.org/content/biorxiv/early/2018/02/13/264515.full.pdf)
-- Hi-C quality: Oddes et al., BioRxiv 2018
 - Arima 1-day Hi-C: Ghurye et al., BioRxiv 2018
 
 ## 2.3.4 ChIA-PET<a name="234"></a> 
