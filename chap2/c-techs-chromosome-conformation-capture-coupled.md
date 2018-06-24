@@ -75,35 +75,46 @@ The principle of ChIA-PET can be illustrated as:
 
 ##2.3.5 Selected methods comparison<a name="235"></a> **add year of invention 
 <table>
-  <tr>
-    <th>Tracks</th>
-    <th>Tools</th>
-    <th>Filetype</th>
-  </tr>
-  <tr>
-    <td>Contact matrix</td>
-    <td>cooler</td>
-    <td>cool</td>
-  </tr>
-  <tr>
-    <td>Line</td>
-    <td>clodius</td>
-    <td>BigWig\bedGraphs</td>
-  </td>
-  </tr>
-  <tr>
-    <td>TAD annotation</td>
-    <td>clodius</td>
-    <td>bed-like</td>
-  </td>
-  </tr>
-  <tr>
-    <td>Gene annotation</td>
-    <td>clodius</td>
-    <td>bed-like</td>
-  </td>
-  </tr>
+ <tbody>
+    <tr>
+        <th>Method</td>
+        <th>Targets</td>
+        <th>Resolution(bp)</td>
+        <th>Notes</td>
+    </tr>
+    <tr>
+        <td>ChIP-seq</td>
+        <td>Mapping of DNA- bound proteins<br>(including nucleosomes)</td>
+        <td>~100</td>
+        <td><ul><li><b>Higher resolution than ChIP-chip</b></li><li>Bias towards CG-rich sequence</li></ul></td>
+    </tr>
+    <tr>
+    <td>DNase-seq</td>
+    <td>Open chromatin</td>
+    <td>~1</td>
+    <td><ul><li><b>Detects TF footprints</li><li><b>Greater sensitivity at promoters than FAIRE-seq</b><\li><li>Bias towards CG-rich sequence</li><li>Time-consuming</li></ul></td>
+    </tr>
+    <tr>
+    <td>ATAC-seq</td>
+    <td>Open chromatin<br>nucleosome positions<br>TF footprints</td>
+    <td>~1</td>
+    <td><ul><li><b>Simple, fast protocol</li><li><b>lower input requirements</b><\li><li>Bias towards CG-rich sequences<br>sequence bias of Tn5 transposase </li><li>Fresh tissue isolation, mitochondrial DNA contamination, immature data analysis tools</li></ul></td>
+    </tr>
+    <tr>
+    <td>MNase-seq</td>
+    <td>Nucleosomes<br>Inferred closed regions</td>
+    <td>~1-10</td>
+    <td><ul><li><b>Genome-wide nucleosome core positioning</li><li>large numbers of reads for sufficient depth</li><li>MNase sequence bias</li></ul></td>
+    </tr>
+    <tr>
+    <td>FAIRE-seq</td>
+    <td>Open chromatin</td>
+    <td>~200</td>
+    <td><ul><li><b>Simple experimental procedure</li><li>Variable crosslink efficienc</li><li>lower resolution</li><li>high noise-to-signal ratio</li></ul></td>
+    </tr>
+ </tbody>
 </table>
+
 
 
 
