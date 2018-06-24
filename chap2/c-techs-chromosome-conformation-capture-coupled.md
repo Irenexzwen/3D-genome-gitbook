@@ -54,7 +54,7 @@ The principle of Hi-C can be illustrated as:
 - Adapter ligation: paired-end and indexing
 - PCR: create enough material for flow cell
 
-##### Hi-C derived techniques 引用注意添加
+##### Hi-C derived techniques 
 - Hi-C original: [Lieberman-Aiden et al., Science 2010](doi: 10.1126/science.1181369)
 - Hi-C 1.0: [Belton-JM et al., Methods 2012](doi: 10.1016/j.ymeth.2012.05.001)
 - In situ Hi-C: [Rao et al., Cell 2014](doi: 10.1016/j.cell.2014.11.021)
@@ -79,36 +79,36 @@ The principle of ChIA-PET can be illustrated as:
     <tr>
         <th>Method</td>
         <th>Targets</td>
-        <th>Resolution(bp)</td>
+        <th>Resolution</td>
         <th>Notes</td>
     </tr>
     <tr>
-        <td>ChIP-seq</td>
-        <td>Mapping of DNA- bound proteins<br>(including nucleosomes)</td>
-        <td>~100</td>
+        <td>3C</td>
+        <td>one-vs-one</td>
+        <td>~1–10 kb<br></td>
         <td><ul><li><b>Higher resolution than ChIP-chip</b></li><li>Bias towards CG-rich sequence</li></ul></td>
     </tr>
     <tr>
-    <td>DNase-seq</td>
-    <td>Open chromatin</td>
-    <td>~1</td>
+    <td>4C</td>
+    <td>one-vs-all</td>
+    <td>~10 Mb</td>
     <td><ul><li><b>Detects TF footprints</li><li><b>Greater sensitivity at promoters than FAIRE-seq</b><\li><li>Bias towards CG-rich sequence</li><li>Time-consuming</li></ul></td>
     </tr>
     <tr>
-    <td>ATAC-seq</td>
-    <td>Open chromatin<br>nucleosome positions<br>TF footprints</td>
-    <td>~1</td>
+    <td>5C</td>
+    <td>many-vs-many</td>
+    <td>~1 kb</td>
     <td><ul><li><b>Simple, fast protocol</li><li><b>lower input requirements</b><\li><li>Bias towards CG-rich sequences<br>sequence bias of Tn5 transposase </li><li>Fresh tissue isolation, mitochondrial DNA contamination, immature data analysis tools</li></ul></td>
     </tr>
     <tr>
-    <td>MNase-seq</td>
-    <td>Nucleosomes<br>Inferred closed regions</td>
+    <td>Hi-C</td>
+    <td>all-vs-all</td>
     <td>~1-10</td>
     <td><ul><li><b>Genome-wide nucleosome core positioning</li><li>large numbers of reads for sufficient depth</li><li>MNase sequence bias</li></ul></td>
     </tr>
     <tr>
-    <td>FAIRE-seq</td>
-    <td>Open chromatin</td>
+    <td>ChIA-PET</td>
+    <td>interaction of whole genome mediated by protein</td>
     <td>~200</td>
     <td><ul><li><b>Simple experimental procedure</li><li>Variable crosslink efficienc</li><li>lower resolution</li><li>high noise-to-signal ratio</li></ul></td>
     </tr>
