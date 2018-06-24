@@ -4,7 +4,6 @@ Before the advent of C-technologies, the predominant method to study 3D genome o
 - visualize DNA & RNA
  - FISH
  - HIPMap
- - etc... 
  
 - Ultra structure and 3D organization
  - EM based (ChromEM)
