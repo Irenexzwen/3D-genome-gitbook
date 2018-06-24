@@ -24,13 +24,20 @@ Nucleosome-associated DNA is particularly insensitive to digestion by **micrococ
 ### FAIRE-seq<a name="e"></a>
 FAIRE-seq [[10]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formaldehyde-assisted isolation of regulatory elements followed by sequencing**. Nucleosome-bound DNA is crosslinked and removed by phenol–chloroform extraction and the remaining nucleosome- free DNA is analyzed by microarray or sequencing.This is a simpler assay for open chromatin than DNase-seq, although its **resolution** is somewhat lower (around 200bp).
 
-##2.2.3 Selected methods comparison<a name="223"></a> **add year of invention 
+##2.2.3 Selected methods comparison<a name="223"></a> 
 <table>
  <tbody>
     <tr>
-        <td>Method</td>
-        <td>Descriptions</td>
-        <td>Resolutions</td>
+        <th>Method</td>
+        <th>Targets</td>
+        <th>Resolution(bp)</td>
+        <th>Notes</td>
+    </tr>
+    <tr>
+        <td>ChIP-seq</td>
+        <td>Mapping of DNA- bound proteins<br>(including nucleosomes)</td>
+        <td>~100</td>
+        <td><ul><li>higher resolution than ChIP-chip</li><li>Bias towards CG-rich sequence</li></ul></td>
     </tr>
  </tbody>
 </table>
@@ -50,7 +57,8 @@ FAIRE-seq [[10]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formalde
 
 
 
-**Referrence **
+
+# Referrence 
 [1] Chang, Pearl, et al. "Computational Methods for Assessing Chromatin Hierarchy." Computational & Structural Biotechnology Journal (2018).
 [2] Risca, Viviana I,, and W. J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7(2015):357-372.
 [3] Landt, Stephen G., et al. "ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia." Genome research 22.9 (2012): 1813-1831.
