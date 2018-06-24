@@ -35,9 +35,15 @@ FAIRE-seq [[10]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formalde
     </tr>
     <tr>
         <td>ChIP-seq</td>
-        <td>Mapping of DNA- bound proteins<br>(including nucleosomes)</td>
-        <td>~100</td>
-        <td><ul><li>higher resolution than ChIP-chip</li><li>Bias towards CG-rich sequence</li></ul></td>
+        <td>Open chromatin</td>
+        <td>~1</td>
+        <td><ul><li>Higher resolution than ChIP-chip</li><li>Bias towards CG-rich sequence</li></ul></td>
+    </tr>
+    <tr>
+    <td>DNase-seq</td>
+    <td>Mapping of DNA- bound proteins<br>(including nucleosomes)</td>
+    <td>~100</td>
+    <td><ul><li>Detects TF footprints</li><li>Bias towards CG-rich sequence</li></ul></td>
     </tr>
  </tbody>
 </table>
