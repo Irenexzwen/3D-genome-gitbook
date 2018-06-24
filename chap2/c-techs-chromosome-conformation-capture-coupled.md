@@ -83,13 +83,13 @@ The principle of ChIA-PET can be illustrated as:
         <th>Notes</td>
     </tr>
     <tr>
-        <td>3C</td>
+        <td>3C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0535">[3]</a></td>
         <td>one-vs-one</td>
         <td>~1–10 kb<br></td>
         <td><ul><li>Sequence of bait locus must be known</li><li>Easy data analysis</li><li>Low throughput</li></ul></td>
     </tr>
     <tr>
-    <td>4C</td>
+    <td>4C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0545">[4]</a></td>
     <td>one-vs-all</td>
     <td>~2 kb</td>
     <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts<\li><li>Long-range contacts</li></ul></td>
@@ -134,7 +134,10 @@ The principle of ChIA-PET can be illustrated as:
 #Referrence
 [1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.
 [2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.
-
+[3] Dekker J, Rippe K, Dekker M, Kleckner N. Capturing chromosome conformation. Science 2002;295(5558):1306–11
+[4] Simonis M, Klous P, Homminga I, Galjaard RJ, Rijkers EJ, Grosveld F, et al. High-res- olution identification of balanced and complex chromosomal rearrangements by 4C technology. Nature Methods 2009;6(11):837–42.
+[5]
+[6]
 https://doi.org/10.1016/j.csbj.2018.02.003<br>
 https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx 
 
