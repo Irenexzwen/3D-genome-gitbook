@@ -73,7 +73,7 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 
 The principle of ChIA-PET can be illustrated as:
 
-##2.3.5 Selected methods comparison<a name="235"></a> **add year of invention 
+##2.3.5 Selected methods comparison<a name="235"></a> 
 <table>
  <tbody>
     <tr>
@@ -92,25 +92,26 @@ The principle of ChIA-PET can be illustrated as:
     <td>4C</td>
     <td>one-vs-all</td>
     <td>~2 kb</td>
-    <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts<\li><li>long-range contacts</li></ul></td>
+    <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts<\li><li>Long-range contacts</li></ul></td>
     </tr>
     <tr>
     <td>5C</td>
     <td>many-vs-many</td>
     <td>~1 kb</td>
-    <td><ul><li><b>Simple, fast protocol</li><li><b>lower input requirements</b><\li><li>Bias towards CG-rich sequences<br>sequence bias of Tn5 transposase </li><li>Fresh tissue isolation, mitochondrial DNA contamination, immature data analysis tools</li></ul></td>
+    <td><ul><li>High dynamic range</li><li>Complete contact map of a locus<\li><li>3C with ligation-mediated amplification (LMA) of a ‘carbon copy’ library of oligos designed across restriction fragment junctions of interest
+3C</li></ul></td>
     </tr>
     <tr>
     <td>Hi-C</td>
     <td>all-vs-all</td>
-    <td>~1-10</td>
-    <td><ul><li><b>Genome-wide nucleosome core positioning</li><li>large numbers of reads for sufficient depth</li><li>MNase sequence bias</li></ul></td>
+    <td>0.1–1 Mb</td>
+    <td><ul><li>Genome-wide nucleosome core positioning</li><li>Relative low resolution</li><li>High cost</li></ul></td>
     </tr>
     <tr>
     <td>ChIA-PET</td>
-    <td>interaction of whole genome mediated by protein</td>
-    <td>~200</td>
-    <td><ul><li><b>Simple experimental procedure</li><li>Variable crosslink efficienc</li><li>lower resolution</li><li>high noise-to-signal ratio</li></ul></td>
+    <td>Interaction of whole genome mediated by protein</td>
+    <td>Depends on read depth and the size of the genome region bound by the protein of interest</td>
+    <td><ul><li>Lower noise with ChIP</li><li>Biased method since selected protein</li></ul></td>
     </tr>
  </tbody>
 </table>
