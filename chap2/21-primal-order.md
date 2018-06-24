@@ -15,8 +15,9 @@ The primary-order chromatin usually refers to the unpacked chromatin fiber where
 ### ChIP-seq<a name="a"></a>
 ChIP-seq [[3]](http://www.genome.org/cgi/doi/10.1101/gr.136184.111.) (Chromatin immunoprecipitation followed by next-generation DNA sequencing). A method to identify DNA-associated protein-binding sites. Chromatin is fixed in cells then fragmented by sonication or MNase digestion before enrichment for the protein epitope of interest using a specific antibody. Crosslinks are reversed using proteinase K and heat and the DNA is then prepared for analysis by sequencing, array hybridization, or PCR [[2]](http://dx.doi.org/10.1016/j.tig.2015.03.010).
 ### DNase-seq<a name="b"></a>
-A method in which DNase I digestion of chromatin is combined with next-generation sequencing to identify regulatory regions of the genome, including enhancers and promoters.
+DNase-seq [[4]](https://www.nature.com/articles/nmeth.1313) is a method in which DNase I digestion of chromatin is combined with next-generation sequencing to identify regulatory regions of the genome, including enhancers and promoters and TF footprint.DNA in isolated nuclei is digested with DNase I at a concentration that must be optimized for each experiment. A library is prepared from the digested fragments by ligation of adapters and cleavage of ~20-bp sequence tags followed by size selection of a unique library molecule size or by biochemical fractionation of fragments followed by ligation of sequencing adapters [[2]](http://dx.doi.org/10.1016/j.tig.2015.03.010).
 ### ATAC-seq<a name="c"></a>
+ATAC-seq [[5]] (https://www.ncbi.nlm.nih.gov/pubmed/24097267)(Assay for transposase- accessible chromatin using sequencing). A method that combines next-generation sequencing with in vitro transposition of sequencing adapters into native chromatin.Tn5 transposase is used to transpose sequencing adapter oligos into the gDNA of permeabilized, unfixed cells. The resulting library is then purified and sequenced.
 
 ### MNase-seq<a name="d"></a>
 Nucleosome-associated DNA is particularly insensitive to digestion by **micrococcal nuclease (MNase)**. With this feature, MNase-seq [[5]](https://doi.org/10.1016/j.cell.2007.05.009) [[6]](https://doi.org/10.1016/j.cell.2008.02.022) [[7]](https://www.nature.com/articles/ng.545) is a powerful tool to study the open chromotin region. The enzyme cut the exposed DNA with sticky ends. Just like the packman shows, the enzyme will digest the helix until it reaches an obstruction，such as a nuecleosome or other proteins [[8]](https://doi.org/10.1038/nrg3788).
@@ -53,6 +54,7 @@ FAIRE-seq [[6]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formaldeh
 [1] Chang, Pearl, et al. "Computational Methods for Assessing Chromatin Hierarchy." Computational & Structural Biotechnology Journal (2018).
 [2] Risca, Viviana I,, and W. J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7(2015):357-372.
 [3] Landt, Stephen G., et al. "ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia." Genome research 22.9 (2012): 1813-1831.
+[4] Hesselberth, Jay R., et al. "Global mapping of protein-DNA interactions in vivo by digital genomic footprinting." Nature methods 6.4 (2009): 283.  **DNASE**
 [5] Barski, Artem, et al. "High-resolution profiling of histone methylations in the human genome." Cell 129.4 (2007): 823-837. **This paper reports the first use of MNase digestion followed by ChIP–seq**
 [6] Schones, Dustin E., et al. "Dynamic regulation of nucleosome positioning in the human genome." Cell 132.5 (2008): 887-898.
 [7] He, Housheng Hansen, et al. "Nucleosome dynamics define transcriptional enhancers." Nature genetics 42.4 (2010): 343.
