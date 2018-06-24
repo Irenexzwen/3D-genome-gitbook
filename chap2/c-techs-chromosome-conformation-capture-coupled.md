@@ -86,13 +86,13 @@ The principle of ChIA-PET can be illustrated as:
         <td>3C</td>
         <td>one-vs-one</td>
         <td>~1–10 kb<br></td>
-        <td><ul><li><b>Higher resolution than ChIP-chip</b></li><li>Bias towards CG-rich sequence</li></ul></td>
+        <td><ul><li>Sequence of bait locus must be known</li><li>Easy data analysis</li><li>Low throughput</li></ul></td>
     </tr>
     <tr>
     <td>4C</td>
     <td>one-vs-all</td>
-    <td>~10 Mb</td>
-    <td><ul><li><b>Detects TF footprints</li><li><b>Greater sensitivity at promoters than FAIRE-seq</b><\li><li>Bias towards CG-rich sequence</li><li>Time-consuming</li></ul></td>
+    <td>~2 kb</td>
+    <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts<\li><li>long-range contacts</li></ul></td>
     </tr>
     <tr>
     <td>5C</td>
