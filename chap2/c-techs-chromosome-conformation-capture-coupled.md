@@ -44,12 +44,12 @@ The principle of Hi-C can be illustrated as:
 ![](/assets/hic.gif)
 
 
-##### Hi-C critical steps
+##### Hi-C critical steps [8] 
 - Fixation: keep DNA conformed
-- Digestion: enzyme frequency and penetration
+- Digestion: enzyme frequency and penetratin
 - Fill-in: biotin for junction enrichment
 - Ligation: freeze interactions in sequence
-- Biotin removal: junctions only!
+- Biotin removal: junctions only
 - Fragment size: small fragments sequence better
 - Adapter ligation: paired-end and indexing
 - PCR: create enough material for flow cell
@@ -95,20 +95,20 @@ The principle of ChIA-PET can be illustrated as:
     <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts<\li><li>Long-range contacts</li></ul></td>
     </tr>
     <tr>
-    <td>5C</td>
+    <td>5C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0550">[5]</a></td>
     <td>many-vs-many</td>
     <td>~1 kb</td>
     <td><ul><li>High dynamic range</li><li>Complete contact map of a locus<\li><li>3C with ligation-mediated amplification (LMA) of a ‘carbon copy’ library of oligos designed across restriction fragment junctions of interest
 3C</li></ul></td>
     </tr>
     <tr>
-    <td>Hi-C</td>
+    <td>Hi-C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0300">[6]</a></td>
     <td>all-vs-all</td>
     <td>0.1–1 Mb</td>
     <td><ul><li>Genome-wide nucleosome core positioning</li><li>Relative low resolution</li><li>High cost</li></ul></td>
     </tr>
     <tr>
-    <td>ChIA-PET</td>
+    <td>ChIA-PET <a href="">[7]</a></td>
     <td>Interaction of whole genome mediated by protein</td>
     <td>Depends on read depth and the size of the genome region bound by the protein of interest</td>
     <td><ul><li>Lower noise with ChIP</li><li>Biased method since selected protein</li></ul></td>
@@ -136,9 +136,9 @@ The principle of ChIA-PET can be illustrated as:
 [2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.
 [3] Dekker J, Rippe K, Dekker M, Kleckner N. Capturing chromosome conformation. Science 2002;295(5558):1306–11
 [4] Simonis M, Klous P, Homminga I, Galjaard RJ, Rijkers EJ, Grosveld F, et al. High-res- olution identification of balanced and complex chromosomal rearrangements by 4C technology. Nature Methods 2009;6(11):837–42.
-[5]
-[6]
-https://doi.org/10.1016/j.csbj.2018.02.003<br>
-https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx 
+[5] Dostie J, Richmond TA, Arnaout RA, Selzer RR, Lee WL, Honan TA, et al. Chromo- some Conformation Capture Carbon Copy (5C): a massively parallel solution for mapping interactions between genomic elements. Genome Res 2006;16(10): 1299–309
+[6] Lieberman-Aiden E, van Berkum NL, Williams L, Imakaev M, Ragoczy T, Telling A, et al. Comprehensive mapping of long-range interactions reveals folding principles of the human genome. Science 2009;326(5950):289–93.
+[7] Fullwood, M.J. et al. (2009) An oestrogen-receptor-alpha-bound human chromatin interactome. Nature 462, 58–64
+[8] https://github.com/hms-dbmi/hic-data-analysis-bootcamp/blob/master/HiC-Protocol.pptx 
 
 
