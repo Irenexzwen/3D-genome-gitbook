@@ -108,7 +108,7 @@ The principle of ChIA-PET can be illustrated as:
     <td><ul><li>Genome-wide nucleosome core positioning</li><li>Relative low resolution</li><li>High cost</li></ul></td>
     </tr>
     <tr>
-    <td>ChIA-PET <a href="">[7]</a></td>
+    <td>ChIA-PET <a href="http://refhub.elsevier.com/S0168-9525(15)00063-3/sbref1405">[7]</a></td>
     <td>Interaction of whole genome mediated by protein</td>
     <td>Depends on read depth and the size of the genome region bound by the protein of interest</td>
     <td><ul><li>Lower noise with ChIP</li><li>Biased method since selected protein</li></ul></td>
