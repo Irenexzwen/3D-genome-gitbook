@@ -37,19 +37,25 @@ FAIRE-seq [[10]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formalde
         <td>ChIP-seq</td>
         <td>Mapping of DNA- bound proteins<br>(including nucleosomes)</td>
         <td>~100</td>
-        <td><ul><li>Higher resolution than ChIP-chip</li><li>Bias towards CG-rich sequence</li></ul></td>
+        <td><ul><li><b>Higher resolution than ChIP-chip</b></li><li>Bias towards CG-rich sequence</li></ul></td>
     </tr>
     <tr>
     <td>DNase-seq</td>
     <td>Open chromatin</td>
     <td>~1</td>
-    <td><ul><li>Detects TF footprints</li><li>Greater sensitivity at promoters than FAIRE-seq<\li><li>Bias towards CG-rich sequence</li><li>Time-consuming</li></ul></td>
+    <td><ul><li><b>Detects TF footprints</li><li><b>Greater sensitivity at promoters than FAIRE-seq</b><\li><li>Bias towards CG-rich sequence</li><li>Time-consuming</li></ul></td>
     </tr>
     <tr>
     <td>ATAC-seq</td>
-    <td>Open chromatin</td>
+    <td>Open chromatin<br>nucleosome positions<br>TF footprints</td>
     <td>~1</td>
-    <td><ul><li>Detects TF footprints</li><li>Greater sensitivity at promoters than FAIRE-seq<\li><li>Bias towards CG-rich sequence</li><li>Time-consuming</li></ul></td>
+    <td><ul><li><b>Simple, fast protocol</li><li><b>lower input requirements</b><\li><li>Bias towards CG-rich sequences<br>sequence bias of Tn5 transposase </li><li>Fresh tissue isolation, mitochondrial DNA contamination, immature data analysis tools</li></ul></td>
+    </tr>
+    <tr>
+    <td>MNase-seq</td>
+    <td>Nucleosomes<br>Inferred closed regions</td>
+    <td>~1</td>
+    <td><ul><li><b>Simple, fast protocol</li><li><b>lower input requirements</b><\li><li>Bias towards CG-rich sequences<br>sequence bias of Tn5 transposase </li><li>Fresh tissue isolation, mitochondrial DNA contamination, immature data analysis tools</li></ul></td>
     </tr>
  </tbody>
 </table>
