@@ -65,7 +65,7 @@ FAIRE-seq [[10]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formalde
     </tr>
  </tbody>
 </table>
-
+* Other techniques for primary-order structure detection one can refer to review [2]. Comprehensive discussion for technical bias of these methods one can refer to review [9].
 
 
 
