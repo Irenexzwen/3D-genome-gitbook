@@ -54,8 +54,14 @@ FAIRE-seq [[10]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formalde
     <tr>
     <td>MNase-seq</td>
     <td>Nucleosomes<br>Inferred closed regions</td>
-    <td>~1</td>
-    <td><ul><li><b>Simple, fast protocol</li><li><b>lower input requirements</b><\li><li>Bias towards CG-rich sequences<br>sequence bias of Tn5 transposase </li><li>Fresh tissue isolation, mitochondrial DNA contamination, immature data analysis tools</li></ul></td>
+    <td>~1-10</td>
+    <td><ul><li><b>Genome-wide nucleosome core positioning</li><li>large numbers of reads for sufficient depth</li><li>MNase sequence bias</li></ul></td>
+    </tr>
+    <tr>
+    <td>FAIRE-seq</td>
+    <td>Open chromatin</td>
+    <td>~200</td>
+    <td><ul><li><b>Simple experimental procedure</li><li>Variable crosslink efficienc</li><li>lower resolution</li><li>high noise-to-signal ratio</li></ul></td>
     </tr>
  </tbody>
 </table>
