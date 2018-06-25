@@ -90,7 +90,7 @@ To determine how the genome operates, we need to understand not only the linear 
     <li>CORNELL UNIVERSITY</li>
     <li>UNIVERSITY OF PENNSYLVANIA</li>
     </td>
-    <td><li>pipeline for single-cell hi-c</li><li>map dynamic organization</li><li>split pool barcoding</li><li>distance-Hi-C</li></td>
+    <td><li>pipeline for single-cell hi-c</li><li>map dynamic organization</li><li>split pool barcoding</li><li>distance-Hi-C</li><li>super resolution vis</li></td>
     </tr>
 </table>
 
