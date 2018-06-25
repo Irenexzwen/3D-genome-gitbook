@@ -34,22 +34,25 @@ To determine how the genome operates, we need to understand not only the linear 
  <tr>
       <td><b>NOFIC<br>(Nuclear Organization<br> and Function<br>Interdisciplinary<br>Consortium) </td>
       <td><li>UNIVERSITY OF SOUTHERN CALIFORNIA</li>
-        <li>UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN</li>
+        <li>UNIV OF ILLINOIS URBANA-CHAMPAIGN</li>
         <li>UNIV OF MASSACHUSETTS MED SCH WORCESTER</li>
         <li>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD</li>
         <li>JACKSON LABORATORY</li>
-        <li>UNIVERSITY OF WASHINGTON</li>
+        <li>UNIV OF WASHINGTON</li>
 </td>
       <td><li>benchmark tools</li><li>Find best approach</li><li>Integrate approaches</li><li>Draft model of 4DN</li></td>
  </tr>
  <tr>
-    <td> NOFIC<br>(Nuclear Organization<br> and Function<br>Interdisciplinary<br>Consortium) </td>
-    <td><li>UNIVERSITY OF SOUTHERN CALIFORNIA</li>
-        <li>UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN</li>
+    <td><b>Imaging Tools</td>
+    <td><li>YALE UNIVERSITY</li>
+        <li>CALIFORNIA INSTITUTE OF TECHNOLOGY</li>
+        <li>PRINCETON UNIVERSITY</li>
+        <li>EUROPEAN MOLECULAR BIOLOGY LABORATORY</li>
         <li>UNIV OF MASSACHUSETTS MED SCH WORCESTER</li>
-        <li>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD</li>
-        <li>JACKSON LABORATORY</li>
-        <li>UNIVERSITY OF WASHINGTON</li>
+        <li>UNIVERSITY OF CALIFORNIA AT DAVIS</li>
+        <li>STANFORD UNIVERSITY</li>
+        <li>SALK INSTITUTE FOR BIOLOGICAL STUDIES</li>
+        <li>ALBERT EINSTEIN COLLEGE OF MEDICINE</li>
     </td>
     <td><li>benchmark tools</li><li>Find best approach</li><li>Integrate approaches</li><li>Draft model of 4DN</li></td>
 </tr>
