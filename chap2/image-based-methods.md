@@ -23,9 +23,10 @@ modular proteins with specific DNA recognition; like those methods developed for
 #### Tagged RNA sequence
 Live-cell imaging of mRNA yields important insights into gene expression, transcriptional events. RNA hairpin sequences are inserted in tandem into a gene of interest to tag it, and coexpression of a fluorescent coat protein allows for mRNA detection. [[7]](https://www.nature.com/articles/nmeth.2305)
 ###2.1.2 Ultra structure and 3D organization
- - EM based (ChromEM)
- - X-ray based 
-- Spatial and dynamic 3D nuclear organization
+#### EM based methods
+An electron microscope is a microscope that uses a beam of accelerated electrons as a source of illumination. As the wavelength of an electron can be up to 100,000 times shorter than that of visible light photons, electron microscopes have a higher resolving power than light microscopes and can reveal the structure of smaller objects.Transmission electron microscopy, combined with tomographic techniques, has been used for decades to generate 3D representations of biological structures, with resolutions down to the nanometer range.[[8]](https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/automated-procedures-for-the-alignment-and-reconstruction-of-multiple-tilt-electron-microscopic-tomography-data/ABB22F2BA4FF6E5E3E47109C58C745F0)
+#### X-ray based methods
+#### Spatial and dynamic 3D nuclear organization
  - Wide-field / confocal / multiphoton 
  - LLS
  - etc .. 
@@ -38,3 +39,4 @@ Live-cell imaging of mRNA yields important insights into gene expression, transc
 [5] Shachar, Sigal, et al. "Identification of gene positioning factors using high-throughput imaging mapping." Cell 162.4 (2015): 911-923.
 [6] Chen, Baohui, Juan Guan, and Bo Huang. "Imaging specific genomic DNA in living cells." Annual review of biophysics 45 (2016): 1-23.
 [7] Buxbaum, Adina R., Gal Haimovich, and Robert H. Singer. "In the right place at the right time: visualizing and understanding mRNA localization." Nature reviews Molecular cell biology 16.2 (2015): 95.
+[8] Ellisman, Mark H., et al. "Automated procedures for the alignment and reconstruction of multiple tilt electron microscopic tomography data." Microscopy and Microanalysis 20.S3 (2014): 1258-1259.
