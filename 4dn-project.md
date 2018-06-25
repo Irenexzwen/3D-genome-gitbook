@@ -67,7 +67,8 @@ To determine how the genome operates, we need to understand not only the linear 
     <td><b>Network <br>Organizational <br>Hub</td>
     <td><li>UNIVERSITY OF CALIFORNIA SAN DIEGO</li>
     </td>
-    <td><li>High res method</li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
+    <td><li>web portal for 4DN</li><li>integrated, bersatile data management
+</li><li>retrieval, analysis and vis system</li><li>train and update 4DN members and collaboraters </li></td>
 </tr>
  <tr>
     <td><b>Nuclear Bodies and Compartments</td>
@@ -79,7 +80,7 @@ To determine how the genome operates, we need to understand not only the linear 
     <li>UNIV OF MASSACHUSETTS MED SCH WORCESTER</li>
     <li>COLUMBIA UNIVERSITY HEALTH SCIENCES</li>
     </td>
-    <td><li>High res method</li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
+    <td><li>deciphering function of compartments</li><li>nucleoplasmic phase transitions</li><li>retrieval, analysis and vis system</li><li>train and update 4DN members and collaboraters </li></td>
     </tr>
  <tr>
     <td><b>Nucleomics Tools</td>
