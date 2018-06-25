@@ -29,7 +29,8 @@ An electron microscope is a microscope that uses a beam of accelerated electrons
 - Multi-color EM [[10]](https://www.sciencedirect.com/science/article/pii/S2451945616303579), ChromEMT [[11]](http://science.sciencemag.org/content/357/6349/eaag0025)----Local ultrastructure and global 3D organization
 
 #### X-ray based methods
-#### Spatial and dynamic 3D nuclear organization
+- soft X-ray tomography (SXT)----image chromatin organization, distribution, and biophysical properties during neurogenesis. Mesoscale resolution (20–50 nm) in intact, unprocessed cells [[12]](https://www.sciencedirect.com/science/article/pii/S2211124716314802?via%3Dihub).
+###2.1.3 Visualizing spatial and dynamic 3D nuclear organization
  - Wide-field / confocal / multiphoton 
  - LLS
  - etc .. 
@@ -46,3 +47,4 @@ An electron microscope is a microscope that uses a beam of accelerated electrons
 [9] Soto, Gabriel E., et al. "Serial section electron tomography: a method for three-dimensional reconstruction of large structures." Neuroimage 1.3 (1994): 230-243. 
 [10] Adams, Stephen R., et al. "Multicolor electron microscopy for simultaneous visualization of multiple molecular species." Cell chemical biology 23.11 (2016): 1417-1427.
 [11] Ou, Horng D., et al. "ChromEMT: Visualizing 3D chromatin structure and compaction in interphase and mitotic cells." Science 357.6349 (2017): eaag0025.
+[12] Le Gros, Mark A., et al. "Soft X-ray tomography reveals gradual chromatin compaction and reorganization during neurogenesis in vivo." Cell reports 17.8 (2016): 2125-2136.
