@@ -17,8 +17,11 @@ FISH [[1]](http://www.pnas.org/content/pnas/79/14/4381.full.pdf) (fluorescence i
 - HIPMap: High-throughput FISH [[5]](https://doi.org/10.1016/j.cell.2015.07.035)
 
 #### CRISPR imaging
- Efforts to label and image endogenous genomic elements have benefited from the series of
-modular proteins with specific DNA recognition; these methods, which have been recently de- veloped for gene editing, started with zinc-finger modules, then transcription activator-like effec- tors (TALEs), and more recently the CRISPR (clustered regularly interspaced short palindromic repeat)-Cas (CRISPR-associated) system. These systems provide modules that can recognize spe- cificDNAsequences. When the modules are fused with FPs, they can guide the fluorescence signal to a specific sequence within the complex genome (Figure 1). This review discusses the imaging of specific genomic DNA sequences in living cells using these methods, especially CRISPR-Cas9 (CRISPR–Cas protein 9)-mediated genomic imaging, termed CRISPR imaging. We summarize all live-DNA imaging methods in Table 1.
+Efforts to label and image endogenous genomic elements in **live cells** have benefited from the series of
+modular proteins with specific DNA recognition; like those methods developed for gene editing **(zinc-finger modules, TALEs and CRISPR (clustered regularly interspaced short palindromic repeat)-Cas (CRISPR-associated) system)**, these modules can guide the fluorescence signal to a specific sequence within the complex genome. Comprehensive review [[6]](https://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-062215-010830) can be referred.
+
+#### Tagged RNA sequence
+Live-cell imaging of mRNA yields important insights into gene expression, transcriptional events. RNA hairpin sequences are inserted in tandem into a gene of interest to tag it, and coexpression of a fluorescent coat protein allows for mRNA detection. [[7]](https://www.nature.com/articles/nmeth.2305)
 ###2.1.2 Ultra structure and 3D organization
  - EM based (ChromEM)
  - X-ray based 
@@ -33,3 +36,5 @@ modular proteins with specific DNA recognition; these methods, which have been r
 [3] Beliveau, Brian J., Nicholas Apostolopoulos, and Chao‐ting Wu. "Visualizing genomes with Oligopaint FISH probes." Current protocols in molecular biology (2014): 14-23.
 [4] Wang, Siyuan, et al. "Spatial organization of chromatin domains and compartments in single chromosomes." Science 353.6299 (2016): 598-602.
 [5] Shachar, Sigal, et al. "Identification of gene positioning factors using high-throughput imaging mapping." Cell 162.4 (2015): 911-923.
+[6] Chen, Baohui, Juan Guan, and Bo Huang. "Imaging specific genomic DNA in living cells." Annual review of biophysics 45 (2016): 1-23.
+[7] Buxbaum, Adina R., Gal Haimovich, and Robert H. Singer. "In the right place at the right time: visualizing and understanding mRNA localization." Nature reviews Molecular cell biology 16.2 (2015): 95.
