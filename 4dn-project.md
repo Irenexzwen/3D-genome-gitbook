@@ -95,7 +95,12 @@ To determine how the genome operates, we need to understand not only the linear 
 </table>
 
 ## Data sharing and standards
-
+- Need to develope common formats to represent three-dimensional interactions.
+- Efficient data structure to store sparse matrix (interaction matrix is sparse)
+- Standards to unify data and metadata from different manufacturers for imaging technologies.
+- Define a set of appropriate metadata fields and minimum metadata requirements such that sufficient and useful details are available to other investigators outside the Network.
+- Develope a set of measures for assessing data quality and determining
+appropriate thresholds.
 
 
 
