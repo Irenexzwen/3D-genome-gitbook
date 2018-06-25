@@ -38,7 +38,6 @@ To determine how the genome operates, we need to understand not only the linear 
    </tr>
    <tr>
       <td>UNIV OF MASSACHUSETTS MED SCH WORCESTER </td>
-      <td?</td>
    </tr>
    <tr>
       <td>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD </td>
