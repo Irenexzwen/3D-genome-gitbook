@@ -1,18 +1,19 @@
 # 4D project
 
 ## What is 4D Nucleome
-To determine how the genome operates, we need to understand not only the linear encoding of information along chromosomes, but also its three-dimensional organization and its dynamics across time, that is, the ‘4D nucleome’.
+To determine how the genome operates, we need to understand not only the linear encoding of information along chromosomes, but also its **three-dimensional organization and its dynamics across time**, that is, the ‘4D nucleome’.
 
 ## Current dilemma in understanding 4D nucleome
-- Different experimental cell systems and approaches are used that together with the absence of shared benchmarks for assay performance have led to observations that cannot be directly compared. - limited ability to integrate different data types (for example, chromatin interaction data and imaging-based distance measurements)。
-- Lack of approaches that can measure and account for cell-to-cell variability in chromosome and nuclear organization.
-- Lack of mechanistic insights into the relationships between chromosome conformation and nuclear processes, including transcription, DNA replication and chromosome segregation.
+- Different experimental cell systems and approaches are used that together with the absence of **shared benchmarks** for assay performance have led to observations that cannot be directly compared. 
+- Iimited ability to **integrate** different data types (for example, chromatin interaction data and imaging-based distance measurements)。
+- Lack of approaches that can measure and account for **cell-to-cell variability** in chromosome and nuclear organization.
+- Lack of **mechanistic insights** into the relationships between chromosome conformation and nuclear processes, including transcription, DNA replication and chromosome segregation.
 
 ## Goals and Strategies 
 ### Goals:
-- Develop, benchmark, validate and standardize a wide array of technologies to analyse the 4D nucleome
-- Integrate, analyse and model datasets obtained with these technologies to obtain a comprehensive view of the 4D nucleome
-- Investigate the func- tional role of various structural features of chromosome organization in transcription, DNA replication and other nuclear processes. 
+- Develop, benchmark, validate and standardize a wide array of **technologies to analyse** the 4D nucleome
+- **Integrate**, analyse and model datasets obtained with these technologies to obtain a comprehensive view of the 4D nucleome
+- Investigate the functional role of various structural features of chromosome organization in transcription, DNA replication and other nuclear processes. 
 
 ###Strategies:
 - A set of common cell lines will be studied to enable direct cross- validation of data that are obtained with different methods [table](https://www.nature.com/articles/nature23884#t1).
