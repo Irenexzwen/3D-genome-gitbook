@@ -25,6 +25,9 @@ Live-cell imaging of mRNA yields important insights into gene expression, transc
 ###2.1.2 Ultra structure and 3D organization
 #### EM based methods
 An electron microscope is a microscope that uses a beam of accelerated electrons as a source of illumination. As the wavelength of an electron can be up to 100,000 times shorter than that of visible light photons, electron microscopes have a higher resolving power than light microscopes and can reveal the structure of smaller objects.Transmission electron microscopy, combined with tomographic techniques, has been used for decades to generate 3D representations of biological structures, with resolutions down to the nanometer range.[[8]](https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/automated-procedures-for-the-alignment-and-reconstruction-of-multiple-tilt-electron-microscopic-tomography-data/ABB22F2BA4FF6E5E3E47109C58C745F0)
+- TEM, serial-section EM tomography----reconstruction of large 3D volumes (250 to > 500 nm thick)[[9]](https://www.sciencedirect.com/science/article/pii/S1053811984710081)
+- Multi-color EM [[10]](https://www.sciencedirect.com/science/article/pii/S2451945616303579), ChromEMT [[11]](http://science.sciencemag.org/content/357/6349/eaag0025)----Local ultrastructure and global 3D organization
+
 #### X-ray based methods
 #### Spatial and dynamic 3D nuclear organization
  - Wide-field / confocal / multiphoton 
@@ -40,3 +43,6 @@ An electron microscope is a microscope that uses a beam of accelerated electrons
 [6] Chen, Baohui, Juan Guan, and Bo Huang. "Imaging specific genomic DNA in living cells." Annual review of biophysics 45 (2016): 1-23.
 [7] Buxbaum, Adina R., Gal Haimovich, and Robert H. Singer. "In the right place at the right time: visualizing and understanding mRNA localization." Nature reviews Molecular cell biology 16.2 (2015): 95.
 [8] Ellisman, Mark H., et al. "Automated procedures for the alignment and reconstruction of multiple tilt electron microscopic tomography data." Microscopy and Microanalysis 20.S3 (2014): 1258-1259.
+[9] Soto, Gabriel E., et al. "Serial section electron tomography: a method for three-dimensional reconstruction of large structures." Neuroimage 1.3 (1994): 230-243. 
+[10] Adams, Stephen R., et al. "Multicolor electron microscopy for simultaneous visualization of multiple molecular species." Cell chemical biology 23.11 (2016): 1417-1427.
+[11] Ou, Horng D., et al. "ChromEMT: Visualizing 3D chromatin structure and compaction in interphase and mitotic cells." Science 357.6349 (2017): eaag0025.
