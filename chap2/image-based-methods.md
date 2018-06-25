@@ -10,11 +10,15 @@ FISH [[1]](http://www.pnas.org/content/pnas/79/14/4381.full.pdf) (fluorescence i
 - Resolution is limitted by the diffraction limit of light sources and the size of the probes (like 40kb)
 - Limitted fluorescent labels
 
-**Improvement addressing the limitations**:
-- Super-resolution microscopy [[2]]()
-- Short oligonucleotide-based probes (Beliveau
-#### HIPMap
- 
+**Improvements**:
+- Super-resolution microscopy [[2]](https://www.ncbi.nlm.nih.gov/pubmed/25896023)
+- Short oligonucleotide-based probes [[3]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3928790/)
+- Multiplexed FISH method (more than 30 genomic loci at a time) [[4]](http://science.sciencemag.org/content/353/6299/598)
+- HIPMap: High-throughput FISH [[5]](https://doi.org/10.1016/j.cell.2015.07.035)
+
+#### CRISPR imaging
+ Efforts to label and image endogenous genomic elements have benefited from the series of
+modular proteins with specific DNA recognition; these methods, which have been recently de- veloped for gene editing, started with zinc-finger modules, then transcription activator-like effec- tors (TALEs), and more recently the CRISPR (clustered regularly interspaced short palindromic repeat)-Cas (CRISPR-associated) system. These systems provide modules that can recognize spe- cificDNAsequences. When the modules are fused with FPs, they can guide the fluorescence signal to a specific sequence within the complex genome (Figure 1). This review discusses the imaging of specific genomic DNA sequences in living cells using these methods, especially CRISPR-Cas9 (CRISPR–Cas protein 9)-mediated genomic imaging, termed CRISPR imaging. We summarize all live-DNA imaging methods in Table 1.
 ###2.1.2 Ultra structure and 3D organization
  - EM based (ChromEM)
  - X-ray based 
@@ -25,5 +29,7 @@ FISH [[1]](http://www.pnas.org/content/pnas/79/14/4381.full.pdf) (fluorescence i
     
 # Referrence:
 [1] Langer-Safer, Pennina R., Michael Levine, and David C. Ward. "Immunological method for mapping genes on Drosophila polytene chromosomes." Proceedings of the National Academy of Sciences 79.14 (1982): 4381-4385.
-https://doi.org/10.1146/annurev-cellbio-100616-060531 \* <br>
-http://dx.doi.org/10.1038/nature23884 4DN project 
+[2] Lakadamyali, Melike, and Maria Pia Cosma. "Advanced microscopy methods for visualizing chromatin structure." FEBS letters 589.20PartA (2015): 3023-3030.
+[3] Beliveau, Brian J., Nicholas Apostolopoulos, and Chao‐ting Wu. "Visualizing genomes with Oligopaint FISH probes." Current protocols in molecular biology (2014): 14-23.
+[4] Wang, Siyuan, et al. "Spatial organization of chromatin domains and compartments in single chromosomes." Science 353.6299 (2016): 598-602.
+[5] Shachar, Sigal, et al. "Identification of gene positioning factors using high-throughput imaging mapping." Cell 162.4 (2015): 911-923.
