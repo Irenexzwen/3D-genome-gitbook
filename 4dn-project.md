@@ -80,7 +80,7 @@ To determine how the genome operates, we need to understand not only the linear 
     <li>UNIV OF MASSACHUSETTS MED SCH WORCESTER</li>
     <li>COLUMBIA UNIVERSITY HEALTH SCIENCES</li>
     </td>
-    <td><li>deciphering function of compartments</li><li>nucleoplasmic phase transitions</li><li>retrieval, analysis and vis system</li><li>train and update 4DN members and collaboraters </li></td>
+    <td><li>deciphering function of compartments</li><li>nucleoplasmic phase transitions</li><li>reversibly disrupt nuclear bodies</li></td>
     </tr>
  <tr>
     <td><b>Nucleomics Tools</td>
