@@ -17,6 +17,9 @@ To determine how the genome operates, we need to understand not only the linear 
 ###Strategies:
 - A set of common cell lines will be studied to enable direct cross- validation of data that are obtained with different methods [table](https://www.nature.com/articles/nature23884#t1).
 - Standards for data formats and quality will be established so that data can be shared broadly.
+- Computational and analytical tools will be developed to analyse individual datasets and to integrate, compare and cross-validate data obtained with different technologies.
+- Develope multiple ways to measure how DNA and trans-acting factors influence on the 4D nucleosome.
+- Develop a consistent terminology to describe nuclear features and biophysically derived principles guiding chromosome folding.
 
 
 
