@@ -94,6 +94,9 @@ To determine how the genome operates, we need to understand not only the linear 
     </tr>
 </table>
 
+## Data sharing and standards
+
+
 
 
 
