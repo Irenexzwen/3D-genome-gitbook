@@ -61,7 +61,7 @@ To determine how the genome operates, we need to understand not only the linear 
     <td><li>HARVARD MEDICAL SCHOOL</li>
         <li>WASHINGTON UNIVERSITY</li>
     </td>
-    <td><li>High res method</li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
+    <td><li>collect, store<br>curate, display<br>and analyze </li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
 </tr>
  <tr>
     <td><b>Network <br>Organizational <br>Hub</td>
