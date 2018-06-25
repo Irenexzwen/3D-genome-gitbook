@@ -3,7 +3,16 @@ Before the advent of C-technologies, the predominant method to study 3D genome o
 
 ###2.1.1 Visualize DNA & RNA
 #### FISH
-FISH [[1]](http://www.pnas.org/content/pnas/79/14/4381.full.pdf) (fluorescence in situ hybridization) 
+FISH [[1]](http://www.pnas.org/content/pnas/79/14/4381.full.pdf) (fluorescence in situ hybridization) measured the spatial distances between two or more loci by hybridizing flurescently labeled probes to DNA after fixation, and then visualize the labels under light microscopy. 
+
+**Limitations**:
+- A large number of cells are need to get confident conclusion
+- Resolution is limitted by the diffraction limit of light sources and the size of the probes (like 40kb)
+- Limitted fluorescent labels
+
+**Improvement addressing the limitations**:
+- Super-resolution microscopy [[2]]()
+- Short oligonucleotide-based probes (Beliveau
 #### HIPMap
  
 ###2.1.2 Ultra structure and 3D organization
