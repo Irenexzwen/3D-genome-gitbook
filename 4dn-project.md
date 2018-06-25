@@ -30,13 +30,6 @@ To determine how the genome operates, we need to understand not only the linear 
 
 
 
-- Goals & strategies
-- research plans
-- resources available (Data sharing and standards)
-
-
-
-
 
 
 
