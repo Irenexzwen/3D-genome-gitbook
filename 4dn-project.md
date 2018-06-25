@@ -5,8 +5,8 @@ To determine how the genome operates, we need to understand not only the linear 
 
 ## Current dilemma in understanding 4D nucleome
 - Different experimental cell systems and approaches are used that together with the absence of shared benchmarks for assay performance have led to observations that cannot be directly compared. - limited ability to integrate different data types (for example, chromatin interaction data and imaging-based distance measurements)。
-- We lack approaches that can measure and account for cell-to-cell variability in chromosome and nuclear organization.
-- We lack mechanistic insights into the relationships between chromosome conformation and nuclear processes, including transcription, DNA replication and chromosome segregation.
+- Lack of approaches that can measure and account for cell-to-cell variability in chromosome and nuclear organization.
+- Lack of mechanistic insights into the relationships between chromosome conformation and nuclear processes, including transcription, DNA replication and chromosome segregation.
 
 ## Goals and Strategies 
 ### Goals:
@@ -16,7 +16,8 @@ To determine how the genome operates, we need to understand not only the linear 
 
 ###Strategies:
 - A set of common cell lines will be studied to enable direct cross- validation of data that are obtained with different methods [table](https://www.nature.com/articles/nature23884#t1).
-- 
+- Standards for data formats and quality will be established so that data can be shared broadly.
+
 
 
 
