@@ -61,7 +61,7 @@ To determine how the genome operates, we need to understand not only the linear 
     <td><li>HARVARD MEDICAL SCHOOL</li>
         <li>WASHINGTON UNIVERSITY</li>
     </td>
-    <td><li>collect, store<br>curate, display<br>and analyze </li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
+    <td><li>collect, store, curate, display and analyze data</li><li>develope efficient submission pipelines</li><li>high-quality, well- annotated, public accessible</li><li>user-friendly data portal</li></td>
 </tr>
  <tr>
     <td><b>Network <br>Organizational <br>Hub</td>
