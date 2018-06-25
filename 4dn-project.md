@@ -25,6 +25,35 @@ To determine how the genome operates, we need to understand not only the linear 
 - Build a shared **database** and a public 4DN data browser includes all data, detailed protocols, engineered cell lines and reagents used across the Network.
 
 ## Structure of the 4DN Network
+<table>
+   <tr>
+        <th>consortium</th>
+        <th>Institution Name</th>
+        <th>Objections</th>
+   </tr>
+   <tr>
+      <td rowspan="6">NOFIC</td>
+      <td>UNIVERSITY OF SOUTHERN CALIFORNIA</td>
+      <td rowspan="6">NOFIC</td>
+   </tr>
+   <tr>
+      <td>UNIV OF MASSACHUSETTS MED SCH WORCESTER</td>
+   </tr>
+   <tr>
+      <td>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD</td>
+   </tr>
+   <tr>
+      <td>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD</td>
+   </tr>
+   <tr>
+      <td>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD</td>
+   </tr>
+   <tr>
+      <td>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD</td>
+   </tr>
+</table>
+
+
 
 
 
