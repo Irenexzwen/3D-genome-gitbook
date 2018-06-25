@@ -34,8 +34,7 @@ An electron microscope is a microscope that uses a beam of accelerated electrons
 ###2.1.3 Visualizing spatial and dynamic 3D nuclear organization
  - Wide-field / confocal / multiphoton----Live and fixed cells: diffraction limited(>250nm).
  - Super-resolution microscopy [[13]](https://www.ncbi.nlm.nih.gov/pubmed/23845946)----Super-resolution imaging of nuclear organization in live and fixed cells (circa 10–20 nm)
-
- - etc .. 
+ - Single-molecule imaging [14,15] ---- Live cell: binding and search dynamics: residence time, search time, search mechanism.
     
 # Referrence:
 [1] Langer-Safer, Pennina R., Michael Levine, and David C. Ward. "Immunological method for mapping genes on Drosophila polytene chromosomes." Proceedings of the National Academy of Sciences 79.14 (1982): 4381-4385.
@@ -51,3 +50,5 @@ An electron microscope is a microscope that uses a beam of accelerated electrons
 [11] Ou, Horng D., et al. "ChromEMT: Visualizing 3D chromatin structure and compaction in interphase and mitotic cells." Science 357.6349 (2017): eaag0025.
 [12] Le Gros, Mark A., et al. "Soft X-ray tomography reveals gradual chromatin compaction and reorganization during neurogenesis in vivo." Cell reports 17.8 (2016): 2125-2136.
 [13] Szymborska, Anna, et al. "Nuclear pore scaffold structure analyzed by super-resolution microscopy and particle averaging." Science 341.6146 (2013): 655-658.
+[14] Chen, Jiji, et al. "Single-molecule dynamics of enhanceosome assembly in embryonic stem cells." Cell 156.6 (2014): 1274-1285.
+[15] Izeddin, Ignacio, et al. "Single-molecule tracking in live cells reveals distinct target-search strategies of transcription factors in the nucleus." Elife 3 (2014).
