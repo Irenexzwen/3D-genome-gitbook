@@ -10,9 +10,9 @@ To determine how the genome operates, we need to understand not only the linear 
 
 ## Goals and Strategies 
 ### Goals:
-- develop, benchmark, validate and standardize a wide array of technologies to analyse the 4D nucleome
-- integrate, analyse and model datasets obtained with these technologies to obtain a comprehensive view of the 4D nucleome
-- investigate the func- tional role of various structural features of chromosome organization in transcription, DNA replication and other nuclear processes. 
+- Develop, benchmark, validate and standardize a wide array of technologies to analyse the 4D nucleome
+- Integrate, analyse and model datasets obtained with these technologies to obtain a comprehensive view of the 4D nucleome
+- Investigate the func- tional role of various structural features of chromosome organization in transcription, DNA replication and other nuclear processes. 
 
 ###Strategies:
 - A set of common cell lines will be studied to enable direct cross- validation of data that are obtained with different methods [table](https://www.nature.com/articles/nature23884#t1).
