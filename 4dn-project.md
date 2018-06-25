@@ -26,68 +26,39 @@ To determine how the genome operates, we need to understand not only the linear 
 
 ## Structure of the 4DN Network
 <table>
-   <tr>
-        <th>consortium</th>
-        <th>Institution Name</th>
-        <th>Objections</th>
-   </tr>
-   <tr>
-      <td rowspan="6">NOFIC</td>
-      <td>UNIVERSITY OF SOUTHERN CALIFORNIA</td>
-      <td rowspan="6">NOFIC</td>
-   </tr>
-   <tr>
-      <td>UNIV OF MASSACHUSETTS MED SCH WORCESTER </td>
-   </tr>
-   <tr>
-      <td>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD </td>
-   </tr>
-   <tr>
-      <td>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD </td>
-   </tr>
-   <tr>
-      <td>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD </td>
-   </tr>
-   <tr>
-      <td>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD </td>
-   </tr>
+ <tr>
+     <th>Consortium</th>
+     <th>Institution Name</th>
+     <th>Objections</th>
+ </tr>
+ <tr>
+      <td><b>NOFIC<br>(Nuclear Organization<br> and Function<br>Interdisciplinary<br>Consortium) </td>
+      <td><li>UNIVERSITY OF SOUTHERN CALIFORNIA</li>
+        <li>UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN</li>
+        <li>UNIV OF MASSACHUSETTS MED SCH WORCESTER</li>
+        <li>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD</li>
+        <li>JACKSON LABORATORY</li>
+        <li>UNIVERSITY OF WASHINGTON</li>
+</td>
+      <td><li>benchmark tools</li><li>Find best approach</li><li>Integrate approaches</li><li>Draft model of 4DN</li></td>
+ </tr>
+ <tr>
+    <td> NOFIC<br>(Nuclear Organization<br> and Function<br>Interdisciplinary<br>Consortium) </td>
+    <td><li>UNIVERSITY OF SOUTHERN CALIFORNIA</li>
+        <li>UNIVERSITY OF ILLINOIS URBANA-CHAMPAIGN</li>
+        <li>UNIV OF MASSACHUSETTS MED SCH WORCESTER</li>
+        <li>LUDWIG INSTITUTE FOR CANCER RESEARCH LTD</li>
+        <li>JACKSON LABORATORY</li>
+        <li>UNIVERSITY OF WASHINGTON</li>
+    </td>
+    <td><li>benchmark tools</li><li>Find best approach</li><li>Integrate approaches</li><li>Draft model of 4DN</li></td>
+</tr>
 </table>
 
 
-<table>
-<tr>
-    <td rowspan="7"> 文件状态：<br/>
-        [√] 草稿<br/>
-        [√] 正在修改<br/>
-        [√] 正式发布 </td>
-    <td>文件标识：</td>
-    <td> </td>
-</tr>
-<tr>
-    <td>当前版本：</td>
-    <td>2.7</td>
-</tr>
-<tr>
-    <td>作    者：</td>
-    <td></td>
-</tr>
-<tr>
-    <td>创建日期：</td>
-    <td></td>
-</tr>
-<tr>
-    <td>最后更新：</td>
-    <td></td>
-</tr>
-<tr>
-    <td>密    级：</td>
-    <td></td>
-</tr>
-<tr>
-    <td>版权说明：</td>
-    <td></td>
-</tr>
-</table>
+
+
+
 
 
 
