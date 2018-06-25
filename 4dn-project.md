@@ -1,4 +1,4 @@
-# 4D project
+# <a href="doi:10.1038/nature23884">4D project</a>
 
 ## What is 4D Nucleome
 To determine how the genome operates, we need to understand not only the linear encoding of information along chromosomes, but also its **three-dimensional organization and its dynamics across time**, that is, the ‘4D nucleome’.
@@ -101,6 +101,10 @@ To determine how the genome operates, we need to understand not only the linear 
 - Define a set of appropriate metadata fields and minimum metadata requirements such that sufficient and useful details are available to other investigators outside the Network.
 - Develope a set of measures for assessing data quality and determining
 appropriate thresholds.
+
+#Reference
+[1] Dekker, Job, et al. "The 4D nucleome project." Nature 549.7671 (2017): 219.
+[2] https://commonfund.nih.gov/4Dnucleome
 
 
 
