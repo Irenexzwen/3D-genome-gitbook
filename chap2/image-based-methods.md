@@ -1,11 +1,12 @@
 ##2.1 Image based
 Before the advent of C-technologies, the predominant method to study 3D genome organization was image-based methods. 
 
-- visualize DNA & RNA
- - FISH
- - HIPMap
+###2.1.1 Visualize DNA & RNA
+#### FISH
+
+#### HIPMap
  
-- Ultra structure and 3D organization
+###2.1.2 Ultra structure and 3D organization
  - EM based (ChromEM)
  - X-ray based 
 - Spatial and dynamic 3D nuclear organization
