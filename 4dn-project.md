@@ -1,7 +1,24 @@
 # 4D project
 
-## Goals 
-> The 4D Nucleome Network aims to develop and apply approaches to map the structure and dynamics of the human and mouse genomes in space and time with the goal of gaining deeper mechanistic insights into how the nucleus is organized and functions. The project will develop and benchmark experimental and computational approaches for measuring genome conformation and nuclear organization, and investigate how these contribute to gene regulation and other genome functions. Validated experimental technologies will be combined with biophysical approaches to generate quantitative models of spatial genome organization in different biological states, both in cell populations and in single cells.
+## What is 4D Nucleome
+To determine how the genome operates, we need to understand not only the linear encoding of information along chromosomes, but also its three-dimensional organization and its dynamics across time, that is, the ‘4D nucleome’.
+
+## Current dilemma in understanding 4D nucleome
+- Different experimental cell systems and approaches are used that together with the absence of shared benchmarks for assay performance have led to observations that cannot be directly compared. - limited ability to integrate different data types (for example, chromatin interaction data and imaging-based distance measurements)。
+- We lack approaches that can measure and account for cell-to-cell variability in chromosome and nuclear organization.
+- We lack mechanistic insights into the relationships between chromosome conformation and nuclear processes, including transcription, DNA replication and chromosome segregation.
+
+## Goals and Strategies 
+### Goals:
+- develop, benchmark, validate and standardize a wide array of technologies to analyse the 4D nucleome
+- integrate, analyse and model datasets obtained with these technologies to obtain a comprehensive view of the 4D nucleome
+- investigate the func- tional role of various structural features of chromosome organization in transcription, DNA replication and other nuclear processes. 
+
+###Strategies:
+- A set of common cell lines will be studied to enable direct cross- validation of data that are obtained with different methods [table](https://www.nature.com/articles/nature23884#t1).
+- 
+
+
 
 
 - Goals & strategies
