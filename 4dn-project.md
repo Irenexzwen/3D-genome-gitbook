@@ -54,9 +54,23 @@ To determine how the genome operates, we need to understand not only the linear 
         <li>SALK INSTITUTE FOR BIOLOGICAL STUDIES</li>
         <li>ALBERT EINSTEIN COLLEGE OF MEDICINE</li>
     </td>
-    <td><li>benchmark tools</li><li>Find best approach</li><li>Integrate approaches</li><li>Draft model of 4DN</li></td>
+    <td><li>High res method</li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
+</tr>
+ <tr>
+    <td><b>DCIC<br>(Network Data<br>Coordination<br> and Integration<br> Center)</td>
+    <td><li>HARVARD MEDICAL SCHOOL</li>
+        <li>WASHINGTON UNIVERSITY</li>
+    </td>
+    <td><li>High res method</li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
+</tr>
+ <tr>
+    <td><b>Network <br>Organizational <br>Hub</td>
+    <td><li>UNIVERSITY OF CALIFORNIA SAN DIEGO</li>
+    </td>
+    <td><li>High res method</li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
 </tr>
 </table>
+
 
 
 
