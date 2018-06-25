@@ -69,6 +69,28 @@ To determine how the genome operates, we need to understand not only the linear 
     </td>
     <td><li>High res method</li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
 </tr>
+ <tr>
+    <td><b>Nuclear Bodies and Compartments</td>
+    <td><li>PRINCETON UNIVERSITY</li>
+    <li>SCRIPPS RESEARCH INSTITUTE</li>
+    <li>PRINCETON UNIVERSITY</li>
+    <li>FRED HUTCHINSON CANCER RES CENTER</li>
+    <li>CALIFORNIA INSTITUTE OF TECHNOLOGY</li>
+    <li>UNIV OF MASSACHUSETTS MED SCH WORCESTER</li>
+    <li>COLUMBIA UNIVERSITY HEALTH SCIENCES</li>
+    </td>
+    <td><li>High res method</li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
+    </tr>
+ <tr>
+    <td><b>Nucleomics Tools</td>
+    <td><li>THE BABRAHAM INSTITUTE</li>
+    <li>CALIFORNIA INSTITUTE OF TECHNOLOGY</li>
+    <li>BAYLOR COLLEGE OF MEDICINE</li>
+    <li>CORNELL UNIVERSITY</li>
+    <li>UNIVERSITY OF PENNSYLVANIA</li>
+    </td>
+    <td><li>High res method</li><li>High-throughput</li><li>dynamic imaging</li><li>Live cell</li></td>
+    </tr>
 </table>
 
 
