@@ -83,14 +83,24 @@ FAIRE-seq [[10]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formalde
 
 
 # Referrence 
-[1] Chang, Pearl, et al. "Computational Methods for Assessing Chromatin Hierarchy." Computational & Structural Biotechnology Journal (2018).
-[2] Risca, Viviana I,, and W. J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7(2015):357-372.
-[3] Landt, Stephen G., et al. "ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia." Genome research 22.9 (2012): 1813-1831.
-[4] Hesselberth, Jay R., et al. "Global mapping of protein-DNA interactions in vivo by digital genomic footprinting." Nature methods 6.4 (2009): 283.  
-[5] Buenrostro, Jason D., et al. "Transposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome position." Nature methods 10.12 (2013): 1213.
-[6] Barski, Artem, et al. "High-resolution profiling of histone methylations in the human genome." Cell 129.4 (2007): 823-837. **This paper reports the first use of MNase digestion followed by ChIP–seq**
-[7] Schones, Dustin E., et al. "Dynamic regulation of nucleosome positioning in the human genome." Cell 132.5 (2008): 887-898.
-[8] He, Housheng Hansen, et al. "Nucleosome dynamics define transcriptional enhancers." Nature genetics 42.4 (2010): 343.
-[9] Meyer, Clifford A., and X. Shirley Liu. "Identifying and mitigating bias in next-generation sequencing methods for chromatin biology." Nature Reviews Genetics 15.11 (2014): 709.
-[10] Giresi, P.G. et al. (2007) FAIRE (formaldehyde-assisted isolation of regulatory elements) isolates active regulatory elements from human chromatin. Genome Res. 17, 877–885
+[1] Chang, Pearl, et al. "Computational Methods for Assessing Chromatin Hierarchy." <br>
+Computational & Structural Biotechnology Journal (2018).
+[2] Risca, Viviana I,, and W. J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7(2015):357-372.<br>
+
+[3] Landt, Stephen G., et al. "ChIP-seq guidelines and practices of the ENCODE and modENCODE consortia." Genome research 22.9 (2012): 1813-1831.<br>
+
+[4] Hesselberth, Jay R., et al. "Global mapping of protein-DNA interactions in vivo by digital genomic footprinting." Nature methods 6.4 (2009): 283. <br>
+
+[5] Buenrostro, Jason D., et al. "Transposition of native chromatin for fast and sensitive epigenomic profiling of open chromatin, DNA-binding proteins and nucleosome position." Nature methods 10.12 (2013): 1213.<br>
+
+[6] Barski, Artem, et al. "High-resolution profiling of histone methylations in the human genome." Cell 129.4 (2007): 823-837. **This paper reports the first use of MNase digestion followed by ChIP–seq**.<br>
+
+[7] Schones, Dustin E., et al. "Dynamic regulation of nucleosome positioning in the human genome." Cell 132.5 (2008): 887-898.<br>
+
+[8] He, Housheng Hansen, et al. "Nucleosome dynamics define transcriptional enhancers." Nature genetics 42.4 (2010): 343.<br>
+
+[9] Meyer, Clifford A., and X. Shirley Liu. "Identifying and mitigating bias in next-generation sequencing methods for chromatin biology." Nature Reviews Genetics 15.11 (2014): 709.<br>
+
+[10] Giresi, P.G. et al. (2007) FAIRE (formaldehyde-assisted isolation of regulatory elements) isolates active regulatory elements from human chromatin. Genome Res. 17, 877–885.<br>
+
 
