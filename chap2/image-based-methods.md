@@ -37,18 +37,31 @@ An electron microscope is a microscope that uses a beam of accelerated electrons
  - Single-molecule imaging [14,15] ---- Live cell: binding and search dynamics: residence time, search time, search mechanism.
     
 # Referrence:
-[1] Langer-Safer, Pennina R., Michael Levine, and David C. Ward. "Immunological method for mapping genes on Drosophila polytene chromosomes." Proceedings of the National Academy of Sciences 79.14 (1982): 4381-4385.
-[2] Lakadamyali, Melike, and Maria Pia Cosma. "Advanced microscopy methods for visualizing chromatin structure." FEBS letters 589.20PartA (2015): 3023-3030.
-[3] Beliveau, Brian J., Nicholas Apostolopoulos, and Chao‐ting Wu. "Visualizing genomes with Oligopaint FISH probes." Current protocols in molecular biology (2014): 14-23.
-[4] Wang, Siyuan, et al. "Spatial organization of chromatin domains and compartments in single chromosomes." Science 353.6299 (2016): 598-602.
-[5] Shachar, Sigal, et al. "Identification of gene positioning factors using high-throughput imaging mapping." Cell 162.4 (2015): 911-923.
-[6] Chen, Baohui, Juan Guan, and Bo Huang. "Imaging specific genomic DNA in living cells." Annual review of biophysics 45 (2016): 1-23.
-[7] Buxbaum, Adina R., Gal Haimovich, and Robert H. Singer. "In the right place at the right time: visualizing and understanding mRNA localization." Nature reviews Molecular cell biology 16.2 (2015): 95.
-[8] Ellisman, Mark H., et al. "Automated procedures for the alignment and reconstruction of multiple tilt electron microscopic tomography data." Microscopy and Microanalysis 20.S3 (2014): 1258-1259.
-[9] Soto, Gabriel E., et al. "Serial section electron tomography: a method for three-dimensional reconstruction of large structures." Neuroimage 1.3 (1994): 230-243. 
-[10] Adams, Stephen R., et al. "Multicolor electron microscopy for simultaneous visualization of multiple molecular species." Cell chemical biology 23.11 (2016): 1417-1427.
-[11] Ou, Horng D., et al. "ChromEMT: Visualizing 3D chromatin structure and compaction in interphase and mitotic cells." Science 357.6349 (2017): eaag0025.
-[12] Le Gros, Mark A., et al. "Soft X-ray tomography reveals gradual chromatin compaction and reorganization during neurogenesis in vivo." Cell reports 17.8 (2016): 2125-2136.
-[13] Szymborska, Anna, et al. "Nuclear pore scaffold structure analyzed by super-resolution microscopy and particle averaging." Science 341.6146 (2013): 655-658.
-[14] Chen, Jiji, et al. "Single-molecule dynamics of enhanceosome assembly in embryonic stem cells." Cell 156.6 (2014): 1274-1285.
-[15] Izeddin, Ignacio, et al. "Single-molecule tracking in live cells reveals distinct target-search strategies of transcription factors in the nucleus." Elife 3 (2014).
+[1] Langer-Safer, Pennina R., Michael Levine, and David C. Ward. "Immunological method for mapping genes on Drosophila polytene chromosomes." Proceedings of the National Academy of Sciences 79.14 (1982): 4381-4385.<br>
+[2] Lakadamyali, Melike, and Maria Pia Cosma. "Advanced microscopy methods for visualizing chromatin structure." FEBS letters 589.20PartA (2015): 3023-3030.<br>
+
+[3] Beliveau, Brian J., Nicholas Apostolopoulos, and Chao‐ting Wu. "Visualizing genomes with Oligopaint FISH probes." Current protocols in molecular biology (2014): 14-23.<br>
+
+[4] Wang, Siyuan, et al. "Spatial organization of chromatin domains and compartments in single chromosomes." Science 353.6299 (2016): 598-602.<br>
+
+[5] Shachar, Sigal, et al. "Identification of gene positioning factors using high-throughput imaging mapping." Cell 162.4 (2015): 911-923.<br>
+
+[6] Chen, Baohui, Juan Guan, and Bo Huang. "Imaging specific genomic DNA in living cells." Annual review of biophysics 45 (2016): 1-23.<br>
+
+[7] Buxbaum, Adina R., Gal Haimovich, and Robert H. Singer. "In the right place at the right time: visualizing and understanding mRNA localization." Nature reviews Molecular cell biology 16.2 (2015): 95.<br>
+
+[8] Ellisman, Mark H., et al. "Automated procedures for the alignment and reconstruction of multiple tilt electron microscopic tomography data." Microscopy and Microanalysis 20.S3 (2014): 1258-1259.<br>
+
+[9] Soto, Gabriel E., et al. "Serial section electron tomography: a method for three-dimensional reconstruction of large structures." Neuroimage 1.3 (1994): 230-243. <br>
+
+[10] Adams, Stephen R., et al. "Multicolor electron microscopy for simultaneous visualization of multiple molecular species." Cell chemical biology 23.11 (2016): 1417-1427.<br>
+
+[11] Ou, Horng D., et al. "ChromEMT: Visualizing 3D chromatin structure and compaction in interphase and mitotic cells." Science 357.6349 (2017): eaag0025.<br>
+
+[12] Le Gros, Mark A., et al. "Soft X-ray tomography reveals gradual chromatin compaction and reorganization during neurogenesis in vivo." Cell reports 17.8 (2016): 2125-2136.<br>
+
+[13] Szymborska, Anna, et al. "Nuclear pore scaffold structure analyzed by super-resolution microscopy and particle averaging." Science 341.6146 (2013): 655-658.<br>
+
+[14] Chen, Jiji, et al. "Single-molecule dynamics of enhanceosome assembly in embryonic stem cells." Cell 156.6 (2014): 1274-1285.<br>
+
+[15] Izeddin, Ignacio, et al. "Single-molecule tracking in live cells reveals distinct target-search strategies of transcription factors in the nucleus." Elife 3 (2014).<br>
