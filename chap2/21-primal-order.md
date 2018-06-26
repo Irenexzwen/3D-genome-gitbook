@@ -49,7 +49,7 @@ FAIRE-seq [[10]](http://www.genome.org/cgi/doi/10.1101/gr.5533506) is **Formalde
     <td>ATAC-seq</td>
     <td>Open chromatin<br>nucleosome positions<br>TF footprints</td>
     <td>~1</td>
-    <td><ul><li><b>Simple, fast protocol</li><li><b>lower input requirements</b><\li><li>Bias towards CG-rich sequences<br>sequence bias of Tn5 transposase </li><li>Fresh tissue isolation, mitochondrial DNA contamination, immature data analysis tools</li></ul></td>
+    <td><ul><li><b>Simple, fast protocol</li><li><b>lower input requirements(1-50,000 cells)</li><li>lower sequencing depth</b><\li><li>Bias towards CG-rich sequences<br>sequence bias of Tn5 transposase </li><li>Fresh tissue isolation, mitochondrial DNA contamination, immature data analysis tools</li></ul></td>
     </tr>
     <tr>
     <td>MNase-seq</td>
