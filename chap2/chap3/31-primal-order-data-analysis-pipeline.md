@@ -138,7 +138,7 @@ Accessible regions are determined based on peak-calling results. With peak files
     <th>ATAC-seq</th>
   </tr>
   <tr>
-    <th>Objectives</th>
+    <th>Identification<br>Objectives</th>
     <td>Nucleosome positioning</td><td>TF footprint</td><td>CORE locations</td><td>Nucleosome pos and TF footprint</td>
   </tr> 
   <tr>
@@ -149,7 +149,9 @@ Accessible regions are determined based on peak-calling results. With peak files
   </tr>
 </tbody>
 </table>
-
+**V-plots** are two dimensional dot- plots that display each fragment’slengthinthe Y-axis versus the corresponding fragment midpoint position in the X-axis for TF binding detection.
+<br>
+**CENTIPEDE** is an integrative algorithm for rapid profiling of many TFs simultaneously that combines known information on TF motifs and positional weight matrices
  
  
 ### Step5 Analysis and Interpretation
