@@ -229,11 +229,16 @@ Align the reads to the genome:
 ```
 bowtie –m 1 -S -q /path_to/mm10 CTCF.fastq CTCF.sam # details refer to usage of bowtie
 ```
+Run MACS:
+```
+macs14 -t CTCF.sam -c Control.sam -n CTCF –g mm 
+```
+The help docs of comprehensive parameters [here](http://liulab.dfci.harvard.edu/MACS/README.html).
 After alignment we'll get four files: **CTCF_model.r，CTCF_peaks.bed，CTCF_peaks.xls，CTCF_summits.bed**. The double peaks figure is:
 ```
  Rscript CTCF_model.r
 ```
-The CTCF_peak.bed records the location of each peak and can be futher processed with the tools like BEDTOOLS.
+The CTCF_peak.bed records the location of each peak and can be futher processed with the tools like Bedtools.
 
 
 
