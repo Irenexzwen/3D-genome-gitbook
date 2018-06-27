@@ -155,7 +155,9 @@ Accessible regions are determined based on peak-calling results. With peak files
  
  
 ### Step5 Analysis and Interpretation
-
+Data annotation and integration represents the final and most informative stage of analysis. After we get the nucleosome positions and TF binding sites, it is desireble to further interpret them in the light of relavent information.
+- In combination with (promoters, introns, intergenic regions, TSSs, TTSs) information ---- [BedTools](http://bedtools.readthedocs.org/).
+- Discovery TF binding events based on known knowledge or *de novo* ways.
 
 ## 3.2.3 Analytical Tools:
 - Brief view of different tools 
