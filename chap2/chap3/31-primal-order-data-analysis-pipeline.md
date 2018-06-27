@@ -5,13 +5,13 @@ Genomic regions with dense nucleo- somes are more tightly packed (i.e., “close
 ![](/assets/prios.jpg)
 **Figure1.Fragmentation methods and read out features comparison between four methods.**MNase is specially sensitive to open chromotin areas and it is exonucleas which maps regions that are protected by nucleosomes (large open regions are digested). DNase-seq and ATAC-seq are used to sequence and map exposed regions of DNA. 
 ## 3.2.2 Analytical pipeline:
-### step1 Raw reads (Quality control)
+### Step1 Raw reads (Quality control)
 
  - Composite plots to check experiment sucess: eg, TSSs shown t be open.----**ArchTEX[108], CEAS[110]**.
  - ATAC-seq can be further: estimating the percentage of sequence reads that map to the mitochondrial genome(lower is better).
  - Use genome browser to see raw tag density ---- **UCSC[121],IGV[122],GIVE**.
  
-### step2 Pre-processing & Alignment 
+### Step2 Pre-processing & Alignment 
 Reads are filtered to remove redundancy and adaptors, also size selection (selective for some methods).
 #### Size selection:
 - MNase: 25-50bp fragments represent TF-binding sites.
@@ -34,14 +34,20 @@ Reads are filtered to remove redundancy and adaptors, also size selection (selec
  - ATAC:  100-160 M
  
  
-### step3 Peak calling 
+### Step3 Peak calling 
 Peak calling basically means we identify possible open regions or nucleosome location through the tiling reads depth. This step is the most critical for chromatin accessibility profiling, revealing nucleosome-dense, closed regions (MNase-seq) or open chromatin regions (DNase-seq, FAIRE-seq, and ATAC-seq)【'论文本身】.
- - For MNase-seq
- - For DNase-seq and FAIRE-seq
- - For ATAC-seq
-- Chromatin Accessibility Analysis
+
+#### For MNase-seq
+#### For DNase-seq and FAIRE-seq
+#### For ATAC-seq
+
+
+### Step4 Chromatin Accessibility Analysis
  - Algorithms
-- Analysis and Interpretation
+ 
+ 
+ 
+### Step5 Analysis and Interpretation
 
 
 ## 3.2.3 Analytical Tools:
