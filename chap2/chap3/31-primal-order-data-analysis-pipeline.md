@@ -5,9 +5,14 @@ Genomic regions with dense nucleo- somes are more tightly packed (i.e., “close
 ![](/assets/prios.jpg)
 **Figure1.Fragmentation methods and read out features comparison between four methods.**MNase is specially sensitive to open chromotin areas and it is exonucleas which maps regions that are protected by nucleosomes (large open regions are digested). DNase-seq and ATAC-seq are used to sequence and map exposed regions of DNA. 
 ## 3.2.2 Analytical pipeline:
-- Raw reads 
-- Pre-processing & Alignment 
-- Peak calling 
+### step1 Raw reads 
+- Quality control
+ - Composite plots to check experiment sucess: eg, TSSs shown t be open.----**ArchTEX[108], CEAS[110]**
+ - ATAC-seq can be further: estimating the percentage of sequence reads that map to the mitochondrial genome(lower is better).
+ - use genome browser to see raw tag density ---- **UCSC[121],IGV[122],GIVE**
+ 
+### step2 Pre-processing & Alignment 
+### step3 Peak calling 
  - For MNase-seq
  - For DNase-seq and FAIRE-seq
  - For ATAC-seq
