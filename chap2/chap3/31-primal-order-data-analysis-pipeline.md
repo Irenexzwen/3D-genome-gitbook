@@ -131,17 +131,22 @@ Accessible regions are determined based on peak-calling results. With peak files
 <table>
  <tbody>
   <tr>
+    <th></th>
     <th>MNase-seq</th>
     <th>DNase-seq</th>
     <th>FAIRE-seq</th>
     <th>ATAC-seq</th>
   </tr>
   <tr>
+    <th>Objectives</th>
     <td>Nucleosome positioning</td><td>TF footprint</td><td>CORE locations</td><td>Nucleosome pos and TF footprint</td>
   </tr> 
-      <tr>
-    <td><ul><li>Nucleosome positioning algorithms [2-48,58,111,144】</li><li>Nucleosome occupancy algorithms [2-48,145】</li><li>V-plots for TF occupancy [2-50】</li></ul></td><td><ul><li>Digital genomic footprinting algorithms [19,78,83,85,128,146-149】</li><li>Nucleosome and TF occupancy algorithms [2-150】</li><li>CENTIPEDE [2-151】</li><ul>
-    <td><TF footprint</td>  </tr>
+  <tr>
+    <th>Tools</th>
+    <td><ul><li>Nucleosome positioning algorithms [2-48,58,111,144】</li><li>Nucleosome occupancy algorithms [2-48,145】</li><li>V-plots for TF occupancy [2-50】</li></ul></td><td><ul><li>Digital genomic footprinting algorithms [19,78,83,85,128,146-149】</li><li>Nucleosome and TF occupancy algorithms [2-150】</li><li>CENTIPEDE [2-151】</li><ul></td>
+    <td>Not available</td>
+    <td><ul><li>Digital genomic footprinting algorithms</li><li>CENTIPEDE</li></ul></td>
+  </tr>
 </tbody>
 </table>
 
