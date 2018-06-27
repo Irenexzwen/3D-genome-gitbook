@@ -214,7 +214,6 @@ Determining the background expectation of the number of peaks you would see and 
 Another problem is that, the reads we got do not indicate the real potion of a TF, reads are pulled down together with a TF. In that case we usually get a double peak result which desired further analysis. MACS solved this problem by shifting tags of d/2, where d  is the discrepancy between forward and backward peaks around one TF. An illustration can be seen [here](https://www.nature.com/articles/nrg2641/figures/5).
 
 #### Implementation Pipeline
-
 Intall [MACS](http://liulab.dfci.harvard.edu/MACS/Download.html)(version 1.4 or 2.0).
 ```
 tar xvzf MACS-1.4.2-1.tar.gz
@@ -234,6 +233,7 @@ After alignment we'll get four files: **CTCF_model.r，CTCF_peaks.bed，CTCF_pea
 ```
  Rscript CTCF_model.r
 ```
+The CTCF_peak.bed records the location of each peak and can be futher processed with the tools like BEDTOOLS.
 
 
 
