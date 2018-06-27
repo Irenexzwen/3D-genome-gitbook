@@ -84,7 +84,9 @@ Peak calling basically means we identify possible open regions or nucleosome loc
    </tr>  
 </tbody>
 </table>
+
 ##### Specific tools for FAIRE-seq
+
 <table>
  <tbody>
   <tr>
@@ -195,9 +197,10 @@ MACS is on of the most popular peak calling tools and is developed in  X. Shirle
 The combination of TF and genome is a relatively random process, that's to say that every position on the genome have the chance to be seen by the TF (however, with different probablity). Peak calling is aimed to find those hot spot that is easily seen.
 
 How can we identify whether a spot is "hot"? Suppose we are sequencing a group of cells, then a hot spot is presumably be covered more frequently than other spots. This process can be viewed as a binomial distribution and    when the number of reads *n* is large and the prob *p* of each location to be covered by a read is small, then the binomial distribution became [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution). 
-> An event can occur 0, 1, 2, … times in an interval. The average number of events in an interval is designated <math> \lambda </math> (lambda). Lambda is the event rate, also called the rate parameter. The probability of observing <math>k</math> events in an interval is given by the equation:    <math>P(k \text{ events in interval}) = e^{-\lambda}\frac{\lambda^k}{k!}</math>
 
-Here the <math> \lambda=n*p, p=\frac{l}{s}</math>. 
+> An event can occur 0, 1, 2, … times in an interval. The average number of events in an interval is designated <math> \lambda </math> (lambda). Lambda is the event rate, also called the rate parameter. The probability of observing <math>k</math> events in an interval is given by the equation: <math>P(k \text{ events in interval}) = e^{-\lambda}\frac{\lambda^k}{k!}</math>
+
+Here the ``\lambda=n*p, p=\frac{l}{s}``. 
 - n: the reads number from sequencing.
 - l: length of a single read.
 - s: length of the whole genome.
