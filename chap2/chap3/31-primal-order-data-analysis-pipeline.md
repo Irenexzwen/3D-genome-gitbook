@@ -7,9 +7,9 @@ Genomic regions with dense nucleo- somes are more tightly packed (i.e., “close
 ## 3.2.2 Analytical pipeline:
 ### Step1 Raw reads (Quality control)
 
- - Composite plots to check experiment sucess: eg, TSSs shown t be open.---- **ArchTEX[1](https://www.ncbi.nlm.nih.gov/pubmed/22302569), CEAS[2](https://www.ncbi.nlm.nih.gov/pubmed/19689956)**.
+ - Composite plots to check experiment sucess: eg, TSSs shown t be open.---- **ArchTEX[[1]](https://www.ncbi.nlm.nih.gov/pubmed/22302569), CEAS[[2]](https://www.ncbi.nlm.nih.gov/pubmed/19689956)**.
  - ATAC-seq can be further: estimating the percentage of sequence reads that map to the mitochondrial genome(lower is better).
- - Use genome browser to see raw tag density ---- **UCSC[3](https://www.ncbi.nlm.nih.gov/pubmed/20959295),IGV[4](https://www.ncbi.nlm.nih.gov/pubmed/22517427),[GIVE](https://www.biorxiv.org/content/early/2018/03/15/177832)**.
+ - Use genome browser to see raw tag density ---- **UCSC[[3]](https://www.ncbi.nlm.nih.gov/pubmed/20959295),IGV[[4]](https://www.ncbi.nlm.nih.gov/pubmed/22517427),[GIVE](https://www.biorxiv.org/content/early/2018/03/15/177832)**.
  
 ### Step2 Pre-processing & Alignment 
 Reads are filtered to remove redundancy and adaptors, also size selection (selective for some methods).
@@ -52,15 +52,15 @@ Peak calling basically means we identify possible open regions or nucleosome loc
   </tr>
   <tr>
     <td>GeneTrack</td>
-    <td><ul><li>Gaussian smoothing</li><li>generate prob-based map based on predefined exclusion distance</li></ul></td><td>[1-4】</td>
+    <td><ul><li>Gaussian smoothing</li><li>generate prob-based map based on predefined exclusion distance</li></ul></td><td>[6]</td>
   </tr>
   <tr>
     <td>iNPS</td>
-    <td><ul><li>wave-like structure of data</li><li>first derivative of the Gaussian smoothed profile</li></ul></td><td>[1-20】</td>
+    <td><ul><li>wave-like structure of data</li><li>first derivative of the Gaussian smoothed profile</li></ul></td><td>[7]</td>
    </tr>  
    <tr>
       <td>DANPOS</td>
-      <td><ul><li>identification ofdynamic nucleosomes positions</li></ul></td><td>[1-19】</td>
+      <td><ul><li>identification ofdynamic nucleosomes positions</li></ul></td><td>[8]</td>
       </tr>
 </tbody>
 </table>
@@ -76,11 +76,11 @@ Peak calling basically means we identify possible open regions or nucleosome loc
   </tr>
   <tr>
     <td>F-seq</td>
-    <td><ul><li>smooth Gaussian kernel density estimation</li><li>higher accuracy and sensitivity[2-135】</li></ul></td><td>[1-15】</td>
+    <td><ul><li>smooth Gaussian kernel density estimation</li><li>higher accuracy and sensitivity</li></ul></td><td>[9]</td>
   </tr>
   <tr>
     <td>Hotspot</td>
-    <td><ul><li>reports statistical signifi- cance for identified DHSs<br>(DNase I hypersensitive site)</li></ul></td><td>[1-8,49】</td>
+    <td><ul><li>reports statistical signifi- cance for identified DHSs<br>(DNase I hypersensitive site)</li></ul></td><td>[10]</td>
    </tr>  
 </tbody>
 </table>
@@ -94,7 +94,7 @@ Peak calling basically means we identify possible open regions or nucleosome loc
   </tr>
   <tr>
     <td>MACS2</td>
-    <td><ul><li>more parameter settings</li><li>settings can be converted to P-values empirically</li></ul></td><td>[1-132】</td>
+    <td><ul><li>more parameter settings</li><li>settings can be converted to P-values empirically</li></ul></td><td>[11]</td>
   </tr>
 </tbody>
 </table>
@@ -109,11 +109,11 @@ Peak calling basically means we identify possible open regions or nucleosome loc
   </tr>
   <tr>
     <td>ZINBA</td>
-    <td><ul><li>regression model to identify enriched regions without a prior</li><li>regions within a defined dis- tance are combined to form a broad region</li><li>shape-detection function for sharp signals</li><li>can combine prior like GC content when noise is high</li></ul></td><td>[1-72】</td>
+    <td><ul><li>regression model to identify enriched regions without a prior</li><li>regions within a defined dis- tance are combined to form a broad region</li><li>shape-detection function for sharp signals</li><li>can combine prior like GC content when noise is high</li></ul></td><td>[12]</td>
   </tr>
   <tr>
     <td>MACS</td>
-    <td><ul><li>use Poisson distribution as a background model</li></ul></td><td>[1-8,49】</td>
+    <td><ul><li>use Poisson distribution as a background model</li></ul></td><td>[11]</td>
    </tr>  
 </tbody>
 </table>
@@ -143,7 +143,7 @@ Accessible regions are determined based on peak-calling results. With peak files
   </tr> 
   <tr>
     <th>Tools</th>
-    <td><ul><li>Nucleosome positioning algorithms [2-48,58,111,144】</li><li>Nucleosome occupancy algorithms [2-48,145】</li><li>V-plots for TF occupancy [2-50】</li></ul></td><td><ul><li>Digital genomic footprinting algorithms [19,78,83,85,128,146-149】</li><li>Nucleosome and TF occupancy algorithms [2-150】</li><li>CENTIPEDE [2-151】</li><ul></td>
+    <td><ul><li>Nucleosome positioning algorithms [13-16]</li><li>Nucleosome occupancy algorithms [2-48,145】</li><li>V-plots for TF occupancy [2-50】</li></ul></td><td><ul><li>Digital genomic footprinting algorithms [19,78,83,85,128,146-149】</li><li>Nucleosome and TF occupancy algorithms [2-150】</li><li>CENTIPEDE [2-151】</li><ul></td>
     <td>Not available</td>
     <td><ul><li>Digital genomic footprinting algorithms</li><li>CENTIPEDE</li></ul></td>
   </tr>
@@ -249,6 +249,20 @@ The CTCF_peak.bed records the location of each peak and can be futher processed 
 [3] Fujita, Pauline A., et al. "The UCSC genome browser database: update 2011." Nucleic acids research 39.suppl_1 (2010): D876-D882.<br>
 [4] Thorvaldsdóttir, Helga, James T. Robinson, and Jill P. Mesirov. "Integrative Genomics Viewer (IGV): high-performance genomics data visualization and exploration." Briefings in bioinformatics 14.2 (2013): 178-192.<br>
 [5] Chang, Pearl, et al. "Computational Methods for Assessing Chromatin Hierarchy." Computational & Structural Biotechnology Journal (2018).<br>
+[6] Albert I, Wachi S, Jiang C, Pugh BF. GeneTrack - a genomic data processing and visualization framework. Bioinformatics 2008;24(10):1305–6.<br>
+[7] Chen W, Liu Y, Zhu S, Green C, Wei G, Han JD. Improved nucleosome-positioning algorithm iNPS for accurate nucleosome positioning from sequencing data. Nat Commun 2014;5:4909.<br>
+[8] ChenK, XiY, Pan X, Li Z, Kaestner K, Tyler J, et al. DANPOS: dynamic analysis ofnucle- osome position and occupancy by sequencing. Genome Res 2013;23(2):341–51.<br>
+[9] Boyle AP, Guinney J, Crawford GE, Furey TS. F-Seq: a feature density estimator for high-throughput sequence tags. Bioinformatics 2008;24(21):2537–8.<br>
+[10] Baek S, Sung MH, Hager GL. Quantitative analysis of genome-wide chromatin remodeling. Methods Mol Biol 2012;833:433–41.<br>
+[11] Zhang Y, Liu T, Meyer CA, Eeckhoute J, Johnson DS, Bernstein BE, Nusbaum C, Myers RM, Brown M, Li W, Liu XS: Model-based analysis of ChIP-Seq (MACS). Genome Biol 2008, 9(9):R137<br>
+[12] Rashid NU, Giresi PG, Ibrahim JG, Sun W, Lieb JD. ZINBA integrates local covariates with DNA-seq data to identify broad and narrow regions of enrichment, even within amplified genomic regions. Genome Biol 2011;12(7):R67.<br>
+[13] Kaplan N, Moore IK, Fondufe-Mittendorf Y, Gossett AJ, Tillo D, Field Y, LeProust EM, Hughes TR, Lieb JD, Widom J, Segal E: The DNA-encoded nucleosome organization of a eukaryotic genome. Nature 2009, 458(7236):362–366.<br>
+[14] Weiner A, Hughes A, Yassour M, Rando OJ, Friedman N: High-resolution nucleosome mapping reveals transcription-dependent promoter packaging. Genome Res 2010, 20(1):90–100.
+[15] Albert I, Mavrich TN, Tomsho LP, Qi J, Zanton SJ, Schuster SC, Pugh BF: Translational and rotational settings of H2A.Z nucleosomes across the Saccharomyces cerevisiae genome. Nature 2007, 446(7135):572–576.
+[16] Zhang Y, Moqtaderi Z, Rattner BP, Euskirchen G, Snyder M, Kadonaga JT, Liu XS, Struhl K: Intrinsic histone-DNA interactions are not the major determinant of nucleosome positions in vivo. Nat Struct Mol Biol 2009, 16(8):847–852.
+[17] Kaplan N, Moore IK, Fondufe-Mittendorf Y, Gossett AJ, Tillo D, Field Y, LeProust EM, Hughes TR, Lieb JD, Widom J, Segal E: The DNA-encoded nucleosome organization of a eukaryotic genome. Nature 2009, 458(7236):362–366
+[18] Mavrich TN, Ioshikhes IP, Venters BJ, Jiang C, Tomsho LP, Qi J, Schuster SC, Albert I, Pugh BF: A barrier nucleosome model for statistical positioning of nucleosomes throughout the yeast genome. Genome Res 2008, 18(7):1073–1083.
+
 
 
 
