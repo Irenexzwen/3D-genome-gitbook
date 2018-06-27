@@ -1,4 +1,4 @@
 {
     "plugins": [ "local-video" ]
-    "plugins": ["mathjax"]
+    "plugins": [ "mathjax" ]
 }
