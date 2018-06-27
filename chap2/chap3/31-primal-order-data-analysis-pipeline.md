@@ -28,10 +28,10 @@ Reads are filtered to remove redundancy and adaptors, also size selection (selec
  - STAR
  - ChimeraScan【？】
  
-#### Minimal reads number
+#### Minimal reads number 【引用？！】
  - MNase: 150-200 Million reads.
  - DNase / FAIRE: 25-50 M
- - ATAC:  100-160 M
+ - ATAC:  50-160 M
  
  
 ### Step3 Peak calling 
@@ -122,11 +122,33 @@ Peak calling basically means we identify possible open regions or nucleosome loc
 
 
 #### For ATAC-seq
-
+Paired-end sequencing is performed for ATAC-seq. The read start sites require **adjustment** because the Tn5 transposase binds as a dimer and inserts adaptors separated by 9bp. Generally, reads aligned to the + strand are offset by +4 bp, and reads aligning to the - strand are offset by −5 bp【文章1】. This method can detect both broad regions (few kilobase) or small regions (50-500bp).
+##### Comman peak calling tools:
+MACS2, ZINBA, F-seq, HOMER. ["atac-seq"-R package](https://github.com/ blikzen/atac-seq).
 
 ### Step4 Chromatin Accessibility Analysis
- - Algorithms
- 
+Accessible regions are determined based on peak-calling results. With peak files we go downstream analysis with different purpose:
+<table>
+ <tbody>
+  <tr>
+    <th>MNase-seq</th>
+    <th>DNase-seq</th>
+    <th>FAIRE-seq</th>
+    <th>ATAC-seq</th>
+  </tr>
+  <tr>
+    <td>Nucleosome positioning</td><td>TF footprint</td><td>CORE locations</td><td>Nucleosome pos and TF footprint</td>
+  </tr> 
+      <tr>
+    <td><ul><li>Nucleosome positioning algorithms [2-48,58,111,144】</li><li>Nucleosome occupancy algorithms [2-48,145】</li><li>V-plots for TF occupancy [2-50】</li></ul></td><td><ul><li>Digital genomic footprinting algorithms [19,78,83,85,128,146-149】</li><li>Nucleosome and TF occupancy algorithms [2-150】</li><li>CENTIPEDE [2-151】</li><ul>
+    <td><TF footprint</td>  </tr>
+</tbody>
+</table>
+
+
+
+
+
  
  
 ### Step5 Analysis and Interpretation
