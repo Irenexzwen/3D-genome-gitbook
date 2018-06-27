@@ -38,7 +38,89 @@ Reads are filtered to remove redundancy and adaptors, also size selection (selec
 Peak calling basically means we identify possible open regions or nucleosome location through the tiling reads depth. This step is the most critical for chromatin accessibility profiling, revealing nucleosome-dense, closed regions (MNase-seq) or open chromatin regions (DNase-seq, FAIRE-seq, and ATAC-seq)【'论文本身】.
 
 #### For MNase-seq
+##### Midpoint of nucleosome:
+- **single-end mode**: shifting the ends 73 bp from 5' end, or extending the ends from 120 to 147 bp in the 3′ direction. 
+- **paired end mode**: mid of forward and reverse reads. 
+
+##### Peak calling tools:
+<table>
+ <tbody>
+  <tr>
+    <th>Tools</th>
+    <th>Description</th>
+    <th>Reference</th>
+  </tr>
+  <tr>
+    <td>GeneTrack</td>
+    <td><ul><li>Gaussian smoothing</li><li>generate prob-based map based on predefined exclusion distance</li></ul></td><td>[1-4】</td>
+  </tr>
+  <tr>
+    <td>iNPS</td>
+    <td><ul><li>wave-like structure of data</li><li>first derivative of the Gaussian smoothed profile</li></ul></td><td>[1-20】</td>
+   </tr>  
+   <tr>
+      <td>DANPOS</td>
+      <td><ul><li>identification ofdynamic nucleosomes positions</li></ul></td><td>[1-19】</td>
+      </tr>
+</tbody>
+</table>
+
 #### For DNase-seq and FAIRE-seq
+##### Specific tools for DNase-seq
+<table>
+ <tbody>
+  <tr>
+    <th>Tools</th>
+    <th>Description</th>
+    <th>Reference</th>
+  </tr>
+  <tr>
+    <td>F-seq</td>
+    <td><ul><li>smooth Gaussian kernel density estimation</li><li>higher accuracy and sensitivity[2-135】</li></ul></td><td>[1-15】</td>
+  </tr>
+  <tr>
+    <td>Hotspot</td>
+    <td><ul><li>reports statistical signifi- cance for identified DHSs<br>(DNase I hypersensitive site)</li></ul></td><td>[1-8,49】</td>
+   </tr>  
+</tbody>
+</table>
+##### Specific tools for FAIRE-seq
+<table>
+ <tbody>
+  <tr>
+    <th>Tools</th>
+    <th>Description</th>
+    <th>Reference</th>
+  </tr>
+  <tr>
+    <td>MACS2</td>
+    <td><ul><li>more parameter settings</li><li>settings can be converted to P-values empirically</li></ul></td><td>[1-132】</td>
+  </tr>
+</tbody>
+</table>
+
+##### General peak calling tools
+<table>
+ <tbody>
+  <tr>
+    <th>Tools</th>
+    <th>Description</th>
+    <th>Reference</th>
+  </tr>
+  <tr>
+    <td>ZINBA</td>
+    <td><ul><li>regression model to identify enriched regions without a prior</li><li>regions within a defined dis- tance are combined to form a broad region</li><li>shape-detection function for sharp signals</li><li>can combine prior like GC content when noise is high</li></ul></td><td>[1-72】</td>
+  </tr>
+  <tr>
+    <td>MACS</td>
+    <td><ul><li>use Poisson distribution as a background model</li></ul></td><td>[1-8,49】</td>
+   </tr>  
+</tbody>
+</table>
+
+
+
+
 #### For ATAC-seq
 
 
