@@ -195,7 +195,7 @@ MACS is on of the most popular peak calling tools and is developed in  X. Shirle
 The combination of TF and genome is a relatively random process, that's to say that every position on the genome have the chance to be seen by the TF (however, with different probablity). Peak calling is aimed to find those hot spot that is easily seen.
 
 How can we identify whether a spot is "hot"? Suppose we are sequencing a group of cells, then a hot spot is presumably be covered more frequently than other spots. This process can be viewed as a binomial distribution and    when the number of reads *n* is large and the prob *p* of each location to be covered by a read is small, then the binomial distribution became [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution). 
-> An event can occur 0, 1, 2, … times in an interval. The average number of events in an interval is designated <math> \lambda </math> (lambda). Lambda is the event rate, also called the rate parameter. The probability of observing {{mvar|k}} events in an interval is given by the equation:    <math>P(k \text{ events in interval}) = e^{-\lambda}\frac{\lambda^k}{k!}</math>
+> An event can occur 0, 1, 2, … times in an interval. The average number of events in an interval is designated <math> \lambda </math> (lambda). Lambda is the event rate, also called the rate parameter. The probability of observing <math>k</math> events in an interval is given by the equation:    <math>P(k \text{ events in interval}) = e^{-\lambda}\frac{\lambda^k}{k!}</math>
 
 Here the <math> \lambda=n*p, p=\frac{l}{s}</math>. 
 - n: the reads number from sequencing.
@@ -214,7 +214,7 @@ Determining the background expectation of the number of peaks you would see and 
 Another problem is that, the reads we got do not indicate the real potion of a TF, reads are pulled down together with a TF. In that case we usually get a double peak result which desired further analysis. MACS solved this problem by shifting tags of d/2, where d  is the discrepancy between forward and backward peaks around one TF. An illustration can be seen [here](https://www.nature.com/articles/nrg2641/figures/5).
 
 #### Implementation Pipeline
-Intall [MACS](http://liulab.dfci.harvard.edu/MACS/Download.html)(version 1.4 or 2.0).
+Intall [MACS](http://liulab.dfci.harvard.edu/MACS/Download.html) (version 1.4 or 2.0).
 
 ```
 tar xvzf MACS-1.4.2-1.tar.gz
@@ -232,7 +232,7 @@ export PYTHONPATH = /your_directory/lib/python2.X/site-packages/:$PYTHONPA
 Align the reads to the genome:
 
 ```
-bowtie –m 1 -S -q /path_to/mm10 CTCF.fastq CTCF.sam # details refer to usage of bowtie
+bowtie –m 1 -S -q /path_to/mm10 CTCF.fastq CTCF.sam 
 ```
 
 Run MACS:
