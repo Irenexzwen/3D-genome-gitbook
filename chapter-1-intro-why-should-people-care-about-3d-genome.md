@@ -14,7 +14,7 @@ However, the mystery of life can never be simply understood in the view of a lin
 *“Genes and regulatory elements are like people, They care about and communicate with those in their own domain, and they ignore everything else.”
 —— Job Dekker *
 
-
+$$a \ne 0$$
 
 
 
