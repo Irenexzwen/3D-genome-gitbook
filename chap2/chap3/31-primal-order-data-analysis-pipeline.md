@@ -189,7 +189,10 @@ A comprehensive list for peak calling softwares can be found at [here](https://o
 <table>
 
 ### Introduction of MACS
-MACS is on of the most popular peak calling tools and is developed in  X. Shirley Liu’s lab at Harvard University. We'll use MACS as an example to show you the basic idea behind peak calling and practical implementation.
+MACS is on of the most popular peak calling tools and is developed in  X. Shirley Liu’s lab at Harvard University. We'll use MACS as an example to show you the basic idea behind peak calling and practical implementation. The original paper introduce MACS can be found [here](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-9-r137).
+
+#### Core idea of the algorithm
+The combination of TF and genome is a relatively random process, that's to say that every position on the genome have the chance to be seen by the TF (however, with different probablity). Peak calling is aimed to find those hot spot that is 
 
 
 # Referrence
