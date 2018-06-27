@@ -215,7 +215,7 @@ Another problem is that, the reads we got do not indicate the real potion of a T
 
 #### Implementation Pipeline
 
-Intall [MACS](https://github.com/downloads/taoliu)(version 1.4 or 2.0).
+Intall [MACS](http://liulab.dfci.harvard.edu/MACS/Download.html)(version 1.4 or 2.0).
 ```
 tar xvzf MACS-1.4.2-1.tar.gz
 cd MACS-1.4.2
@@ -226,8 +226,14 @@ Change the enviroment path
 export PATH = /your_directory/bin:$PATH
 export PYTHONPATH = /your_directory/lib/python2.X/site-packages/:$PYTHONPATH
 ```
-
-
+Align the reads to the genome:
+```
+bowtie –m 1 -S -q /path_to/mm10 CTCF.fastq CTCF.sam # details refer to usage of bowtie
+```
+After alignment we'll get four files: **CTCF_model.r，CTCF_peaks.bed，CTCF_peaks.xls，CTCF_summits.bed**. The double peaks figure is:
+```
+ Rscript CTCF_model.r
+```
 
 
 
