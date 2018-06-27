@@ -202,12 +202,25 @@ Here the <math> \lambda=n*p, p=\frac{l}{s}</math>.
 - l: length of a single read.
 - s: length of the whole genome.
 
-With this basic model then we can compute a threshold depth of a spot by setting a confidence probability. Howver, this is only a baby model which may fail in real circumstances due to lots of bias of the experiment.
+With this basic model then we can compute a threshold depth of a spot by setting a confidence probability. Howver, this is only a baby model which may fail in real circumstances due to lots of bias of the experiment. 
 
 #### Bias in ChIP-seq experiment
 In doing ChIP-seq analysis, it's important to think about biases that can affect your results. There are a number of issues, such as issues with chromatin accessibility that are going to affect how your DNA gets fragmented, issues with amplification, repetitive regions, which are going to be difficult to map back to. And so it's very important in a ChIP-seq experiment to use some kind of control, and a common control is to use input DNA control, where we have data that's, that is fragmented, but the immunoprecipitation, or the, the antibody pull down has not been performed. (A comprehensive review for bias can be found [here](http://dx.doi.org/10.1038/nrg3788)).
 
-#### Implementation
+#### Using control data
+Determining the background expectation of the number of peaks you would see and use that in making your peak calls. It also allows for MACS to compute a false discovery rate. Without a control, MACS will not compute a false discovery rate. But using a control, it's able to to model that background. 
+
+#### Generate profile from combined tag
+Another problem is that, the reads we got do not indicate the real potion of a TF, reads are pulled down together with a TF. In that case we usually get a double peak result which desired further analysis. MACS solved this problem by shifting tags of d/2, where d  is the discrepancy between forward and backward peaks around one TF. An illustration can be seen [here](https://www.nature.com/articles/nrg2641/figures/5).
+
+#### Implementation Pipeline
+
+
+```
+
+```
+
+
 
 
 # Referrence
