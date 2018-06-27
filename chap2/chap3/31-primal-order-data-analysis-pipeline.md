@@ -215,11 +215,16 @@ Another problem is that, the reads we got do not indicate the real potion of a T
 
 #### Implementation Pipeline
 
-Intall [MACS]((version 1.4 or 2.0)
+Intall [MACS](https://github.com/downloads/taoliu)(version 1.4 or 2.0).
 ```
 tar xvzf MACS-1.4.2-1.tar.gz
 cd MACS-1.4.2
 python setup.py install –prefix /your_directory/
+```
+Change the enviroment path
+```
+export PATH = /your_directory/bin:$PATH
+export PYTHONPATH = /your_directory/lib/python2.X/site-packages/:$PYTHONPATH
 ```
 
 
