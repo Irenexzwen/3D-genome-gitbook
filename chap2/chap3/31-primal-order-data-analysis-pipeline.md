@@ -143,7 +143,7 @@ Accessible regions are determined based on peak-calling results. With peak files
   </tr> 
   <tr>
     <th>Tools</th>
-    <td><ul><li>Nucleosome positioning algorithms [13-16]</li><li>Nucleosome occupancy algorithms [2-48,145】</li><li>V-plots for TF occupancy [2-50】</li></ul></td><td><ul><li>Digital genomic footprinting algorithms [19,78,83,85,128,146-149】</li><li>Nucleosome and TF occupancy algorithms [2-150】</li><li>CENTIPEDE [2-151】</li><ul></td>
+    <td><ul><li>Nucleosome positioning algorithms [13-16]</li><li>Nucleosome occupancy algorithms [17-18]</li><li>V-plots for TF occupancy [19]</li></ul></td><td><ul><li>Digital genomic footprinting algorithms [20-21]</li><li>Nucleosome and TF occupancy algorithms [2-150】</li><li>CENTIPEDE [2-151】</li><ul></td>
     <td>Not available</td>
     <td><ul><li>Digital genomic footprinting algorithms</li><li>CENTIPEDE</li></ul></td>
   </tr>
@@ -257,11 +257,19 @@ The CTCF_peak.bed records the location of each peak and can be futher processed 
 [11] Zhang Y, Liu T, Meyer CA, Eeckhoute J, Johnson DS, Bernstein BE, Nusbaum C, Myers RM, Brown M, Li W, Liu XS: Model-based analysis of ChIP-Seq (MACS). Genome Biol 2008, 9(9):R137<br>
 [12] Rashid NU, Giresi PG, Ibrahim JG, Sun W, Lieb JD. ZINBA integrates local covariates with DNA-seq data to identify broad and narrow regions of enrichment, even within amplified genomic regions. Genome Biol 2011;12(7):R67.<br>
 [13] Kaplan N, Moore IK, Fondufe-Mittendorf Y, Gossett AJ, Tillo D, Field Y, LeProust EM, Hughes TR, Lieb JD, Widom J, Segal E: The DNA-encoded nucleosome organization of a eukaryotic genome. Nature 2009, 458(7236):362–366.<br>
-[14] Weiner A, Hughes A, Yassour M, Rando OJ, Friedman N: High-resolution nucleosome mapping reveals transcription-dependent promoter packaging. Genome Res 2010, 20(1):90–100.
-[15] Albert I, Mavrich TN, Tomsho LP, Qi J, Zanton SJ, Schuster SC, Pugh BF: Translational and rotational settings of H2A.Z nucleosomes across the Saccharomyces cerevisiae genome. Nature 2007, 446(7135):572–576.
-[16] Zhang Y, Moqtaderi Z, Rattner BP, Euskirchen G, Snyder M, Kadonaga JT, Liu XS, Struhl K: Intrinsic histone-DNA interactions are not the major determinant of nucleosome positions in vivo. Nat Struct Mol Biol 2009, 16(8):847–852.
-[17] Kaplan N, Moore IK, Fondufe-Mittendorf Y, Gossett AJ, Tillo D, Field Y, LeProust EM, Hughes TR, Lieb JD, Widom J, Segal E: The DNA-encoded nucleosome organization of a eukaryotic genome. Nature 2009, 458(7236):362–366
-[18] Mavrich TN, Ioshikhes IP, Venters BJ, Jiang C, Tomsho LP, Qi J, Schuster SC, Albert I, Pugh BF: A barrier nucleosome model for statistical positioning of nucleosomes throughout the yeast genome. Genome Res 2008, 18(7):1073–1083.
+[14] Weiner A, Hughes A, Yassour M, Rando OJ, Friedman N: High-resolution nucleosome mapping reveals transcription-dependent promoter packaging. Genome Res 2010, 20(1):90–100.<br>
+
+[15] Albert I, Mavrich TN, Tomsho LP, Qi J, Zanton SJ, Schuster SC, Pugh BF: Translational and rotational settings of H2A.Z nucleosomes across the Saccharomyces cerevisiae genome. Nature 2007, 446(7135):572–576.<br>
+
+[16] Zhang Y, Moqtaderi Z, Rattner BP, Euskirchen G, Snyder M, Kadonaga JT, Liu XS, Struhl K: Intrinsic histone-DNA interactions are not the major determinant of nucleosome positions in vivo. Nat Struct Mol Biol 2009, 16(8):847–852.<br>
+
+[17] Kaplan N, Moore IK, Fondufe-Mittendorf Y, Gossett AJ, Tillo D, Field Y, LeProust EM, Hughes TR, Lieb JD, Widom J, Segal E: The DNA-encoded nucleosome organization of a eukaryotic genome. Nature 2009, 458(7236):362–366<br>
+
+[18] Mavrich TN, Ioshikhes IP, Venters BJ, Jiang C, Tomsho LP, Qi J, Schuster SC, Albert I, Pugh BF: A barrier nucleosome model for statistical positioning of nucleosomes throughout the yeast genome. Genome Res 2008, 18(7):1073–1083.<br>
+
+[19] Henikoff JG, Belsky JA, Krassovsky K, MacAlpine DM, Henikoff S: Epigenome characterization at single base-pair resolution. Proc Natl Acad Sci U S A 2011, 108(45):18318–18323.<br>
+[20] Boyle AP, Song L, Lee BK, London D, Keefe D, Birney E, Iyer VR, Crawford GE, Furey TS: High-resolution genome-wide in vivo footprinting of diverse transcription factors in human cells. Genome Res 2011, 21(3):456–464.<br>
+[21] Neph S, Vierstra J, Stergachis AB, Reynolds AP, Haugen E, Vernot B, Thurman RE, John S, Sandstrom R, Johnson AK, Maurano MT, Humbert R, Rynes E, Wang H, Vong S, Lee K, Bates D, Diegel M, Roach V, Dunn D, Neri J, Schafer A, Hansen RS, Kutyavin T, Giste E, Weaver M, Canfield T, Sabo P, Zhang M, Balasundaram G, et al: An expansive human regulatory lexicon encoded in transcription factor footprints. Nature 2012, 489(7414):83–90<br>
 
 
 
