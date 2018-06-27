@@ -190,6 +190,7 @@ A comprehensive list for peak calling softwares can be found at [here](https://o
   </tbody>
 <table>
 
+
 ### Introduction of MACS
 MACS is on of the most popular peak calling tools and is developed in  X. Shirley Liu’s lab at Harvard University. We'll use MACS as an example to show you the basic idea behind peak calling and practical implementation. The original paper introduce MACS can be found [here](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-9-r137).
 
@@ -200,7 +201,7 @@ How can we identify whether a spot is "hot"? Suppose we are sequencing a group o
 
 > An event can occur 0, 1, 2, … times in an interval. The average number of events in an interval is designated $$ \lambda $$ (lambda). Lambda is the event rate, also called the rate parameter. The probability of observing $$ k $$ events in an interval is given by the equation: $$ P(k \text{ events in interval}) = e^{-\lambda}\frac{\lambda^k}{k!}$$.
 
-Here the $$\lambda=n*p, p=\frac{l}{s}$$. 
+Here the <math>\lambda=n*p, p=\frac{l}{s}. 
 - n: the reads number from sequencing.
 - l: length of a single read.
 - s: length of the whole genome.
