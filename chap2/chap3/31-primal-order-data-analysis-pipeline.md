@@ -242,7 +242,6 @@ After alignment we'll get four files: **CTCF_model.r，CTCF_peaks.bed，CTCF_pea
 The CTCF_peak.bed records the location of each peak and can be futher processed with the tools like Bedtools.
 
 
-
 # Referrence
 [1] Lai, William KM, Jonathan E. Bard, and Michael J. Buck. "ArchTEx: accurate extraction and visualization of next-generation sequence data." Bioinformatics 28.7 (2012): 1021-1023.<br>
 [2] Shin, Hyunjin, et al. "CEAS: cis-regulatory element annotation system." Bioinformatics 25.19 (2009): 2605-2606.<br>
