@@ -205,6 +205,9 @@ Here the <math> \lambda=n*p, p=\frac{l}{s}</math>.
 With this basic model then we can compute a threshold depth of a spot by setting a confidence probability. Howver, this is only a baby model which may fail in real circumstances due to lots of bias of the experiment.
 
 #### Bias in ChIP-seq experiment
+In doing ChIP-seq analysis, it's important to think about biases that can affect your results. There are a number of issues, such as issues with chromatin accessibility that are going to affect how your DNA gets fragmented, issues with amplification, repetitive regions, which are going to be difficult to map back to. And so it's very important in a ChIP-seq experiment to use some kind of control, and a common control is to use input DNA control, where we have data that's, that is fragmented, but the immunoprecipitation, or the, the antibody pull down has not been performed. (A comprehensive review for bias can be found [here](http://dx.doi.org/10.1038/nrg3788)).
+
+#### Implementation
 
 
 # Referrence
