@@ -150,10 +150,6 @@ Accessible regions are determined based on peak-calling results. With peak files
 </tbody>
 </table>
 
-
-
-
-
  
  
 ### Step5 Analysis and Interpretation
