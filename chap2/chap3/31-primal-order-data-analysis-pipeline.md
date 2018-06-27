@@ -9,7 +9,7 @@ Genomic regions with dense nucleo- somes are more tightly packed (i.e., “close
 
  - Composite plots to check experiment sucess: eg, TSSs shown t be open.---- **ArchTEX[[1]](https://www.ncbi.nlm.nih.gov/pubmed/22302569), CEAS[[2]](https://www.ncbi.nlm.nih.gov/pubmed/19689956)**.
  - ATAC-seq can be further: estimating the percentage of sequence reads that map to the mitochondrial genome(lower is better).
- - Use genome browser to see raw tag density ---- **UCSC[[3]](https://www.ncbi.nlm.nih.gov/pubmed/20959295),IGV[[4]](https://www.ncbi.nlm.nih.gov/pubmed/22517427),[GIVE](https://www.biorxiv.org/content/early/2018/03/15/177832)**.
+ - Use genome browser to see raw tag density ---- **UCSC[[3]](https://www.ncbi.nlm.nih.gov/pubmed/20959295), IGV[[4]](https://www.ncbi.nlm.nih.gov/pubmed/22517427), [GIVE](https://www.biorxiv.org/content/early/2018/03/15/177832)**.
  
 ### Step2 Pre-processing & Alignment 
 Reads are filtered to remove redundancy and adaptors, also size selection (selective for some methods).
@@ -28,14 +28,14 @@ Reads are filtered to remove redundancy and adaptors, also size selection (selec
  - STAR
  - ChimeraScan
  
-#### Minimal reads number 【引用？！】
+#### Minimal reads number
  - MNase: 150-200 Million reads.
  - DNase / FAIRE: 25-50 M
  - ATAC:  50-160 M
  
  
 ### Step3 Peak calling 
-Peak calling basically means we identify possible open regions or nucleosome location through the tiling reads depth. This step is the most critical for chromatin accessibility profiling, revealing nucleosome-dense, closed regions (MNase-seq) or open chromatin regions (DNase-seq, FAIRE-seq, and ATAC-seq)[[5]](https://doi.org/10.1016/j.csbj.2018.02.003).
+Peak calling basically means we identify possible open regions or nucleosome location through the tiling reads depth. This step is the most critical for chromatin accessibility profiling, revealing nucleosome-dense, closed regions (MNase-seq) or open chromatin regions (DNase-seq, FAIRE-seq, and ATAC-seq) [[5]](https://doi.org/10.1016/j.csbj.2018.02.003).
 
 #### For MNase-seq
 ##### Midpoint of nucleosome:
