@@ -202,6 +202,9 @@ Here the <math> \lambda=n*p, p=\frac{l}{s}</math>.
 - l: length of a single read.
 - s: length of the whole genome.
 
+With this basic model then we can compute a threshold depth of a spot by setting a confidence probability. Howver, this is only a baby model which may fail in real circumstances due to lots of bias of the experiment.
+
+#### Bias in ChIP-seq experiment
 
 
 # Referrence
