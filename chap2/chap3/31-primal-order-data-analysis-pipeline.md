@@ -199,7 +199,7 @@ The combination of TF and genome is a relatively random process, that's to say t
 
 How can we identify whether a spot is "hot"? Suppose we are sequencing a group of cells, then a hot spot is presumably be covered more frequently than other spots. This process can be viewed as a binomial distribution and    when the number of reads *n* is large and the prob *p* of each location to be covered by a read is small, then the binomial distribution became [Poisson distribution](https://en.wikipedia.org/wiki/Poisson_distribution). 
 
-An event can occur 0, 1, 2, … times in an interval. The average number of events in an interval is designated $$ \lambda $$ (lambda). Lambda is the event rate, also called the rate parameter. The probability of observing k $$ events in an interval is given by the equation: $$P(k \text{ events in interval}) = e^{-\lambda}\frac{\lambda^k}{k!}$$.
+An event can occur 0, 1, 2, … times in an interval. The average number of events in an interval is designated $$\lambda $$ (lambda). Lambda is the event rate, also called the rate parameter. The probability of observing $$k$$ events in an interval is given by the equation: $$P(k \text{ events in interval}) = e^{-\lambda}\frac{\lambda^k}{k!}$$.
 
 Here the $$\lambda=n*p, p=\frac{l}{s}$$ 
 - n: the reads number from sequencing.
