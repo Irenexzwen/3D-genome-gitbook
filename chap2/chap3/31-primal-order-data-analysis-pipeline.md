@@ -163,34 +163,36 @@ Data annotation and integration represents the final and most informative stage 
 ### Brief view of different tools 
 A comprehensive list for peak calling softwares can be found at [here](https://omictools.com/peak-calling-category). Few widely-used tools are listed below. 
 <table>
-<tbody>
-<tr>
+  <tbody>
+   <tr>
     <td>MACS2 (MACS1.4)</td> <td>Most widely used peak caller. Can detect narrow and broad peaks.</td>
-    </tr>
-  <tr>
+  </tr>
+   <tr>
     <td>Epic (SICER)</td>
     <td>Specialised for broad peaks</td>
   </tr>
-  <tr>
+   <tr>
     <td>BayesPeak R/Bioconductor</td>
     <td>Jmosaics Detects enriched regions jointly from replicates</td>
   </tr>
-  <tr>
-    <td>T-PIC Shape based</td>
-    <td>EDD</td><td>Detects megabase domain enrichment</td>
+   <tr>
+    <td>EDD</td>
+    <td>Detects megabase domain enrichment</td>
   </tr>
-  <tr>
+   <tr>
     <td>GEM</td><td>Peak calling and motif discovery for ChIP-seq and ChIP-exo</td>
   </tr>
   <tr>
     <td>SPP</td><td>Fragment length computation and saturation analysis to determine if read depth is</td>
   </tr>
-</tbody>
+  </tbody>
 <table>
 
 ### Introduction of MACS
+MACS is on of the most popular peak calling tools and is developed in  X. Shirley Liu’s lab at Harvard University. We'll use MACS as an example to show you the basic idea behind peak calling and practical implementation.
 
-**Referrence **
+
+# Referrence
 https://doi.org/10.1016/j.csbj.2018.02.003 *
 
 
