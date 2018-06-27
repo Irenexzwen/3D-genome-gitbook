@@ -143,7 +143,7 @@ Accessible regions are determined based on peak-calling results. With peak files
   </tr> 
   <tr>
     <th>Tools</th>
-    <td><ul><li>Nucleosome positioning algorithms [13-16]</li><li>Nucleosome occupancy algorithms [17-18]</li><li>V-plots for TF occupancy [19]</li></ul></td><td><ul><li>Digital genomic footprinting algorithms [20-21]</li><li>Nucleosome and TF occupancy algorithms [2-150】</li><li>CENTIPEDE [2-151】</li><ul></td>
+    <td><ul><li>Nucleosome positioning algorithms [13-16]</li><li>Nucleosome occupancy algorithms [17-18]</li><li>V-plots for TF occupancy [19]</li></ul></td><td><ul><li>Digital genomic footprinting algorithms [20-21]</li><li>Nucleosome and TF occupancy algorithms [22]</li><li>CENTIPEDE [23]</li><ul></td>
     <td>Not available</td>
     <td><ul><li>Digital genomic footprinting algorithms</li><li>CENTIPEDE</li></ul></td>
   </tr>
@@ -270,7 +270,8 @@ The CTCF_peak.bed records the location of each peak and can be futher processed 
 [19] Henikoff JG, Belsky JA, Krassovsky K, MacAlpine DM, Henikoff S: Epigenome characterization at single base-pair resolution. Proc Natl Acad Sci U S A 2011, 108(45):18318–18323.<br>
 [20] Boyle AP, Song L, Lee BK, London D, Keefe D, Birney E, Iyer VR, Crawford GE, Furey TS: High-resolution genome-wide in vivo footprinting of diverse transcription factors in human cells. Genome Res 2011, 21(3):456–464.<br>
 [21] Neph S, Vierstra J, Stergachis AB, Reynolds AP, Haugen E, Vernot B, Thurman RE, John S, Sandstrom R, Johnson AK, Maurano MT, Humbert R, Rynes E, Wang H, Vong S, Lee K, Bates D, Diegel M, Roach V, Dunn D, Neri J, Schafer A, Hansen RS, Kutyavin T, Giste E, Weaver M, Canfield T, Sabo P, Zhang M, Balasundaram G, et al: An expansive human regulatory lexicon encoded in transcription factor footprints. Nature 2012, 489(7414):83–90<br>
-
+[22] Vierstra J, Wang H, John S, Sandstrom R, Stamatoyannopoulos JA: Coupling transcription factor occupancy to nucleosome architecture with DNase-FLASH. Nat Methods 2014, 11(1):66–72.<br>
+[23] Pique-Regi R, Degner JF, Pai AA, Gaffney DJ, Gilad Y, Pritchard JK: Accurate inference of transcription factor binding from DNA sequence and chromatin accessibility data. Genome Res 2011, 21(3):447–455.<br>
 
 
 
