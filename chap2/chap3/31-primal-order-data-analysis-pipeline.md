@@ -227,6 +227,7 @@ export PYTHONPATH = /your_directory/lib/python2.X/site-packages/:$PYTHONPA
 ```
 Align the reads to the genome:
 ```
+
 bowtie –m 1 -S -q /path_to/mm10 CTCF.fastq CTCF.sam # details refer to usage of bowtie
 ```
 Run MACS:
