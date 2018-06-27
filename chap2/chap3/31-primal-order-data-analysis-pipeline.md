@@ -122,7 +122,7 @@ Peak calling basically means we identify possible open regions or nucleosome loc
 
 
 #### For ATAC-seq
-Paired-end sequencing is performed for ATAC-seq. The read start sites require **adjustment** because the Tn5 transposase binds as a dimer and inserts adaptors separated by 9bp. Generally, reads aligned to the + strand are offset by +4 bp, and reads aligning to the - strand are offset by −5 bp[[5]](https://doi.org/10.1016/j.csbj.2018.02.003). This method can detect both broad regions (few kilobase) or small regions (50-500bp).
+Paired-end sequencing is performed for ATAC-seq. The read start sites require **adjustment** because the Tn5 transposase binds as a dimer and inserts adaptors separated by 9bp. Generally, reads aligned to the + strand are offset by +4 bp, and reads aligning to the - strand are offset by −5 bp [[5]](https://doi.org/10.1016/j.csbj.2018.02.003). This method can detect both broad regions (few kilobase) or small regions (50-500bp).
 ##### Comman peak calling tools:
 MACS2, ZINBA, F-seq, HOMER. ["atac-seq"-R package](https://github.com/ blikzen/atac-seq).
 
