@@ -10,22 +10,30 @@
 - Analysis and Interpretation
 
 ### 3.2.1.1 Alignment
-Reads are filtered to remove duplicates, PCR artifact. Sequencing adaptors can also be removed prior to alignment.
+Hi-C data produced by deep sequencing is no different than other genome-wide deep sequencing datasets. The data starts out as genomic reads in the traditional FASTQ file format.<br> 
+Reads are filtered to remove duplicates, PCR artifact. Sequencing adaptors can also be removed prior to alignment.<br>
+The goal is to simply find a unique alignment for each read. The insert size of the Hi-C ligation product can vary between 1bp to hundreds of megabases (in terms of linear genome distance), it is difficult to use most paired-end alignment modes as is. One straightforward solution is to map each side of the paired end read separately/independently using a standard alignment procedure.
 - Full-read alignment first ---- Bowtie2, BWA
 - Unmapped reads: chimeric alignment ---- read splitting[[1]](https://doi.org/10.1101/gr.161620.113), iterative mapping[[2]](https://doi.org/10.1038/nmeth.2148)
 - Average sufficient reads depth, sufficient mappable reads:4C (1– 2 million), 5C (25 million) and Hi-C (8.4 to 100 million)[[3]](https://doi.org/10.1038/nrg3642)
 
 ### 3.2.1.2 Binning and Generating Contact Matrices
+#### what is bin?
+A bin is a ﬁxed, non-overlapping geno-mic span into which reads are grouped to increase the signal of the interaction frequency. The interactions between bins are simply summed up to aggre-gate the signals.
+
 #### why we use bin?
-- Using a 6-bp cutting restriction enzyme, there are almost 106 restriction fragments, leading to an interaction space on the order of 1012 possible pairwise interactions. Thus, achieving sufficient coverage to support maximal resolution is a significant challenge. **It's critical to set goals (what resolution you desire) to choose bin size.
+- Using a 6-bp cutting restriction enzyme, there are almost $$10^6$$ restriction fragments, leading to an interaction space on the order of $$10^{12}$$ possible pairwise interactions. Thus, achieving sufficient coverage to support maximal resolution is a significant challenge. **It's critical to set goals (what resolution you desire) to choose the proper bin size**.
 - To overcome the limitations that the signal-to-noise ratio decreases with increased distance between two target loci.
 
-#### What is bin?
-A bin is a ﬁxed, non-overlapping geno-mic span into which reads are grouped to increase the signal of the interaction frequency. The interactions between bins are simply summed up to aggre-gate the signals.
+#### when we use bin?
+If the goal is to measure large scale structures, such as genomic compartments, then a lower resolution will often suffice (1MB-10MB), then we'll choose a proper bin size. However if the goal is to measure specific interactions of a small region, e.g. promoter-enhancer looping, then one should choose to use a restriction enzyme that cuts more frequently (e.g. 4bp) and a method that does not measure the entire genome, but instead focuses on exploring only a subset of the genome (i.e. 3C/4C/5C).
 
 #### how to choose bin size 
 Smaller bins usually are used for more frequentintra-chromosomal interactions, and larger bins are for less frequentinter-chromosomal interactions. selected binsize should be inversely proportional to the expected number of interac-tions in a region. 
 
+#### what decide the Hi-C resolution
+- Sequencing coverage, more reads will cover more of the interaction space and thus imporve the resolution.
+- Library complexity -- the total number of unique chimeric molecules that exist in a Hi-C library, a librarywith a low complexity level will saturate quickly with increasing sequencing depth
 
 ### 3.2.1.3 Normalization
 The goal of normalization is to reduce biases during the experiment as well as a better comparison between different experiment results (reduce batch effect).
