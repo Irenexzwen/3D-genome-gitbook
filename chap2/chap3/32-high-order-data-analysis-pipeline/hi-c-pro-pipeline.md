@@ -4,7 +4,7 @@ Thorough documentation can be found [here](https://nservant.github.io/HiC-Pro/).
 
 ## Overview of the workflow
 ![](/assets/hipro.png)
-
+Fig. HiC-Pro workflow (http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work)
 ## Step by Step
 ### 1) Installation
 To install this tool you should first check all the dependencies it relies on:
@@ -44,4 +44,12 @@ Pair-end sequencing is independantly aligned on the reference genome. The mappin
 ```
 
 Parameters for specific alignment is the same usage with **bowtie2**, like the min quality, index location, sequencing qualities encoding and so on.
+![](/assets/hicpro1.jpg)
 ### 3) Fragment assignment and filtering
+Each aligned reads can be assigned to one restriction fragment according to the reference genome and the restriction enzyme.
+
+![](/assets/hicpro2.jpg)
+
+The next step is to separate the invalid ligation products from the valid pairs. Dangling end and self circles pairs are therefore excluded. See previous chapter **Read mapping considerations**.
+
+In case of Hi-C protocols that do not require a restriction enzyme such as DNase Hi-C or micro Hi-C, the assignment to a restriction is not possible. If no GENOME_FRAGMENT file are specified, this step is ignored. Short range interactions can however still be discarded using the MIN_CIS_DIST parameter.
