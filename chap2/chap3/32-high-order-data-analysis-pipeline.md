@@ -45,16 +45,16 @@ Prior to matrix balancing, it is advised to remove any bins (rows/columns) from 
 The goal of normalization is to reduce biases during the experiment as well as a better comparison between different experiment results (reduce batch effect).
 #### Where bias comes from
 #### Two types of normalization 
+
 - Explicit normalization: 
  - known bias factors [[4]](https://www.ncbi.nlm.nih.gov/pubmed/22001755)
    - Distance between restriction enzyme cut sites (eg, for hi-c)
    - GC content of trimmed ligation junction
    - uniqueness ofsequence reads
-  - correction: intergrate prior problistic model. 
+  - correction: intergrate prior problistic model. <br>
 
 - Implicit normalization:
- - Iterative correction [[5]](https://doi.org/10.1038/nmeth.2148) based on the assumption that all loci should have equal visibility since we are detecting the entire genome in an unbiased manner (By equalizing the sum of every row/column in the matrix)
-. Faster and preferred. 
+ - Iterative correction [[5]](https://doi.org/10.1038/nmeth.2148) based on the assumption that all loci should have equal visibility since we are detecting the entire genome in an unbiased manner (By equalizing the sum of every row/column in the matrix). Faster and preferred. 
 ### 3.2.1.4 Identification of interactions
 
 - TAD calling (Details see 3.2.3)
