@@ -17,7 +17,8 @@ Reads are filtered to remove duplicates, PCR artifact. Sequencing adaptors can a
 
 ### 3.2.1.2 Binning and Generating Contact Matrices
 #### why we use bin?
-To overcome the limitations that the signal-to-noise ratio decreases with increased distance between two target loci.
+- Using a 6-bp cutting restriction enzyme, there are almost 106 restriction fragments, leading to an interaction space on the order of 1012 possible pairwise interactions. Thus, achieving sufficient coverage to support maximal resolution is a significant challenge. **It's critical to set goals (what resolution you desire) to choose bin size.
+- To overcome the limitations that the signal-to-noise ratio decreases with increased distance between two target loci.
 
 #### What is bin?
 A bin is a ﬁxed, non-overlapping geno-mic span into which reads are grouped to increase the signal of the interaction frequency. The interactions between bins are simply summed up to aggre-gate the signals.
