@@ -14,7 +14,7 @@
   * [3.2 Higher-order data analysis ](chap2/chap3/32-high-order-data-analysis-pipeline.md)
     * [Read mapping consideration](chap2/chap3/32-high-order-data-analysis-pipeline/read-mapping-consideration.md)
     * [Hi-C Pro Pipeline](chap2/chap3/32-high-order-data-analysis-pipeline/hi-c-pro-pipeline.md)
-    * TAD calling algorithms
+    * [TAD calling algorithms](chap2/chap3/32-high-order-data-analysis-pipeline/tad-calling-algorithms.md)
 * [Chap4 Integrative Data visualization tools](chap4-data-visualization.md)
   * [4.1 GIVE ](chap4-data-visualization/41-give.md)
   * [4.2 HiGlass](chap4-data-visualization/42-higlass.md)
