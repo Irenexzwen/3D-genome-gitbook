@@ -131,8 +131,7 @@ Brief view of different tools.
    </tr>
 </table>
 
-
-- Give suggestions on how to choose proper tools 
+Performances comparison for different tools are surveyed [here](http://dx.doi.org/10.1038/nmeth.4325).
 
 <br><br>
 #Referrence 
