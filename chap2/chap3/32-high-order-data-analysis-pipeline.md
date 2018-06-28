@@ -51,6 +51,7 @@ The goal of normalization is to reduce biases during the experiment as well as a
    - GC content of trimmed ligation junction
    - uniqueness ofsequence reads
   - correction: intergrate prior problistic model. 
+
 - Implicit normalization:
  - Iterative correction [[5]](https://doi.org/10.1038/nmeth.2148) based on the assumption that all loci should have equal visibility since we are detecting the entire genome in an unbiased manner (By equalizing the sum of every row/column in the matrix)
 . Faster and preferred. 
