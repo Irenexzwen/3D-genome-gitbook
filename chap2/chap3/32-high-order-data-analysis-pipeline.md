@@ -39,10 +39,11 @@ The goal of normalization is to reduce biases during the experiment as well as a
 - Implicit normalization:
  - Iterative correction [[5]](https://doi.org/10.1038/nmeth.2148)
 
-### 3.2.1.4 Detection
+### 3.2.1.4 Identification of interactions
+#### Intra-chromosomal Interactions
 - TAD calling
- - callers 
- - algorithms and principle 
+ - Tools for calling TADs (See 3.1.2)
+ - algorithms and principle (
  - GPU accelerating 
 - Separating active/repressive compartments A/B 
 - Identifying chromatin loops
@@ -52,7 +53,7 @@ The goal of normalization is to reduce biases during the experiment as well as a
 - integration analysis 
 
 
-## 3.2.1 Analytical Tools:
+## 3.2.2 Analytical Tools:
 - Brief view of different tools 
 - Give suggestions on how to choose proper tools 
 
