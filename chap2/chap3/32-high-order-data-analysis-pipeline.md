@@ -54,6 +54,7 @@ The goal of normalization is to reduce biases during the experiment as well as a
 
 
 ## 3.2.2 Analytical tools:
+
 <table>
  <tr><th>Techniques</th><th>Tools</th><th>Description</th></tr>
  <tbody>
@@ -90,9 +91,11 @@ The goal of normalization is to reduce biases during the experiment as well as a
     <td>Aligns, quality control, inter-intra contact maps, fast iterative correction, allele specific contact maps</td>
     </tr>
 </table>
+Comprehensive tools list for hi-c data analysis can be found [here](https://omictools.com/3c-4c-5c-hi-c-chia-pet-category). Next we'll use Hi-C pro as a showcase to see hi-c data analysis workflow.
 
+### Hi-C pro pipeline
+Thorough documentation can be found [here](https://nservant.github.io/HiC-Pro/).
 
-- Brief view of different pipelines
 
 ## 3.2.3 TAD calling tools and algorithms 
 - Brief view of different tools 
