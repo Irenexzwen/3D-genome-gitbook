@@ -117,38 +117,18 @@ Brief view of different tools.
 <table>
  <tr><th>Tools</th><th>Description</th><th>Language</th></tr>
  <tbody>
-  <tr><th>4C</th><td><a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf9035">FourCSeq </a></td><td>Uses R to detect speciﬁc interactions between DNA elements and identify differential</td></tr>
- <tr><th>5C</th><td><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0806-y">HiFive</a> </td><td>Python package for normalization and analysis of chromatin structural data produced using either</td></tr>
+  <tr><th><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665">TADbit</a></th><td>TADbit includes quality control module, and aligns reads to the reference</td><td>Python</td></tr>
+ <tr><th><a href="compbio.cs.brown.edu/projects/tadtree/">TADtree</a></th><td>Identifies hierarchical topological domains</td><td>Python</td></tr>
  <tr>
-  <th>Hi-C</th>
-  <td><a href="https://genome.cshlp.org/content/24/6/999">Fit-Hi-C</a></td>
-  <td>Assigns statistical confidence to mid-range cis-chromosomal contacts</td>
-  </tr>
- <tr>
-  <th></th>
-  <td><a href="http://homer.ucsd.edu/homer/">HOMER</a></td>
-  <td>Designed for high-resolution Hi-C data</td>
- </tr>
- <tr>
-  <th></th>
-  <td><a href="https://www.nature.com/articles/ng.947">HIPPIE</a></td>
-  <td>Identiﬁes chromatin interactions in a genome</td>
+  <th><a href="https://github.com/kingsfordgroup/armatus">Armatus</th>
+  <td>Uses dynamic programming to call TADs in different resolutions</a></td>
+  <td>C++</td>
   </tr>
   <tr>
-   <th></th>
-   <td><a href="https://www.sciencedirect.com/science/article/pii/S0092867414014974?via%3Dihub">HiCCUPS</a></td>
-   <td>Detect sub-TAD chromatin interactions (cis)</td>
+   <th><a href="https://github.com/theaidenlab/juicer/wiki/Arrowhead">Arrowhead</th>
+   <td>Arrowhead is an algorithm for finding contact domains</a></td>
+   <td>Java</td>
    </tr>
-  <tr>
-   <th></th>
-   <td><a href="https://www.sciencedirect.com/science/article/pii/S2405471216302198?via%3Dihub">Juicer</a></td>
-   <td>Aligns, ﬁlters and normalizes, identiﬁes and compares TADs, loops and compartments and display using Juicebox</td>
-   </tr>
-   <tr>
-    <th></th>
-    <td><a href="https://www.sciencedirect.com/science/article/pii/S2405471216302198?via%3Dihub">HiC-Pro</a></td>
-    <td>Aligns, quality control, inter-intra contact maps, fast iterative correction, allele specific contact maps</td>
-    </tr>
 </table>
 
 
