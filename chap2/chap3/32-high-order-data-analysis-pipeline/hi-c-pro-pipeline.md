@@ -43,4 +43,5 @@ Pair-end sequencing is independantly aligned on the reference genome. The mappin
  .bam files
 ```
 
-### 
+Parameters for specific alignment is the same usage with **bowtie2**, like the min quality, index location, sequencing qualities encoding and so on.
+### 3) Fragment assignment and filtering
