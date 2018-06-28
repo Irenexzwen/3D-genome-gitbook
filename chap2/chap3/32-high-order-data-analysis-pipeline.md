@@ -53,7 +53,20 @@ The goal of normalization is to reduce biases during the experiment as well as a
 
 
 
-## 3.2.2 Analytical pipeline:
+## 3.2.2 Analytical tools:
+<table>
+<tr><th>Techniques</th><th>Tools</th><th>Description</th></tr>
+ <tbody>
+  <tr><td>4C</td><td>FourCSeq </td><td>-Uses R to detect speciﬁc interactions between DNA elements and identify differential</td></tr>
+  <tbody>
+ <tr><td>5C</td><td>HiFive </td><td>Python package for normalization and analysis of chromatin structural data produced using either</td></tr>
+</tbody><tbody>
+   <tr><td>sd</td></tr>
+   <tr><td>sasf</td></tr>
+  </tbody>
+</table>
+
+
 - Brief view of different pipelines
 
 ## 3.2.3 TAD calling tools and algorithms 
