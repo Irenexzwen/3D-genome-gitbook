@@ -14,7 +14,9 @@ To install this tool you should first check all the dependencies it relies on:
 - g++ compiler
 - Samtools (>0.1.19)
 - Unix sort (which support -V option) is required ! For Mac OS user, please install the GNU core utilities 
-After set up the system [configuration](http://nservant.github.io/HiC-Pro/QUICKSTART.html#how-to-install-it). Install HiC-Pro (>=2.7.8), be sure to have the appropriate rights and run :
+After set up the system [configuration](http://nservant.github.io/HiC-Pro/QUICKSTART.html#how-to-install-it). 
+
+Install HiC-Pro (>=2.7.8), be sure to have the appropriate rights and run :
 
 ```
 tar -zxvf HiC-Pro-master.tar.gz
@@ -23,6 +25,22 @@ cd HiC-Pro-master
 make configure
 make install
 ```
+
+
 If you encounter any error you may luckily find some solution [here](http://nservant.github.io/HiC-Pro/FAQ.html) and [here](http://nservant.github.io/HiC-Pro/ERRORS.html).
 
 ### 2) Reads mapping
+Pair-end sequencing is independantly aligned on the reference genome. The mapping is performed in two steps, more notes [here](http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work). 
+- First, the reads are aligned using an end-to-end aligner. 
+- Second, reads spanning the ligation junction are trimmmed from their 3’ end, and aligned back on the genome. 
+#### Input file
+```
+.fastq(.gz) files
+```
+
+    #### Output file
+```
+ .bam files
+```
+
+### 
