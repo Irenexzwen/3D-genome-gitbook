@@ -108,11 +108,9 @@ The goal of normalization is to reduce biases during the experiment as well as a
     <td>Aligns, quality control, inter-intra contact maps, fast iterative correction, allele specific contact maps</td>
     </tr>
 </table>
-Comprehensive tools list for hi-c data analysis can be found [here](https://omictools.com/3c-4c-5c-hi-c-chia-pet-category). Next we'll use Hi-C pro as a showcase to see hi-c data analysis workflow.
+Comprehensive tools list for hi-c data analysis can be found [here](https://omictools.com/3c-4c-5c-hi-c-chia-pet-category). Next we'll use Hi-C pro as a showcase to see hi-c data analysis workflow (See **Hi-C Pro Pipeline** chapter).
 
-### Hi-C pro pipeline
-Thorough documentation can be found [here](https://nservant.github.io/HiC-Pro/).
-> HiC-Pro was designed to process Hi-C data, from raw fastq files (paired-end Illumina data) to the normalized contact maps. It supports the main Hi-C protocols, including digestion protocols as well as protocols that do not require restriction enzyme such as DNase Hi-C. In practice, HiC-Pro can be used to process dilution Hi-C, in situ Hi-C, DNase Hi-C, Micro-C, capture-C, capture Hi-C or HiChip data. Each step of the workflow can be run independantly. HiC-Pro includes a fast implementatation of the iterative correction method (see the iced python library for more information). In addition, HiC-Pro can use phasing data to build [allele specific contact maps](https://nservant.github.io/HiC-Pro/AS.html#as).
+
 
 ## 3.2.3 TAD calling tools and algorithms 
 - Brief view of different tools 
