@@ -37,20 +37,20 @@ The goal of normalization is to reduce biases during the experiment as well as a
    - uniqueness ofsequence reads
   - correction: intergrate prior problistic model. 
 - Implicit normalization:
- - Iterative correction [[5]](https://doi.org/10.1038/nmeth.2148)
+ - Iterative correction [[5]](https://doi.org/10.1038/nmeth.2148) based on the assumption that all loci should have equal visibility since we are detecting the entire genome in an unbiased manner. Faster and preferred. 
 
 ### 3.2.1.4 Identification of interactions
-#### Intra-chromosomal Interactions
-- TAD calling
- - Tools for calling TADs (See 3.2.3)
- - algorithms and principle (
+
+- TAD calling (Details see 3.2.3)
+ - Tools for calling TADs 
+ - algorithms and principle 
  - GPU accelerating 
 - Separating active/repressive compartments A/B 
 - Identifying chromatin loops
  
 ### 3.2.1.5 Visualization
 - See Chapter4 
-- integration analysis 
+
 
 
 ## 3.2.2 Analytical pipeline:
