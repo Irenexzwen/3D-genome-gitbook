@@ -17,6 +17,7 @@ The goal is to simply find a unique alignment for each read. The insert size of 
 - Unmapped reads: chimeric alignment ---- read splitting[[1]](https://doi.org/10.1101/gr.161620.113), iterative mapping[[2]](https://doi.org/10.1038/nmeth.2148)
 - Average sufficient reads depth, sufficient mappable reads:4C (1– 2 million), 5C (25 million) and Hi-C (8.4 to 100 million)[[3]](https://doi.org/10.1038/nrg3642)
 
+A detailed description of mapping analysis is covered in **Read mapping consideration** chapter.
 
 
 ### 3.2.1.2 Binning and Generating Contact Matrices
