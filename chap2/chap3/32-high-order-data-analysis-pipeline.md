@@ -55,15 +55,40 @@ The goal of normalization is to reduce biases during the experiment as well as a
 
 ## 3.2.2 Analytical tools:
 <table>
-<tr><th>Techniques</th><th>Tools</th><th>Description</th></tr>
+ <tr><th>Techniques</th><th>Tools</th><th>Description</th></tr>
  <tbody>
-  <tr><td>4C</td><td>FourCSeq </td><td>-Uses R to detect speciﬁc interactions between DNA elements and identify differential</td></tr>
-  <tbody>
- <tr><td>5C</td><td>HiFive </td><td>Python package for normalization and analysis of chromatin structural data produced using either</td></tr>
-</tbody><tbody>
-   <tr><td>sd</td></tr>
-   <tr><td>sasf</td></tr>
-  </tbody>
+  <tr><th>4C</th><td><a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf9035">FourCSeq </a></td><td>Uses R to detect speciﬁc interactions between DNA elements and identify differential</td></tr>
+ <tr><th>5C</th><td><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0806-y">HiFive</a> </td><td>Python package for normalization and analysis of chromatin structural data produced using either</td></tr>
+ <tr>
+  <th>Hi-C</th>
+  <td><a href="https://genome.cshlp.org/content/24/6/999">Fit-Hi-C</a></td>
+  <td>Assigns statistical confidence to mid-range cis-chromosomal contacts</td>
+  </tr>
+ <tr>
+  <th></th>
+  <td><a href="http://homer.ucsd.edu/homer/">HOMER</a></td>
+  <td>Designed for high-resolution Hi-C data</td>
+ </tr>
+ <tr>
+  <th></th>
+  <td><a href="https://www.nature.com/articles/ng.947">HIPPIE</a></td>
+  <td>Identiﬁes chromatin interactions in a genome</td>
+  </tr>
+  <tr>
+   <th></th>
+   <td><a href="https://www.sciencedirect.com/science/article/pii/S0092867414014974?via%3Dihub">HiCCUPS</a></td>
+   <td>Detect sub-TAD chromatin interactions (cis)</td>
+   </tr>
+  <tr>
+   <th></th>
+   <td><a href="https://www.sciencedirect.com/science/article/pii/S2405471216302198?via%3Dihub">Juicer</a></td>
+   <td>Aligns, ﬁlters and normalizes, identiﬁes and compares TADs, loops and compartments and display using Juicebox</td>
+   </tr>
+   <tr>
+    <th></th>
+    <td><a href="https://www.sciencedirect.com/science/article/pii/S2405471216302198?via%3Dihub">HiC-Pro</a></td>
+    <td>Aligns, quality control, inter-intra contact maps, fast iterative correction, allele specific contact maps</td>
+    </tr>
 </table>
 
 
@@ -81,11 +106,12 @@ Cohesin-based chromatin interactions enable regulated gene expression within pre
 [3] D. Sims, I. Sudbery, N.E. Ilott, A. Heger, C.P. Ponting Sequencing depth and coverage: key considerations in genomic analyses Nat Rev Genet, 15 (2) (2014), pp. 121-132.<br>
 [4] E. Yaffe, A. Tanay Probabilistic modeling of Hi-C contact maps eliminates systematic biases to characterize global chromosomal architecture Nat Genet, 43 (11) (2011), pp. 1059-1065<br>
 [5] M. Imakaev, G. Fudenberg, R.P. McCord, N. Naumova, A. Goloborodko, B.R. Lajoie, et al. Iterative correction of Hi-C data reveals hallmarks of chromosome organization
-Nat Methods, 9 (10) (2012), pp. 999-1003
+Nat Methods, 9 (10) (2012), pp. 999-1003<br>
 
 https://doi.org/10.1016/j.csbj.2018.02.003  \*<br>
 https://doi.org/10.1007/s40484-017-0113-6 \*<br>
 http://dx.doi.org/10.1038/nrm.2016.104 3.2.1.3 / 3.2.1.4
+
 
 
 
