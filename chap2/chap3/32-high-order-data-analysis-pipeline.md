@@ -42,7 +42,7 @@ The goal of normalization is to reduce biases during the experiment as well as a
 ### 3.2.1.4 Identification of interactions
 #### Intra-chromosomal Interactions
 - TAD calling
- - Tools for calling TADs (See 3.1.2)
+ - Tools for calling TADs (See 3.2.3)
  - algorithms and principle (
  - GPU accelerating 
 - Separating active/repressive compartments A/B 
@@ -53,7 +53,9 @@ The goal of normalization is to reduce biases during the experiment as well as a
 - integration analysis 
 
 
-## 3.2.2 Analytical Tools:
+## 3.2.2 Analytical pipeline:
+
+## 3.2.3 TAD calling tools and algorithms 
 - Brief view of different tools 
 - Give suggestions on how to choose proper tools 
 
