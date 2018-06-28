@@ -113,7 +113,45 @@ Comprehensive tools list for hi-c data analysis can be found [here](https://omic
 
 
 ## 3.2.3 TAD calling tools and algorithms 
-- Brief view of different tools 
+Brief view of different tools.
+<table>
+ <tr><th>Tools</th><th>Description</th><th>Language</th></tr>
+ <tbody>
+  <tr><th>4C</th><td><a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf9035">FourCSeq </a></td><td>Uses R to detect speciﬁc interactions between DNA elements and identify differential</td></tr>
+ <tr><th>5C</th><td><a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0806-y">HiFive</a> </td><td>Python package for normalization and analysis of chromatin structural data produced using either</td></tr>
+ <tr>
+  <th>Hi-C</th>
+  <td><a href="https://genome.cshlp.org/content/24/6/999">Fit-Hi-C</a></td>
+  <td>Assigns statistical confidence to mid-range cis-chromosomal contacts</td>
+  </tr>
+ <tr>
+  <th></th>
+  <td><a href="http://homer.ucsd.edu/homer/">HOMER</a></td>
+  <td>Designed for high-resolution Hi-C data</td>
+ </tr>
+ <tr>
+  <th></th>
+  <td><a href="https://www.nature.com/articles/ng.947">HIPPIE</a></td>
+  <td>Identiﬁes chromatin interactions in a genome</td>
+  </tr>
+  <tr>
+   <th></th>
+   <td><a href="https://www.sciencedirect.com/science/article/pii/S0092867414014974?via%3Dihub">HiCCUPS</a></td>
+   <td>Detect sub-TAD chromatin interactions (cis)</td>
+   </tr>
+  <tr>
+   <th></th>
+   <td><a href="https://www.sciencedirect.com/science/article/pii/S2405471216302198?via%3Dihub">Juicer</a></td>
+   <td>Aligns, ﬁlters and normalizes, identiﬁes and compares TADs, loops and compartments and display using Juicebox</td>
+   </tr>
+   <tr>
+    <th></th>
+    <td><a href="https://www.sciencedirect.com/science/article/pii/S2405471216302198?via%3Dihub">HiC-Pro</a></td>
+    <td>Aligns, quality control, inter-intra contact maps, fast iterative correction, allele specific contact maps</td>
+    </tr>
+</table>
+
+
 - Give suggestions on how to choose proper tools 
 
 <br><br>
@@ -129,9 +167,8 @@ Nat Methods, 9 (10) (2012), pp. 999-1003<br>
 ## Primary referrence of this part:
 [\*] Computational Methods for Assessing Chromatin Hierarchy
 [\*] The Hitchhiker's Guide to Hi-C Analysis: Practical guidelines
-https://doi.org/10.1016/j.csbj.2018.02.003  \*<br>
-https://doi.org/10.1007/s40484-017-0113-6 \*<br>
-http://dx.doi.org/10.1038/nrm.2016.104 3.2.1.3 / 3.2.1.4
+[\*] Comparison of computational methods for Hi-C data analysis
+
 
 
 
