@@ -54,6 +54,7 @@ The goal of normalization is to reduce biases during the experiment as well as a
 
 
 ## 3.2.2 Analytical pipeline:
+- Brief view of different pipelines
 
 ## 3.2.3 TAD calling tools and algorithms 
 - Brief view of different tools 
