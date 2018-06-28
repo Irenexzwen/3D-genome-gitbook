@@ -30,11 +30,14 @@ Smaller bins usually are used for more frequentintra-chromosomal interactions, a
 The goal of normalization is to reduce biases during the experiment as well as a better comparison between different experiment results (reduce batch effect).
 #### Where bias comes from
 #### Two types of normalization 
-- Explicit normalization: known bias factors [[4]]()
- - Distance between restriction enzyme cut sites (eg, for hi-c)
- - GC content of trimmed ligation junction
- - uniqueness ofsequence reads
-- Implicit normalization
+- Explicit normalization: 
+ - known bias factors [[4]](https://www.ncbi.nlm.nih.gov/pubmed/22001755)
+   - Distance between restriction enzyme cut sites (eg, for hi-c)
+   - GC content of trimmed ligation junction
+   - uniqueness ofsequence reads
+  - correction: intergrate prior problistic model. 
+- Implicit normalization:
+ - Iterative correction [[5]](https://doi.org/10.1038/nmeth.2148)
 
 ### 3.2.1.4 Detection
 - TAD calling
@@ -60,7 +63,8 @@ Cohesin-based chromatin interactions enable regulated gene expression within pre
 [2] M. Imakaev, G. Fudenberg, R.P. McCord, N. Naumova, A. Goloborodko, B.R. Lajoie, et al.Iterative correction of Hi-C data reveals hallmarks of chromosome organization Nat Methods, 9 (10) (2012), pp. 999-1003<br>
 [3] D. Sims, I. Sudbery, N.E. Ilott, A. Heger, C.P. Ponting Sequencing depth and coverage: key considerations in genomic analyses Nat Rev Genet, 15 (2) (2014), pp. 121-132.<br>
 [4] E. Yaffe, A. Tanay Probabilistic modeling of Hi-C contact maps eliminates systematic biases to characterize global chromosomal architecture Nat Genet, 43 (11) (2011), pp. 1059-1065<br>
-
+[5] M. Imakaev, G. Fudenberg, R.P. McCord, N. Naumova, A. Goloborodko, B.R. Lajoie, et al. Iterative correction of Hi-C data reveals hallmarks of chromosome organization
+Nat Methods, 9 (10) (2012), pp. 999-1003
 
 https://doi.org/10.1016/j.csbj.2018.02.003  \*<br>
 https://doi.org/10.1007/s40484-017-0113-6 \*<br>
