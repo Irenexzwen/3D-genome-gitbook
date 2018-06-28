@@ -12,9 +12,11 @@
 * [Chap3 Computational analysis](chap2/chap3.md)
   * [3.1 Primary order data analysis ](chap2/chap3/31-primal-order-data-analysis-pipeline.md)
   * [3.2 Higher-order data analysis ](chap2/chap3/32-high-order-data-analysis-pipeline.md)
+    * [Read mapping consideration](chap2/chap3/32-high-order-data-analysis-pipeline/read-mapping-consideration.md)
+    * Hi-C Pro Pipeline
+    * TAD calling algorithms
 * [Chap4 Integrative Data visualization tools](chap4-data-visualization.md)
   * [4.1 GIVE ](chap4-data-visualization/41-give.md)
   * [4.2 HiGlass](chap4-data-visualization/42-higlass.md)
-  * [4.3 Interpretation beyong image](chap4-data-visualization/43-interpretation-beyong-image.md)
 * [Chap5 4DN project](4dn-project.md)
 

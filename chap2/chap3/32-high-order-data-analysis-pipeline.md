@@ -17,8 +17,7 @@ The goal is to simply find a unique alignment for each read. The insert size of 
 - Unmapped reads: chimeric alignment ---- read splitting[[1]](https://doi.org/10.1101/gr.161620.113), iterative mapping[[2]](https://doi.org/10.1038/nmeth.2148)
 - Average sufficient reads depth, sufficient mappable reads:4C (1– 2 million), 5C (25 million) and Hi-C (8.4 to 100 million)[[3]](https://doi.org/10.1038/nrg3642)
 
-#### Iterative mapping
-【gif】此处介绍splitting 和 iterative mapping的思路。参考dekker的文章
+
 
 ### 3.2.1.2 Binning and Generating Contact Matrices
 #### what is bin?
@@ -43,7 +42,7 @@ Prior to matrix balancing, it is advised to remove any bins (rows/columns) from 
 
 ### 3.2.1.3 Normalization (Balancing)
 The goal of normalization is to reduce biases during the experiment as well as a better comparison between different experiment results (reduce batch effect).
-#### Where bias comes from
+
 #### Two types of normalization 
 
 - Explicit normalization: 
@@ -55,6 +54,7 @@ The goal of normalization is to reduce biases during the experiment as well as a
 
 - Implicit normalization:
  - Iterative correction [[5]](https://doi.org/10.1038/nmeth.2148) based on the assumption that all loci should have equal visibility since we are detecting the entire genome in an unbiased manner (By equalizing the sum of every row/column in the matrix). Faster and preferred. 
+ 
 ### 3.2.1.4 Identification of interactions
 
 - TAD calling (Details see 3.2.3)
