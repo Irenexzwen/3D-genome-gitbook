@@ -20,10 +20,11 @@ With the help of currently developed chromosome capture technologies, let's how 
 ### Chromosome territories
 ### A/B Compartments 
 ### TAD(Topologically Associating Domains)
-### sub TAD and insulation neighborhoods
+### Sub TAD and insulation neighborhoods
 ### chromatin loops
 ### Nucleosome-nucleosome interactions
 
+<br>
 
 ## 1.3 architectural proteins
 - mediator
