@@ -7,7 +7,7 @@
 - **Insulator**: An insulator is a genetic boundary element that blocks the interaction between enhancers and promoters. It has been found to cluster at the boundaries of topological association domains (TADs) and may have a role in partitioning the genome into "chromosome neighborhoods" - genomic regions within which regulation occurs [[3]](https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Insulator_\(genetics\).html).
 - **Silencer**: A silencer is a DNA sequence capable of binding transcription regulation factors that block the binding of RNA polymerase to DNA sequence, thus provent genes from being expressed as proteins [[4]](https://en.wikipedia.org/wiki/Silencer_\(genetics\)).
 
-![](/assets/pesi.tif)
+![](/assets/promoter.png)
 
 ### Chromatin Accessibility:
 - DNase hypersensitivity
