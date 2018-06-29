@@ -15,7 +15,8 @@ The largest chromosomes contain hundreds of millions of base pairs that fold in 
 
 Information resides at all levels, from the histone–DNA interactions at the sub-nucleosomal scale to the chromosome–chromosome and chromosome–lamina interactions in the nuclear space. This multi-level architecture can be regulated and/or exploited by a variety of com- ponents such as transcription factors, architectural proteins and non-coding RNAs in order to coordinate gene expression and cell fate.
 
-With the help of currently chromosome capture technologies, let's 
+Let's how those 
+With the help of currently developed chromosome capture technologies, let's how them expanded our knowledge on chromosome structure.
 - chromosome territories
 - A/B Compartments 
 - TAD(Topologically Associating Domains)
