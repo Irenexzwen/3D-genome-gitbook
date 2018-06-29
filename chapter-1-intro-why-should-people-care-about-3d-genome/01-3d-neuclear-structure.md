@@ -11,7 +11,7 @@
 Figure1. Schematic overview of elements in eukaryotes.
 
 ##1.2 multi-scale folding
-The largest chromosomes contain hundreds of mil- lions of base pairs that fold in nucleosomes, chromatin fibres, chromosome domains, compartments and finally in chromosome territories. Therefore, chromatin fold- ing is a multi-scale problem and all scales need to be understood, as regulatory information resides at all levels, from the histone–DNA interactions at the sub- nucleosomal scale to the chromosome–chromosome and chromosome–lamina interactions in the nuclear space. Furthermore, this multi-level architecture can be regulated and/or exploited by a variety of com- ponents such as transcription factors, architectural proteins and non-coding RNAs in order to coordinate gene expression and cell fate.
+The largest chromosomes contain hundreds of millions of base pairs that fold in nucleosomes, chromatin fibres, chromosome domains, compartments and finally in chromosome territories. Therefore, chromatin fold- ing is a multi-scale problem and all scales need to be understood, as regulatory information resides at all levels, from the histone–DNA interactions at the sub- nucleosomal scale to the chromosome–chromosome and chromosome–lamina interactions in the nuclear space. Furthermore, this multi-level architecture can be regulated and/or exploited by a variety of com- ponents such as transcription factors, architectural proteins and non-coding RNAs in order to coordinate gene expression and cell fate.
 - chromosome territories
 - A/B Compartments 
 - TAD(Topologically Associating Domains)
