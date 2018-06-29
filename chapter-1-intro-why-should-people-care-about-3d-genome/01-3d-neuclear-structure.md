@@ -8,7 +8,7 @@
 - **Silencer**: A silencer is a DNA sequence capable of binding transcription regulation factors that block the binding of RNA polymerase to DNA sequence, thus provent genes from being expressed as proteins [[4]](https://en.wikipedia.org/wiki/Silencer_\(genetics\)).
 
 ![](/assets/promoter.png)
-
+Figure1. Schematic overview of elements in eukaryotes.
 
 ##1.2 multi-scale folding
 
