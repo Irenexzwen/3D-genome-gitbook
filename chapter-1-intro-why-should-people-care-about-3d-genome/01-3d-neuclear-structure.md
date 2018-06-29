@@ -10,7 +10,7 @@
 ![](/assets/promoter.png)
 Figure1. Schematic overview of elements in eukaryotes.
 
-##1.2 multi-scale folding
+##1.2 Multi-scale folding
 The largest chromosomes contain hundreds of millions of base pairs that fold in a limitted space, which leads to multi-scale, hierarchical structures like： nucleosomes, chromatin fibres, chromosome domains, compartments and finally in chromosome territories. 
 
 Information resides at all levels, from the histone–DNA interactions at the sub-nucleosomal scale to the chromosome–chromosome and chromosome–lamina interactions in the nuclear space. This multi-level architecture can be regulated and/or exploited by a variety of com- ponents such as transcription factors, architectural proteins and non-coding RNAs in order to coordinate gene expression and cell fate.
