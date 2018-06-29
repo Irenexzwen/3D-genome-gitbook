@@ -6,6 +6,9 @@
 - **Enhancer**: Enhancers are CRE(cis-regulatory elements which means they are non-coding DNA that does not code for transcription fation). They can be located up to 1 Mbp (1,000,000 bp) away from the gene, upstream or downstream from the start site [[2]](https://en.wikipedia.org/wiki/Enhancer_\(genetics\)).
 - **Insulator**: An insulator is a genetic boundary element that blocks the interaction between enhancers and promoters. It has been found to cluster at the boundaries of topological association domains (TADs) and may have a role in partitioning the genome into "chromosome neighborhoods" - genomic regions within which regulation occurs [[3]](https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Insulator_\(genetics\).html).
 - **Silencer**: A silencer is a DNA sequence capable of binding transcription regulation factors that block the binding of RNA polymerase to DNA sequence, thus provent genes from being expressed as proteins [[4]](https://en.wikipedia.org/wiki/Silencer_\(genetics\)).
+
+![](/assets/promoter.tif)
+
 ### Chromatin Accessibility:
 - DNase hypersensitivity
 - Transcription Factor binding
