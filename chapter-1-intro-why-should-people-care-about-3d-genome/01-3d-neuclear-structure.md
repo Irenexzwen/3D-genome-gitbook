@@ -1,6 +1,6 @@
 #1 General features of 3D genome organization 
 
-## 1.0 2D *cis* elements in the genome 
+## 1.1 2D *cis* elements in the genome 
 ### player:
 - promoter
 - enhancer 
@@ -11,7 +11,7 @@
 - Transcription Factor binding
 - Histone Modification
 
-##1.1 multi-scale folding
+##1.2 multi-scale folding
 
 - chromosome territories
 - A/B Compartments 
@@ -21,12 +21,12 @@
 - nucleosome-nucleosome interactions
 
 
-## 1.2 architectural proteins
+## 1.3 architectural proteins
 - mediator
 - cohesin
 - CTCF
 
-## 1.3 non-coding RNAs binding
+## 1.4 non-coding RNAs binding
 
 
 
