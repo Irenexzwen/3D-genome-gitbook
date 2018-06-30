@@ -24,7 +24,7 @@ With the help of currently developed chromosome capture technologies, let's how 
 ### Chromosome territories
 ### A/B Compartments 
 ### TAD(Topologically Associating Domains)
-A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases.[[?]](https://en.wikipedia.org/wiki/Topologically_associating_domain).
+A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases (hundreds kb usually).[[?]](https://en.wikipedia.org/wiki/Topologically_associating_domain).
 
 TADs typically manifest as contiguous square domains along the **diagonal of Hi-C maps**. The spatial partitioning of the genome into TADs
 correlates with many linear genomic features such as his- tone modifications, coordinated gene expression, association with the lamina and DNA replication timing, 
@@ -46,6 +46,7 @@ There are also evidence to support that TADs are conserved between different cel
 Figure [[3]](https://doi.org/10.1016/j.tibs.2018.03.006). Hi-C-Detected Chromatin Folding Paradigms. TADs (more tightly folded than regions between them) are on-diagonal boxes of contact enrichment. Loops are radially symmetric peaks of contact intensity, often located at the corners of TADs in mammalian cells. Off-diagonal boxes indicate interactions due to compartmentation. Right: TADs and loops may be either mostly transcriptionally active (grey) or inactive (black). Loops may also be more tightly folded, but additionally have an increased likelihood of contact between their boundaries or anchors. Compartmentation is indicated by homotypic (active–active or inactive–inactive) TAD–TAD interactions. The bona fide pattern of chromatin folding is unknown and indicated only schematically.
 
 ### Sub TAD and insulation neighborhoods
+
 ### Chromatin loops
 It has been recognized that, cis-regulatory elements like promoter-enhancer are usually far away along the linear genome in vertebrate creatures. However, in order to elicit the regulatory effect, the genome structure evolved to form a loop that bring together two elemnts to a spatial proximity. This chromotin formation is usually called "chromotin loops". One well known example is the locus control region (LCR) of the β-globin cluster, which inter-acts strongly, via long-range chromatin contacts, with its target genes in erythroid cells (where the β-globin gene is active) but shows little or no interaction in cells from different lineages.[[?]](http://dx.doi.org/10.1038/nrg.2016.112).
 
