@@ -38,12 +38,14 @@ TAD **boundaries are enriched** for[[?]](https://www.nature.com/articles/nature1
 - repeat elements
 
 There are also evidence to support that TADs are conserved between different cell types and across species.
-- The positioning of TAD is relatively stable across cell types and appears to be independent of tissue-specific gene expression or histone modifications. During ESC differentiation, genome-wide switching of compartments A and B occurs, whereas TAD positioning remains stable
+- The positioning of TAD is relatively stable across cell types and appears to be independent of tissue-specific gene expression or histone modifications. During ESC differentiation, genome-wide **switching of compartments A and B occurs, whereas TAD positioning remains stable** [[?]](https://www.nature.com/articles/nature14222). 
+- TAD positioning is evolutionarily conserved: 50–70% of TAD boundaries are shared between human and mouse ESCs [[?]](https://www.nature.com/articles/nature14222). 
+- TAD is a stable unit of replication-time regulation [[?]](https://www.nature.com/articles/nature13986).
 
 
 ### Sub TAD and insulation neighborhoods
 ### Chromatin loops
-It has been recognized that, cis-regulatory elements like promoter-enhancer are usually far away along the linear genome in vertebrate creatures. However, in order to elicit the regulatory effect, the genome structure evolved to form a loop that bring together two elemnts to a spatial proximity. This chromotin formation is usually called "chromotin loops". One well known example is the locus control region (LCR) of the β-globin cluster, which inter- acts strongly, via long-range chromatin contacts, with its target genes in erythroid cells (where the β-globin gene is active) but shows little or no interaction in cells from different lineages.[[?]](http://dx.doi.org/10.1038/nrg.2016.112).
+It has been recognized that, cis-regulatory elements like promoter-enhancer are usually far away along the linear genome in vertebrate creatures. However, in order to elicit the regulatory effect, the genome structure evolved to form a loop that bring together two elemnts to a spatial proximity. This chromotin formation is usually called "chromotin loops". One well known example is the locus control region (LCR) of the β-globin cluster, which inter-acts strongly, via long-range chromatin contacts, with its target genes in erythroid cells (where the β-globin gene is active) but shows little or no interaction in cells from different lineages.[[?]](http://dx.doi.org/10.1038/nrg.2016.112).
 
 ### Nucleosome-nucleosome interactions
 This is the smallest scale of chromatin organization. For a long time, on the basis of in vitro electron microscopy, nucleosomes were thought to form arrays (often called the 30 nm chromatin fibres) with either solenoid or zig- zag shapes. However, recent studies provide more evidence to stand by a more flexible, heterogeneous groups arranged structure. [[?]](https://www.cell.com/cell/fulltext/S0092-8674\(15\)00132-4).
