@@ -62,7 +62,10 @@ This is the smallest scale of chromatin organization. For a long time, on the ba
 ## 1.3 architectural proteins
 An important question in chromatin biology is how the structural features of 3D chromatin organization are established. Few architectural proteins have shownto be essential for chromotin architecture.
 
-### Mediator
+![](/assets/mediator.jpg)
+[Figure4](http://wi.mit.edu/news/archive/2010/surprise-genome-structure-linked-developmental-diseases). Schematic of architecture proteins.©Image: Tom DiCesare/Whitehead Institute
+### Mediator (coactivator)
+
 ### Cohesin
 ### CTCF
 
