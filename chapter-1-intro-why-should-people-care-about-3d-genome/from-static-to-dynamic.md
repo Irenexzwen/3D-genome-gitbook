@@ -17,7 +17,10 @@ After mitosis, all the structures should be rapidly estabilished to guarantee a 
 Homologous chromosomes other than the X chromosome have highly similar high-order chro- matin structure: The active X chromosome (Xa) has TADs of regular size, whereas the inactive X chromosome (Xi) is partitioned into two large, contiguous domains, with a general absence of TADs. Similar Xi organization is conserved across the human, rhesus macaque, and mouse. The boundary oftwo large domains on Xi lies near the DXZ4 macrosatellite and its orthologs, which are bound by CTCF on Xi but not on Xa [[3]](http://www.pnas.org/content/113/31/E4504/tab-figures-data), [[4]](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r70), [[5]](https://www.ncbi.nlm.nih.gov/pubmed/25497547).
 
 #### 3D Genome Reorganization During Embryonic Stem Cell Differentiation
-#### 3D Genome Organization in Pluripotent Stem Cells
+In human embryonic stem cells (hESCs), TADs serve as stable organizational units, TAD boundary positioning is largely unchanged when hESCs differentiate into four distinct early embryonic cell lineages. However, the inter- or intra- TAD interactions level are changed in concert with the transcription levels and epigenetic states [[6]](https://www.nature.com/articles/nature14222).
+
+Another study found tissue type–specific feature ofgenome organization termed FIREs (frequently interacting regions), which involve multiple partners in the neighborhood and represent local chromatin interaction hot spots [[7]](https://www.ncbi.nlm.nih.gov/pubmed/27851967). 
+
 
 
 
