@@ -14,6 +14,8 @@ After mitosis, all the structures should be rapidly estabilished to guarantee a 
 
 
 #### 3D Genome Organization of the Inactive X Chromosome
+
+Homologous chromosomes other than the X chromosome have highly similar high-order chro- matin structure (Darrow et al. 2016, Deng et al. 2015, Dixon et al. 2015, Giorgetti et al. 2016, Rao et al. 2014): The active X chromosome (Xa) has TADs of regular size, whereas the inactive X chromosome (Xi) is partitioned into two large, contiguous domains, with a general absence of TADs. Similar Xi organization is conserved across the human, rhesus macaque, and mouse. The boundary oftwo large domains on Xi lies near theDXZ4 macrosatellite and its orthologs, which are bound by CTCF on Xi but not on Xa (Darrow et al. 2016, Horakova et al. 2012, Rao et al. 2014).
 #### 3D Genome Reorganization During Embryonic Stem Cell Differentiation
 #### 3D Genome Organization in Pluripotent Stem Cells
 
