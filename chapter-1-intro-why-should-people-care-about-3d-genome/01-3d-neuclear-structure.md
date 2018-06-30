@@ -60,9 +60,11 @@ This is the smallest scale of chromatin organization. For a long time, on the ba
 
 
 ## 1.3 architectural proteins
-- mediator
-- cohesin
-- CTCF
+An important question in chromatin biology is how the structural features of 3D chromatin organization are established. Few architectural proteins have shownto be essential for chromotin architecture.
+
+### Mediator
+### Cohesin
+### CTCF
 
 ## 1.4 non-coding RNAs binding
 
