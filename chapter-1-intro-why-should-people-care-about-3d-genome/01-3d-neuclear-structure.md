@@ -22,7 +22,7 @@ With the help of currently developed chromosome capture technologies, let's how 
 
 
 ### Chromosome territories
-At larger scales, chromatin is organized into individual chromosome territories (one for each chro- mosome), which rarely intermix (FIG. 2d). This observa- tion, initially coming from FISH studies [[?]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC282679/), was later validated by genome-wide Hi-C data, which showed that interactions between loci on the same chromosome are much more frequent than contacts in trans between different chromosomes [[?]](http://science.sciencemag.org/content/326/5950/289).
+At larger scales, chromatin is organized into individual chromosome territories (one for each chro- mosome), which rarely intermix (FIG. 2d). This observa- tion, initially coming from FISH studies [[5]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC282679/), was later validated by genome-wide Hi-C data, which showed that interactions between loci on the same chromosome are much more frequent than contacts in trans between different chromosomes [[6]](http://science.sciencemag.org/content/326/5950/289).
 ### A/B Compartments 
 The Hi-C data, after normalization and converting to an observed/expected matrix, display a plaid pattern, analyzing by Principal-component analysis (PCA), the first principal component (can be interpreted as the surrogate of maxim variance of the data, the most prominent feature) contains compartments A and B (with positive PC1 regions reflecting "active/permissive" chromatin and negative PC1 regions indicative of "inactive/inert" chromatin).
 ![](/assets/compart.jpg)
@@ -32,19 +32,19 @@ A topologically associating domain (TAD) is a self-interacting genomic region, m
 
 TADs typically manifest as contiguous square domains along the **diagonal of Hi-C maps**. The spatial partitioning of the genome into TADs
 correlates with many linear genomic features such as his- tone modifications, coordinated gene expression, association with the lamina and DNA replication timing, 
-enhancer–promoter interactions. [[?]](http://dx.doi.org/10.1038/nrg.2016.112).
+enhancer–promoter interactions. [[7]](http://dx.doi.org/10.1038/nrg.2016.112).
 
-TAD **boundaries are enriched** for[[?]](https://www.nature.com/articles/nature11082)
-- insulator proteins: CTCF (detected at ~76% of all boundaries)
+TAD **boundaries are enriched** for [[8]](https://www.nature.com/articles/nature11082)
+- insulator proteins: CTCF (detected at ~76% of all boundaries):
 - active transcription marks: H3K4me3 and H3K36me3
 - nascent transcripts
 - housekeeping genes (present in ~34% of TAD boundaries)
 - repeat elements
 
 There are also evidence to support that TADs are conserved between different cell types and across species.
-- The positioning of TAD is relatively stable across cell types and appears to be independent of tissue-specific gene expression or histone modifications. During ESC differentiation, genome-wide **switching of compartments A and B occurs, whereas TAD positioning remains stable** [[?]](https://www.nature.com/articles/nature14222). 
-- TAD positioning is **evolutionarily conserved**: 50–70% of TAD boundaries are shared between human and mouse ESCs [[?]](https://www.nature.com/articles/nature14222). 
-- TAD is a stable **unit of replication-time regulation** [[?]](https://www.nature.com/articles/nature13986).
+- The positioning of TAD is relatively stable across cell types and appears to be independent of tissue-specific gene expression or histone modifications. During ESC differentiation, genome-wide **switching of compartments A and B occurs, whereas TAD positioning remains stable** [[9]](https://www.nature.com/articles/nature14222). 
+- TAD positioning is **evolutionarily conserved**: 50–70% of TAD boundaries are shared between human and mouse ESCs [[10]](https://www.nature.com/articles/nature14222). 
+- TAD is a stable **unit of replication-time regulation** [[11]](https://www.nature.com/articles/nature13986).
 
 ![](/assets/TAD.jpg)
 Figure [[3]](https://doi.org/10.1016/j.tibs.2018.03.006). Hi-C-Detected Chromatin Folding Paradigms. TADs (more tightly folded than regions between them) are on-diagonal boxes of contact enrichment. Loops are radially symmetric peaks of contact intensity, often located at the corners of TADs in mammalian cells. Off-diagonal boxes indicate interactions due to compartmentation. Right: TADs and loops may be either mostly transcriptionally active (grey) or inactive (black). Loops may also be more tightly folded, but additionally have an increased likelihood of contact between their boundaries or anchors. Compartmentation is indicated by homotypic (active–active or inactive–inactive) TAD–TAD interactions. The bona fide pattern of chromatin folding is unknown and indicated only schematically.
