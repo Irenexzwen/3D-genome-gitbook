@@ -13,13 +13,13 @@ Mitotic chromosomes are among the most recognizable structures in the cell, yet 
 After mitosis, all the structures should be rapidly estabilished to guarantee a proper funtion as the parent cells. This process may largely depend on specific bookmarks on the chromosomes. (A great figure summary of this process is [here](https://epigeneticsandchromatin.biomedcentral.com/articles/10.1186/1756-8935-7-25#Fig1)). More insights of cell-fate comformation alterations of chromosome could be even closely surveyed by single-cell Hi-C study [[2]](https://www.ncbi.nlm.nih.gov/pubmed/28682332).
 
 
-#### 3D Genome Organization of the Inactive X Chromosome
+#### 3D Genome Organization of the Inactive X Chromosome [[3]](http://www.annualreviews.org/doi/10.1146/annurev-cellbio-100616-060531)
 
-Homologous chromosomes other than the X chromosome have highly similar high-order chro- matin structure: The active X chromosome (Xa) has TADs of regular size, whereas the inactive X chromosome (Xi) is partitioned into two large, contiguous domains, with a general absence of TADs. Similar Xi organization is conserved across the human, rhesus macaque, and mouse. The boundary oftwo large domains on Xi lies near the DXZ4 macrosatellite and its orthologs, which are bound by CTCF on Xi but not on Xa [[3]](http://www.pnas.org/content/113/31/E4504/tab-figures-data), [[4]](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r70), [[5]](https://www.ncbi.nlm.nih.gov/pubmed/25497547).
+Homologous chromosomes other than the X chromosome have highly similar high-order chro- matin structure: The active X chromosome (Xa) has TADs of regular size, whereas the inactive X chromosome (Xi) is partitioned into two large, contiguous domains, with a general absence of TADs. Similar Xi organization is conserved across the human, rhesus macaque, and mouse. The boundary oftwo large domains on Xi lies near the DXZ4 macrosatellite and its orthologs, which are bound by CTCF on Xi but not on Xa [[4]](http://www.pnas.org/content/113/31/E4504/tab-figures-data), [[5]](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2012-13-8-r70), [[6]](https://www.ncbi.nlm.nih.gov/pubmed/25497547).
 #### 3D Genome Reorganization During Embryonic Stem Cell Differentiation
 #### 3D Genome Organization in Pluripotent Stem Cells
 
 
 
 **Referrence **
-http://www.annualreviews.org/doi/10.1146/annurev-cellbio-100616-060531
+http://www.annualreviews.org/doi/10.1146/annurev-cellbio-100616-060531]]
