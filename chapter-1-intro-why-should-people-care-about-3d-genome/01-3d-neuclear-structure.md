@@ -26,8 +26,8 @@ At larger scales, chromatin is organized into individual chromosome territories 
 ### A/B Compartments 
 The Hi-C data, after normalization and converting to an observed/expected matrix, display a plaid pattern, analyzing by Principal-component analysis (PCA), the first principal component (can be interpreted as the surrogate of maxim variance of the data, the most prominent feature) contains compartments A and B (with positive PC1 regions reflecting "active/permissive" chromatin and negative PC1 regions indicative of "inactive/inert" chromatin).
 ![](/assets/compart.jpg)
-[Figure3](http://homer.ucsd.edu/homer/interactions/HiCpca.html). Compartment identification with PCA.
-### TAD(Topologically Associating Domains)
+[Figure3](http://homer.ucsd.edu/homer/interactions/HiCpca.html). Compartment identification with PCA. ©HOMER
+### TAD (Topologically Associating Domains)
 A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases (hundreds kb usually).[[?]](https://en.wikipedia.org/wiki/Topologically_associating_domain).
 
 TADs typically manifest as contiguous square domains along the **diagonal of Hi-C maps**. The spatial partitioning of the genome into TADs
