@@ -24,8 +24,19 @@ With the help of currently developed chromosome capture technologies, let's how 
 ### Chromosome territories
 ### A/B Compartments 
 ### TAD(Topologically Associating Domains)
+A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases.[[?]](https://en.wikipedia.org/wiki/Topologically_associating_domain).
+
+TADs typically manifest as contiguous square domains along the **diagonal of Hi-C maps**. The spatial partitioning of the genome into TADs
+correlates with many linear genomic features such as his- tone modifications, coordinated gene expression, association with the lamina and DNA replication timing, 
+enhancer–promoter interactions. [[?]](http://dx.doi.org/10.1038/nrg.2016.112).
+
+
+
+
 ### Sub TAD and insulation neighborhoods
-### chromatin loops
+### Chromatin loops
+It has been recognized that, cis-regulatory elements like promoter-enhancer are usually far away along the linear genome in vertebrate creatures. However, in order to elicit the regulatory effect, the genome structure evolved to form a loop that bring together two elemnts to a spatial proximity. This chromotin formation is usually called "chromotin loops". One well known example is the locus control region (LCR) of the β-globin cluster, which inter- acts strongly, via long-range chromatin contacts, with its target genes in erythroid cells (where the β-globin gene is active) but shows little or no interaction in cells from different lineages.[[?]](http://dx.doi.org/10.1038/nrg.2016.112).
+
 ### Nucleosome-nucleosome interactions
 This is the smallest scale of chromatin organization. For a long time, on the basis of in vitro electron microscopy, nucleosomes were thought to form arrays (often called the 30 nm chromatin fibres) with either solenoid or zig- zag shapes. However, recent studies provide more evidence to stand by a more flexible, heterogeneous groups arranged structure. [[?]](https://www.cell.com/cell/fulltext/S0092-8674\(15\)00132-4).
 
