@@ -75,7 +75,7 @@ Cohesin is protein with multiple functions:
 is proposed to be a part of the loop-extrusion complex in interphase cells[[18]](http://dx.doi.org/10.1038/nrg.2016.112)
 
 ### CTCF
-CTCF was originally characterized as an insulator protein, capable of restricting enhancer–promoter interactions. Around 15% CTCFs are enriched at TAD boundaries in mammals, the majority lie within TADs and are thought to be involved in intra-TAD interactions [[20]](https://www.ncbi.nlm.nih.gov/pubmed/21685913). Another prominent feature is that CTCF sites at loop anchors occur predominantly in a convergent orientation, which suggests that not only binding but also directionality is important for the formation of a loop [[18]](http://dx.doi.org/10.1038/nrg.2016.112).
+CTCF was originally characterized as an insulator protein, capable of restricting enhancer–promoter interactions. Around 15% CTCFs are enriched at TAD boundaries in mammals, the majority lie within TADs and are thought to be involved in intra-TAD interactions [[20]](https://www.ncbi.nlm.nih.gov/pubmed/21685913). Another prominent feature is that CTCF sites at loop anchors occur predominantly in a convergent orientation, which suggests that not only binding but also **directionality** of binding sequence is important for the formation of a loop [[18]](http://dx.doi.org/10.1038/nrg.2016.112).
 
 ## 1.4 non-coding RNAs binding
 
