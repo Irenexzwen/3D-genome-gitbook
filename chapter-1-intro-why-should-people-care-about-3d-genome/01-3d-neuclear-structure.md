@@ -23,8 +23,8 @@ With the help of currently developed chromosome capture technologies, let's how 
 ### Sub TAD and insulation neighborhoods
 ### chromatin loops
 ### Nucleosome-nucleosome interactions
+This is the smallest scale of chromatin organization. For a long time, on the basis of in vitro electron microscopy, nucleosomes were thought to form arrays (often called the 30 nm chromatin fibres) with either solenoid or zig- zag shapes. However, recent studies provide more evidence to stand by a more flexible, heterogeneous groups arranged structure. [[?]](https://www.cell.com/cell/fulltext/S0092-8674\(15\)00132-4).
 
-<br>
 
 ## 1.3 architectural proteins
 - mediator

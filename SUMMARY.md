@@ -4,7 +4,6 @@
 * [Chap1 Intro- why should people care about 3D genome](chapter-1-intro-why-should-people-care-about-3d-genome.md)
   * [1.1    From 2D to 3D neuclear structure](chapter-1-intro-why-should-people-care-about-3d-genome/01-3d-neuclear-structure.md)
   * [1.2 From static to dynamic](chapter-1-intro-why-should-people-care-about-3d-genome/from-static-to-dynamic.md)
-  * [1.3 From 3D organization to gene expression](chapter-1-intro-why-should-people-care-about-3d-genome/3d-organization-to-gene-expression.md)
 * [Chap2 Experimental tools for explore genome interaction](chap2.md)
   * [2.1 Image based methods](chap2/image-based-methods.md)
   * [2.2 Primary-order  ](chap2/21-primal-order.md)
