@@ -38,6 +38,7 @@ TAD **boundaries are enriched** for[[?]](https://www.nature.com/articles/nature1
 - repeat elements
 
 There are also evidence to support that TADs are conserved between different cell types and across species.
+- The positioning of TAD is relatively stable across cell types and appears to be independent of tissue-specific gene expression or histone modifications. During ESC differentiation, genome-wide switching of compartments A and B occurs, whereas TAD positioning remains stable
 
 
 ### Sub TAD and insulation neighborhoods
