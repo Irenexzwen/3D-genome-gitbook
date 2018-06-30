@@ -17,6 +17,10 @@ Information resides at all levels, from the histone–DNA interactions at the su
 
 With the help of currently developed chromosome capture technologies, let's how them expanded our knowledge on chromosome structure.
 
+![](/assets/20180629211526biophysics_201504585-1.jpg)
+[Figure2](http://www.aimspress.com/article/10.3934/biophy.2015.4.585/figure.html).  Inside the nucleus, euchromatin and heterochromatin give rise to several grades of higher order structures: chromosome loops, Topological Associated Domains (TADs), Lamin Associated Domains (LADs) and chromosomal territories. Also the nucleolus, the “assembly-chain” of ribosomes, associates with specific DNA regions: the Nucleolar Associated Domains (NADs), that surround the highly transcribed region of nucleolus, giving rise to another grade of chromatin organization.
+
+
 ### Chromosome territories
 ### A/B Compartments 
 ### TAD(Topologically Associating Domains)
