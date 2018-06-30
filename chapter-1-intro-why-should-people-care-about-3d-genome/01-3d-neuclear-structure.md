@@ -22,6 +22,7 @@ With the help of currently developed chromosome capture technologies, let's how 
 
 
 ### Chromosome territories
+At larger scales, chromatin is organized into individual chromosome territories (one for each chro- mosome), which rarely intermix (FIG. 2d). This observa- tion, initially coming from FISH studies [[?]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC282679/), was later validated by genome-wide Hi-C data, which showed that interactions between loci on the same chromosome are much more frequent than contacts in trans between different chromosomes [[?]](http://science.sciencemag.org/content/326/5950/289).
 ### A/B Compartments 
 The Hi-C data, after normalization and converting to an observed/expected matrix, display a plaid pattern, analyzing by Principal-component analysis (PCA), the first principal component (can be interpreted as the surrogate of maxim variance of the data, the most prominent feature) contains compartments A and B (with positive PC1 regions reflecting "active/permissive" chromatin and negative PC1 regions indicative of "inactive/inert" chromatin).
 ![](/assets/compart.jpg)
