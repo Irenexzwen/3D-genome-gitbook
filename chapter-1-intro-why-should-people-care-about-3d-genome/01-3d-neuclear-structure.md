@@ -39,9 +39,11 @@ TAD **boundaries are enriched** for[[?]](https://www.nature.com/articles/nature1
 
 There are also evidence to support that TADs are conserved between different cell types and across species.
 - The positioning of TAD is relatively stable across cell types and appears to be independent of tissue-specific gene expression or histone modifications. During ESC differentiation, genome-wide **switching of compartments A and B occurs, whereas TAD positioning remains stable** [[?]](https://www.nature.com/articles/nature14222). 
-- TAD positioning is evolutionarily conserved: 50–70% of TAD boundaries are shared between human and mouse ESCs [[?]](https://www.nature.com/articles/nature14222). 
-- TAD is a stable unit of replication-time regulation [[?]](https://www.nature.com/articles/nature13986).
+- TAD positioning is **evolutionarily conserved**: 50–70% of TAD boundaries are shared between human and mouse ESCs [[?]](https://www.nature.com/articles/nature14222). 
+- TAD is a stable **unit of replication-time regulation** [[?]](https://www.nature.com/articles/nature13986).
 
+![](/assets/TAD.jpg)
+Figure [[3]](https://doi.org/10.1016/j.tibs.2018.03.006). Hi-C-Detected Chromatin Folding Paradigms. TADs (more tightly folded than regions between them) are on-diagonal boxes of contact enrichment. Loops are radially symmetric peaks of contact intensity, often located at the corners of TADs in mammalian cells. Off-diagonal boxes indicate interactions due to compartmentation. Right: TADs and loops may be either mostly transcriptionally active (grey) or inactive (black). Loops may also be more tightly folded, but additionally have an increased likelihood of contact between their boundaries or anchors. Compartmentation is indicated by homotypic (active–active or inactive–inactive) TAD–TAD interactions. The bona fide pattern of chromatin folding is unknown and indicated only schematically.
 
 ### Sub TAD and insulation neighborhoods
 ### Chromatin loops
