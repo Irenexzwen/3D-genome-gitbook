@@ -65,7 +65,7 @@ An important question in chromatin biology is how the structural features of 3D 
 ![](/assets/mediator.jpg)
 [Figure4](http://wi.mit.edu/news/archive/2010/surprise-genome-structure-linked-developmental-diseases). Schematic of architecture proteins.©Image: Tom DiCesare/Whitehead Institute
 ### Mediator (coactivator)
-
+Mediator is found at both the enhancers and the promoters of actively transcribed genes and promotes transcription by enabling pre-initiation complex (PIC) assembly and RNAPII elongation
 ### Cohesin
 ### CTCF
 
