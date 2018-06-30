@@ -37,6 +37,8 @@ TAD **boundaries are enriched** for[[?]](https://www.nature.com/articles/nature1
 - housekeeping genes (present in ~34% of TAD boundaries)
 - repeat elements
 
+There are also evidence to support that TADs are conserved between different cell types and across species.
+
 
 ### Sub TAD and insulation neighborhoods
 ### Chromatin loops
