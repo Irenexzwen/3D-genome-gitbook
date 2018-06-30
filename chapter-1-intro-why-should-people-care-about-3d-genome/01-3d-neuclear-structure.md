@@ -30,7 +30,12 @@ TADs typically manifest as contiguous square domains along the **diagonal of Hi-
 correlates with many linear genomic features such as his- tone modifications, coordinated gene expression, association with the lamina and DNA replication timing, 
 enhancer–promoter interactions. [[?]](http://dx.doi.org/10.1038/nrg.2016.112).
 
-
+TAD **boundaries are enriched** for[[?]](https://www.nature.com/articles/nature11082)
+- insulator proteins: CTCF (detected at ~76% of all boundaries)
+- active transcription marks: H3K4me3 and H3K36me3
+- nascent transcripts
+- housekeeping genes (present in ~34% of TAD boundaries)
+- repeat elements
 
 
 ### Sub TAD and insulation neighborhoods
