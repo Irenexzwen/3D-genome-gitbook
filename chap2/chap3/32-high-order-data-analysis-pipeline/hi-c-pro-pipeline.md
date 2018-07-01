@@ -78,7 +78,11 @@ Hi-C data can contain several sources of biases which has to be corrected. HiC-P
 ![](/assets/hicpro6.jpg)
 
 ## RUN HIC-PRO IN SEQUENTIAL MODE
-HiC-Pro can be run in a step-by-step mode, users just have to set the <code>-s</code> parameter to specify one step.
+HiC-Pro can be run in a step-by-step mode, users just have to set the <code>-s</code> parameter to specify one step. If you want to only want to only align the sequencing reads and run a quality control, use :
+```
+MY_INSTALL_PATH/bin/HiC-Pro -i FULL_PATH_TO_RAW_DATA -o FULL_PATH_TO_OUTPUTS -c MY_LOCAL_CONFIG_FILE -s mapping -s quality_checks
+```
+HiC-Pro --help
 
 ```
 HiC-Pro --help
