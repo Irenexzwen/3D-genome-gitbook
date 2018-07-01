@@ -1,6 +1,7 @@
 # Hi-C pro pipeline
 Thorough documentation can be found [here](https://nservant.github.io/HiC-Pro/).
 > HiC-Pro was designed to process Hi-C data, from raw fastq files (paired-end Illumina data) to the normalized contact maps. It supports the main Hi-C protocols, including digestion protocols as well as protocols that do not require restriction enzyme such as DNase Hi-C. In practice, HiC-Pro can be used to process dilution Hi-C, in situ Hi-C, DNase Hi-C, Micro-C, capture-C, capture Hi-C or HiChip data. Each step of the workflow can be run independantly. HiC-Pro includes a fast implementatation of the iterative correction method (see the iced python library for more information). In addition, HiC-Pro can use phasing data to build [allele specific contact maps](https://nservant.github.io/HiC-Pro/AS.html#as).
+
 ## Comparison with other tools
 ![](/assets/hicpcompars.jpg)
 Table1: X stands for **has this feature**, $$X^a$$ indicates HiC-inpector, HiCdat and HiC-Box do not allow chimeric reads to be rescued during the mapping.
@@ -120,5 +121,10 @@ HiC-Pro is able to incorporate phased haplotype information in the Hi-C data pro
 - Then: Once aligned, HiC-Pro browses all reads spanning a polymorphic site, locates the nucleotide at the appropriate position, and assigns the read to either the maternal or paternal allele. 
 - Next: classify as allele-specific all pairs for which both reads are assigned to the same parental allele or for which one read is assigned to one parental allele and the other is unassigned.
 - Finally: These allele-specific read pairs are then used to generate a genome-wide contact map for each parental genome and two allele-specific genome-wide contact maps are independently normalized using the iterative correction algorithm. 
+
+## COMPATIBILITY WITH OTHER SOFTWARE
+- Visualization: JuiceBox and HiCPlotter.
+- TADcalling: use **DIRECTIONALITY INDEX** first proposed by Dixon et al, or FIT-HI-C.
+- R environment.
 
 
