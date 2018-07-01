@@ -46,6 +46,11 @@ In order to call sub-TADs from ultra-high resolution Hi-C data sets, arrowhead h
 ![](/assets/arrow.png)
 [Figure3](https://www.ncbi.nlm.nih.gov/pubmed/25497547).Transformation replaces domains with an arrowhead-shaped motif pointing toward the domain’s upper-left corner (example in yellow). Arrowheads  are then identified using dynamic programming.
 
+The matrix transformation is defined as:
+$$
+ A_{i,i+d} = (M^*_{i,i-d} – M^*_{i,i+d})/(M^*_{i,i-d} + M^*_{i,i+d})
+$$
+where M* is the normalized contact matrix, A is arrowhead matrix.
 ## TADbit:
 https://github.com/3DGenomes/TADbit
 http://3dgenomes.github.io/TADbit/
