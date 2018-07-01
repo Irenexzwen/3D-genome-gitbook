@@ -105,5 +105,6 @@ OPTIONS
     ice_norm: run ICE normalization on contact maps
  [-h|--help]: help
  [-v|--version]: version
- ```
+
+  ```
 
