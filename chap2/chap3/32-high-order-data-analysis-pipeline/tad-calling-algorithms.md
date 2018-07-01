@@ -7,6 +7,9 @@ In this chapter, we'll especially focus on the domain and boundary calling metho
 
 ![](/assets/tadcalling.jpg)
 [Figure1](http://dx.doi.org/10.1038/nmeth.4325).  Heat map of the contact matrix of Rao et al.9 GM12878 replicate H (chr1:153,000,000–155,500,000) at 40-kb resolution. Identified TADs are framed in different colors for the various methods. Obs, observed counts.
+
+## Directionality Index (Dixon et al. (2012))
+
 ## TADbit:
 https://github.com/3DGenomes/TADbit
 http://3dgenomes.github.io/TADbit/
