@@ -8,7 +8,7 @@ In this chapter, we'll especially focus on the domain and boundary calling metho
 ![](/assets/tadcalling.jpg)
 [Figure1](http://dx.doi.org/10.1038/nmeth.4325).  Heat map of the contact matrix of Rao et al.9 GM12878 replicate H (chr1:153,000,000–155,500,000) at 40-kb resolution. Identified TADs are framed in different colors for the various methods. Obs, observed counts.
 
-## Directionality Index (Dixon et al. (2012))
+## Directionality Index [(Dixon et al. (2012))](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf)
 ### Observation and assumption:
 The regions at the periphery of the topological domains are highly biased in their interaction frequencies. In other words, the most upstream portion of a topological domain is highly biased towards interacting downstream, and the downstream portion of a topological domain is highly biased towards interacting upstream.
 
@@ -39,7 +39,8 @@ P(M_t
 Then [**EM**](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) algorithms was applied to compute maximum likelihood estimates and the parameter estimates of transition and emission (characterized by mean, covariance and weights). The posterior marginals were then estimated using the Forward-backward algorithm ( for each chr, 1 to 20 mixtures and chose the mixture with
 best goodness of fit using the AIC criterion).<br>
 Domains and boundaries are then inferred from the results of the **HMM state** calls throughout the genome. A domain is **initiated** at the beginning of a single **downstream** biased state(it do nothave upstream information) and **end** at a **upstream biased** state.<br>
-The alg also defined unorganized chromatin to be these regions that are > 400kb, and the topological boundaries to be less than 400kb.
+The alg also defined **unorganized chromatin** to be these regions that are > 400kb, and the **topological boundaries** to be less than 400kb.
+
 
 ## TADbit:
 https://github.com/3DGenomes/TADbit
