@@ -3,6 +3,9 @@ In the 2014 distinguished paper ***A 3D Map of the Human Genome at Kilobase Reso
 
 > This is due to experimental factors:such as noise and inadequate coverage. It is also because of the intrinsic difficulty of the problem: **the decline in contact frequency at domain edges can be subtle**, and the **very rapid decline** in contact probability observed as one **moves away from the diagonal** of a contact map is a major confound for most approaches. 
 
+In this chapter, we'll especially focus on the domain and boundary calling methods described in previous work.
+
+![](/assets/tadcalling.jpg)
 ## TADbit:
 https://github.com/3DGenomes/TADbit
 http://3dgenomes.github.io/TADbit/
