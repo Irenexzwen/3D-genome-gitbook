@@ -108,3 +108,8 @@ OPTIONS
 
   ```
 
+
+## ALLELE SPECIFIC ANALYSIS
+From the discussion in Chap1.2 we know that there are differences in paternal and maternal X chromosome organization, with the presence of mega-domains on the inactive X chromosome, which are not seen in the active X chromosome. Like as we expected, the inactive X chromosome map is partitioned into two mega-domains. The boundary between the two mega-domains lies near the DXZ4 micro-satellite.
+
+HiC-Pro will mask the human genome hg19 by replacing the SNP position by an ‘N’ using the BEDTools utilities [25] and generated the new bowtie2 indexes. In practice, the allele-specific analysis can be easily performed by simply specifying to HiC-Pro the list of SNPs and the N-masked indexes for read alignment through the configuration file. 
