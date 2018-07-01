@@ -94,3 +94,6 @@ thus ranges from 1 to 10. TAD borders with a score greater than 5 will be consid
 “robust”, meaning that they are reproducible among different runs; conversely, TAD
 borders with a score lower than 5 will be considered “weak”, and are likely to be
 undetectable in replicates or at other resolutions.
+
+## TADtree (Weinreb et. al (2016))
+TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that de- pends on the TAD length. 
