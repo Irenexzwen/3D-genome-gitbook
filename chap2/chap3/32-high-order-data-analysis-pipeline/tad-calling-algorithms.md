@@ -10,7 +10,7 @@ In this chapter, we'll especially focus on the domain and boundary calling metho
 
 ## Directionality Index [(Dixon et al. (2012))](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf)
 ### Observation and assumption:
-The regions at the periphery of the topological domains are highly biased in their interaction frequencies. In other words, the most upstream portion of a topological domain is highly biased towards interacting downstream, and the downstream portion of a topological domain is highly biased towards interacting upstream.
+The regions at the periphery of the topological domains are highly biased in their interaction frequencies. In other words, the most upstream portion of a topological domain is highly biased towards interacting downstream, and the downstream portion of a topological domain is highly biased towards interacting upstream. DI measures the tendency of a locus to interact with upstream vs. downstream sites. This is useful for identifying domains because the upstream boundary of a domain should prefer to interact with downstream loci, and vice-versa.
 
 ### Directionality Index (DI) 
 The directionality index is calculated in equation 1, where A is the number of reads that map from a given 40kb bin to the upstream 2Mb, B is the number of reads that map from the same 40kb bin to the downstream 2Mb **notice that these parameters are choose arbitrarily, lack a principled strategy of choosing algorithmic parameters.**, and E, the expected number of reads under the null hypothesis, is equal to (A + B)/2.
@@ -41,6 +41,7 @@ best goodness of fit using the AIC criterion).<br>
 Domains and boundaries are then inferred from the results of the **HMM state** calls throughout the genome. A domain is **initiated** at the beginning of a single **downstream** biased state(it do nothave upstream information) and **end** at a **upstream biased** state.<br>
 The alg also defined **unorganized chromatin** to be these regions that are > 400kb, and the **topological boundaries** to be less than 400kb.
 
+## Arrowhead
 
 ## TADbit:
 https://github.com/3DGenomes/TADbit
