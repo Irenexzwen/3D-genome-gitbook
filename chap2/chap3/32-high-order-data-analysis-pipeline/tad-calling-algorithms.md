@@ -42,6 +42,9 @@ Domains and boundaries are then inferred from the results of the **HMM state** c
 The alg also defined **unorganized chromatin** to be these regions that are > 400kb, and the **topological boundaries** to be less than 400kb.
 
 ## Arrowhead [(Rao et al.(‎2014))](https://www.ncbi.nlm.nih.gov/pubmed/25497547)
+In order to call sub-TADs from ultra-high resolution Hi-C data sets, arrowhead has been proposed as a heuristic algorithm to detect the corners of the domains to locate the boundaries of TADs. The name was got from the transformed matrix:
+![](/assets/arrow.png)
+
 
 ## TADbit:
 https://github.com/3DGenomes/TADbit
