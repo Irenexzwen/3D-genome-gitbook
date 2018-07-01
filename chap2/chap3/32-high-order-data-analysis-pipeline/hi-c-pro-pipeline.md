@@ -122,7 +122,8 @@ HiC-Pro is able to incorporate phased haplotype information in the Hi-C data pro
 - Next: classify as allele-specific all pairs for which both reads are assigned to the same parental allele or for which one read is assigned to one parental allele and the other is unassigned.
 - Finally: These allele-specific read pairs are then used to generate a genome-wide contact map for each parental genome and two allele-specific genome-wide contact maps are independently normalized using the iterative correction algorithm. 
 
-## COMPATIBILITY WITH OTHER SOFTWARE
+## COMPATIBILITY WITH OTHER SOFTWARE 
+reference [here](http://nservant.github.io/HiC-Pro/COMPATIBILITY.html#tads-calling-directionality-index).
 - Visualization: JuiceBox and HiCPlotter.
 - TADcalling: use **DIRECTIONALITY INDEX** first proposed by Dixon et al, or FIT-HI-C.
 - R environment.
