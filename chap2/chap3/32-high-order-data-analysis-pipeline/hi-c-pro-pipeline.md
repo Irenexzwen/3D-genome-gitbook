@@ -109,9 +109,11 @@ OPTIONS
   ```
 
 
-## ALLELE SPECIFIC ANALYSIS
+## ALLELE SPECIFIC ANALYSIS 
 From the discussion in Chap1.2 we know that there are differences in paternal and maternal X chromosome organization, with the presence of mega-domains on the inactive X chromosome, which are not seen in the active X chromosome. Like as we expected, the inactive X chromosome map is partitioned into two mega-domains. The boundary between the two mega-domains lies near the DXZ4 micro-satellite.
 
-HiC-Pro is able to incorporate phased haplotype information in the Hi-C data processing in order to generate allele-specific contact maps.  
+HiC-Pro is able to incorporate phased haplotype information in the Hi-C data processing in order to generate [allele-specific contact maps](http://nservant.github.io/HiC-Pro/AS.html).  
 - First: HiC-Pro will mask the reference genome by replacing the SNP position by an ‘N’ using the BEDTools utilities.
 - Then: Once aligned, HiC-Pro browses all reads spanning a polymorphic site, locates the nucleotide at the appropriate position, and assigns the read to either the maternal or paternal allele. 
+- Next: classify as allele-specific all pairs for which both reads are assigned to the same parental allele or for which one read is assigned to one parental allele and the other is unassigned.
+- Finally: These allele-specific read pairs are then used to generate a genome-wide contact map for each parental genome and two allele-specific genome-wide contact maps are independently normalized using the iterative correction algorithm. 
