@@ -17,7 +17,7 @@ The directionality index is calculated in equation 1, where A is the number of r
 $$
 DI=(\frac{B-A}{|B-A|})(\frac{(A-E)^2}{E}+\frac{(B-E)^2}{E})
 $$
-
+This is consistent with [Chi-sqaure nul hypothesis](https://en.wikipedia.org/wiki/Chi-squared_test).
 ### HMM estimate states 
 This method considers the directionality index as an observation and believe that the “true”
 hidden directionality bias (DB) can be determined using a [hidden Markov model (HMM)](https://en.wikipedia.org/wiki/Hidden_Markov_model). 
