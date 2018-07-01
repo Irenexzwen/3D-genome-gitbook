@@ -53,3 +53,25 @@ Each aligned reads can be assigned to one restriction fragment according to the 
 The next step is to separate the invalid ligation products from the valid pairs. Dangling end and self circles pairs are therefore excluded. See previous chapter **Read mapping considerations**.
 
 In case of Hi-C protocols that do not require a restriction enzyme such as DNase Hi-C or micro Hi-C, the assignment to a restriction is not possible. If no GENOME_FRAGMENT file are specified, this step is ignored. Short range interactions can however still be discarded using the MIN_CIS_DIST parameter.
+
+### 4) Quality Controls
+There are multiple qualitity controls for each step.
+**Mapping**: 
+- Aligned reads in the first (end-to-end) step
+- Alignment after trimming (in pratice, we ususally observed around 10-20% of trimmed reads. An abnormal level of trimmed reads can reflect a ligation issue). 
+- The fraction of valid pairs for each type of ligation products.
+- Invalid pairs: dangling and or self-circle, singleton, multiple hits or duplicates.
+- Calculate distribution of fragment size.
+- Fraction about intra/inter- chromosomal contacts. 
+- Fraction about short range (<20kb)/long range (>20kb) contacts.
+
+![](/assets/hicpro3.jpg)
+
+### 5) Map builder
+Intra et inter-chromosomal contact maps are build for all specified resolutions. The genome is splitted into bins of equal size. Each valid interaction is associated with the genomic bins to generate the raw maps.
+![](/assets/hicpro4.jpg)
+
+### 6)
+Hi-C data can contain several sources of biases which has to be corrected. HiC-Pro proposes a fast implementation of the original ICE normalization algorithm [Imakaev et al. 2012](https://www.ncbi.nlm.nih.gov/pubmed/22941365), making the assumption of equal visibility of each fragment. The ICE normalization can be used as a standalone python package through the [iced python package](https://github.com/hiclib/).
+
+![](/assets/hicpro6.jpg)
