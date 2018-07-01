@@ -1,7 +1,14 @@
-#
+# TAD calling algorithms
+In the 2014 distinguished paper ***A 3D Map of the Human Genome at Kilobase Resolution Reveals Principles of Chromatin Looping***, the author has explained why finding TAD segmentation from the contact map is a tricky work:
+
+> This is due to experimental factors:such as noise and inadequate coverage. It is also because of the intrinsic difficulty of the problem: **the decline in contact frequency at domain edges can be subtle**, and the **very rapid decline** in contact probability observed as one **moves away from the diagonal** of a contact map is a major confound for most approaches. 
 
 ## TADbit:
 https://github.com/3DGenomes/TADbit
+http://3dgenomes.github.io/TADbit/
+https://github.com/3DGenomes/TADbit/blob/master/_pytadbit/tadbit.py
+http://3dgenomes.github.io/TADbit/reference/reference_tadbit.html
+http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665
 
 TADbit analyzes the contact distribution along the genome and subsequently segments
 it into its constitutive TADs, with each TAD border corresponding to a vertical slice of the
