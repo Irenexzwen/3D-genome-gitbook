@@ -9,6 +9,37 @@ In this chapter, we'll especially focus on the domain and boundary calling metho
 [Figure1](http://dx.doi.org/10.1038/nmeth.4325).  Heat map of the contact matrix of Rao et al.9 GM12878 replicate H (chr1:153,000,000–155,500,000) at 40-kb resolution. Identified TADs are framed in different colors for the various methods. Obs, observed counts.
 
 ## Directionality Index (Dixon et al. (2012))
+### Observation and assumption:
+The regions at the periphery of the topological domains are highly biased in their interaction frequencies. In other words, the most upstream portion of a topological domain is highly biased towards interacting downstream, and the downstream portion of a topological domain is highly biased towards interacting upstream.
+
+### Directionality Index (DI) 
+The directionality index is calculated in equation 1, where A is the number of reads that map from a given 40kb bin to the upstream 2Mb, B is the number of reads that map from the same 40kb bin to the downstream 2Mb **notice that these parameters are choose arbitrarily, lack a principled strategy of choosing algorithmic parameters.**, and E, the expected number of reads under the null hypothesis, is equal to (A + B)/2.
+$$
+DI=(\frac{B-A}{|B-A|})(\frac{(A-E)^2}{E}+\frac{(B-E)^2}{E})
+$$
+
+### HMM estimate states 
+This method considers the directionality index as an observation and believe that the “true”
+hidden directionality bias (DB) can be determined using a [hidden Markov model (HMM)](https://en.wikipedia.org/wiki/Hidden_Markov_model). 
+![](/assets/HMM.jpg)
+[Figure2](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf).  Observations: DI, hidden state: 3 states as **“Upstream Bias”, “Downstream Bias” or “NoBias”**. <br>
+The probability of observing DI as **Y’s [Y1,Y2..Yn]**, is conditioned on the hidden **true**
+directionality biases as Q’s [Q1,Q2..Qn] and the [**mixtures of gaussians**](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model) as M’s [M1,M2..Mn]：
+$$
+P(Y_t
+ = y_t
+|Q_t
+ = i,M_t
+ = m) = N(y_t
+;µ_{i,m},Σ_{i,m})\\
+P(M_t
+ =m|Q_t
+ =i) = C(i,m), \text{where C encodes the mixture weights for each state i}. 
+ $$
+Then [**EM**](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) algorithms was applied to compute maximum likelihood estimates and the parameter estimates of transition and emission (characterized by mean, covariance and weights). The posterior marginals were then estimated using the Forward-backward algorithm ( for each chr, 1 to 20 mixtures and chose the mixture with
+best goodness of fit using the AIC criterion).<br>
+Domains and boundaries are then inferred from the results of the **HMM state** calls throughout the genome. A domain is **initiated** at the beginning of a single **downstream** biased state(it do nothave upstream information) and **end** at a **upstream biased** state.<br>
+The alg also defined unorganized chromatin to be these regions that are > 400kb, and the topological boundaries to be less than 400kb.
 
 ## TADbit:
 https://github.com/3DGenomes/TADbit
