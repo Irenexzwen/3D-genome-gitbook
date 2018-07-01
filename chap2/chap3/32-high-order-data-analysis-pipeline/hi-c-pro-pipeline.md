@@ -6,6 +6,7 @@ Thorough documentation can be found [here](https://nservant.github.io/HiC-Pro/).
 ![](/assets/hipro.png)
 Fig. HiC-Pro workflow (http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work)
 ## Step by Step
+
 ### 1) Installation
 To install this tool you should first check all the dependencies it relies on:
 - The bowtie2 mapper
@@ -71,7 +72,34 @@ There are multiple qualitity controls for each step.
 Intra et inter-chromosomal contact maps are build for all specified resolutions. The genome is splitted into bins of equal size. Each valid interaction is associated with the genomic bins to generate the raw maps.
 ![](/assets/hicpro4.jpg)
 
-### 6)
+### 6) ICE normalization
 Hi-C data can contain several sources of biases which has to be corrected. HiC-Pro proposes a fast implementation of the original ICE normalization algorithm [Imakaev et al. 2012](https://www.ncbi.nlm.nih.gov/pubmed/22941365), making the assumption of equal visibility of each fragment. The ICE normalization can be used as a standalone python package through the [iced python package](https://github.com/hiclib/).
 
 ![](/assets/hicpro6.jpg)
+
+## RUN HIC-PRO IN SEQUENTIAL MODE
+HiC-Pro can be run in a step-by-step mode, users just have to set the <code>-s</code> parameter to specify one step.
+
+```
+HiC-Pro --help
+usage : HiC-Pro -i INPUT -o OUTPUT -c CONFIG [-s ANALYSIS_STEP] [-p] [-h] [-v]
+Use option -h|--help for more information
+
+HiC-Pro 2.7.0
+---------------
+OPTIONS
+
+ -i|--input INPUT : input data folder; Must contains a folder per sample with input files
+ -o|--output OUTPUT : output folder
+ -c|--conf CONFIG : configuration file for Hi-C processing
+ [-p|--parallel] : if specified run HiC-Pro on a cluster
+ [-s|--step ANALYSIS_STEP] : run only a subset of the HiC-Pro workflow; if not specified the complete workflow is run
+    mapping: perform reads alignment
+    proc_hic: perform Hi-C filtering
+    quality_checks: run Hi-C quality control plots
+    build_contact_maps: build raw inter/intrachromosomal contact maps
+    ice_norm: run ICE normalization on contact maps
+ [-h|--help]: help
+ [-v|--version]: version
+ ```
+
