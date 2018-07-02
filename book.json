@@ -1,4 +1,4 @@
 {
-    "plugins": ["katex","etoc", "page-toc"]
+    "plugins": ["katex","toc"]
     
 }
