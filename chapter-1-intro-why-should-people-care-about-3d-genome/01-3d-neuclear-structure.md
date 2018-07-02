@@ -1,14 +1,6 @@
+<!-- toc -->
+
 #1 General features of 3D genome organization 
-1.1. [2D *cis* elements in the genome ](#11)
-1.2. [Multi-scale folding](#12) <br>
-        1.2.1. [Chromosome territories](#2321)<br>
-        1.2.2. [Through-put and resolution](#2322)
-1.3. [Hi-C](#233)
-1.4. [ChIA-PET](#234)
-1.5. [Selected methods comparison](#235)
-
-
-
 
 
 ## 1.1 2D *cis* elements in the genome<a name="11"></a>
