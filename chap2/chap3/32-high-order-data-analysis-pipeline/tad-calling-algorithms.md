@@ -39,7 +39,7 @@ P(M_t
 Then [**EM**](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) algorithms was applied to compute maximum likelihood estimates and the parameter estimates of transition and emission (characterized by mean, covariance and weights). The posterior marginals were then estimated using the Forward-backward algorithm ( for each chr, 1 to 20 mixtures and chose the mixture with
 best goodness of fit using the AIC criterion).<br>
 Domains and boundaries are then inferred from the results of the **HMM state** calls throughout the genome. A domain is **initiated** at the beginning of a single **downstream** biased state(it do nothave upstream information) and **end** at a **upstream biased** state.<br>
-The alg also defined **unorganized chromatin** to be these regions that are > 400kb, and the **topological boundaries** to be less than 400kb.
+The algorithms also defined **unorganized chromatin** to be these regions that are > 400kb, and the **topological boundaries** to be less than 400kb.
 
 ## Arrowhead [(Rao et al.(‎2014))](https://www.ncbi.nlm.nih.gov/pubmed/25497547)
 In order to call sub-TADs from ultra-high resolution Hi-C data sets, arrowhead has been proposed as a heuristic algorithm to detect the corners of the domains to locate the boundaries of TADs. The name was got from the transformed matrix:
@@ -60,4 +60,6 @@ http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665
 
 
 ## TADtree (Weinreb et. al (2016))
-TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that de- pends on the TAD length. 
+TADtree is one of the methods that can detect TADs and sub-TADs simultaneously. SubTADs have be en thought to vary between cell types and change the gene regulation. 
+
+TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that depends on the TAD length. 
