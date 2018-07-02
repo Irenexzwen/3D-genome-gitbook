@@ -65,4 +65,14 @@ TADtree is the first published method that can detect TADs and sub-TADs simultan
 TADtree algorithm finding the *TAD forest* using a dynamic programming algorithm to maximize an objective function. Before we go through the framework and some details, few features of this method should be notice:
 - The number of trees **N** in a forest is defined by users.
 - The time complexity of this alg is $$O(S^5)$$ where $$S$$ is the maxium TAD size.
-- 
+- The algorithm will return an approximate optimal fit but not necessarialy the right model.
+
+### Model：
+#### a) background contact frequency
+Just as other methods, first we usually have a way to measure the background contact strength. Here the **background function** giving the mean contact frequency for bins at each distance **d**:
+$$
+B(d)=\frac{1}{J-d}\sum_{i=1}^{J-d}A_{i,i+d}
+$$
+
+#### a) background contact frequency
+Modeling TADs and subTADs, this model would be the core of this method which defines the features and criteria to distinguish TADs and 
