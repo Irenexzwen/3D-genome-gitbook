@@ -88,4 +88,11 @@ Previous studies have illustrate that the boundaries mark a shift in interaction
 $$
 B_{p,q}(i)= \sum_{l=i-q}^{i+q} |\sum_{k=1}^p A_{l,i+k}-A_{l,i-k}|.
 $$
-The BI measures the shift in contacts around an interval *i*. Moreover, this normalized BI is Z-score and a TAD forest has its own $$\hat{BI}$$, details can be refered in the original paper.
+The BI measures the shift in contacts around an interval *i*. Moreover, this normalized BI is Z-score and a TAD forest has its own $$\hat{BI}$$, details can be refered in the original paper. Based on BI, TADtree defined what is **valid boundaries**.
+
+### Obejections:
+To generate an optimal result, the algorithm is trying to maximize the following objection function:
+$$ 
+\mathcal{O}_{\gamma}(F)=\gamma\overline{\mathcal{B}}_{p,q}(F)-\varepsilon(F) 
+$$
+such that $$|F|=N$$(TAD forest has N TADs), and each $$D\in F$$ is locally fitted and has **valid boundaries**.
