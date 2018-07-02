@@ -59,12 +59,12 @@ If we define the $$observed=M_{i,i+d}$$, and expected model is $$expected = (M_{
 
 
 Consider the behavior of this transformation when a domain is present in M* between locus a and locus b (i.e., there is a square of enriched contact frequency whose vertices lie at <a,a>, <a,b>, <b,b>, and <b,a>). $$A_{i,i+d}$$ will be strongly positive if and only if locus i-d is inside the domain (i.e., in the range [a,b]) and locus i+d is not. $$A_{i,i+d}$$ will be strongly negative when locus i+d is inside the domain and locus i-d is not. If both loci are inside the domain, or both loci are outside the domain, $$A_{i,i+d}$$ will be close to zero. 
-## TADbit:
-https://github.com/3DGenomes/TADbit
-http://3dgenomes.github.io/TADbit/
-https://github.com/3DGenomes/TADbit/blob/master/_pytadbit/tadbit.py
-http://3dgenomes.github.io/TADbit/reference/reference_tadbit.html
-http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665
+
+## TADbit [(Serra et. al(2017))](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665#sec020):
+TADbit [(github)[https://github.com/3DGenomes/TADbit]) is a complete python library to deal with 3C-based data with all steps to analyze, from mapping, binning matrices, normalizing, identifying TAD enven to building the 3D model. 
+
+However, here we'll mainly focus on the TAD calling or say border detection algorithms that is implemented in the library. 
+
 
 
 ## TADtree [(Weinreb et. al (2016))](https://www.ncbi.nlm.nih.gov/pubmed/26315910)
