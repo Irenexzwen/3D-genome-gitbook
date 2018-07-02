@@ -60,6 +60,4 @@ http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665
 
 
 ## TADtree (Weinreb et. al (2016))
-TADtree is one of the methods that can detect TADs and sub-TADs simultaneously. SubTADs have be en thought to vary between cell types and change the gene regulation. 
-
-TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that depends on the TAD length. 
+TADtree is the first published method that can detect TADs and sub-TADs simultaneously (subTADs have been thought to vary between cell types and change the gene regulation). TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that depends on the TAD length. 
