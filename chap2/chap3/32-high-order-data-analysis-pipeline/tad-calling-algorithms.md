@@ -65,6 +65,8 @@ TADbit [(github)[https://github.com/3DGenomes/TADbit]) is a complete python libr
 
 However, here we'll mainly focus on the TAD calling or say border detection algorithms that is implemented in the library. 
 
+#### breakpoint dectection algorithm:
+
 
 
 ## TADtree [(Weinreb et. al (2016))](https://www.ncbi.nlm.nih.gov/pubmed/26315910)
