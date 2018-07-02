@@ -79,3 +79,5 @@ Modeling TADs and subTADs, this model would be the core of this method which def
 $$\hat{A}_D(l,k)=((k-l)\delta_D+\beta_D)B(k-l),\quad for\quad L_D \le l \le k \le R_D$$.
 
 This is a linear function about the variable $$(k-l)$$ with slope $$\delta_D$$ and intercept $$\beta_D$$.
+
+The most distinguished feature that the paper found is that subTADs usually have a higher \delta. \delta is positive indicates the contact enrichment increases with increasing distance between bins, hence the subTADs is has a higher rate of increase in contact frequency with distance.
