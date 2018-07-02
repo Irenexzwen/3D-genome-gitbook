@@ -66,7 +66,11 @@ TADbit [(github)[https://github.com/3DGenomes/TADbit]) is a complete python libr
 However, here we'll mainly focus on the TAD calling or say border detection algorithms that is implemented in the library. 
 
 #### breakpoint dectection algorithm:
-
+TADbit employs a breakpoint detection algorithm that returns the optimal segmentation of the chromosome under BIC-penalized likelihood.<br>
+The number of interactions between bin $i$ and $j$ separated by $\Delta$ length is assumed to have a **Possion** distribution with parameter:
+$$
+w_{ij}e^{(\alpha+\beta\Delta)}
+$$
 
 
 ## TADtree [(Weinreb et. al (2016))](https://www.ncbi.nlm.nih.gov/pubmed/26315910)
