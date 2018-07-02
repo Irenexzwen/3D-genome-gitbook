@@ -9,11 +9,11 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - Interpretate the data 
 - Verify or raise hypothesis
 
-## 2.What data:
+## 2.What kind of data:
 ### i) Hi-C data:
 - What is hi-c data, brief intro. may refer to other chapter 
 
-###ii) Other useful info:
+###ii) Other useful types of data:
 - genome, epigenome
 - SNP
 - CTCF, ChiP-seq 
