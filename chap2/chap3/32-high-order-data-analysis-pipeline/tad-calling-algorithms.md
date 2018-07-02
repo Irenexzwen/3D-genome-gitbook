@@ -88,6 +88,7 @@ After we get slices of the matrix data, the algorithm proceeds every slice in tw
 - The border robust level.  the likelihood of each TAD border in the optimal segmentation is penalized by a value equal to the expected gain in log-likelihood for adding a TAD border after the optimum is reached, and the dynamic programming
 segmentation is restarted.
 
+Reviewed by another paper [(Forcato et. al(2017))](http://dx.doi.org/10.1038/nmeth.4325): TADbit and [Armatus](https://almob.biomedcentral.com/articles/10.1186/1748-7188-9-14) had the highest sensitivity in recovering TAD boundaries, although TADbit21 displayed a higher precision (low FDR) at all noise levels.
 
 ## TADtree [(Weinreb et. al (2016))](https://www.ncbi.nlm.nih.gov/pubmed/26315910)
 TADtree is the first published method that can detect TADs and sub-TADs simultaneously (subTADs have been thought to vary between cell types and change the gene regulation). TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that depends on the TAD length. 
