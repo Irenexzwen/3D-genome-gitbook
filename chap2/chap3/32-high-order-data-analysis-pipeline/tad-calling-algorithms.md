@@ -92,7 +92,9 @@ The BI measures the shift in contacts around an interval *i*. Moreover, this nor
 
 ### Obejections:
 To generate an optimal result, the algorithm is trying to maximize the following objection function:
+
 $$ 
 \mathcal{O}_{\gamma}(F)=\gamma\overline{\mathcal{B}}_{p,q}(F)-\varepsilon(F) 
 $$
+
 such that $$|F|=N$$(TAD forest has N TADs), and each $$D\in F$$ is locally fitted and has **valid boundaries**.
