@@ -21,7 +21,7 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - ... 
 
 ## 3.Desired feaures of Hi-C Vis tools:
-***(analogue, we could start from talking about features of some geographic apps like Google Map)***
+*** To take a cruise on a Hi-C map is just like navigate on a google map.(analogue, we could start from talking about features of some geographic apps like Google Map)***
 ***
 - **Multi-omics** data, multi-techs data. Optional for users 
 - **Vivid presentation**: Circos, Heatmaps, Birdview.
@@ -53,7 +53,6 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 ![](/assets/2.png)
 
 
-## 6.Summary
 
 ## Referrence 
 
