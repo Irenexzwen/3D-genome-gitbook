@@ -65,13 +65,29 @@ TADbit [(github)[https://github.com/3DGenomes/TADbit]) is a complete python libr
 
 However, here we'll mainly focus on the TAD calling or say border detection algorithms that is implemented in the library. 
 
-#### breakpoint dectection algorithm:
+#### Modeling vector data:
 TADbit employs a breakpoint detection algorithm that returns the optimal segmentation of the chromosome under BIC-penalized likelihood.<br>
 The number of interactions between bin $i$ and $j$ separated by $\Delta$ length is assumed to have a **Possion** distribution with parameter:
 $$
 w_{ij}e^{(\alpha+\beta\Delta)}
 $$
-where a and b are TAD dependent constants and wij is the normalization factor for the cell at coordinates (i,j) of the Hi-C contact matrix.
+where a and b are TAD dependent constants and wij is the normalization factor for the cell at coordinates (i,j) of the Hi-C contact matrix.<br>
+The breakpoint detection algorithm was firsted used in time series analysis, here we consider each column slice of the Hi-C matrix as a series vector.<br>
+Each cell of this slice belongs to one of three categories: 
+- contacts between the TAD and all upstream loci
+- intraTAD contacts
+- contacts between the TAD and all downstream loci
+
+#### Breakpoint dectection algorithm:
+After we get slices of the matrix data, the algorithm proceeds every slice in two phases:
+-  The log-likelihood of every slice (defined by a start and end position) is computed. 
+  - the search of possible struture of each slice is carried out by a **dynamic programming** method.
+  >  if $$L_k(s,e)$$ denotes the log-likelihood of the optimal segmentation of the slice (s,e) into k sub-slices, then 
+  $$L_k(1,e)=min(L_{k-1}(1,h)+L_1(h+1,e)$$ where the minimum is taken over all the values of h. This formula allows computing the optimal segmentation **recursively**.
+  
+- The border robust level.  the likelihood of each TAD border in the optimal segmentation is penalized by a value equal to the expected gain in log-likelihood for adding a TAD border after the optimum is reached, and the dynamic programming
+segmentation is restarted.
+
 
 ## TADtree [(Weinreb et. al (2016))](https://www.ncbi.nlm.nih.gov/pubmed/26315910)
 TADtree is the first published method that can detect TADs and sub-TADs simultaneously (subTADs have been thought to vary between cell types and change the gene regulation). TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that depends on the TAD length. 
