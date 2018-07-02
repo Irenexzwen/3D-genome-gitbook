@@ -76,4 +76,6 @@ $$
 
 #### a) modeling TADs and sub-TADs
 Modeling TADs and subTADs, this model would be the core of this method which defines the features and criteria to distinguish TADs and it's hierarchical structure. For each TAD ***D***, it can be described with four parameters: $$D = (L_D,R_D,\delta_D, \beta_D)$$. Specifying an TAD in interval $$[L_D; R_D]$$. The expected contact frequency is:
-$$  
+$$\hat{A}_D(l,k)=((k-l)\delta_D+\beta_D)B(k-l),\quad for\quad L_D \le l \le k \le R_D$$.
+
+This is a linear function about the variable $$(k-l)$$ with slope $$\delta_D$$ and intercept $$\beta_D$$.
