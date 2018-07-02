@@ -1,8 +1,8 @@
 # Integrative data visualization
 
-Here we'll mainly focused on Hi-C data visulazation, while most of the tools designed for Hi-C data are also able to integragate other data to improve the interpretability. 
+Here we'll mainly focused on Hi-C data visulazation, while most of the tools designed for Hi-C data are also able to integragate other 3C-based data to improve the interpretability. 
 
-We'll first walk through the **motivation** for visualizing complex dataset and then discuss the **object, needs and plights** in Hi-C data visualization. Then we'll provide a roadmap with some comparison of some of the most popular softwares available, based on some criteria that people may refer to. Finally we'll choose XXX as a showcase to prepare people for practical analysis. 
+We'll first walk through the **motivation** for visualizing complex dataset and then discuss the **object, demand, current limitations** in Hi-C data visualization. Then we'll provide a roadmap with some comparison of some of the most popular softwares available, based on some criteria that people may refer to. Finally we'll choose GIVE and HIGlass as showcases to prepare people for practical analysis. 
 
 ## 1.Motivation for Vis:
 - Explore data feature, find patterns
