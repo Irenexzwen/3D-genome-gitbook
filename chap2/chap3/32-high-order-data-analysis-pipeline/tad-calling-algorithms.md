@@ -43,7 +43,7 @@ The algorithms also defined **unorganized chromatin** to be these regions that a
 
 ## Arrowhead [(Rao et al.(‎2014))](https://www.ncbi.nlm.nih.gov/pubmed/25497547)
 In order to call sub-TADs from ultra-high resolution Hi-C data sets, arrowhead has been proposed as a heuristic algorithm to detect the corners of the domains to locate the boundaries of TADs. The name was got from the transformed matrix:
-![](/assets/arrow.png)
+![](/assets/arrowhead.jpg)
 [Figure3](https://www.ncbi.nlm.nih.gov/pubmed/25497547).Transformation replaces domains with an arrowhead-shaped motif pointing toward the domain’s upper-left corner (example in yellow). Arrowheads  are then identified using dynamic programming.
 
 The matrix transformation is defined as:
@@ -51,6 +51,9 @@ $$
  A_{i,i+d} = (M^*_{i,i-d} – M^*_{i,i+d})/(M^*_{i,i-d} + M^*_{i,i+d})
 $$
 where M* is the normalized contact matrix, A is arrowhead matrix.
+If we define the $$observed=M_{i,i+d}$$, and expected model is $$expected = (M_{i,i-d}+M_{i,i+d})/2$$, then the transformed M matrix is $$1-observed/expected$$.
+
+Consider the behavior of this transformation when a domain is present in M* between locus a and locus b (i.e., there is a square of enriched contact frequency whose vertices lie at <a,a>, <a,b>, <b,b>, and <b,a>). $$A_{i,i+d}$$ will be strongly positive if and only if locus i-d is inside the domain (i.e., in the range [a,b]) and locus i+d is not. $$A_{i,i+d}$$ will be strongly negative when locus i+d is inside the domain and locus i-d is not. If both loci are inside the domain, or both loci are outside the domain, $$A_{i,i+d}$$ will be close to zero. 
 ## TADbit:
 https://github.com/3DGenomes/TADbit
 http://3dgenomes.github.io/TADbit/
