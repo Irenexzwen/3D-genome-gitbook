@@ -74,10 +74,12 @@ $$
 B(d)=\frac{1}{J-d}\sum_{i=1}^{J-d}A_{i,i+d}
 $$
 
-#### a) modeling TADs and sub-TADs
+#### b) modeling TADs and sub-TADs
 Modeling TADs and subTADs, this model would be the core of this method which defines the features and criteria to distinguish TADs and it's hierarchical structure. For each TAD ***D***, it can be described with four parameters: $$D = (L_D,R_D,\delta_D, \beta_D)$$. Specifying an TAD in interval $$[L_D; R_D]$$. The expected contact frequency is:
 $$\hat{A}_D(l,k)=((k-l)\delta_D+\beta_D)B(k-l),\quad for\quad L_D \le l \le k \le R_D$$.
 
 This is a linear function about the variable $$(k-l)$$ with slope $$\delta_D$$ and intercept $$\beta_D$$.
 
 The most distinguished feature that the paper found is that subTADs usually have a higher \delta. \delta is positive indicates the contact enrichment increases with increasing distance between bins, hence the subTADs is has a higher rate of increase in contact frequency with distance.
+
+#### c) boundary index
