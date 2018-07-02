@@ -76,10 +76,16 @@ $$
 
 #### b) modeling TADs and sub-TADs
 Modeling TADs and subTADs, this model would be the core of this method which defines the features and criteria to distinguish TADs and it's hierarchical structure. For each TAD ***D***, it can be described with four parameters: $$D = (L_D,R_D,\delta_D, \beta_D)$$. Specifying an TAD in interval $$[L_D; R_D]$$. The expected contact frequency is:
+
 $$\hat{A}_D(l,k)=((k-l)\delta_D+\beta_D)B(k-l),\quad for\quad L_D \le l \le k \le R_D$$.
 
 This is a linear function about the variable $$(k-l)$$ with slope $$\delta_D$$ and intercept $$\beta_D$$.
 
 The most distinguished feature that the paper found is that subTADs usually have a higher \delta. \delta is positive indicates the contact enrichment increases with increasing distance between bins, hence the subTADs is has a higher rate of increase in contact frequency with distance.
 
-#### c) boundary index
+#### c) boundary index (BI)
+Previous studies have illustrate that the boundaries mark a shift in interaction preference. 1D Test statistic called the BI that measures local shifts in interaction preference.
+$$
+B_{p,q}(i)= \sum_{l=i-q}^{i+q} |\sum_{k=1}^p A_{l,i+k}-A_{l,i-k}|.
+$$
+The BI measures the shift in contacts around an interval *i*. Moreover, this normalized BI is Z-score and a TAD forest has its own $$\hat{BI}$$, details can be refered in the original paper.
