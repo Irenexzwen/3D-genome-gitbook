@@ -59,5 +59,10 @@ http://3dgenomes.github.io/TADbit/reference/reference_tadbit.html
 http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665
 
 
-## TADtree (Weinreb et. al (2016))
+## TADtree [(Weinreb et. al (2016))](https://www.ncbi.nlm.nih.gov/pubmed/26315910)
 TADtree is the first published method that can detect TADs and sub-TADs simultaneously (subTADs have been thought to vary between cell types and change the gene regulation). TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that depends on the TAD length. 
+
+TADtree algorithm finding the *TAD forest* using a dynamic programming algorithm to maximize an objective function. Before we go through the framework and some details, few features of this method should be notice:
+- The number of trees **N** in a forest is defined by users.
+- The time complexity of this alg is $$O(S^5)$$ where $$S$$ is the maxium TAD size.
+- 
