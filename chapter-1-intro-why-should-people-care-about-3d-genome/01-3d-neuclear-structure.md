@@ -1,6 +1,17 @@
 #1 General features of 3D genome organization 
+1.1. [2D *cis* elements in the genome ](#11)
+1.2. [Multi-scale folding](#12) <br>
+        1.2.1. [Chromosome territories](#2321)<br>
+        1.2.2. [Through-put and resolution](#2322)
+1.3. [Hi-C](#233)
+1.4. [ChIA-PET](#234)
+1.5. [Selected methods comparison](#235)
 
-## 1.1 2D *cis* elements in the genome 
+
+
+
+
+## 1.1 2D *cis* elements in the genome<a name="11"></a>
 ### Biochemically active regulatory elements (bound by sequence-specific regulatory TFs) :
 - **Promoter**: The promoter is a region around the TSS (+1) of a gene, which contains several DNA elements that facilitate the binding of regulatory proteins. It provide a secure initial binding site for RNA polymerase and for proteins called transcription factors that recruit RNA polymerase to make transcription take place [[1]](https://en.wikipedia.org/wiki/Promoter_\(genetics\)).
 - **Enhancer**: Enhancers are CRE(cis-regulatory elements which means they are non-coding DNA that does not code for transcription fation). They can be located up to 1 Mbp (1,000,000 bp) away from the gene, upstream or downstream from the start site [[2]](https://en.wikipedia.org/wiki/Enhancer_\(genetics\)).
@@ -10,7 +21,7 @@
 ![](/assets/promoter.png)
 Figure1. Schematic overview of elements in eukaryotes.
 
-##1.2 Multi-scale folding
+##1.2 Multi-scale folding<a name="12"></a>
 The largest chromosomes contain hundreds of millions of base pairs that fold in a limitted space, which leads to multi-scale, hierarchical structures like： nucleosomes, chromatin fibres, chromosome domains, compartments and finally in chromosome territories. 
 
 Information resides at all levels, from the histone–DNA interactions at the sub-nucleosomal scale to the chromosome–chromosome and chromosome–lamina interactions in the nuclear space. This multi-level architecture can be regulated and/or exploited by a variety of com- ponents such as transcription factors, architectural proteins and non-coding RNAs in order to coordinate gene expression and cell fate.
@@ -21,13 +32,13 @@ With the help of currently developed chromosome capture technologies, let's how 
 [Figure2](http://www.aimspress.com/article/10.3934/biophy.2015.4.585/figure.html).  Inside the nucleus, euchromatin and heterochromatin give rise to several grades of higher order structures: chromosome loops, Topological Associated Domains (TADs), Lamin Associated Domains (LADs) and chromosomal territories. Also the nucleolus, the “assembly-chain” of ribosomes, associates with specific DNA regions: the Nucleolar Associated Domains (NADs), that surround the highly transcribed region of nucleolus, giving rise to another grade of chromatin organization.
 
 
-### Chromosome territories
+### Chromosome territories<a name="121"></a>
 At larger scales, chromatin is organized into individual chromosome territories (one for each chro- mosome), which rarely intermix (FIG. 2d). This observa- tion, initially coming from FISH studies [[5]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC282679/), was later validated by genome-wide Hi-C data, which showed that interactions between loci on the same chromosome are much more frequent than contacts in trans between different chromosomes [[6]](http://science.sciencemag.org/content/326/5950/289).
-### A/B Compartments 
+### A/B Compartments <a name="122"></a>
 The Hi-C data, after normalization and converting to an observed/expected matrix, display a plaid pattern, analyzing by Principal-component analysis (PCA), the first principal component (can be interpreted as the surrogate of maxim variance of the data, the most prominent feature) contains compartments A and B (with positive PC1 regions reflecting "active/permissive" chromatin and negative PC1 regions indicative of "inactive/inert" chromatin).
 ![](/assets/compart.jpg)
 [Figure3](http://homer.ucsd.edu/homer/interactions/HiCpca.html). Compartment identification with PCA. ©HOMER
-### TAD (Topologically Associating Domains)
+### TAD (Topologically Associating Domains)<a name="123"></a>
 A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases (hundreds kb usually).[[?]](https://en.wikipedia.org/wiki/Topologically_associating_domain).
 
 TADs typically manifest as contiguous square domains along the **diagonal of Hi-C maps**. The spatial partitioning of the genome into TADs
@@ -49,17 +60,17 @@ There are also evidence to support that TADs are conserved between different cel
 ![](/assets/TAD.jpg)
 Figure [[3]](https://doi.org/10.1016/j.tibs.2018.03.006). Hi-C-Detected Chromatin Folding Paradigms. TADs (more tightly folded than regions between them) are on-diagonal boxes of contact enrichment. Loops are radially symmetric peaks of contact intensity, often located at the corners of TADs in mammalian cells. Off-diagonal boxes indicate interactions due to compartmentation. Right: TADs and loops may be either mostly transcriptionally active (grey) or inactive (black). Loops may also be more tightly folded, but additionally have an increased likelihood of contact between their boundaries or anchors. Compartmentation is indicated by homotypic (active–active or inactive–inactive) TAD–TAD interactions. The bona fide pattern of chromatin folding is unknown and indicated only schematically.
 
-### Sub TAD and insulation neighborhoods
+### Sub TAD and insulation neighborhoods<a name="124"></a>
 TADs can be further divided into smaller sub-TADs observed from high-resolution 5C ofmouse ESCs [[12]](https://www.ncbi.nlm.nih.gov/pubmed/23706625). It **resembles TADs** displays the self-association feature with a decrease in contact frequency across sub-TAD boundaries, and some sub-TAD boundaries are associated with CTCF/Cohesin-mediated interactions [[13]](https://www.ncbi.nlm.nih.gov/pubmed/25497547). However, it differs from TADs that sub-TADs are less conserved across cell/tissue types and appear to be related to cell type– specific gene expression [[14]](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004018), [[15]](https://www.ncbi.nlm.nih.gov/pubmed/23706625).
 
-### Chromatin loops
+### Chromatin loops<a name="125"></a>
 It has been recognized that, cis-regulatory elements like promoter-enhancer are usually far away along the linear genome in vertebrate creatures. However, in order to elicit the regulatory effect, the genome structure evolved to form a loop that bring together two elemnts to a spatial proximity. This chromotin formation is usually called "chromotin loops". One well known example is the locus control region (LCR) of the β-globin cluster, which inter-acts strongly, via long-range chromatin contacts, with its target genes in erythroid cells (where the β-globin gene is active) but shows little or no interaction in cells from different lineages.[[16]](http://dx.doi.org/10.1038/nrg.2016.112).
 
-### Nucleosome-nucleosome interactions
+### Nucleosome-nucleosome interactions<a name="126"></a>
 This is the smallest scale of chromatin organization. For a long time, on the basis of in vitro electron microscopy, nucleosomes were thought to form arrays (often called the 30 nm chromatin fibres) with either solenoid or zig- zag shapes. However, recent studies provide more evidence to stand by a more flexible, heterogeneous groups arranged structure. [[17]](https://www.cell.com/cell/fulltext/S0092-8674\(15\)00132-4).
 
 
-## 1.3 Architectural proteins and RNAs
+## 1.3 Architectural proteins and RNAs<a name="13"></a>
 An important question in chromatin biology is how the structural features of 3D chromatin organization are established. Few architectural proteins have shownto be essential for chromotin architecture.
 
 ![](/assets/mediator.jpg)
