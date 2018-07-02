@@ -71,7 +71,7 @@ The number of interactions between bin $i$ and $j$ separated by $\Delta$ length 
 $$
 w_{ij}e^{(\alpha+\beta\Delta)}
 $$
-
+where a and b are TAD dependent constants and wij is the normalization factor for the cell at coordinates (i,j) of the Hi-C contact matrix.
 
 ## TADtree [(Weinreb et. al (2016))](https://www.ncbi.nlm.nih.gov/pubmed/26315910)
 TADtree is the first published method that can detect TADs and sub-TADs simultaneously (subTADs have been thought to vary between cell types and change the gene regulation). TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that depends on the TAD length. 
