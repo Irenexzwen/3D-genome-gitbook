@@ -3,4 +3,4 @@
 
 
 
-{% gdrive %} https://drive.google.com/open?id=1tVZwcXqon9OVM1q4sFBgig3yY_MmfV2k {% gdrive %}
+{% gdrive %} https://drive.google.com/file/d/1w6BVy5KlK9aCv9AoekpsljM7ADqNg041/view?usp=sharing {% gdrive %}
