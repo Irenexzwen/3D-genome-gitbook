@@ -5,13 +5,8 @@
     1.3. [Normalization (Balancing)](#13)<br>
     1.4. [Identification of interactions](#14)<br>
     1.5. [Visualization](#15)<br>
-2. [Analytical pipeline](#2)<br>
-    2.1. [Step1 Raw reads](#21)<br>
-    2.2. [Step2 Pre-processing & Alignment](#22)<br>
-    2.3. [Step3 Peak calling](#23)<br>
-    2.4. [Step4 Chromatin Accessibility Analysis](#24)<br>
-    2.5. [Step5 Analysis and Interpretation](#25)<br>
-3. [Introduction of MACS](#3)<br>
+2. [Analytical tools](#2)<br>
+3. [TAD calling tools and algorithms](#3)<br>
 
 
 ## 3.2.1 Analytical pipeline:<a name="1"></a>
