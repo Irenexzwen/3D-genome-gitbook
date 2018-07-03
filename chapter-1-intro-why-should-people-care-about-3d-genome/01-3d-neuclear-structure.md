@@ -1,8 +1,12 @@
-
-<!-- toc -->
-
 #1 General features of 3D genome organization 
-
+1. [Introduction](#introduction)
+2. [Selected methods for primary structure](#222)<br>
+    2.1. [ChIP-seq](#a)<br>
+    2.2. [DNase-seq](#b)<br>
+    2.3. [ATAC-seq](#c)<br>
+    2.4. [MNase-seq](#d)<br>
+    2.5. [FAIRE-seq](#e)<br>
+3. [Selected methods comparison](#223)
 
 ## 1.1 2D *cis* elements in the genome<a name="11"></a>
 ### Biochemically active regulatory elements (bound by sequence-specific regulatory TFs) :
