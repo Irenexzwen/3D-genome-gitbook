@@ -8,7 +8,9 @@ In this chapter, we'll especially focus on the domain and boundary calling metho
 ![](/assets/tadcalling.jpg)
 [Figure1](http://dx.doi.org/10.1038/nmeth.4325).  Heat map of the contact matrix of Rao et al.9 GM12878 replicate H (chr1:153,000,000–155,500,000) at 40-kb resolution. Identified TADs are framed in different colors for the various methods. Obs, observed counts.
 
-## Directionality Index [(Dixon et al. (2012))](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf)
+## Directionality Index [(Dixon et al. (2012))]<a name="1"></a>
+
+(https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf)
 ### Observation and assumption:
 The regions at the periphery of the topological domains are highly biased in their interaction frequencies. In other words, the most upstream portion of a topological domain is highly biased towards interacting downstream, and the downstream portion of a topological domain is highly biased towards interacting upstream. DI measures the tendency of a locus to interact with upstream vs. downstream sites. This is useful for identifying domains because the upstream boundary of a domain should prefer to interact with downstream loci, and vice-versa.
 
@@ -35,7 +37,9 @@ best goodness of fit using the AIC criterion).<br>
 Domains and boundaries are then inferred from the results of the **HMM state** calls throughout the genome. A domain is **initiated** at the beginning of a single **downstream** biased state(it do nothave upstream information) and **end** at a **upstream biased** state.<br>
 The algorithms also defined **unorganized chromatin** to be these regions that are > 400kb, and the **topological boundaries** to be less than 400kb.
 
-## Arrowhead [(Rao et al.(‎2014))](https://www.ncbi.nlm.nih.gov/pubmed/25497547)
+## Arrowhead [(Rao et al.(‎2014))](https://www.ncbi.nlm.nih.gov/pubmed/25497547)<a name="2"></a>
+
+
 In order to call sub-TADs from ultra-high resolution Hi-C data sets, arrowhead has been proposed as a heuristic algorithm to detect the corners of the domains to locate the boundaries of TADs. The name was got from the transformed matrix:
 ![](/assets/arrowhead.jpg)
 [Figure3](https://www.ncbi.nlm.nih.gov/pubmed/25497547).Transformation replaces domains with an arrowhead-shaped motif pointing toward the domain’s upper-left corner (example in yellow). Arrowheads  are then identified using dynamic programming.
@@ -58,7 +62,9 @@ If we define the $$observed=M_{i,i+d}$$, and expected model is $$expected = (M_{
 
 Consider the behavior of this transformation when a domain is present in M* between locus a and locus b (i.e., there is a square of enriched contact frequency whose vertices lie at <a,a>, <a,b>, <b,b>, and <b,a>). $$A_{i,i+d}$$ will be strongly positive if and only if locus i-d is inside the domain (i.e., in the range [a,b]) and locus i+d is not. $$A_{i,i+d}$$ will be strongly negative when locus i+d is inside the domain and locus i-d is not. If both loci are inside the domain, or both loci are outside the domain, $$A_{i,i+d}$$ will be close to zero. 
 
-## TADbit [(Serra et. al(2017))](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665#sec020):
+## TADbit [(Serra et. al(2017))](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665#sec020):<a name="3"></a>
+
+
 TADbit [(github)[https://github.com/3DGenomes/TADbit]) is a complete python library to deal with 3C-based data with all steps to analyze, from mapping, binning matrices, normalizing, identifying TAD enven to building the 3D model. 
 
 However, here we'll mainly focus on the TAD calling or say border detection algorithms that is implemented in the library. 
@@ -88,7 +94,9 @@ segmentation is restarted.
 
 Reviewed by another paper [(Forcato et. al(2017))](http://dx.doi.org/10.1038/nmeth.4325): TADbit and [Armatus](https://almob.biomedcentral.com/articles/10.1186/1748-7188-9-14) had the highest sensitivity in recovering TAD boundaries, although TADbit displayed a higher precision (low FDR) at all noise levels.
 
-## TADtree [(Weinreb et. al (2016))](https://www.ncbi.nlm.nih.gov/pubmed/26315910)
+## TADtree [(Weinreb et. al (2016))](https://www.ncbi.nlm.nih.gov/pubmed/26315910)<a name="4"></a>
+
+
 TADtree is the first published method that can detect TADs and sub-TADs simultaneously (subTADs have been thought to vary between cell types and change the gene regulation). TADtree can detect nested hierarchies of TADs based on the empirical observation that within TADs, the enrichment of contacts over background grows linearly with the distance between bins, but at a rate that depends on the TAD length. 
 
 TADtree algorithm finding the *TAD forest* using a dynamic programming algorithm to maximize an objective function. Before we go through the framework and some details, few features of this method should be notice:
