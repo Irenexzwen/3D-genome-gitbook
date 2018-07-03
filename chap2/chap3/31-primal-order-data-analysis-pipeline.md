@@ -1,4 +1,13 @@
 # 3.1 Assessment of Primary-order Chromatin
+1. [Visualize DNA & RNA](#1)<br>
+    1.1. [FISH](#11)<br>
+    1.2. [CRISPR imaging](#12)<br>
+    1.3. [Tagged RNA sequence](#13)<br>
+2. [Ultra structure and 3D organization](#2)<br>
+    2.1. [EM based methods](#21)<br>
+    2.2. [X-ray based methods](#22)<br>
+3. [AVisualizing spatial and dynamic 3D nuclear organization](#3)<br>
+
 Genomic regions with dense nucleo- somes are more tightly packed (i.e., “closed”), whereas nucleosome- depleted regions are more accessible (i.e., “open”) for interactions with regulators and are therefore regarded as the primary locations ofregulatory elements. 
 
 ## 3.2.1 Features of data
