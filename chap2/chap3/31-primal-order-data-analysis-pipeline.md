@@ -1,26 +1,29 @@
 # 3.1 Assessment of Primary-order Chromatin
-1. [Visualize DNA & RNA](#1)<br>
-    1.1. [FISH](#11)<br>
-    1.2. [CRISPR imaging](#12)<br>
-    1.3. [Tagged RNA sequence](#13)<br>
-2. [Ultra structure and 3D organization](#2)<br>
-    2.1. [EM based methods](#21)<br>
-    2.2. [X-ray based methods](#22)<br>
+1. [Features of data](#1)<br>
+2. [Analytical pipeline](#2)<br>
+    2.1. [Step1 Raw reads](#21)<br>
+    2.2. [Step2 Pre-processing & Alignment](#22)<br>
+    2.3. [Step3 Peak calling](#23)<br>
+    2.4. [Step2 Pre-processing & Alignment](#24)<br>
+    2.5. [Step1 Raw reads](#25)<br>
+    2.6. [Step2 Pre-processing & Alignment](#26)<br>
 3. [AVisualizing spatial and dynamic 3D nuclear organization](#3)<br>
 
 Genomic regions with dense nucleo- somes are more tightly packed (i.e., “closed”), whereas nucleosome- depleted regions are more accessible (i.e., “open”) for interactions with regulators and are therefore regarded as the primary locations ofregulatory elements. 
 
-## 3.2.1 Features of data
+## 3.2.1 Features of data<a name="1"></a>
 ![](/assets/prios.jpg)
 **Figure1.Fragmentation methods and read out features comparison between four methods.**MNase is specially sensitive to open chromotin areas and it is exonucleas which maps regions that are protected by nucleosomes (large open regions are digested). DNase-seq and ATAC-seq are used to sequence and map exposed regions of DNA. 
-## 3.2.2 Analytical pipeline:
-### Step1 Raw reads (Quality control)
+## 3.2.2 Analytical pipeline:<a name="2"></a>
+### Step1 Raw reads (Quality control)<a name="21"></a>
 
  - Composite plots to check experiment sucess: eg, TSSs shown t be open.---- **ArchTEX[[1]](https://www.ncbi.nlm.nih.gov/pubmed/22302569), CEAS[[2]](https://www.ncbi.nlm.nih.gov/pubmed/19689956)**.
  - ATAC-seq can be further: estimating the percentage of sequence reads that map to the mitochondrial genome(lower is better).
  - Use genome browser to see raw tag density ---- **UCSC[[3]](https://www.ncbi.nlm.nih.gov/pubmed/20959295), IGV[[4]](https://www.ncbi.nlm.nih.gov/pubmed/22517427), [GIVE](https://www.biorxiv.org/content/early/2018/03/15/177832)**.
  
-### Step2 Pre-processing & Alignment 
+### Step2 Pre-processing & Alignment <a name="22"></a>
+
+
 Reads are filtered to remove redundancy and adaptors, also size selection (selective for some methods).
 #### Size selection:
 - MNase: 25-50bp fragments represent TF-binding sites.
@@ -43,7 +46,9 @@ Reads are filtered to remove redundancy and adaptors, also size selection (selec
  - ATAC:  50-160 M
  
  
-### Step3 Peak calling 
+### Step3 Peak calling <a name="23"></a>
+
+
 Peak calling basically means we identify possible open regions or nucleosome location through the tiling reads depth. This step is the most critical for chromatin accessibility profiling, revealing nucleosome-dense, closed regions (MNase-seq) or open chromatin regions (DNase-seq, FAIRE-seq, and ATAC-seq) [[5]](https://doi.org/10.1016/j.csbj.2018.02.003).
 
 #### For MNase-seq
@@ -137,7 +142,8 @@ Paired-end sequencing is performed for ATAC-seq. The read start sites require **
 ##### Comman peak calling tools:
 MACS2, ZINBA, F-seq, HOMER. ["atac-seq"-R package](https://github.com/ blikzen/atac-seq).
 
-### Step4 Chromatin Accessibility Analysis
+### Step4 Chromatin Accessibility Analysis<a name="24"></a>
+
 Accessible regions are determined based on peak-calling results. With peak files we go downstream analysis with different purpose:
 <table>
  <tbody>
@@ -165,13 +171,19 @@ Accessible regions are determined based on peak-calling results. With peak files
 **CENTIPEDE** is an integrative algorithm for rapid profiling of many TFs simultaneously that combines known information on TF motifs and positional weight matrices
  
  
-### Step5 Analysis and Interpretation
+### Step5 Analysis and Interpretation<a name="25"></a>
+
+
 Data annotation and integration represents the final and most informative stage of analysis. After we get the nucleosome positions and TF binding sites, it is desireble to further interpret them in the light of relavent information.
 - In combination with (promoters, introns, intergenic regions, TSSs, TTSs) information ---- [BedTools](http://bedtools.readthedocs.org/).
 - Discovery TF binding events based on known knowledge or *de novo* ways.
 
-## 3.2.3 Analytical Tools for peak calling:
-### Brief view of different tools 
+## 3.2.3 Analytical Tools for peak calling:<a name="3"></a>
+
+
+### Brief view of different tools <a name="31"></a>
+
+
 A comprehensive list for peak calling softwares can be found at [here](https://omictools.com/peak-calling-category). Few widely-used tools are listed below. 
 <table>
   <tbody>
@@ -200,7 +212,9 @@ A comprehensive list for peak calling softwares can be found at [here](https://o
 <table>
 
 
-### Introduction of MACS
+### Introduction of MACS<a name="32"></a>
+
+
 MACS is on of the most popular peak calling tools and is developed in  X. Shirley Liu’s lab at Harvard University. We'll use MACS as an example to show you the basic idea behind peak calling and practical implementation. The original paper introduce MACS can be found [here](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-9-r137).
 
 #### Core idea of the algorithm
