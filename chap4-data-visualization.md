@@ -50,7 +50,7 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - ...
 
 ## 5.Overview of tools
-![](/assets/2.png)
+![](/assets/vis_comp.jpg)
 
 
 
