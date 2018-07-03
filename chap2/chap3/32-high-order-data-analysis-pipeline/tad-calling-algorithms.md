@@ -33,7 +33,15 @@ hidden directionality bias (DB) can be determined using a [hidden Markov model (
 [Figure2](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf).  Observations: DI, hidden state: 3 states as **“Upstream Bias”, “Downstream Bias” or “NoBias”**. <br>
 The probability of observing DI as **Y’s [Y1,Y2..Yn]**, is conditioned on the hidden **true**
 directionality biases as Q’s [Q1,Q2..Qn] and the [**mixtures of gaussians**](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model) as M’s [M1,M2..Mn]：
-！！
+$$
+P(Y_t= y_t|Q_t= i,M_t= m) = N(y_t, \mu_{i,m},\Sigma_{i,m})
+$$
+
+$$
+P(M_t=m|Q_t=i) = C(i,m)
+$$
+where C encodes the mixture weights for each state i.<br>
+
 Then [**EM**](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) algorithms was applied to compute maximum likelihood estimates and the parameter estimates of transition and emission (characterized by mean, covariance and weights). The posterior marginals were then estimated using the Forward-backward algorithm ( for each chr, 1 to 20 mixtures and chose the mixture with
 best goodness of fit using the AIC criterion).<br>
 Domains and boundaries are then inferred from the results of the **HMM state** calls throughout the genome. A domain is **initiated** at the beginning of a single **downstream** biased state(it do nothave upstream information) and **end** at a **upstream biased** state.<br>
@@ -56,9 +64,11 @@ where M* is the normalized contact matrix, A is arrowhead matrix.
 I guess the best way to understand the transformation matrix is this:
 
 $$
-A_{i,i+d} = (M^*_{i,i-d} – M^*_{i,i+d})/(M^*_{i,i-d} + M^*_{i,i+d}) \\
-=1-\frac{2*M_{i,i+d}}{M_{i,i+d}+M_{i,i-d}}
+A_{i,i+d} = (M^*_{i,i-d} – M^*_{i,i+d})/(M^*_{i,i-d} + M^*_{i,i+d})=1-\frac{2*M_{i,i+d}}{M_{i,i+d}+M_{i,i-d}}
 $$
+
+
+
 If we define the $$observed=M_{i,i+d}$$, and expected model is $$expected = (M_{i,i-d}+M_{i,i+d})/2$$, then the transformed M matrix is $$1-observed/expected$$.
 
 
