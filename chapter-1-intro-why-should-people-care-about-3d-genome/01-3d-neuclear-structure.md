@@ -1,8 +1,8 @@
 #1 General features of 3D genome organization 
-1. [Introduction](#introduction)
-2. [Selected methods for primary structure](#222)<br>
-    2.1. [ChIP-seq](#a)<br>
-    2.2. [DNase-seq](#b)<br>
+1. [2D *cis* elements in the genome](#11)
+2. [Multi-scale folding](#12)<br>
+    2.1. [Chromosome territories](#121)<br>
+    2.2. [A/B Compartments](#122)<br>
     2.3. [ATAC-seq](#c)<br>
     2.4. [MNase-seq](#d)<br>
     2.5. [FAIRE-seq](#e)<br>
