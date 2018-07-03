@@ -56,9 +56,9 @@ In order to call sub-TADs from ultra-high resolution Hi-C data sets, arrowhead h
 
 The matrix transformation is defined as:
 $$
- A_{i,i+d} = (M^*_{i,i-d} – M^*_{i,i+d})/(M^*_{i,i-d} + M^*_{i,i+d})
+ A_{i,i+d} = (M_{i,i-d} – M_{i,i+d})/(M_{i,i-d} + M_{i,i+d})
 $$
-where M* is the normalized contact matrix, A is arrowhead matrix.
+where M is the normalized contact matrix, A is arrowhead matrix.
 
 #### How to understand the transformation intuitively？
 I guess the best way to understand the transformation matrix is this:
