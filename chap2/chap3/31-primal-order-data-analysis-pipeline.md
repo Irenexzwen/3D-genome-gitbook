@@ -4,10 +4,9 @@
     2.1. [Step1 Raw reads](#21)<br>
     2.2. [Step2 Pre-processing & Alignment](#22)<br>
     2.3. [Step3 Peak calling](#23)<br>
-    2.4. [Step2 Pre-processing & Alignment](#24)<br>
-    2.5. [Step1 Raw reads](#25)<br>
-    2.6. [Step2 Pre-processing & Alignment](#26)<br>
-3. [AVisualizing spatial and dynamic 3D nuclear organization](#3)<br>
+    2.4. [Step4 Chromatin Accessibility Analysis](#24)<br>
+    2.5. [Step5 Analysis and Interpretation](#25)<br>
+3. [Introduction of MACS](#3)<br>
 
 Genomic regions with dense nucleo- somes are more tightly packed (i.e., “closed”), whereas nucleosome- depleted regions are more accessible (i.e., “open”) for interactions with regulators and are therefore regarded as the primary locations ofregulatory elements. 
 
