@@ -1,4 +1,10 @@
 # TAD calling algorithms
+1. [Directionality Index (Dixon et al. (2012))](#1)<br>
+2. [Arrowhead (Rao et al.(‎2014))](#2)<br>
+3. [TADbit (Serra et. al(2017))](#3)<br>
+4. [TADtree (Weinreb et. al (2016))](#4)<br>
+
+
 In the 2014 distinguished paper ***A 3D Map of the Human Genome at Kilobase Resolution Reveals Principles of Chromatin Looping***, the author has explained why finding TAD segmentation from the contact map is a tricky work:
 
 > This is due to experimental factors:such as noise and inadequate coverage. It is also because of the intrinsic difficulty of the problem: **the decline in contact frequency at domain edges can be subtle**, and the **very rapid decline** in contact probability observed as one **moves away from the diagonal** of a contact map is a major confound for most approaches. 
@@ -8,9 +14,9 @@ In this chapter, we'll especially focus on the domain and boundary calling metho
 ![](/assets/tadcalling.jpg)
 [Figure1](http://dx.doi.org/10.1038/nmeth.4325).  Heat map of the contact matrix of Rao et al.9 GM12878 replicate H (chr1:153,000,000–155,500,000) at 40-kb resolution. Identified TADs are framed in different colors for the various methods. Obs, observed counts.
 
-## Directionality Index [(Dixon et al. (2012))]<a name="1"></a>
+## Directionality Index [(Dixon et al. (2012))](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf)<a name="1"></a>
 
-(https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf)
+
 ### Observation and assumption:
 The regions at the periphery of the topological domains are highly biased in their interaction frequencies. In other words, the most upstream portion of a topological domain is highly biased towards interacting downstream, and the downstream portion of a topological domain is highly biased towards interacting upstream. DI measures the tendency of a locus to interact with upstream vs. downstream sites. This is useful for identifying domains because the upstream boundary of a domain should prefer to interact with downstream loci, and vice-versa.
 
@@ -62,7 +68,7 @@ If we define the $$observed=M_{i,i+d}$$, and expected model is $$expected = (M_{
 
 Consider the behavior of this transformation when a domain is present in M* between locus a and locus b (i.e., there is a square of enriched contact frequency whose vertices lie at <a,a>, <a,b>, <b,b>, and <b,a>). $$A_{i,i+d}$$ will be strongly positive if and only if locus i-d is inside the domain (i.e., in the range [a,b]) and locus i+d is not. $$A_{i,i+d}$$ will be strongly negative when locus i+d is inside the domain and locus i-d is not. If both loci are inside the domain, or both loci are outside the domain, $$A_{i,i+d}$$ will be close to zero. 
 
-## TADbit [(Serra et. al(2017))](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665#sec020):<a name="3"></a>
+## TADbit [(Serra et. al(2017))](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665#sec020)<a name="3"></a>
 
 
 TADbit [(github)[https://github.com/3DGenomes/TADbit]) is a complete python library to deal with 3C-based data with all steps to analyze, from mapping, binning matrices, normalizing, identifying TAD enven to building the 3D model. 
