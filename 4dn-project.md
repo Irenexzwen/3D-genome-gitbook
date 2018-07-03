@@ -5,14 +5,6 @@
 4. [Structure of the 4DN Network](#4)<br>
 5. [Data sharing and standards](#5)<br>
 
-
-
-
-
-
-
-
-
 ## What is 4D Nucleome<a name="1"></a>
 To determine how the genome operates, we need to understand not only the linear encoding of information along chromosomes, but also its **three-dimensional organization and its dynamics across time**, that is, the ‘4D nucleome’.
 
