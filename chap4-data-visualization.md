@@ -1,15 +1,24 @@
 # Integrative data visualization
+1. [Motivation for Vis](#1)<br>
+2. [What kind of data](#2)<br>
+3. [Desired feaures of Hi-C Vis tools](#3)<br>
+4. [Current plights](#4)<br>
+5. [Overview of tools](#5)<br>
+
+
 
 Here we'll mainly focused on Hi-C data visulazation, while most of the tools designed for Hi-C data are also able to integragate other 3C-based data to improve the interpretability. 
 
 We'll first walk through the **motivation** for visualizing complex dataset and then discuss the **object, demand, current limitations** in Hi-C data visualization. Then we'll provide a roadmap with some comparison of some of the most popular softwares available, based on some criteria that people may refer to. Finally we'll choose GIVE and HIGlass as showcases to prepare folk for practical analysis. 
 
-## 1.Motivation for Vis:
+## 1.Motivation for Vis:<a name="1"></a>
+
 - Explore data feature, find patterns
 - Interpretate the data 
 - Verify or raise hypothesis
 
-## 2.What kind of data:
+## 2.What kind of data:<a name="2"></a>
+
 ### i) Hi-C data:
 - What is hi-c data, brief intro. may refer to other chapter 
 
@@ -20,7 +29,8 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - ChIA-PET
 - ... 
 
-## 3.Desired feaures of Hi-C Vis tools:
+## 3.Desired feaures of Hi-C Vis tools:<a name="3"></a>
+
 *** To take a cruise on a Hi-C map is just like navigate on a google map: we want to zoom in & out anytime we want, we want to focus on a special location, get relative information about that location... In a word, we're immersed in the ocean of data but we still want to be as free as a fish.***
 ***
 - **Multi-omics** data, multi-techs data. Optional for users 
@@ -37,7 +47,8 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - **3D** ,even **4D** vis.
 - **One stop** service, the only desidered input is the raw reads data :D 
 
-## 4.Current plights
+## 4.Current plights<a name="4"></a>
+
 - **Size**: trillions of pixels of one high resolution heatmap.
  - **Resolution** at different scale:
    - Compartments:1-10Mb 100-500 Kb bins
@@ -49,7 +60,8 @@ We'll first walk through the **motivation** for visualizing complex dataset and 
 - **Normalization** methods for comparing different datasets. 
 - ...
 
-## 5.Overview of tools
+## 5.Overview of tools<a name="5"></a>
+
 ![](/assets/vis_comp.jpg)
 
 
