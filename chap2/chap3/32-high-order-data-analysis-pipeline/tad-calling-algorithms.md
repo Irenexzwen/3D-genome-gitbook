@@ -26,7 +26,7 @@ hidden directionality bias (DB) can be determined using a [hidden Markov model (
 The probability of observing DI as **Y’s [Y1,Y2..Yn]**, is conditioned on the hidden **true**
 directionality biases as Q’s [Q1,Q2..Qn] and the [**mixtures of gaussians**](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model) as M’s [M1,M2..Mn]：
 $$
-P(Y_t= y_t|Q_t= i,M_t= m) = N(y_t, µ_{i,m},Σ_{i,m})\\
+P(Y_t= y_t|Q_t= i,M_t= m) = N(y_t, \mu_{i,m},Σ_{i,m})\\
 P(M_t=m|Q_t=i) = C(i,m), \text{where C encodes the mixture weights for each state i}. 
 $$
 Then [**EM**](https://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm) algorithms was applied to compute maximum likelihood estimates and the parameter estimates of transition and emission (characterized by mean, covariance and weights). The posterior marginals were then estimated using the Forward-backward algorithm ( for each chr, 1 to 20 mixtures and chose the mixture with
