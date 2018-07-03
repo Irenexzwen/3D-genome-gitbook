@@ -1,10 +1,18 @@
 # HiGlass 
+1. [Distinguished features](#1)<br>
+2. [Get Started](#2)<br>
+    2.1. [Concept1: Anatomy of HiGlass view board](#21)<br>
+    2.2. [Concept2: Track types](#22)<br>
+
+
+
 [HiGlass](http://higlass.io) is a web-based tool for exploring genomic contact matrices and tracks.HiGlass is a viewer for HiC and other genomic data. It can be used online or run locally with private data(docker). It uses a client-server architecture to allow users to view large contact matrices in a web browser.
 
 Publication (https://www.biorxiv.org/content/early/2017/10/30/121889). 
 
 
-## Distinguished features
+## Distinguished features<a name="1"></a>
+
  - smooth navigation, continuous interface
  - multiple datasets, map link, auto sync, optional sync(by loc or zoom) 
  - various representations (horizontal triangular, vertical triangular, 2D heatmap, 1D track)
@@ -14,7 +22,8 @@ Publication (https://www.biorxiv.org/content/early/2017/10/30/121889).
  - share data local net or publicly
  - locally or web databased
 
-## Get Started
+## Get Started<a name="2"></a>
+
 We will unfold the main features of Higlass as follows:
 1. Show anatomy of HiGlass **view** board.
 2. Show the category of **tracks** which represents multi-omics data.
@@ -25,7 +34,8 @@ Just a reminder, all the information illustrated here can be learned from:
 [2] https://hms-dbmi.github.io/hic-data-analysis-bootcamp 
 We're trying our best to walk you through the gist of this software within the least of your time by our understanding and reorganized materials :D 
 
-### Concept1: Anatomy of HiGlass view board
+### Concept1: Anatomy of HiGlass view board<a name="21"></a>
+
 "Tracks" and "Views" are the two most basic ingredients of a Higlass view. Each view is composed of a set of tracks which share common axes. All view operations can be found [here](https://github.com/hms-dbmi/higlass/wiki/View-Operations). 
 ![](/assets/ana_view.jpg)
 - A **view** is simply the area with a gray bar at the top. A view can be understood as a canvas, and **tracks** are figures on this canvas. There is nothing else. **Tracks** are of various types and will be elaborated later. 
@@ -71,7 +81,8 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 ##### f) **Unclock** and **close**
 
 
-### Concept2: Track types
+### Concept2: Track types<a name="32"></a>
+
 #### Common feeatures for every track:
 - Label (Positions, color, opacity, background color)
 - Color mmap:from matplotlib or custom defined(https://github.com/hms-dbmi/higlass/wiki/Rectangular-heatmap). **Configure Series --> Color map**
@@ -119,7 +130,8 @@ location or zoom or both(just for two views at a time, if you want to sync many 
 </table>
 
 
-###Upload your own data 
+###Upload your own data <a name="23"></a>
+
 In most cases, people would like to upload their own data for different tracks. To embed your own data and present them on your own browser, you should follow these steps.
 - Download docker
 - Install python package: cooler and clodius 
