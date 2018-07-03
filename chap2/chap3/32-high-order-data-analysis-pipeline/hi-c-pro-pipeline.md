@@ -1,24 +1,30 @@
 # Hi-C pro pipeline
-1. [Analytical pipeline](#1)<br>
-    1.1. [Alignment](#11)<br>
-    1.2. [Binning and Generating Contact Matrices](#12)<br>
-    1.3. [Normalization (Balancing)](#13)<br>
-    1.4. [Identification of interactions](#14)<br>
-    1.5. [Visualization](#15)<br>
-2. [Analytical tools](#2)<br>
-3. [TAD calling tools and algorithms](#3)<br>
+1. [Comparison with other tools](#1)<br>
+2. [Overview of the workflow](#2)<br>
+3. [Step by Step](#3)<br>
+4. [RUN HIC-PRO IN SEQUENTIAL MODE](#4)<br>
+5. [ALLELE SPECIFIC ANALYSIS](#5)<br>
+6. [COMPATIBILITY WITH OTHER SOFTWARE](#6)<br>
+
+
 
 Thorough documentation can be found [here](https://nservant.github.io/HiC-Pro/).
 > HiC-Pro was designed to process Hi-C data, from raw fastq files (paired-end Illumina data) to the normalized contact maps. It supports the main Hi-C protocols, including digestion protocols as well as protocols that do not require restriction enzyme such as DNase Hi-C. In practice, HiC-Pro can be used to process dilution Hi-C, in situ Hi-C, DNase Hi-C, Micro-C, capture-C, capture Hi-C or HiChip data. Each step of the workflow can be run independantly. HiC-Pro includes a fast implementatation of the iterative correction method (see the iced python library for more information). In addition, HiC-Pro can use phasing data to build [allele specific contact maps](https://nservant.github.io/HiC-Pro/AS.html#as).
 
-## Comparison with other tools
+## Comparison with other tools<a name="1"></a>
 ![](/assets/hicpcompars.jpg)
 Table1: X stands for **has this feature**, $$X^a$$ indicates HiC-inpector, HiCdat and HiC-Box do not allow chimeric reads to be rescued during the mapping.
 
-## Overview of the workflow
+## Overview of the workflow<a name="2"></a>
+
+
+
 ![](/assets/hipro.png)
 Fig. HiC-Pro workflow (http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work)
-## Step by Step
+## Step by Step<a name="3"></a>
+
+
+
 
 ### 1) Installation
 To install this tool you should first check all the dependencies it relies on:
@@ -90,7 +96,10 @@ Hi-C data can contain several sources of biases which has to be corrected. HiC-P
 
 ![](/assets/hicpro6.jpg)
 
-## RUN HIC-PRO IN SEQUENTIAL MODE
+## RUN HIC-PRO IN SEQUENTIAL MODE<a name="4"></a>
+
+
+
 HiC-Pro can be run in a step-by-step mode, users just have to set the <code>-s</code> parameter to specify one step. If you want to only want to only align the sequencing reads and run a quality control, use :
 ```
 MY_INSTALL_PATH/bin/HiC-Pro -i FULL_PATH_TO_RAW_DATA -o FULL_PATH_TO_OUTPUTS -c MY_LOCAL_CONFIG_FILE -s mapping -s quality_checks
@@ -122,7 +131,10 @@ OPTIONS
   ```
 
 
-## ALLELE SPECIFIC ANALYSIS 
+## ALLELE SPECIFIC ANALYSIS <a name="5"></a>
+
+
+
 From the discussion in Chap1.2 we know that there are differences in paternal and maternal X chromosome organization, with the presence of mega-domains on the inactive X chromosome, which are not seen in the active X chromosome. Like as we expected, the inactive X chromosome map is partitioned into two mega-domains. The boundary between the two mega-domains lies near the DXZ4 micro-satellite.
 
 HiC-Pro is able to incorporate phased haplotype information in the Hi-C data processing in order to generate [allele-specific contact maps](http://nservant.github.io/HiC-Pro/AS.html).  
@@ -131,7 +143,8 @@ HiC-Pro is able to incorporate phased haplotype information in the Hi-C data pro
 - Next: classify as allele-specific all pairs for which both reads are assigned to the same parental allele or for which one read is assigned to one parental allele and the other is unassigned.
 - Finally: These allele-specific read pairs are then used to generate a genome-wide contact map for each parental genome and two allele-specific genome-wide contact maps are independently normalized using the iterative correction algorithm. 
 
-## COMPATIBILITY WITH OTHER SOFTWARE 
+## COMPATIBILITY WITH OTHER SOFTWARE <a name="6"></a>
+
 Reference [here](http://nservant.github.io/HiC-Pro/COMPATIBILITY.html#tads-calling-directionality-index).
 - Visualization: JuiceBox and HiCPlotter.
 - TADcalling: use **DIRECTIONALITY INDEX** first proposed by Dixon et al, or FIT-HI-C.
