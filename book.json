@@ -1,4 +1,4 @@
 {
-    "plugins": ["katex"]
+    "plugins": ["katex", "google-drive-video"]
     
 }
