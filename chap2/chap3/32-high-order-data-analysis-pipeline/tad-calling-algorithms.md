@@ -55,6 +55,10 @@ where M* is the normalized contact matrix, A is arrowhead matrix.
 #### How to understand the transformation intuitively？
 I guess the best way to understand the transformation matrix is this:
 
+$$
+A_{i,i+d} = (M^*_{i,i-d} – M^*_{i,i+d})/(M^*_{i,i-d} + M^*_{i,i+d}) \\
+=1-\frac{2*M_{i+d}}{M_{i+d}+M_{i-d}}
+$$
 If we define the $$observed=M_{i,i+d}$$, and expected model is $$expected = (M_{i,i-d}+M_{i,i+d})/2$$, then the transformed M matrix is $$1-observed/expected$$.
 
 
