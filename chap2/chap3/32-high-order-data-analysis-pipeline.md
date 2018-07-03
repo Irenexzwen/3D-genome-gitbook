@@ -1,5 +1,21 @@
 # 3.2 Computational Approaches for Assessing Higher-order Chromatin
-## 3.2.1 Analytical pipeline:
+1. [Analytical pipeline](#1)<br>
+    1.1. [Alignment](#11)<br>
+    1.2. [Binning and Generating Contact Matrices](#12)<br>
+    1.3. [Normalization (Balancing)](#13)<br>
+    1.4. [Identification of interactions](#14)<br>
+    1.5. [Visualization](#15)<br>
+2. [Analytical pipeline](#2)<br>
+    2.1. [Step1 Raw reads](#21)<br>
+    2.2. [Step2 Pre-processing & Alignment](#22)<br>
+    2.3. [Step3 Peak calling](#23)<br>
+    2.4. [Step4 Chromatin Accessibility Analysis](#24)<br>
+    2.5. [Step5 Analysis and Interpretation](#25)<br>
+3. [Introduction of MACS](#3)<br>
+
+
+## 3.2.1 Analytical pipeline:<a name="1"></a>
+
 - Raw reads 
 - Pre-processing 
 - Alignment (Full read or chimeric alignment)
@@ -9,7 +25,8 @@
 - Visualization
 - Analysis and Interpretation
 
-### 3.2.1.1 Alignment
+### 3.2.1.1 Alignment<a name="11"></a>
+
 Hi-C data produced by deep sequencing is no different than other genome-wide deep sequencing datasets. The data starts out as genomic reads in the traditional FASTQ file format.<br> 
 Reads are filtered to remove duplicates, PCR artifact. Sequencing adaptors can also be removed prior to alignment.<br>
 The goal is to simply find a unique alignment for each read. The insert size of the Hi-C ligation product can vary between 1bp to hundreds of megabases (in terms of linear genome distance), it is difficult to use most paired-end alignment modes as is. One straightforward solution is to map each side of the paired end read separately/independently using a standard alignment procedure.
@@ -20,7 +37,8 @@ The goal is to simply find a unique alignment for each read. The insert size of 
 A detailed description of mapping analysis is covered in **Read mapping consideration** chapter.
 
 
-### 3.2.1.2 Binning and Generating Contact Matrices
+### 3.2.1.2 Binning and Generating Contact Matrices<a name="12"></a>
+
 #### what is bin?
 A bin is a ﬁxed, non-overlapping geno-mic span into which reads are grouped to increase the signal of the interaction frequency. The interactions between bins are simply summed up to aggre-gate the signals.
 
@@ -41,7 +59,8 @@ Smaller bins usually are used for more frequentintra-chromosomal interactions, a
 #### bin-level filtering
 Prior to matrix balancing, it is advised to remove any bins (rows/columns) from the dataset that have either very noisy or too low of a signal. These bins are normally found in genomic regions with low mappability or high repeat content, such as around telomeres and centromeres.
 
-### 3.2.1.3 Normalization (Balancing)
+### 3.2.1.3 Normalization (Balancing)<a name="13"></a>
+
 The goal of normalization is to reduce biases during the experiment as well as a better comparison between different experiment results (reduce batch effect).
 
 #### Two types of normalization 
@@ -56,7 +75,8 @@ The goal of normalization is to reduce biases during the experiment as well as a
 - Implicit normalization:
  - Iterative correction [[5]](https://doi.org/10.1038/nmeth.2148) based on the assumption that all loci should have equal visibility since we are detecting the entire genome in an unbiased manner (By equalizing the sum of every row/column in the matrix). Faster and preferred. 
  
-### 3.2.1.4 Identification of interactions
+### 3.2.1.4 Identification of interactions<a name="14"></a>
+
 
 - TAD calling (Details see 3.2.3)
  - Tools for calling TADs 
@@ -65,12 +85,14 @@ The goal of normalization is to reduce biases during the experiment as well as a
 - Separating active/repressive compartments A/B 
 - Identifying chromatin loops
  
-### 3.2.1.5 Visualization
+### 3.2.1.5 Visualization<a name="15"></a>
+
 - See Chapter4 
 
 
 
-## 3.2.2 Analytical tools:
+## 3.2.2 Analytical tools:<a name="2"></a>
+
 
 <table>
  <tr><th>Techniques</th><th>Tools</th><th>Description</th></tr>
@@ -112,7 +134,8 @@ Comprehensive tools list for hi-c data analysis can be found [here](https://omic
 
 
 
-## 3.2.3 TAD calling tools and algorithms 
+## 3.2.3 TAD calling tools and algorithms <a name="3"></a>
+
 Brief view of different tools.
 <table>
  <tr><th>Tools</th><th>Description</th><th>Language</th></tr>
