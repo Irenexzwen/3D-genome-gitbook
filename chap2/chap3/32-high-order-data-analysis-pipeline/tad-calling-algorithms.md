@@ -64,7 +64,7 @@ where M* is the normalized contact matrix, A is arrowhead matrix.
 I guess the best way to understand the transformation matrix is this:
 
 $$
-A_{i,i+d} = (M^*_{i,i-d} – M^*_{i,i+d})/(M^*_{i,i-d} + M^*_{i,i+d})=1-\frac{2*M_{i,i+d}}{M_{i,i+d}+M_{i,i-d}}
+A_{i,i+d} = \frac{M_{i,i-d} – M_{i,i+d}}{M_{i,i-d} + M_{i,i+d}}=1-\frac{2*M_{i,i+d}}{M_{i,i+d}+M_{i,i-d}}
 $$
 
 
