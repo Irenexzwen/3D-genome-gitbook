@@ -1,6 +1,5 @@
 # Computational analysis
-对比的总流程图
-
+![](/assets/comppipe.png)
 
 <br><br>
 
