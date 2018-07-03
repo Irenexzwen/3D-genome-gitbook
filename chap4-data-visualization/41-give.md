@@ -1,10 +1,7 @@
 # GIVE - Genomic Interaction Visualization Engine
-1. [Motivation for Vis](#1)<br>
-2. [What kind of data](#2)<br>
-3. [Desired feaures of Hi-C Vis tools](#3)<br>
-4. [Current plights](#4)<br>
-5. [Overview of tools](#5)<br>
-
+1. [Architecture of GIVE](#1)<br>
+2. [Distinguished Features](#2)<br>
+3. [Get started](#3)<br>
 
 [GIVE](https://zhong-lab-ucsd.github.io/GIVE_homepage/) is a highly adaptive and interactive open source programming library. It provides the easiest way to a portable genome browser to examine genome interactions with different kinds of data, which can be embedded in your own websites. 
 
@@ -21,7 +18,7 @@
 <br>This is an interactive pannel, where you can change the chromosome location(leftup corner), interaction datasets(left columns), even zoom-in-and-out by placing your mouse on the chromosome ruler and scroll the mouse wheel!
 
 
-## Architecture of GIVE
+## Architecture of GIVE<a name="1"></a>
 The architecture of **GIVE** is important for users to understand how it works and how to use it. 
 In generally, **GIVE** is composed of two parts:
 - HTML tag library
@@ -32,7 +29,8 @@ In generally, **GIVE** is composed of two parts:
 
 Besides, **[GIVE Data Hub](https://www.givengine.org/give-data-hub.html)** holds a large number of datasets, users can select some of them to view and compare and generate the HTML code to share or embed. User can also upload their own datasets to it with conformation from GIVE team.
 
-## Distinguished Features
+## Distinguished Features<a name="2"></a>
+
 ###1) Online multiple types of genome interactions viewer
 - multi types of interaction
 - double layer display
@@ -45,7 +43,8 @@ Besides, **[GIVE Data Hub](https://www.givengine.org/give-data-hub.html)** holds
 ###3) Managing your own data
 - upload your dataset to GIVE Data hub
 
-##Get started
+##Get started<a name="3"></a>
+
 Here, we'll show few examples to get you prepared before you dive into details and personalized adjustment. Part of the showcases come from [GIVE homepage Examples]() and [Tutorials](https://github.com/Zhong-Lab-UCSD/Genomic-Interactive-Visualization-Engine/tree/master/tutorials).
 
 ### Example1: Create a GIVE viewer based on HTML code
