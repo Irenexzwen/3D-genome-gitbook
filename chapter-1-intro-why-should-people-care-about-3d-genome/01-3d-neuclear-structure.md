@@ -40,7 +40,7 @@ The Hi-C data, after normalization and converting to an observed/expected matrix
 ![](/assets/compart.jpg)
 [Figure3](http://homer.ucsd.edu/homer/interactions/HiCpca.html). Compartment identification with PCA. ©HOMER
 ### TAD (Topologically Associating Domains)<a name="123"></a>
-A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases (hundreds kb usually).[[ref]](https://en.wikipedia.org/wiki/Topologically_associating_domain).
+A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases ([hundreds kb usually)](https://en.wikipedia.org/wiki/Topologically_associating_domain).
 
 TADs typically manifest as contiguous square domains along the **diagonal of Hi-C maps**. The spatial partitioning of the genome into TADs
 correlates with many linear genomic features such as his- tone modifications, coordinated gene expression, association with the lamina and DNA replication timing, 
