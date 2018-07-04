@@ -2,7 +2,7 @@
 1. [Comparison with other tools](#1)<br>
 2. [Overview of the workflow](#2)<br>
 3. [Step by Step](#3)<br>
-4. [RUN HIC-PRO IN SEQUENTIAL MODE](#4)<br>
+4. [run HIC-PRO in sequential mode](#4)<br>
 5. [ALLELE SPECIFIC ANALYSIS](#5)<br>
 6. [COMPATIBILITY WITH OTHER SOFTWARE](#6)<br>
 
