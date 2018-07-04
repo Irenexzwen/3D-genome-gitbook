@@ -68,7 +68,6 @@ $$
 A_{i,i+d} = \frac{M_{i,i-d}\text{ - }M_{i,i+d}}{M_{i,i-d} + M_{i,i+d}}=1-\frac{2*M_{i,i+d}}{M_{i,i+d}+M_{i,i-d}}
 $$
 
-
 If we define the $$observed=M_{i,i+d}$$, and expected model is $$expected = (M_{i,i-d}+M_{i,i+d})/2$$, then the transformed M matrix is $$1-observed/expected$$.
 
 https://drive.google.com/file/d/1tVZwcXqon9OVM1q4sFBgig3yY_MmfV2k/view?usp=sharing  
