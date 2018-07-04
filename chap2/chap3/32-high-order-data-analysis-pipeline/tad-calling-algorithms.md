@@ -31,6 +31,7 @@ This method considers the directionality index as an observation and believe tha
 hidden directionality bias (DB) can be determined using a [hidden Markov model (HMM)](https://en.wikipedia.org/wiki/Hidden_Markov_model). 
 ![](/assets/HMM.jpg)
 [Figure2](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf).  Observations: DI, hidden state: 3 states as **“Upstream Bias”, “Downstream Bias” or “NoBias”**. <br>
+
 The probability of observing DI as **Y’s [Y1,Y2..Yn]**, is conditioned on the hidden **true**
 directionality biases as Q’s [Q1,Q2..Qn] and the [**mixtures of gaussians**](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model) as M’s [M1,M2..Mn]：
 $$
