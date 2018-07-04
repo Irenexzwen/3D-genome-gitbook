@@ -6,7 +6,7 @@
 2. [Ultra structure and 3D organization](#2)<br>
     2.1. [EM based methods](#21)<br>
     2.2. [X-ray based methods](#22)<br>
-3. [AVisualizing spatial and dynamic 3D nuclear organization](#3)<br>
+3. [A Visualizing spatial and dynamic 3D nuclear organization](#3)<br>
 
 
 Before the advent of C-technologies, the predominant method to study 3D genome organization was image-based methods. 
