@@ -71,7 +71,7 @@ $$
 
 If we define the $$observed=M_{i,i+d}$$, and expected model is $$expected = (M_{i,i-d}+M_{i,i+d})/2$$, then the transformed M matrix is $$1-observed/expected$$.
 
-{% gdrive %} https://drive.google.com/file/d/1tVZwcXqon9OVM1q4sFBgig3yY_MmfV2k/view?usp=sharing  {% gdrive %}
+https://drive.google.com/file/d/1tVZwcXqon9OVM1q4sFBgig3yY_MmfV2k/view?usp=sharing  
 
 Consider the behavior of this transformation when a domain is present in M* between locus a and locus b (i.e., there is a square of enriched contact frequency whose vertices lie at <a,a>, <a,b>, <b,b>, and <b,a>). $$A_{i,i+d}$$ will be strongly positive if and only if locus i-d is inside the domain (i.e., in the range [a,b]) and locus i+d is not. $$A_{i,i+d}$$ will be strongly negative when locus i+d is inside the domain and locus i-d is not. If both loci are inside the domain, or both loci are outside the domain, $$A_{i,i+d}$$ will be close to zero. 
 
