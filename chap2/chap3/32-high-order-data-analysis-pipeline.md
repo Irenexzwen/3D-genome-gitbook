@@ -162,9 +162,9 @@ Cohesin-based chromatin interactions enable regulated gene expression within pre
 Nat Methods, 9 (10) (2012), pp. 999-1003<br>
 
 ## Primary referrence of this part:
-[\*] Computational Methods for Assessing Chromatin Hierarchy
-[\*] The Hitchhiker's Guide to Hi-C Analysis: Practical guidelines
-[\*] Comparison of computational methods for Hi-C data analysis
+[6] Computational Methods for Assessing Chromatin Hierarchy<br>
+[7] The Hitchhiker's Guide to Hi-C Analysis: Practical guidelines<br>
+[8] Comparison of computational methods for Hi-C data analysis<br>
 
 
 
