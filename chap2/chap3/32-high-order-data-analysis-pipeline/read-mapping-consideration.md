@@ -6,3 +6,5 @@ Figure: Summary of hic reads mapping scheme.
 
 We also made a video for this part:(which haven't been able to show on gutbook)
 https://drive.google.com/file/d/1w6BVy5KlK9aCv9AoekpsljM7ADqNg041/view?usp=sharing 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6XNdbuALqOs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
