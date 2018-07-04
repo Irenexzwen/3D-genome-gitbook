@@ -32,11 +32,11 @@ Efforts to label and image endogenous genomic elements in **live cells** have be
 modular proteins with specific DNA recognition; like those methods developed for gene editing **(zinc-finger modules, TALEs and CRISPR (clustered regularly interspaced short palindromic repeat)-Cas (CRISPR-associated) system)**, these modules can guide the fluorescence signal to a specific sequence within the complex genome. Comprehensive review [[7]](https://www.annualreviews.org/doi/abs/10.1146/annurev-biophys-062215-010830) can be referred.
 
 #### Tagged RNA sequence<a name="13"></a>
-Live-cell imaging of mRNA yields important insights into gene expression, transcriptional events. RNA hairpin sequences are inserted in tandem into a gene of interest to tag it, and coexpression of a fluorescent coat protein allows for mRNA detection. [[8]](https://www.nature.com/articles/nmeth.2305)
+Live-cell imaging of mRNA yields important insights into gene expression, transcriptional events. RNA hairpin sequences are inserted in tandem into a gene of interest to tag it, and coexpression of a fluorescent coat protein allows for mRNA detection [[8]](https://www.nature.com/articles/nmeth.2305).
 ###2.1.2 Ultra structure and 3D organization<a name="2"></a>
 #### EM based methods<a name="21"></a>
 An electron microscope is a microscope that uses a beam of accelerated electrons as a source of illumination. As the wavelength of an electron can be up to 100,000 times shorter than that of visible light photons, electron microscopes have a higher resolving power than light microscopes and can reveal the structure of smaller objects.Transmission electron microscopy, combined with tomographic techniques, has been used for decades to generate 3D representations of biological structures, with resolutions down to the nanometer range.[[9]](https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/automated-procedures-for-the-alignment-and-reconstruction-of-multiple-tilt-electron-microscopic-tomography-data/ABB22F2BA4FF6E5E3E47109C58C745F0)
-- TEM, serial-section EM tomography----reconstruction of large 3D volumes (250 to > 500 nm thick)[[10]](https://www.sciencedirect.com/science/article/pii/S1053811984710081)
+- TEM, serial-section EM tomography----reconstruction of large 3D volumes (250 to > 500 nm thick) [[10]](https://www.sciencedirect.com/science/article/pii/S1053811984710081)
 - Multi-color EM [[11]](https://www.sciencedirect.com/science/article/pii/S2451945616303579), ChromEMT [[12]](http://science.sciencemag.org/content/357/6349/eaag0025)----Local ultrastructure and global 3D organization
 
 #### X-ray based methods<a name="22"></a>
