@@ -7,9 +7,10 @@
     2.4. [Sub TAD and insulation neighborhoods](#124)<br>
     2.5. [Chromatin loops](#125)<br>
 3. [Architectural proteins and RNAs](#13)<br>
-    3.1. [Chromosome territories](#121)<br>
-    3.2. [A/B Compartments](#122)<br>
-    3.3. [TAD (Topologically Associating Domains)](#123)<br>
+    3.1. [Mediator](#131)<br>
+    3.2. [Cohesin](#132)<br>
+    3.3. [CTCF](#133)<br>
+    3.4. [non-coding RNAs binding](#134)<br>
 
 ## 1.1 2D *cis* elements in the genome<a name="11"></a>
 ### Biochemically active regulatory elements (bound by sequence-specific regulatory TFs) :
