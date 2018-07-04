@@ -13,14 +13,14 @@ Thorough documentation can be found [here](https://nservant.github.io/HiC-Pro/).
 
 ## Comparison with other tools<a name="1"></a>
 ![](/assets/hicpcompars.jpg)
-Table1: X stands for **has this feature**, $$X^a$$ indicates HiC-inpector, HiCdat and HiC-Box do not allow chimeric reads to be rescued during the mapping.
+[Table1](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-015-0831-x): X stands for **has this feature**, $$X^a$$ indicates HiC-inpector, HiCdat and HiC-Box do not allow chimeric reads to be rescued during the mapping.
 
 ## Overview of the workflow<a name="2"></a>
 
 
 
 ![](/assets/hipro.png)
-Fig. HiC-Pro workflow (http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work)
+[Fig](http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work). HiC-Pro workflow 
 ## Step by Step<a name="3"></a>
 
 
