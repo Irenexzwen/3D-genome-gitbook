@@ -71,7 +71,6 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 - Different antibodies
 - ChIP conditions
 
-The principle of ChIA-PET can be illustrated as:
 
 ##2.3.5 Selected methods comparison<a name="235"></a> 
 <table>
