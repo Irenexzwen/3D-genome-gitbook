@@ -78,7 +78,7 @@ Consider the behavior of this transformation when a domain is present in M* betw
 ## TADbit [(Serra et. al(2017))](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005665#sec020)<a name="3"></a>
 
 
-TADbit [(github)[https://github.com/3DGenomes/TADbit]) is a complete python library to deal with 3C-based data with all steps to analyze, from mapping, binning matrices, normalizing, identifying TAD enven to building the 3D model. 
+TADbit [(github)](https://github.com/3DGenomes/TADbit]) is a complete python library to deal with 3C-based data with all steps to analyze, from mapping, binning matrices, normalizing, identifying TAD enven to building the 3D model. 
 
 However, here we'll mainly focus on the TAD calling or say border detection algorithms that is implemented in the library. 
 
