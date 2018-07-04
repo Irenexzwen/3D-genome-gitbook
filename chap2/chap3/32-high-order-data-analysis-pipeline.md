@@ -26,8 +26,8 @@ Hi-C data produced by deep sequencing is no different than other genome-wide dee
 Reads are filtered to remove duplicates, PCR artifact. Sequencing adaptors can also be removed prior to alignment.<br>
 The goal is to simply find a unique alignment for each read. The insert size of the Hi-C ligation product can vary between 1bp to hundreds of megabases (in terms of linear genome distance), it is difficult to use most paired-end alignment modes as is. One straightforward solution is to map each side of the paired end read separately/independently using a standard alignment procedure.
 - Full-read alignment first ---- Bowtie2, BWA
-- Unmapped reads: chimeric alignment ---- read splitting[[1]](https://doi.org/10.1101/gr.161620.113), iterative mapping[[2]](https://doi.org/10.1038/nmeth.2148)
-- Average sufficient reads depth, sufficient mappable reads:4C (1– 2 million), 5C (25 million) and Hi-C (8.4 to 100 million)[[3]](https://doi.org/10.1038/nrg3642)
+- Unmapped reads: chimeric alignment ---- read splitting [[1]](https://doi.org/10.1101/gr.161620.113), iterative mapping [[2]](https://doi.org/10.1038/nmeth.2148)
+- Average sufficient reads depth, sufficient mappable reads:4C (1– 2 million), 5C (25 million) and Hi-C (8.4 to 100 million) [[3]](https://doi.org/10.1038/nrg3642)
 
 A detailed description of mapping analysis is covered in **Read mapping consideration** chapter.
 
