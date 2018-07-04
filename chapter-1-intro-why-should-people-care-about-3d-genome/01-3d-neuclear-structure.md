@@ -77,14 +77,14 @@ An important question in chromatin biology is how the structural features of 3D 
 ![](/assets/mediator.jpg)
 [Figure4](http://wi.mit.edu/news/archive/2010/surprise-genome-structure-linked-developmental-diseases). Schematic of architecture proteins.©Image: Tom DiCesare/Whitehead Institute
 ### Mediator (coactivator)<a name="131"></a>
-Mediator is found at both the enhancers and the promoters of actively transcribed genes and promotes transcription by enabling pre-initiation complex (PIC) assembly and RNAPII elongation [[18]](http://dx.doi.org/10.1038/nrg.2016.112)
+Mediator is found at both the enhancers and the promoters of actively transcribed genes and promotes transcription by enabling pre-initiation complex (PIC) assembly and RNAPII elongation [[18]](http://dx.doi.org/10.1038/nrg.2016.112).
 
 ### Cohesin<a name="132"></a>
 Cohesin is protein with multiple functions:
 - It regulates the separation of sister chromatids during cell division.
 - It's important for DNA repair [[19]](https://www.ncbi.nlm.nih.gov/pubmed/19886810).
 - For **chromatin architecture**: cohesin interacts with both CTCF and mediator48 and
-is proposed to be a part of the loop-extrusion complex in interphase cells[[18]](http://dx.doi.org/10.1038/nrg.2016.112)
+is proposed to be a part of the loop-extrusion complex in interphase cells [[18]](http://dx.doi.org/10.1038/nrg.2016.112).
 
 ### CTCF<a name="133"></a>
 CTCF was originally characterized as an insulator protein, capable of restricting enhancer–promoter interactions. Around 15% CTCFs are enriched at TAD boundaries in mammals, the majority lie within TADs and are thought to be involved in intra-TAD interactions [[20]](https://www.ncbi.nlm.nih.gov/pubmed/21685913). Another prominent feature is that CTCF sites at loop anchors occur predominantly in a convergent orientation, which suggests that not only binding but also **directionality** of binding sequence is important for the formation of a loop [[18]](http://dx.doi.org/10.1038/nrg.2016.112).
