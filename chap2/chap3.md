@@ -2,6 +2,4 @@
 ![](/assets/comppipe.png)
 
 <br><br>
-
-**Referrence **
-https://doi.org/10.1016/j.csbj.2018.02.003
+Figure: Data analysis workflow comparison between higher-order data and primary-order data. The white box indicates common steps in the middel, and special anaysis for different types are listed on two sides. 
