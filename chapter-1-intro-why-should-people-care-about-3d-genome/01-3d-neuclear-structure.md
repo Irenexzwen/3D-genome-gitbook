@@ -68,7 +68,7 @@ TADs can be further divided into smaller sub-TADs observed from high-resolution 
 It has been recognized that, cis-regulatory elements like promoter-enhancer are usually far away along the linear genome in vertebrate creatures. However, in order to elicit the regulatory effect, the genome structure evolved to form a loop that bring together two elemnts to a spatial proximity. This chromotin formation is usually called "chromotin loops". One well known example is the locus control region (LCR) of the β-globin cluster, which inter-acts strongly, via long-range chromatin contacts, with its target genes in erythroid cells (where the β-globin gene is active) but shows little or no interaction in cells from different lineages[[16]](http://dx.doi.org/10.1038/nrg.2016.112).
 
 ### Nucleosome-nucleosome interactions<a name="126"></a>
-This is the smallest scale of chromatin organization. For a long time, on the basis of in vitro electron microscopy, nucleosomes were thought to form arrays (often called the 30 nm chromatin fibres) with either solenoid or zig- zag shapes. However, recent studies provide more evidence to stand by a more flexible, heterogeneous groups arranged structure. [[17]](https://www.cell.com/cell/fulltext/S0092-8674\(15\)00132-4).
+This is the smallest scale of chromatin organization. For a long time, on the basis of in vitro electron microscopy, nucleosomes were thought to form arrays (often called the 30 nm chromatin fibres) with either solenoid or zig- zag shapes. However, recent studies provide more evidence to stand by a more flexible, heterogeneous groups arranged structure [[17]](https://www.cell.com/cell/fulltext/S0092-8674\(15\)00132-4).
 
 
 ## 1.3 Architectural proteins and RNAs<a name="13"></a>
@@ -91,7 +91,6 @@ CTCF was originally characterized as an insulator protein, capable of restrictin
 
 ### non-coding RNAs binding<a name="134"></a>
 One interesting observation is that both mediator and CTCF seem to be able to bind directly to RNA, and knock down someof mediator binding non-coding RNAs led to a diminished loop formation between the ncRNA locus and its targets. [[18]](http://dx.doi.org/10.1038/nrg.2016.112).
-
 
 
 
