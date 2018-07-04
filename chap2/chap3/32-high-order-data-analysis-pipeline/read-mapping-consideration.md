@@ -4,4 +4,5 @@ In the context of Hi-C methods which are not based on restriction enzyme digesti
 Figure: Summary of hic reads mapping scheme.
 
 
-{% gdrive %} https://drive.google.com/file/d/1w6BVy5KlK9aCv9AoekpsljM7ADqNg041/view?usp=sharing {% gdrive %}
+We also made a video for this part:(which haven't been able to show on gutbook)
+https://drive.google.com/file/d/1w6BVy5KlK9aCv9AoekpsljM7ADqNg041/view?usp=sharing 
