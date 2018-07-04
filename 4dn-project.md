@@ -115,7 +115,7 @@ To determine how the genome operates, we need to understand not only the linear 
 appropriate thresholds.
 
 #Reference
-[1] Dekker, Job, et al. "The 4D nucleome project." Nature 549.7671 (2017): 219.
+[1] Dekker, Job, et al. "The 4D nucleome project." Nature 549.7671 (2017): 219.<br>
 [2] https://commonfund.nih.gov/4Dnucleome
 
 

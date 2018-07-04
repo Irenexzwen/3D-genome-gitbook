@@ -24,7 +24,8 @@ In generally, **GIVE** is composed of two parts:
 - HTML tag library
 - GIVE-Toolbox
 
-**HTML tag library** is used to specify what types of data should be included in the browser by indicating specific tags in the code. <\br>
+**HTML tag library** is used to specify what types of data should be included in the browser by indicating specific tags in the code.<\br>
+
 **GIVE-Toolbox** is a set of command line commands to add and manage custom data, which automates all necessary database operations relieving the user from working with a database language. 
 
 Besides, **[GIVE Data Hub](https://www.givengine.org/give-data-hub.html)** holds a large number of datasets, users can select some of them to view and compare and generate the HTML code to share or embed. User can also upload their own datasets to it with conformation from GIVE team.
@@ -139,7 +140,8 @@ GIVE engine supports different kinds of data. Before GIVE can present your data,
 - List and Remove Data Tracks
 - Using The Customized GIVE Genome Browser
 
-Publication (https://www.biorxiv.org/content/early/2018/03/15/177832)
+
+[Preprint](https://www.biorxiv.org/content/early/2018/03/15/177832)
 
 
 
