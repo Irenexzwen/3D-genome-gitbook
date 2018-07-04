@@ -16,7 +16,7 @@
 ### Biochemically active regulatory elements (bound by sequence-specific regulatory TFs) :
 - **Promoter**: The promoter is a region around the TSS (+1) of a gene, which contains several DNA elements that facilitate the binding of regulatory proteins. It provide a secure initial binding site for RNA polymerase and for proteins called transcription factors that recruit RNA polymerase to make transcription take place [[1]](https://en.wikipedia.org/wiki/Promoter_\(genetics\)).
 - **Enhancer**: Enhancers are CRE(cis-regulatory elements which means they are non-coding DNA that does not code for transcription fation). They can be located up to 1 Mbp (1,000,000 bp) away from the gene, upstream or downstream from the start site [[2]](https://en.wikipedia.org/wiki/Enhancer_\(genetics\)).
-- **Insulator**: An insulator is a genetic boundary element that blocks the interaction between enhancers and promoters. It has been found to cluster at the boundaries of topological association domains (TADs) and may have a role in partitioning the genome into "chromosome neighborhoods" - genomic regions within which regulation occurs [[3]](https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Insulator_\(genetics).html).
+- **Insulator**: An insulator is a genetic boundary element that blocks the interaction between enhancers and promoters. It has been found to cluster at the boundaries of topological association domains (TADs) and may have a role in partitioning the genome into "chromosome neighborhoods" - genomic regions within which regulation occurs [[3]](https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Insulator_\(genetics\).html).
 - **Silencer**: A silencer is a DNA sequence capable of binding transcription regulation factors that block the binding of RNA polymerase to DNA sequence, thus provent genes from being expressed as proteins [[4]](https://en.wikipedia.org/wiki/Silencer_\(genetics\)).
 
 ![](/assets/promoter.png)
@@ -25,22 +25,22 @@ Figure1. Schematic overview of elements in eukaryotes.
 ##1.2 Multi-scale folding<a name="12"></a>
 The largest chromosomes contain hundreds of millions of base pairs that fold in a limitted space, which leads to multi-scale, hierarchical structures like： nucleosomes, chromatin fibres, chromosome domains, compartments and finally in chromosome territories. 
 
-Information resides at all levels, from the histone–DNA interactions at the sub-nucleosomal scale to the chromosome–chromosome and chromosome–lamina interactions in the nuclear space. This multi-level architecture can be regulated and/or exploited by a variety of com- ponents such as transcription factors, architectural proteins and non-coding RNAs in order to coordinate gene expression and cell fate.
+Information resides at all levels, from the histone–DNA interactions at the sub-nucleosomal scale to the chromosome–chromosome and chromosome–lamina interactions in the nuclear space. This multi-level architecture can be regulated and/or exploited by a variety of components such as transcription factors, architectural proteins and non-coding RNAs in order to coordinate gene expression and cell fate.
 
-With the help of currently developed chromosome capture technologies, let's how them expanded our knowledge on chromosome structure.
+With the help of currently developed chromosome capture technologies, we can see how them expanded our knowledge on chromosome structure.
 
 ![](/assets/20180629211526biophysics_201504585-1.jpg)
 [Figure2](http://www.aimspress.com/article/10.3934/biophy.2015.4.585/figure.html).  Inside the nucleus, euchromatin and heterochromatin give rise to several grades of higher order structures: chromosome loops, Topological Associated Domains (TADs), Lamin Associated Domains (LADs) and chromosomal territories. Also the nucleolus, the “assembly-chain” of ribosomes, associates with specific DNA regions: the Nucleolar Associated Domains (NADs), that surround the highly transcribed region of nucleolus, giving rise to another grade of chromatin organization.
 
 
 ### Chromosome territories<a name="121"></a>
-At larger scales, chromatin is organized into individual chromosome territories (one for each chro- mosome), which rarely intermix (FIG. 2d). This observa- tion, initially coming from FISH studies [[5]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC282679/), was later validated by genome-wide Hi-C data, which showed that interactions between loci on the same chromosome are much more frequent than contacts in trans between different chromosomes [[6]](http://science.sciencemag.org/content/326/5950/289).
+At larger scales, chromatin is organized into individual chromosome territories (one for each chro- mosome), which rarely intermix. This observation, initially coming from FISH studies [[5]](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC282679/), was later validated by genome-wide Hi-C data, which showed that interactions between loci on the same chromosome are much more frequent than contacts in trans between different chromosomes [[6]](http://science.sciencemag.org/content/326/5950/289).
 ### A/B Compartments <a name="122"></a>
 The Hi-C data, after normalization and converting to an observed/expected matrix, display a plaid pattern, analyzing by Principal-component analysis (PCA), the first principal component (can be interpreted as the surrogate of maxim variance of the data, the most prominent feature) contains compartments A and B (with positive PC1 regions reflecting "active/permissive" chromatin and negative PC1 regions indicative of "inactive/inert" chromatin).
 ![](/assets/compart.jpg)
 [Figure3](http://homer.ucsd.edu/homer/interactions/HiCpca.html). Compartment identification with PCA. ©HOMER
 ### TAD (Topologically Associating Domains)<a name="123"></a>
-A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases (hundreds kb usually).[[?]](https://en.wikipedia.org/wiki/Topologically_associating_domain).
+A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases (hundreds kb usually).[[ref]](https://en.wikipedia.org/wiki/Topologically_associating_domain).
 
 TADs typically manifest as contiguous square domains along the **diagonal of Hi-C maps**. The spatial partitioning of the genome into TADs
 correlates with many linear genomic features such as his- tone modifications, coordinated gene expression, association with the lamina and DNA replication timing, 
