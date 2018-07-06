@@ -21,7 +21,7 @@ Thorough documentation can be found [here](https://nservant.github.io/HiC-Pro/).
 
 ![](/assets/hipro.png)
 
-[Fig](http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work). HiC-Pro workflow 
+[Figure1](http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work). HiC-Pro workflow.
 ## Step by Step<a name="3"></a>
 
 
