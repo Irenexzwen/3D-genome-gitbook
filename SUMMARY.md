@@ -18,5 +18,5 @@
 * [Chap4 Integrative Data visualization tools](chap4-data-visualization.md)
   * [4.1 GIVE ](chap4-data-visualization/41-give.md)
   * [4.2 HiGlass](chap4-data-visualization/42-higlass.md)
-* [Chap5 4DN project](4dn-project.md)
+* [Chap5 4DN Nucleome](4dn-project.md)
 
