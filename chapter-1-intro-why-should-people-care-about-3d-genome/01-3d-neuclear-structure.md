@@ -20,7 +20,7 @@
 - **Silencer**: A silencer is a DNA sequence capable of binding transcription regulation factors that block the binding of RNA polymerase to DNA sequence, thus provent genes from being expressed as proteins [[4]](https://en.wikipedia.org/wiki/Silencer_\(genetics\)).
 
 ![](/assets/promoter.png)
-Figure1. Schematic overview of elements in eukaryotes.
+Figure1. Schematic overview of regulatory elements in eukaryotes.
 
 ##1.2 Multi-scale folding<a name="12"></a>
 The largest chromosomes contain hundreds of millions of base pairs that fold in a limitted space, which leads to multi-scale, hierarchical structures like： nucleosomes, chromatin fibres, chromosome domains, compartments and finally in chromosome territories. 
