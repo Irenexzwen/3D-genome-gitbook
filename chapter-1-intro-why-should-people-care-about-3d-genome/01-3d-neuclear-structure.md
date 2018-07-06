@@ -59,7 +59,7 @@ There are also evidence to support that TADs are conserved between different cel
 - TAD is a stable **unit of replication-time regulation** [[11]](https://www.nature.com/articles/nature13986).
 
 ![](/assets/TAD.jpg)
-[Figure [3]](https://doi.org/10.1016/j.tibs.2018.03.006). Hi-C Detected Chromatin Folding Paradigms. TADs (more tightly folded than regions between them) are on-diagonal boxes of contact enrichment. Loops are radially symmetric peaks of contact intensity, often located at the corners of TADs in mammalian cells. Off-diagonal boxes indicate interactions due to compartmentation. Right: TADs and loops may be either mostly transcriptionally active (grey) or inactive (black). Loops may also be more tightly folded, but additionally have an increased likelihood of contact between their boundaries or anchors. Compartmentation is indicated by homotypic (active–active or inactive–inactive) TAD–TAD interactions. The bona fide pattern of chromatin folding is unknown and indicated only schematically.
+[Figure4](https://doi.org/10.1016/j.tibs.2018.03.006). Hi-C Detected Chromatin Folding Paradigms. TADs (more tightly folded than regions between them) are on-diagonal boxes of contact enrichment. Loops are radially symmetric peaks of contact intensity, often located at the corners of TADs in mammalian cells. Off-diagonal boxes indicate interactions due to compartmentation. Right: TADs and loops may be either mostly transcriptionally active (grey) or inactive (black). Loops may also be more tightly folded, but additionally have an increased likelihood of contact between their boundaries or anchors. Compartmentation is indicated by homotypic (active–active or inactive–inactive) TAD–TAD interactions. The bona fide pattern of chromatin folding is unknown and indicated only schematically.
 
 ### Sub TAD and insulation neighborhoods<a name="124"></a>
 TADs can be further divided into smaller sub-TADs observed from high-resolution 5C ofmouse ESCs [[12]](https://www.ncbi.nlm.nih.gov/pubmed/23706625). It **resembles TADs** displays the self-association feature with a decrease in contact frequency across sub-TAD boundaries, and some sub-TAD boundaries are associated with CTCF/Cohesin-mediated interactions [[13]](https://www.ncbi.nlm.nih.gov/pubmed/25497547). However, it differs from TADs that sub-TADs are less conserved across cell/tissue types and appear to be related to cell type– specific gene expression [[14]](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004018), [[15]](https://www.ncbi.nlm.nih.gov/pubmed/23706625).
@@ -75,7 +75,7 @@ This is the smallest scale of chromatin organization. For a long time, on the ba
 An important question in chromatin biology is how the structural features of 3D chromatin organization are established. Few architectural proteins have shownto be essential for chromotin architecture.
 
 ![](/assets/mediator.jpg)
-[Figure4](http://wi.mit.edu/news/archive/2010/surprise-genome-structure-linked-developmental-diseases). Schematic of architecture proteins.©Image: Tom DiCesare/Whitehead Institute
+[Figure5](http://wi.mit.edu/news/archive/2010/surprise-genome-structure-linked-developmental-diseases). Schematic of architecture proteins.©Image: Tom DiCesare/Whitehead Institute
 ### Mediator (coactivator)<a name="131"></a>
 Mediator is found at both the enhancers and the promoters of actively transcribed genes and promotes transcription by enabling pre-initiation complex (PIC) assembly and RNAPII elongation [[18]](http://dx.doi.org/10.1038/nrg.2016.112).
 
