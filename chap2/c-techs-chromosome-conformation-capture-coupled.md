@@ -25,7 +25,7 @@ To capture the interaction (crosslink between strings), there are few steps in g
 ## 2.3.2 Overivew of 3C methods<a name="232"></a>
 
 ![](/assets/3creview.png)
-*Figure I. Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme.*
+[Figure1](https://doi.org/10.1016/j.tplants.2018.03.014). Schematic Representation of Chromosome Conformation Capture (3C) and 3C-Derived Methods. These methods help to elucidate nuclear organization by detecting physical interactions between genetic elements located throughout the genome. Abbreviations: IP, immunoprecipitation; RE, restriction enzyme.
 
 To better understand the difference between these methods, I'd like to distingush them between the following couple of aspects:
 
