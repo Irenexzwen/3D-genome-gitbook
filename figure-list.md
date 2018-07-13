@@ -1,3 +1,3 @@
-![](/assets/figure_list1-min.png)
-![](/assets/figure_list2.png)
-![](/assets/figure_list3-min.png)
+![](/assets/f1_no_thumbnail.png)
+![](/assets/f2_no_thumbnail.png)
+![](/assets/f3_no_thumbnail.png)
