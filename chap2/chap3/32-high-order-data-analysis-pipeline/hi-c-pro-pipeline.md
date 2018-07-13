@@ -21,7 +21,7 @@ Thorough documentation can be found [here](https://nservant.github.io/HiC-Pro/).
 
 ![](/assets/hipro.png)
 
-[Figure1](http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work). HiC-Pro workflow.
+[Figure1](http://nservant.github.io/HiC-Pro/MANUAL.html#how-does-hic-pro-work). HiC-Pro workflow. **Figure by Servant, N, et al. Genome Biology 16.1(2015):259.**
 ## Step by Step<a name="3"></a>
 
 
