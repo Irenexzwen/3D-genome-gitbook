@@ -12,7 +12,7 @@
 The primary-order chromatin usually refers to the unpacked chromatin fiber where 11-nm coils of nucleosomes are exposed [[1]](https://doi.org/10.1016/j.csbj.2018.02.003). Primary structure encompasses DNA methylation and sequence features, DNA-bound factors, nucleosome position and modifications, and DNA accessibility [[2]](http://dx.doi.org/10.1016/j.tig.2015.03.010). Biological functions and gene expression are intimately rely on primary order structure, especially chromotin accessibility mediated by protein complexes and epigenetic modifications.
 ## 2.2.2 Selected methods for primary structure<a name="222"></a>
 ![](/assets/primary.jpg)
-[Figrue1](http://dx.doi.org/10.1038/nrg3788):Comparison between experimental tools for primary-order structure detection. 
+[Figrue1](http://dx.doi.org/10.1038/nrg3788):Comparison between experimental tools for primary-order structure detection. **Figure by Meyer, Clifford A.et al., Nature Reviews Genetics 15.11(2014):709-721.**
 ### ChIP-seq<a name="a"></a>
 ChIP-seq [[3]](http://www.genome.org/cgi/doi/10.1101/gr.136184.111.) **Chromatin immunoprecipitation followed by next-generation DNA sequencing**. A method to identify DNA-associated protein-binding sites. Chromatin is fixed in cells then fragmented by sonication or MNase digestion before enrichment for the protein epitope of interest using a specific antibody. Crosslinks are reversed using proteinase K and heat and the DNA is then prepared for analysis by sequencing, array hybridization, or PCR [[2]](http://dx.doi.org/10.1016/j.tig.2015.03.010).
 ### DNase-seq<a name="b"></a>
