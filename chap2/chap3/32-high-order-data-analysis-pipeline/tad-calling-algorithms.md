@@ -12,7 +12,7 @@ In the 2014 distinguished paper ***A 3D Map of the Human Genome at Kilobase Reso
 In this chapter, we'll especially focus on the domain and boundary calling methods described in previous work.
 
 ![](/assets/tadcalling.jpg)
-[Figure1](http://dx.doi.org/10.1038/nmeth.4325).  Heat map of the contact matrix of Rao et al.9 GM12878 replicate H (chr1:153,000,000–155,500,000) at 40-kb resolution. Identified TADs are framed in different colors for the various methods. Obs, observed counts.
+[Figure1](http://dx.doi.org/10.1038/nmeth.4325).  Heat map of the contact matrix of Rao et al.9 GM12878 replicate H (chr1:153,000,000–155,500,000) at 40-kb resolution. Identified TADs are framed in different colors for the various methods. Obs, observed counts. **Figure by Forcato, M, et al. Nature Methods 14.7(2017):679.**
 
 ## Directionality Index [(Dixon et al. (2012))](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf)<a name="1"></a>
 
@@ -30,7 +30,7 @@ This is consistent with [Chi-sqaure nul hypothesis](https://en.wikipedia.org/wik
 This method considers the directionality index as an observation and believe that the “true”
 hidden directionality bias (DB) can be determined using a [hidden Markov model (HMM)](https://en.wikipedia.org/wiki/Hidden_Markov_model). 
 ![](/assets/HMM.jpg)
-[Figure2](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf).  Observations: DI, hidden state: 3 states as **“Upstream Bias”, “Downstream Bias” or “NoBias”**. <br>
+[Figure2](https://media.nature.com/original/nature-assets/nature/journal/v485/n7398/extref/nature11082-s1.pdf).  Observations: DI, hidden state: 3 states as "Upstream Bias", "Downstream Bias" or "NoBias". **Figure by Dixon, Jesse R., et al. Nature 485.7398 (2012): 376.**<br> 
 
 The probability of observing DI as **Y’s [Y1,Y2..Yn]**, is conditioned on the hidden **true**
 directionality biases as Q’s [Q1,Q2..Qn] and the [**mixtures of gaussians**](https://en.wikipedia.org/wiki/Mixture_model#Gaussian_mixture_model) as M’s [M1,M2..Mn]：
@@ -53,7 +53,7 @@ The algorithms also defined **unorganized chromatin** to be these regions that a
 
 In order to call sub-TADs from ultra-high resolution Hi-C data sets, arrowhead has been proposed as a heuristic algorithm to detect the corners of the domains to locate the boundaries of TADs. The name was got from the transformed matrix:
 ![](/assets/arrowhead.jpg)
-[Figure3](https://www.ncbi.nlm.nih.gov/pubmed/25497547).Transformation replaces domains with an arrowhead-shaped motif pointing toward the domain’s upper-left corner (example in yellow). Arrowheads  are then identified using dynamic programming.
+[Figure3](https://www.ncbi.nlm.nih.gov/pubmed/25497547).Transformation replaces domains with an arrowhead-shaped motif pointing toward the domain’s upper-left corner (example in yellow). Arrowheads  are then identified using dynamic programming. **Figure by Rao, Suhass. P., et al.  Cell 159.7(2014):1665-1680.**
 
 The matrix transformation is defined as:
 $$
