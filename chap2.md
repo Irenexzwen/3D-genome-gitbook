@@ -1,6 +1,6 @@
 # Overview:
 ![](/assets/overview.JPG)
-©2015 Elsevier Ltd. All rights reserved
+**Figure by Risca, V. I.et al.Trends in Genetics 31.7(2015):357-372.**
 
 Just like the complex structure of one functional protein, a chromosome also has a wired, compacted structure that is flexible during the process of life. Chromatin is a highly compact and organized assembly of DNA and proteins. From a naked single molecular to a visible chromosome, DNA in mammalian is condensed approximately 10,000 to 20,000-fold. We will introduce the experimental tools from two category: “higher-order” and “primary-order” structure of chromosomal DNA according to the folding complexity. 
 

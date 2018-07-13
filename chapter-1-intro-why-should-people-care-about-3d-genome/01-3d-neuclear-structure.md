@@ -30,7 +30,7 @@ Information resides at all levels, from the histone–DNA interactions at the su
 With the help of currently developed chromosome capture technologies, we can see how them expanded our knowledge on chromosome structure.
 
 ![](/assets/20180629211526biophysics_201504585-1.jpg)
-[Figure2](http://www.aimspress.com/article/10.3934/biophy.2015.4.585/figure.html).  Inside the nucleus, euchromatin and heterochromatin give rise to several grades of higher order structures: chromosome loops, Topological Associated Domains (TADs), Lamin Associated Domains (LADs) and chromosomal territories. Also the nucleolus, the “assembly-chain” of ribosomes, associates with specific DNA regions: the Nucleolar Associated Domains (NADs), that surround the highly transcribed region of nucleolus, giving rise to another grade of chromatin organization.
+[Figure2](http://www.aimspress.com/article/10.3934/biophy.2015.4.585/figure.html).  Inside the nucleus, euchromatin and heterochromatin give rise to several grades of higher order structures: chromosome loops, Topological Associated Domains (TADs), Lamin Associated Domains (LADs) and chromosomal territories. Also the nucleolus, the “assembly-chain” of ribosomes, associates with specific DNA regions: the Nucleolar Associated Domains (NADs), that surround the highly transcribed region of nucleolus, giving rise to another grade of chromatin organization.**Figure by Bianchi et al., AIMS Biophysics, 2015, 2(4): 585-612.**
 
 
 ### Chromosome territories<a name="121"></a>
@@ -38,7 +38,7 @@ At larger scales, chromatin is organized into individual chromosome territories 
 ### A/B Compartments <a name="122"></a>
 The Hi-C data, after normalization and converting to an observed/expected matrix, display a plaid pattern, analyzing by Principal-component analysis (PCA), the first principal component (can be interpreted as the surrogate of maxim variance of the data, the most prominent feature) contains compartments A and B (with positive PC1 regions reflecting "active/permissive" chromatin and negative PC1 regions indicative of "inactive/inert" chromatin).
 ![](/assets/compart.jpg)
-[Figure3](http://homer.ucsd.edu/homer/interactions/HiCpca.html). Compartment identification with PCA. ©HOMER
+[Figure3](http://homer.ucsd.edu/homer/interactions/HiCpca.html). Compartment identification with PCA. **©HOMER**
 ### TAD (Topologically Associating Domains)<a name="123"></a>
 A topologically associating domain (TAD) is a self-interacting genomic region, meaning that DNA sequences within a TAD physically interact with each other more frequently than with sequences outside the TAD. These three-dimensional chromosome structures are present in animals as well as some plants, fungi, and bacteria. TADs can range in size from thousands to millions of DNA bases ([hundreds kb usually)](https://en.wikipedia.org/wiki/Topologically_associating_domain).
 
@@ -59,7 +59,7 @@ There are also evidence to support that TADs are conserved between different cel
 - TAD is a stable **unit of replication-time regulation** [[11]](https://www.nature.com/articles/nature13986).
 
 ![](/assets/TAD.jpg)
-[Figure4](https://doi.org/10.1016/j.tibs.2018.03.006). Hi-C Detected Chromatin Folding Paradigms. TADs (more tightly folded than regions between them) are on-diagonal boxes of contact enrichment. Loops are radially symmetric peaks of contact intensity, often located at the corners of TADs in mammalian cells. Off-diagonal boxes indicate interactions due to compartmentation. Right: TADs and loops may be either mostly transcriptionally active (grey) or inactive (black). Loops may also be more tightly folded, but additionally have an increased likelihood of contact between their boundaries or anchors. Compartmentation is indicated by homotypic (active–active or inactive–inactive) TAD–TAD interactions. The bona fide pattern of chromatin folding is unknown and indicated only schematically.
+[Figure4](https://doi.org/10.1016/j.tibs.2018.03.006). Hi-C Detected Chromatin Folding Paradigms. TADs (more tightly folded than regions between them) are on-diagonal boxes of contact enrichment. Loops are radially symmetric peaks of contact intensity, often located at the corners of TADs in mammalian cells. Off-diagonal boxes indicate interactions due to compartmentation. Right: TADs and loops may be either mostly transcriptionally active (grey) or inactive (black). Loops may also be more tightly folded, but additionally have an increased likelihood of contact between their boundaries or anchors. Compartmentation is indicated by homotypic (active–active or inactive–inactive) TAD–TAD interactions. The bona fide pattern of chromatin folding is unknown and indicated only schematically. **Figure by Eagen, Kyle P. Trends in Biochemical Sciences (2018).**
 
 ### Sub TAD and insulation neighborhoods<a name="124"></a>
 TADs can be further divided into smaller sub-TADs observed from high-resolution 5C ofmouse ESCs [[12]](https://www.ncbi.nlm.nih.gov/pubmed/23706625). It **resembles TADs** displays the self-association feature with a decrease in contact frequency across sub-TAD boundaries, and some sub-TAD boundaries are associated with CTCF/Cohesin-mediated interactions [[13]](https://www.ncbi.nlm.nih.gov/pubmed/25497547). However, it differs from TADs that sub-TADs are less conserved across cell/tissue types and appear to be related to cell type– specific gene expression [[14]](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004018), [[15]](https://www.ncbi.nlm.nih.gov/pubmed/23706625).
@@ -75,7 +75,7 @@ This is the smallest scale of chromatin organization. For a long time, on the ba
 An important question in chromatin biology is how the structural features of 3D chromatin organization are established. Few architectural proteins have shownto be essential for chromotin architecture.
 
 ![](/assets/mediator.jpg)
-[Figure5](http://wi.mit.edu/news/archive/2010/surprise-genome-structure-linked-developmental-diseases). Schematic of architecture proteins.©Image: Tom DiCesare/Whitehead Institute
+[Figure5](http://wi.mit.edu/news/archive/2010/surprise-genome-structure-linked-developmental-diseases). Schematic of architecture proteins.**©Image: Tom DiCesare/Whitehead Institute**.
 ### Mediator (coactivator)<a name="131"></a>
 Mediator is found at both the enhancers and the promoters of actively transcribed genes and promotes transcription by enabling pre-initiation complex (PIC) assembly and RNAPII elongation [[18]](http://dx.doi.org/10.1038/nrg.2016.112).
 
