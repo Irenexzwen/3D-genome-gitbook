@@ -1,2 +1,1 @@
-![](/assets/cover.png)
-![](/assets/ISBN.png)
+![](/assets/preface_ISBN.png)
