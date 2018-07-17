@@ -1,6 +1,2 @@
-
-![](/assets/cover.jpg)
-
-
-
+# Initial page
 
