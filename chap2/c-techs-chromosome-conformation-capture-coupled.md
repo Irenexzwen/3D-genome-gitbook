@@ -91,13 +91,13 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
     <td>4C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0545">[4]</a></td>
     <td>one-vs-all</td>
     <td>~2 kb</td>
-    <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts<\li><li>Long-range contacts</li></ul></td>
+    <td><ul><li>Sequence of bait locus must be known</li><li>Detects novel contacts</li><li>Long-range contacts</li></ul></td>
     </tr>
     <tr>
     <td>5C <a href="http://refhub.elsevier.com/S2001-0370(17)30093-4/rf0550">[5]</a></td>
     <td>many-vs-many</td>
     <td>~1 kb</td>
-    <td><ul><li>High dynamic range</li><li>Complete contact map of a locus<\li><li>3C with ligation-mediated amplification (LMA) of a ‘carbon copy’ library of oligos designed across restriction fragment junctions of interest
+    <td><ul><li>High dynamic range</li><li>Complete contact map of a locus</li><li>3C with ligation-mediated amplification (LMA) of a ‘carbon copy’ library of oligos designed across restriction fragment junctions of interest
 3C</li></ul></td>
     </tr>
     <tr>
