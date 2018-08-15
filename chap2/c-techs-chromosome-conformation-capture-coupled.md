@@ -1,4 +1,4 @@
-#2.3 C-Techs (chromosome conformation capture)-coupled 
+# 2.3 C-Techs (chromosome conformation capture)-coupled 
 1. [Introduction](#231)
 2. [Overivew of 3C methods](#232)<br>
     2.1. [Specificity](#2321)<br>
@@ -72,7 +72,7 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 - ChIP conditions
 
 
-##2.3.5 Selected methods comparison<a name="235"></a> 
+## 2.3.5 Selected methods comparison<a name="235"></a> 
 <table>
  <tbody>
     <tr>
@@ -131,7 +131,7 @@ ChIA-PET is another method that combines ChIP and pair-end sequencing to analysi
 
 
 
-#Referrence
+# Referrence
 [1] Schmitt, Anthony D., Ming Hu, and Bing Ren. "Genome-wide mapping and analysis of chromosome architecture." Nature reviews Molecular cell biology 17.12 (2016): 743.<br>
 
 [2] Risca, Viviana I., and William J. Greenleaf. "Unraveling the 3D genome: genomics tools for multiscale exploration." Trends in Genetics 31.7 (2015): 357-372.<br>
