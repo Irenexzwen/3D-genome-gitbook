@@ -30,4 +30,5 @@
   * [5.1GIVE](chap4-integrative-data-visualization-tools/4.1give.md)
   * [5.2 HiGlass](chap4-integrative-data-visualization-tools/4.2-higlass.md)
 * [Chap6 4DN Project](chap5-4dn-project.md)
+* [Appendix Homework](appendix-homework.md)
 

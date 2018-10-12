@@ -99,7 +99,7 @@ $$
 
 If we define the $$observed=M_{i,i+d}$$, and expected model is $$expected = (M_{i,i-d}+M_{i,i+d})/2$$, then the transformed M matrix is $$1-observed/expected$$.
 
-{% embed data="{\"url\":\"https://www.youtube.com/embed/DVNwvYAn9v0\",\"type\":\"video\",\"title\":\"Arrowhead algorithms Hi-C TAD calling analysis\",\"description\":\"a little animation show how arrowhead transformation works.\",\"icon\":{\"type\":\"icon\",\"url\":\"https://www.youtube.com/yts/img/favicon\_144-vfliLAfaB.png\",\"width\":144,\"height\":144,\"aspectRatio\":1},\"thumbnail\":{\"type\":\"thumbnail\",\"url\":\"https://i.ytimg.com/vi/DVNwvYAn9v0/maxresdefault.jpg\",\"width\":1280,\"height\":720,\"aspectRatio\":0.5625},\"embed\":{\"type\":\"player\",\"url\":\"https://www.youtube.com/embed/DVNwvYAn9v0?rel=0&showinfo=0\",\"html\":\"<div style=\\\"left: 0; width: 100%; height: 0; position: relative; padding-bottom: 56.2493%;\\\"><iframe src=\\\"https://www.youtube.com/embed/DVNwvYAn9v0?rel=0&amp;showinfo=0\\\" style=\\\"border: 0; top: 0; left: 0; width: 100%; height: 100%; position: absolute;\\\" allowfullscreen scrolling=\\\"no\\\"></iframe></div>\",\"aspectRatio\":1.7778}}" %}
+{% embed url="https://www.youtube.com/embed/DVNwvYAn9v0" %}
 
 Consider the behavior of this transformation when a domain is present in M\* between locus a and locus b \(i.e., there is a square of enriched contact frequency whose vertices lie at , , , and \). $$A_{i,i+d}$$ will be strongly positive if and only if locus i-d is inside the domain \(i.e., in the range \[a,b\]\) and locus i+d is not. $$A_{i,i+d}$$ will be strongly negative when locus i+d is inside the domain and locus i-d is not. If both loci are inside the domain, or both loci are outside the domain, $$A_{i,i+d}$$ will be close to zero.
 
