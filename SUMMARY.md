@@ -7,6 +7,7 @@
 * [Chap0 Preparation](chap0-preparation/README.md)
   * [0.1 Molecular biology](chap0-preparation/0.1-molecular-biology.md)
   * [0.2 Sequencing technologies](chap0-preparation/0.2-sequencing-technologies.md)
+  * [03 RNA-seq Differential Analysis](chap0-preparation/03-rna-seq-differential-analysis.md)
 * [Chap1 Why we care about 3D genome](chapter1-why-we-care-about-3d-genome/README.md)
   * [1.1 From 2D to 3D nuclear structure](chapter1-why-we-care-about-3d-genome/3d-nuclear-structure.md)
   * [1.2 From static to dynamic](chapter1-why-we-care-about-3d-genome/from-static-to-dynamic.md)
