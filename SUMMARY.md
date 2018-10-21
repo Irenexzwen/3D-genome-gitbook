@@ -28,7 +28,7 @@
   * [4.1 Experimental Methods](chap4-rna-genome-interaction/4.1-experimental-methods.md)
   * [4.2 Computational Analysis](chap4-rna-genome-interaction/4.2-computational-analysis.md)
 * [Chap5 Integrative Data Visualization Tools](chap4-integrative-data-visualization-tools/README.md)
-  * [5.1GIVE](chap4-integrative-data-visualization-tools/4.1give.md)
+  * [5.1 GIVE](chap4-integrative-data-visualization-tools/4.1give.md)
   * [5.2 HiGlass](chap4-integrative-data-visualization-tools/4.2-higlass.md)
 * [Chap6 4DN Project](chap5-4dn-project.md)
 * [Appendix Homework](appendix-homework.md)

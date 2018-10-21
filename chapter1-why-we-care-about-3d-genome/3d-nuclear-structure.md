@@ -36,7 +36,7 @@
 
 ## 1.1 2D _cis_ elements in the genome
 
-#### Biochemically active regulatory elements \(bound by sequence-specific regulatory TFs\) : {#1-1}
+#### Biochemically active regulatory elements \(bound by sequence-specific regulatory TFs\) : <a id="1-1"></a>
 
 * **Promoter**: The promoter is a region around the TSS \(+1\) of a gene, which contains several DNA elements that facilitate the binding of regulatory proteins. It provide a secure initial binding site for RNA polymerase and for proteins called transcription factors that recruit RNA polymerase to make transcription take place [\[1\]](https://en.wikipedia.org/wiki/Promoter_%28genetics%29).
 * **Enhancer**: Enhancers are CRE\(cis-regulatory elements which means they are non-coding DNA that does not code for transcription fation\). They can be located up to 1 Mbp \(1,000,000 bp\) away from the gene, upstream or downstream from the start site [\[2\]](https://en.wikipedia.org/wiki/Enhancer_%28genetics%29).
