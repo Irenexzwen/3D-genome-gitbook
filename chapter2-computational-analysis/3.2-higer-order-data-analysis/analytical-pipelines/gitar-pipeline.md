@@ -255,9 +255,11 @@ plot_chromosome_data('HiCtool_chr6_40kb_normalized_fend.txt', a_chr='6', bin_siz
 
  
 
-![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_fend_histogram.png)
+ 
 
 ![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_fend.png)
+
+![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_fend_histogram.png)
 
 Here we plot normalized fend data \(`data_type`\) of chromosome 6 \(`a_chr`\), from 50 Mb \(`start_coord`\) to 54 Mb \(`end_coord`\) at a bin size of 40 kb \(`bin_size`\), for species hg38 \(`species`\). We use a colormap \(`my_colormap`\) which goes from white \(no contacts\) to red \(maximum contact\) and we use a upper cut-off at the 95th percentile of the non-zero data \(`cutoff_type` and `cutoff`\) to enhance higher order chromatin structure such as topological domains on the heatmap. We assign to the bins over the cut-off a specific color \(`max_color`\) and also we choose to plot the distribution of the contact data as well on a separate file \(`plot_histogram`\).
 
