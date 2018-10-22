@@ -111,9 +111,9 @@ Below we have a functional summary for each step,  details should refer to [here
 | 1.Creating the Fend object | Fend object Transform bed file to `FEND object` \(which containing RE information like coordinates, GC content and mappability score\). |
 | 2.Creating the HiCData object             | Removing unwanted paired-reads \(like total distance to their respective restriction sites exceeds threshold, PCR duplicates, incomplete restriction enzyme digestion and fragment circularization\) |
 | 3.Creating the HiC project object             | The `HiC project object` \(hdf5 format\) links the `HiCData object` with information about which fends to include in the analysis |
-| 4.Filtering HiC fends |  Take into account of TSSs and CTCF-bound sites influence |
+| 4.Filtering HiC fends | Filter out fragments that do not have at least one interaction before learning correction parameters. |
 | 5.Estimating the HiC distance function                                      | Estimation of the **distance-dependence relationship** from the data prior to normalization.  Due to unevenly distributed restriction sites,  fragments surrounded by shorter ones will show higher nearby interactions than those with longer adjacent fragments |
-| 6.Learning the correction model | Take into account of fragments length, inter-fragment distance, GC content and mappability score biases information to learn the correction model for Hi-C data. \([Yaffe E. and Tanay A., 2011](http://www.ncbi.nlm.nih.gov/pubmed/22001755)\) |
+| 6.Learning the correction model | Take into account of fragments length, inter-fragment distance, GC content and mappability score biases to learn the correction model for Hi-C data. \([Yaffe E. and Tanay A., 2011](http://www.ncbi.nlm.nih.gov/pubmed/22001755)\). In addition, biological biases are considered at this step \(TSSs and CTCF bound sites\). |
 
 
 
