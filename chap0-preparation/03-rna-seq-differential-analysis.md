@@ -4,7 +4,7 @@ description: >-
   timepoints, conditions, etc.
 ---
 
-# 03 RNA-seq Differential Analysis
+# 0.4 RNA-seq Differential Analysis
 
 ## Why?
 
