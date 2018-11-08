@@ -159,7 +159,7 @@ The downstream analysis can be carried out directly from these intermediate step
 
 ## Hands on example:
 
-The cell line used here is B-lymphoblastoids GM12878 of human \(hg38\) with GEO accession number [GSM1551550](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1551550). To run the examples in this short tutorial you do not need the [entire list of  software/libraries](https://doc.genomegitar.org/overview.html#installation) but only the following:
+The cell line used here is B-lymphoblastoids GM12878 of human \(hg38\) with GEO accession number [GSM1551550](http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1551550). To run the examples in this short tutorial you do not need the [entire list of software/libraries](https://doc.genomegitar.org/overview.html#installation) but only the following:
 
 * [numpy](http://scipy.org/)
 * [scipy](http://scipy.org/)
@@ -167,22 +167,36 @@ The cell line used here is B-lymphoblastoids GM12878 of human \(hg38\) with GEO 
 * [math](https://docs.python.org/2/library/math.html)
 * [hmmlearn](https://github.com/hmmlearn/hmmlearn)
 
-To check if a module is installed, open your **python console** \(simply type `python` on your unix shell\) and try to import each module by typing:
-
-```python
-import my_module
-```
-
-If a module is not installed, go back to your **unix console** and type the following to install it:
+To check if a module is installed, open your **python console** and try to import each module by typing:
 
 ```text
-pip install my_module
+  import my_module
+```
+
+You can simply type `python` on your unix shell or you could use any other environment such as for example Spyder or Jupyter QtConsole in [Anaconda](https://www.anaconda.com/download/#macos) \(suggested\).
+
+If a module is not installed, go back to your **unix console** and type the following to install it: 
+
+```text
+  pip install my_module
+```
+
+If you are into an iPython console \(Spyder or Jupyter QtConsole for example\) type the following:
+
+```text
+  !pip install my_module
 ```
 
 All the modules should be already included into Python except for `hmmlearn`. To install `hmmlearn` download the package from GitHub \(link above\) then go inside the package folder and run the following on the **unix shell**:
 
 ```text
-python setup.py install
+  python setup.py install
+```
+
+Otherwise in iPython type the following:
+
+```text
+  !pip install hmmlearn
 ```
 
 ### Data preprocessing
@@ -220,8 +234,7 @@ Data analysis and visualization steps:
 7. Normalizing the data.
 8. **Visualizing the data** \(reported here\).
 
-Here for simplicity and processing time, we show examples only on visualization of the data \(step 8\).  
-After the data are normalized \(step 7\), if both FEND and enrichment data were calculated, these files will be outputed \(here only for chromosome 6, at 1 mb and 40 kb resolution\):
+Here for simplicity and processing time, we show examples only on visualization of the data \(step 8\). After the data are normalized \(step 7\), if both FEND and enrichment data were calculated, these files will be outputed \(here only for chromosome 6, at 1 mb and 40 kb resolution\):
 
 * [Observed data chr 6 \(1 mb\)](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_1mb_observed.txt)
 * [Normalized fend data chr 6 \(1 mb\)](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_1mb_normalized_fend.txt)
@@ -232,62 +245,61 @@ After the data are normalized \(step 7\), if both FEND and enrichment data were 
 To download the data use the command `wget` on the **unix shell** and copy the url link from each file above, here an example for the normalized fend data of chr 6 \(40 kb\):
 
 ```text
-wget https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_fend.txt
+  wget https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_fend.txt
 ```
 
 Then download the Python script [HiCtool\_normalization\_visualization.py](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_normalization_visualization.py):
 
 ```text
-wget https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_normalization_visualization.py
+ wget https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_normalization_visualization.py
 ```
 
-Open a Python console on the **unix shell** \(by simply typing `python`\) and then execute the script on the **Python console**:
+If you do not have `wget` installed, you may want to check these links for installation instructions:
 
-```python
+* [Windows](https://builtvisible.com/download-your-website-with-wget/)
+* [MacOS](https://esgf.github.io/esgf-swt/wget/2016/03/16/wget-command-not-found.html)
+
+**Otherwise go to the** [**Google Drive folder with all the files**](https://drive.google.com/drive/u/1/folders/1Q4RwOGlVZ4m42nfQMgihzh_7xnVllIxH) **and download the files.**
+
+Go to the directory where you downloaded the files and open a Python console on the **unix shell** \(by simply typing `python`\) and then execute the script on the **Python console**:
+
+```text
 execfile("HiCtool_normalization_visualization.py")
 ```
 
 Plot the normalized fend data for chromosome 6 at 40 kb resolution:
 
-```python
+```text
 plot_chromosome_data('HiCtool_chr6_40kb_normalized_fend.txt', a_chr='6', bin_size=40000, full_matrix=False, start_coord=50000000, end_coord=54000000, species='hg38', data_type="normalized_fend", my_colormap=['white', 'red'], cutoff_type='percentile', cutoff=95, max_color='#460000', plot_histogram=True)
 ```
 
- 
+![](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_fend.png)
 
- 
-
-![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_fend.png)
-
-![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_fend_histogram.png)
+![](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_fend_histogram.png)
 
 Here we plot normalized fend data \(`data_type`\) of chromosome 6 \(`a_chr`\), from 50 Mb \(`start_coord`\) to 54 Mb \(`end_coord`\) at a bin size of 40 kb \(`bin_size`\), for species hg38 \(`species`\). We use a colormap \(`my_colormap`\) which goes from white \(no contacts\) to red \(maximum contact\) and we use a upper cut-off at the 95th percentile of the non-zero data \(`cutoff_type` and `cutoff`\) to enhance higher order chromatin structure such as topological domains on the heatmap. We assign to the bins over the cut-off a specific color \(`max_color`\) and also we choose to plot the distribution of the contact data as well on a separate file \(`plot_histogram`\).
 
 The same can be done for the "observed over expected" \(enrichment\) data:
 
-```python
+```text
 plot_chromosome_enrich_data('HiCtool_chr6_40kb_normalized_enrich.txt', a_chr='6', bin_size=40000, full_matrix=False, start_coord=50000000, end_coord=54000000, species='hg38', plot_histogram=True)
 ```
 
- 
+![](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_enrich.png)
 
-![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_enrich_histogram.png)
-
-![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_enrich.png)
+![](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_40kb_normalized_enrich_histogram.png)
 
 Red pixels are loci where there are more contacts than expected, blue pixels less contacts than expected. Note that the scale is log2. Gray pixels are those where the observed contact counts are 0, therefore the log2 of the ratio "observed/expected" would be minus infinite.
 
 Plot of the normalized fend data at 1 mb resolution:
 
-```python
+```text
 plot_chromosome_data('HiCtool_chr6_1mb_normalized_fend.txt', a_chr='6', bin_size=1000000, full_matrix=True, species='hg38', data_type="normalized_fend", my_colormap=['white', 'blue'], cutoff_type='percentile', cutoff=95, max_color='#460000', plot_histogram=True)
 ```
 
- 
+![](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_1mb_normalized_fend.png)
 
-![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_1mb_normalized_fend_histogram.png)
-
-![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_1mb_normalized_fend.png)
+![](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_1mb_normalized_fend_histogram.png)
 
 In this case we plot the entire contact matrix \(`full_matrix=True`\) and we changed the maximum color of the heatmap to blue \(`my_colormap`\).
 
@@ -305,47 +317,47 @@ wget https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_DI.py
 
 Then, execute the script in the **Python console**:
 
-```python
+```text
 execfile("HiCtool_DI.py")
 ```
 
 To calculate the DI values and save them to file run:
 
-```python
+```text
 DI = calculate_chromosome_DI(input_contact_matrix='HiCtool_chr6_40kb_normalized_fend.txt', a_chr='6')
 ```
 
 The DI values are used as emissions in a Hidden Markov Model \(HMM\) to calculate the true DI values as HMM biased states:
 
-```python
+```text
 true_DI = calculate_chromosome_true_DI(input_file_DI='HiCtool_chr6_DI.txt', a_chr='6')
 ```
 
 Now we can plot the DI and true DI values:
 
-```python
+```text
 plot_chromosome_DI(input_file_DI='HiCtool_chr6_DI.txt', a_chr='6', start_pos=50000000, end_pos=54000000, input_file_hmm='HiCtool_chr6_hmm_states.txt', species='hg38', plot_legend=True, plot_grid=True)
 ```
 
-![drawing](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_DI_full.png)
+![](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_DI_full.png)
 
 The true DI values allow to infer the locations of the topological domains in the genome. A domain is initiated at the beginning of a single downstream biased HMM state \(red color in the above figure\). The domain is continuous throughout any consecutive downstream biased state. The domain will then end when the last in a series of upstream biased states \(green color in the above figure\) is reached, with the domain ending at the end of the last HMM upstream biased state.
 
 To calculate the topological domain coordinates run:
 
-```python
+```text
 topological_domains = calculate_chromosome_topological_domains(input_file_hmm='HiCtool_chr6_hmm_states.txt', a_chr='6')
 ```
 
 Start and end coordinates will be saved in a [tab separated format file](https://sysbio.ucsd.edu/public/rcalandrelli/hictool_example/HiCtool_chr6_topological_domains.txt) where each line corresponds to a topological domain. Domain coordinates for the window \(50-54 Mb\) of the plot above are:
 
 ```text
-50080000    50600000
-50640000    51760000
-51840000    52000000
-52080000    52680000
-52800000    53040000
-53120000    53760000
+  50080000    50600000
+  50640000    51760000
+  51840000    52000000
+  52080000    52680000
+  52800000    53040000
+  53120000    53760000
 ```
 
 ## Reference:
