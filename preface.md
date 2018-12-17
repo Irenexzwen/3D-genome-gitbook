@@ -1,4 +1,8 @@
 # Preface
 
-![](.gitbook/assets/preface_isbn.png)
+![](.gitbook/assets/cover.png)
+
+![](.gitbook/assets/isbn.png)
+
+![](.gitbook/assets/preface%20%281%29.png)
 
