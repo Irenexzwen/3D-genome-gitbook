@@ -6,10 +6,6 @@ description: 'Contributed by Yiyang Yin, BENG183 2018 Fall. UCSD'
 
 ## CHIP-Sequencing
 
-**BENG183 Final Paper date:12-14-2018**
-
-**Group 5 Yiyang Yin A92112108**
-
 ### 1. Introduction
 
 ![CHIP-Sequencing](../../.gitbook/assets/image%20%283%29.png)

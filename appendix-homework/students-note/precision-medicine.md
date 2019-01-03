@@ -4,8 +4,6 @@ description: 'Contributed by Reysha Patel, BENG183 2018 Fall. UCSD'
 
 # Precision medicine
 
-
-
 1. Introduction - What is Precision Medicine?
 2. Overview of Precision Medicine/Pipeline 
 3. Diabetes and Precision Medicine
