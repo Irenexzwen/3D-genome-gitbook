@@ -32,5 +32,10 @@
   * [5.1 GIVE](chap4-integrative-data-visualization-tools/4.1give.md)
   * [5.2 HiGlass](chap4-integrative-data-visualization-tools/4.2-higlass.md)
 * [Chap6 4DN Project](chap5-4dn-project.md)
-* [Appendix Homework](appendix-homework.md)
+* [Appendix](appendix-homework/README.md)
+  * [Homework](appendix-homework/homework.md)
+  * [Student's presentation](appendix-homework/students-note/README.md)
+    * [A Brief Introduction to Machine Learning](appendix-homework/students-note/a-brief-introduction-to-machine-learning.md)
+    * [Precision medicine](appendix-homework/students-note/precision-medicine.md)
+    * [CHIP-Seq](appendix-homework/students-note/chip-seq.md)
 
