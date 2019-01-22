@@ -53,7 +53,7 @@ A detailed description of mapping analysis is covered in **Read mapping consider
 
 **what is bin?**
 
-A bin is a ﬁxed, non-overlapping geno-mic span into which reads are grouped to increase the signal of the interaction frequency. The interactions between bins are simply summed up to aggre-gate the signals.
+A bin is a ﬁxed, non-overlapping geno-mic span into which reads are grouped to increase the signal of the interaction frequency. The interactions between bins are simply summed up to aggregate the signals.
 
 **why we use bin?**
 
@@ -66,12 +66,12 @@ If the goal is to measure large scale structures, such as genomic compartments, 
 
 **how to choose bin size**
 
-Smaller bins usually are used for more frequentintra-chromosomal interactions, and larger bins are for less frequentinter-chromosomal interactions. selected binsize should be inversely proportional to the expected number of interac-tions in a region.
+Smaller bins usually are used for more frequent intra-chromosomal interactions, and larger bins are for less frequent inter-chromosomal interactions. selected bin size should be inversely proportional to the expected number of interactions in a region.
 
 **what decide the Hi-C resolution**
 
-* Sequencing coverage, more reads will cover more of the interaction space and thus imporve the resolution.
-* Library complexity -- the total number of unique chimeric molecules that exist in a Hi-C library, a librarywith a low complexity level will saturate quickly with increasing sequencing depth
+* Sequencing coverage, more reads will cover more of the interaction space and thus improve the resolution.
+* Library complexity -- the total number of unique chimeric molecules that exist in a Hi-C library, a library with a low complexity level will saturate quickly with increasing sequencing depth
 
 **bin-level filtering**
 
@@ -87,8 +87,8 @@ The goal of normalization is to reduce biases during the experiment as well as a
   * known bias factors [\[4\]](https://www.ncbi.nlm.nih.gov/pubmed/22001755)
     * Distance between restriction enzyme cut sites \(eg, for hi-c\)
     * GC content of trimmed ligation junction
-    * uniqueness ofsequence reads
-  * correction: intergrate prior problistic model.  
+    * uniqueness of sequence reads
+  * correction: integrate prior probabilistic model.  
 * Implicit normalization:
   * Iterative correction [\[5\]](https://doi.org/10.1038/nmeth.2148) based on the assumption that all loci should have equal visibility since we are detecting the entire genome in an unbiased manner \(By equalizing the sum of every row/column in the matrix\). Faster and preferred. 
 
@@ -118,7 +118,7 @@ The goal of normalization is to reduce biases during the experiment as well as a
 |  | [Juicer](https://www.sciencedirect.com/science/article/pii/S2405471216302198?via%3Dihub) | Aligns, ﬁlters and normalizes, identiﬁes and compares TADs, loops and compartments and display using Juicebox |
 |  | [HiC-Pro](https://www.sciencedirect.com/science/article/pii/S2405471216302198?via%3Dihub) | Aligns, quality control, inter-intra contact maps, fast iterative correction, allele specific contact maps |
 
- Comprehensive tools list for hi-c data analysis can be found \[here\]\(https://omictools.com/3c-4c-5c-hi-c-chia-pet-category\). Next we'll use Hi-C pro as a showcase to see hi-c data analysis workflow \(See \*\*Hi-C Pro Pipeline\*\* chapter\). 
+ Comprehensive tools list for hi-c data analysis can be found [here](https://omictools.com/3c-4c-5c-hi-c-chia-pet-category). Next we'll use Hi-C pro as a showcase to see hi-c data analysis workflow \(See **Hi-C Pro Pipeline** chapter\). 
 
 ### 3.2.3 TAD calling tools and algorithms Brief view of different tools.
 
