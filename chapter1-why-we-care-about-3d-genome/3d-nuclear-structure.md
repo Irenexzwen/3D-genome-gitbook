@@ -38,10 +38,10 @@
 
 #### Biochemically active regulatory elements \(bound by sequence-specific regulatory TFs\) : <a id="1-1"></a>
 
-* **Promoter**: The promoter is a region around the TSS \(+1\) of a gene, which contains several DNA elements that facilitate the binding of regulatory proteins. It provide a secure initial binding site for RNA polymerase and for proteins called transcription factors that recruit RNA polymerase to make transcription take place [\[1\]](https://en.wikipedia.org/wiki/Promoter_%28genetics%29).
-* **Enhancer**: Enhancers are CRE\(cis-regulatory elements which means they are non-coding DNA that does not code for transcription factor\). They can be located up to 1M bp \(1,000,000 bp\) away from the gene, upstream or downstream from the start site [\[2\]](https://en.wikipedia.org/wiki/Enhancer_%28genetics%29).
+* **Promoter**: The promoter is a region around the TSS \(+1\) of a gene, which contains several DNA elements that facilitate the binding of regulatory proteins. It provides a secure initial binding site for RNA polymerase and for proteins \( transcription factors \) that recruit RNA polymerase to make transcription take place [\[1\]](https://en.wikipedia.org/wiki/Promoter_%28genetics%29).
+* **Enhancer**: Enhancers are CRE \(cis-regulatory elements which means they are non-coding DNA that does not code for transcription factor but engage in regulation\). They can be located up to 1M bp \(1,000,000 bp\) away from the gene, upstream or downstream from the start site [\[2\]](https://en.wikipedia.org/wiki/Enhancer_%28genetics%29).
 * **Insulator**: An insulator is a genetic boundary element that blocks the interaction between enhancers and promoters. It has been found to cluster at the boundaries of topological association domains \(TADs\) and may have a role in partitioning the genome into "chromosome neighborhoods" - genomic regions within which regulation occurs [\[3\]](https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/Insulator_%28genetics%29.html).
-* **Silencer**: A silencer is a DNA sequence capable of binding transcription regulation factors that block the binding of RNA polymerase to DNA sequence, thus provent genes from being expressed as proteins [\[4\]](https://en.wikipedia.org/wiki/Silencer_%28genetics%29).
+* **Silencer**: A silencer is a DNA sequence capable of binding transcription regulation factors that block the binding of RNA polymerase to DNA sequence, thus prevent genes from being expressed as proteins [\[4\]](https://en.wikipedia.org/wiki/Silencer_%28genetics%29).
 
 ![](../.gitbook/assets/promoter%20%281%29.png)
 
@@ -49,7 +49,7 @@
 
 ## 1.2 Multi-scale folding
 
-The largest chromosomes contain hundreds of millions of base pairs that fold in a limitted space, which leads to multi-scale, hierarchical structures like： nucleosomes, chromatin fibres, chromosome domains, compartments and finally in chromosome territories.
+The largest chromosomes contain hundreds of millions of base pairs that fold in a limitted space, which leads to multi-scale, hierarchical structures like: nucleosomes, chromatin fibres, chromosome domains, compartments and finally in chromosome territories.
 
 Information resides at all levels, from the histone–DNA interactions at the sub-nucleosomal scale to the chromosome–chromosome and chromosome–lamina interactions in the nuclear space. This multi-level architecture can be regulated and/or exploited by a variety of components such as transcription factors, architectural proteins and non-coding RNAs in order to coordinate gene expression and cell fate.
 
@@ -97,19 +97,19 @@ There are also evidence to support that TADs are conserved between different cel
 
 ### Sub TAD and insulation neighborhoods
 
-TADs can be further divided into smaller sub-TADs observed from high-resolution 5C ofmouse ESCs [\[12\]](https://www.ncbi.nlm.nih.gov/pubmed/23706625). It **resembles TADs** displays the self-association feature with a decrease in contact frequency across sub-TAD boundaries, and some sub-TAD boundaries are associated with CTCF/Cohesin-mediated interactions [\[13\]](https://www.ncbi.nlm.nih.gov/pubmed/25497547). However, it differs from TADs that sub-TADs are less conserved across cell/tissue types and appear to be related to cell type– specific gene expression [\[14\]](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004018), [\[15\]](https://www.ncbi.nlm.nih.gov/pubmed/23706625).
+TADs can be further divided into smaller sub-TADs observed from high-resolution 5C of mouse ESCs [\[12\]](https://www.ncbi.nlm.nih.gov/pubmed/23706625). It **resembles TADs** displays the self-association feature with a decrease in contact frequency across sub-TAD boundaries, and some sub-TAD boundaries are associated with CTCF/Cohesin-mediated interactions [\[13\]](https://www.ncbi.nlm.nih.gov/pubmed/25497547). However, it differs from TADs that sub-TADs are less conserved across cell/tissue types and appear to be related to cell type–specific gene expression [\[14\]](http://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1004018), [\[15\]](https://www.ncbi.nlm.nih.gov/pubmed/23706625).
 
 ### Chromatin loops
 
-It has been recognized that, cis-regulatory elements like promoter-enhancer are usually far away along the linear genome in vertebrate creatures. However, in order to elicit the regulatory effect, the genome structure evolved to form a loop that bring together two elemnts to a spatial proximity. This chromotin formation is usually called "chromotin loops". One well known example is the locus control region \(LCR\) of the β-globin cluster, which inter-acts strongly, via long-range chromatin contacts, with its target genes in erythroid cells \(where the β-globin gene is active\) but shows little or no interaction in cells from different lineages[\[16\]](http://dx.doi.org/10.1038/nrg.2016.112).
+It has been recognized that, cis-regulatory elements like promoter-enhancer are usually far away along the linear genome in vertebrate creatures. However, in order to elicit the regulatory effect, the genome structure evolved to form a loop that bring together two elements to a spatial proximity. This chromatin formation is usually called "chromatin loops". One well known example is the locus control region \(LCR\) of the β-globin cluster, which inter-acts strongly, via long-range chromatin contacts, with its target genes in enrythroid cells \(where the β-globin gene is active\) but shows little or no interaction in cells from different lineages[\[16\]](http://dx.doi.org/10.1038/nrg.2016.112).
 
 ### Nucleosome-nucleosome interactions
 
-This is the smallest scale of chromatin organization. For a long time, on the basis of in vitro electron microscopy, nucleosomes were thought to form arrays \(often called the 30 nm chromatin fibres\) with either solenoid or zig- zag shapes. However, recent studies provide more evidence to stand by a more flexible, heterogeneous groups arranged structure [\[17\]](https://www.cell.com/cell/fulltext/S0092-8674%2815%2900132-4).
+This is the smallest scale of chromatin organization. For a long time, on the basis of in vitro electron microscopy, nucleosomes were thought to form arrays \(often called the 30 nm chromatin fibres\) with either solenoid or zig-zag shapes. However, recent studies provide more evidence to stand by a more flexible, heterogeneous groups arranged structure [\[17\]](https://www.cell.com/cell/fulltext/S0092-8674%2815%2900132-4).
 
 ## 1.3 Architectural proteins and RNAs
 
-An important question in chromatin biology is how the structural features of 3D chromatin organization are established. Few architectural proteins have shownto be essential for chromotin architecture.
+An important question in chromatin biology is how the structural features of 3D chromatin organization are established. Few architectural proteins have shown to be essential for chromatin architecture.
 
 ![](../.gitbook/assets/mediator.jpg)
 
@@ -135,7 +135,7 @@ CTCF was originally characterized as an insulator protein, capable of restrictin
 
 ### Non-coding RNAs binding
 
-One interesting observation is that both mediator and CTCF seem to be able to bind directly to RNA, and knock down someof mediator binding non-coding RNAs led to a diminished loop formation between the ncRNA locus and its targets. [\[18\]](http://dx.doi.org/10.1038/nrg.2016.112).
+One interesting observation is that both mediator and CTCF seem to be able to bind directly to RNA, and knock down some of mediator binding non-coding RNAs led to a diminished loop formation between the ncRNA locus and its targets. [\[18\]](http://dx.doi.org/10.1038/nrg.2016.112).
 
 
 
