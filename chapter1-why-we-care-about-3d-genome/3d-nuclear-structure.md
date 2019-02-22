@@ -36,6 +36,10 @@
 
 ## 1.1 2D _cis_ elements in the genome
 
+{% hint style="info" %}
+The term _cis_ is derived from the Latin root “cis,” meaning “the same side as.” In contrast, the term trans comes from the Latin root “trans,” meaning “across from.” In molecular biology, a cis-regulatory element refers to a region of the chromosomal DNA that regulates the transcription or expression of a gene that is on the **same** chromosome. Trans-regulatory element refers to a soluble protein that binds to the cis-acting element of a gene to control its expression. However, the soluble trans-acting protein can reside on any chromosome, often located chromosome differ from where it regulates.
+{% endhint %}
+
 #### Biochemically active regulatory elements \(bound by sequence-specific regulatory TFs\) : <a id="1-1"></a>
 
 * **Promoter**: The promoter is a region around the TSS \(+1\) of a gene, which contains several DNA elements that facilitate the binding of regulatory proteins. It provides a secure initial binding site for RNA polymerase and for proteins \( transcription factors \) that recruit RNA polymerase to make transcription take place [\[1\]](https://en.wikipedia.org/wiki/Promoter_%28genetics%29).
