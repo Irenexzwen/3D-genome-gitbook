@@ -37,7 +37,7 @@
 ## 1.1 2D _cis_ elements in the genome
 
 {% hint style="info" %}
-The term _cis_ is derived from the Latin root “cis,” meaning “the same side as.” In contrast, the term trans comes from the Latin root “trans,” meaning “across from.” In molecular biology, a cis-regulatory element refers to a region of the chromosomal DNA that regulates the transcription or expression of a gene that is on the **same** chromosome. Trans-regulatory element refers to a soluble protein that binds to the cis-acting element of a gene to control its expression. However, the soluble trans-acting protein can reside on any chromosome, often located chromosome differ from where it regulates.
+The term _cis_ is derived from the Latin root “cis,” meaning “the same side as.” In contrast, the term _trans_ comes from the Latin root “trans,” meaning “across from.” In molecular biology, a cis-regulatory element refers to a region of the chromosomal DNA that regulates the transcription or expression of a gene that is on the **same** chromosome. Trans-regulatory element refers to a soluble protein that binds to the cis-acting element of a gene to control its expression. However, the soluble trans-acting protein can reside on any chromosome, often located on the chromosome differ from where it regulates.
 {% endhint %}
 
 #### Biochemically active regulatory elements \(bound by sequence-specific regulatory TFs\) : <a id="1-1"></a>
