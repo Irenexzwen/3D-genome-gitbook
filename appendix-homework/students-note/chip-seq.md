@@ -48,7 +48,7 @@ A nucleosome is a basic unit of DNA packaging, consisting of a segment of DNA wo
 
 **2\) Transcription Factors and TF binding sites**
 
-![Promoters](../../.gitbook/assets/image%20%2814%29.png)
+![Promoters](../../.gitbook/assets/image%20%2815%29.png)
 
 Transcription factors regulates gene expression by interacting with various binding sites.
 
@@ -62,7 +62,7 @@ Transcription factors regulates gene expression by interacting with various bind
 
 **3\) Histone Modification**
 
-![](../../.gitbook/assets/image%20%2820%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 A covalent post-translational modification \(PTM\) to histone proteins includes methylation, phosphorylation, acetylation, ubiquitylation, and sumoylation. The PTMs made to histones can impact gene expression by altering chromatin structure or recruiting histone modifiers.
 
@@ -90,7 +90,7 @@ Immunoprecipitated DNA is then used as the input for a next-generation sequencin
 
 **2\) Experimental Design**
 
-![](../../.gitbook/assets/image%20%2818%29.png)
+![](../../.gitbook/assets/image%20%2819%29.png)
 
 During the whole CHIP-Sequencing process, many small details could affact the accuracy of our data. To eliminate possible noises from our experiment, designated lab protocol is formed, as the picture shows.
 
@@ -111,7 +111,7 @@ For each cluster that passes filter, a single sequence is written to the corresp
 
 **2\) Down Stream Analysis**
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2822%29.png)
 
 ChIP-seq analysis begins with mapping of trimmed sequence reads to a reference genome. Next, peaks are found using peak-calling algorithms. To further analyze the data, binding or motif analysis are common end points of ChIP-seq workflows. At every stage, the choice of method or algorithm and the parameters used will affect the downstream results.
 

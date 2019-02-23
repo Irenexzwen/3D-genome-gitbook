@@ -74,7 +74,7 @@ Another clustering method is **Complete Linkage**. This method instead measures 
 
 Another method is to do **Single Linkage**. This method measures how similar 2 clusters are using the minimum dissimilarity between members of the 2 clusters. This method of clustering tends to produce clusters in long chains and can identify outliers readily.
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2820%29.png)
 
 ### Hierarchical Clustering
 
@@ -88,7 +88,7 @@ We can then "cut" our dendrogram at a level that gives us the number of clusters
 
 Here is an animation that shows how hierarchical clustering behaves. ![](https://github.com/Zhong-Lab-UCSD/BENG183/blob/master/finalPaper/IntroToMachineLearning_2/hClust.gif)
 
-![](../../.gitbook/assets/image%20%2812%29.png)
+![](../../.gitbook/assets/image%20%2813%29.png)
 
 ### K-Means Clustering
 

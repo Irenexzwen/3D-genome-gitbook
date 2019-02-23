@@ -85,7 +85,7 @@ MARD is mild age related diabetes. It is characterized by late onset and good me
 
 Treatment: Lifestyle, Metformin.
 
-![](../../.gitbook/assets/image%20%2816%29.png)
+![](../../.gitbook/assets/image%20%2817%29.png)
 
 These plots show the results of the K-means clustering algorithm that was used to create the five diesease subtypes in diabetes. **Figure by Ahlqvist, Emma, et al. The Lancet Diabetes & Endocrinology \(2018\)**
 
