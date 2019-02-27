@@ -71,7 +71,7 @@ In [HiCTool](https://doc.genomegitar.org/) analysis pipeline, based on the notio
 
 The observed DI is used to calculate the “true” DI using a Hidden Markov Model. Topological domain coordinates are then calculated using the shifts of the HMM biased states according to [Dixon et al.](https://www.nature.com/articles/nature11082). A domain is initiated at the beginning of a single downstream biased HMM state and it is continuous throughout any consecutive downstream biased state; the domain will then end when the last in a series of upstream biased states is reached.
 
-![Procedure summary](../../.gitbook/assets/image%20%2812%29.png)
+![Procedure summary](../../.gitbook/assets/image%20%2813%29.png)
 
 ### Arrowhead [\(Rao et al.\(‎2014\)\)](https://www.ncbi.nlm.nih.gov/pubmed/25497547)
 

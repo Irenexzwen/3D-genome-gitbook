@@ -8,7 +8,7 @@ description: 'Contributed by Yiyang Yin, BENG183 2018 Fall. UCSD'
 
 ### 1. Introduction
 
-![CHIP-Sequencing](../../.gitbook/assets/image%20%283%29.png)
+![CHIP-Sequencing](../../.gitbook/assets/image%20%284%29.png)
 
 Chromatin-immunoprecipitation \(ChIP\) followed by sequencing of the immuno-precipitated DNA is a powerful tool for the investigation of Protein-DNA interactions. To perform ChIP-seq, chromatin is isolated from cells or tissues and fragmented. Antibodies against chromatin associated proteins are used to enrich for specific chromatin fragments. The DNA is recovered, sequenced and aligned to a reference genome to determine specific protein binding loci. ChIP studies have increased our knowledge of transcription factor biology, DNA methylation and histone modifications.
 
@@ -26,7 +26,7 @@ In 2007, there was a race to develop CHIP-Sequencing. At least three groups work
 * Johnson et al. from Stanford submitted to Science and was published in June.
 * Barski et al. from NHLBI, NIH submitted to Cell and was published in May.
 
-![Dr. Zhao&apos;](../../.gitbook/assets/image%20%285%29.png)
+![Dr. Zhao&apos;](../../.gitbook/assets/image%20%286%29.png)
 
  Barski, along with Dr. Zhao's lab is recognized to be the first.
 
@@ -48,7 +48,7 @@ A nucleosome is a basic unit of DNA packaging, consisting of a segment of DNA wo
 
 **2\) Transcription Factors and TF binding sites**
 
-![Promoters](../../.gitbook/assets/image%20%2815%29.png)
+![Promoters](../../.gitbook/assets/image%20%2816%29.png)
 
 Transcription factors regulates gene expression by interacting with various binding sites.
 
@@ -62,7 +62,7 @@ Transcription factors regulates gene expression by interacting with various bind
 
 **3\) Histone Modification**
 
-![](../../.gitbook/assets/image%20%2821%29.png)
+![](../../.gitbook/assets/image%20%2823%29.png)
 
 A covalent post-translational modification \(PTM\) to histone proteins includes methylation, phosphorylation, acetylation, ubiquitylation, and sumoylation. The PTMs made to histones can impact gene expression by altering chromatin structure or recruiting histone modifiers.
 
@@ -90,7 +90,7 @@ Immunoprecipitated DNA is then used as the input for a next-generation sequencin
 
 **2\) Experimental Design**
 
-![](../../.gitbook/assets/image%20%2819%29.png)
+![](../../.gitbook/assets/image%20%2821%29.png)
 
 During the whole CHIP-Sequencing process, many small details could affact the accuracy of our data. To eliminate possible noises from our experiment, designated lab protocol is formed, as the picture shows.
 
@@ -98,7 +98,7 @@ During the whole CHIP-Sequencing process, many small details could affact the ac
 
 **1\) FASTQ file format**
 
-![](../../.gitbook/assets/image%20%288%29.png)
+![](../../.gitbook/assets/image%20%289%29.png)
 
 After wet lab process, it is time for data analyzing. In most CHIP-Sequencing protocols, we acquire raw sequence data in the FASTQ format, a text-based format for storing both a biological sequence and its corresponding quality scores.
 
@@ -111,7 +111,7 @@ For each cluster that passes filter, a single sequence is written to the corresp
 
 **2\) Down Stream Analysis**
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2826%29.png)
 
 ChIP-seq analysis begins with mapping of trimmed sequence reads to a reference genome. Next, peaks are found using peak-calling algorithms. To further analyze the data, binding or motif analysis are common end points of ChIP-seq workflows. At every stage, the choice of method or algorithm and the parameters used will affect the downstream results.
 

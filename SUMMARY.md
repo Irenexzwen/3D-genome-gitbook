@@ -13,6 +13,7 @@
   * [1.1 From 2D to 3D nuclear structure](chapter1-why-we-care-about-3d-genome/3d-nuclear-structure.md)
   * [1.2 From static to dynamic](chapter1-why-we-care-about-3d-genome/from-static-to-dynamic.md)
   * [1.3 From intra to inter chromosomes "talk"](chapter1-why-we-care-about-3d-genome/1.3-from-intra-to-inter-chromosomes-talk.md)
+  * [1.4 From aggregation to division - phase separation](chapter1-why-we-care-about-3d-genome/1.4-from-aggregation-to-division-phase-separation.md)
 * [Chap2 experiment tools for exploring genome interaction](chap2-experiment-tools-for-exploring-genome-interaction/README.md)
   * [2.1 Image based](chap2-experiment-tools-for-exploring-genome-interaction/2.1-image-based.md)
   * [2.2 Primary order](chap2-experiment-tools-for-exploring-genome-interaction/2.2-primary-order.md)

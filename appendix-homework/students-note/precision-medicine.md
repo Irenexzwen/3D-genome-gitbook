@@ -32,7 +32,7 @@ The difference between personalized medicine and precision medicine:
 >
 > After data is obtained, the patients or disease is categorized according to the relevant features that were determined through data collection. This clustering is usually carried out using various machine learning algorithms. Finally, the appropriate treatments can be determined based on an individual basis or disease subtypes.\[3\]
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 ![](imag.png) An overview of the basic precision medicine protocol described above can be seen in the figure above. **Figure by Prasad, Rashmi, et al. Journal of Internal Medicine \(2018\).**
 
@@ -44,7 +44,7 @@ The difference between personalized medicine and precision medicine:
 >
 > However, not all patients diagnosed with T2D respond well to the treatments that are typically prescribed, like Merformin. To address this heterogeneity of T2D, a study, conducted in 2018 by Lund University Diabetes Center was able to classify Type 2 diabetes into five distinct subgroups, allowing for prediction, diagnosis, and ultimately treatment. Sub-classification of the disease resulted from their clustering analysis, which was based on six characterizations: age at diagnosis, BMI, HbA1c, GADA, C-peptide together with glucose for estimation of insulin secretion, HOMA-B and insulin-sensitivity, and HOMA-IS.
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 This table shows the phenotypic characteristics that were used to create the T2D subtypes. **Figure by Prasad, Rashmi, et al. Journal of Internal Medicine \(2018\).**
 
@@ -85,7 +85,7 @@ MARD is mild age related diabetes. It is characterized by late onset and good me
 
 Treatment: Lifestyle, Metformin.
 
-![](../../.gitbook/assets/image%20%2817%29.png)
+![](../../.gitbook/assets/image%20%2818%29.png)
 
 These plots show the results of the K-means clustering algorithm that was used to create the five diesease subtypes in diabetes. **Figure by Ahlqvist, Emma, et al. The Lancet Diabetes & Endocrinology \(2018\)**
 
