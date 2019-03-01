@@ -40,7 +40,7 @@ We can also distinguish between discrete and continuous outputs from the machine
 
 Below is an image that gives examples of each kind of machine learning.
 
-![](../../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2811%29.png)
 
 ### Application to Bioinformatics
 
@@ -50,7 +50,7 @@ A common application is to use clustering on gene expression data. By analyzing 
 
 For example, [researchers](https://www.ncbi.nlm.nih.gov/pubmed/11707567) were able to classify different subtypes of lung cancer by analyzing the differences in gene expression between them.
 
-![](../../.gitbook/assets/image%20%287%29.png)
+![](../../.gitbook/assets/image%20%288%29.png)
 
 Bhattacharjee et al. \(2001\) Classification of human lung carcinomas by mRNA expression profiling reveals distinct adenocarcinoma subclasses Proc. Natl. Acad. Sci. USA, Vol. 98, 13790-13795
 
@@ -74,7 +74,7 @@ Another clustering method is **Complete Linkage**. This method instead measures 
 
 Another method is to do **Single Linkage**. This method measures how similar 2 clusters are using the minimum dissimilarity between members of the 2 clusters. This method of clustering tends to produce clusters in long chains and can identify outliers readily.
 
-![](../../.gitbook/assets/image%20%2822%29.png)
+![](../../.gitbook/assets/image%20%2824%29.png)
 
 ### Hierarchical Clustering
 
@@ -88,7 +88,7 @@ We can then "cut" our dendrogram at a level that gives us the number of clusters
 
 Here is an animation that shows how hierarchical clustering behaves. ![](https://github.com/Zhong-Lab-UCSD/BENG183/blob/master/finalPaper/IntroToMachineLearning_2/hClust.gif)
 
-![](../../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2815%29.png)
 
 ### K-Means Clustering
 
@@ -109,7 +109,7 @@ This contrasts with hierarchical clustering which has a more finite and predicta
 
 Here is an animation that shows how k-means clustering behaves.
 
-![](../../.gitbook/assets/image%20%283%29.png)
+![](../../.gitbook/assets/image%20%284%29.png)
 
 ### Summary
 
